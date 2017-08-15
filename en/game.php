@@ -93,7 +93,7 @@ return [
     'cancel'=> 'Cancel',
     'about' => 'About',
     'donate' => 'Donate',
-    'hdThread' => 'HD thread',
+    'hdThread' => 'HardDrop thread',
     'chatSend' => 'Send',
     'rememberName' => 'Remember nickname',
     'translationBy' => '',
