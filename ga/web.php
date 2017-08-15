@@ -50,7 +50,7 @@ return [
     /* Profile */
     'ownProfile' => 'Seo do phróifíl phoiblí atá inrochtana ag',
     'bestTimes' => 'Amanna is Fearr',
-    'allTimes' => 'Féach ar gach uair sprint'
+    'allTimes' => 'Féach ar gach uair sprint',
     'userImpr' => 'Féach stats feabhsaithe',
     'gameStats' => 'Stats cluiche',
     'latestGames' => 'Cluichí is déanaí',
