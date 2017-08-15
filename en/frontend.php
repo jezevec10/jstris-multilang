@@ -23,7 +23,7 @@ return [
     'warning' => 'Warning',
     'inactive1' => 'Spectator mode will be activated. Type in chat to abort.',
     'inactive2' => 'Inactivity detected, next inactive game will activate spectator mode.',
-    'nickFill' => 'Type your username to by able to chat!',
+    'nickFill' => 'Type your username to be able to chat!',
     'setButton' => 'Set', //max 4
     'sendButton' => 'Send', //max 4
     'rNameReq' => 'Room name must be filled!',
