@@ -36,7 +36,7 @@ return [
     'userCame' => 'tháinig chun breathnú',  //in 'User1 came to watch.'
     'isSpectating' => 'Tá sé anois ag féachaint', //in 'User1 is now spectating.'
     'spectator' => 'Breathnóir',
-    'hasLeft' => 'D'fhág', //in 'Spectator User1 has left.'
+    'hasLeft' => 'D\'fhág', //in 'Spectator User1 has left.'
     'signedAs' => 'Tá tú sínithe isteach',
     'welcome' => 'Fáilte,', //in 'Welcome User1!'
     'welcomeIn' => 'Fáilte isteach', //in 'Welcome in RoomName.'
@@ -52,7 +52,7 @@ return [
     'finesse' => 'Finesse',   //max 15
 
     //List of rooms
-    'roomName' => 'Seomra ainm
+    'roomName' => 'Seomra ainm',
     'games' => 'Cluichí', //number of games played in a room
     'players' => 'Imreoirí', //number of players
 
