@@ -92,3 +92,4 @@ return [
     'invalidLink' => 'Tá nasc iarrtha neamhbhailí.',
     'brb' => 'A bheith ceart ar ais',
     'tryAgain' => 'Tá an suíomh á nuashonrú, déan iarracht arís i gceann cúpla nóiméad.',
+];
