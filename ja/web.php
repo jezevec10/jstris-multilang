@@ -13,7 +13,7 @@ return [
     /* Leaderboard */
     'name' => '名前',
     'time' => 'タイム',
-    'blocks' => '置いたミノ',
+    'blocks' => 'ミノ',
     'PPS' => 'PPS',
     'finesse' => '最適化ミス',
     'date' => '日付',
