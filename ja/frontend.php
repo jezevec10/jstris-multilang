@@ -4,20 +4,20 @@ return [
     //On screen captions
     'ready' => 'READY?',
     'go' => 'GO!',
-    'notFocused' => '入力を受け付けていません', //max 13 characters
-    'clickToFocus' => '操作を可能にするにはこのあたりをクリックしてください', //max 30 characters
+    'notFocused' => '入力をスルー中', //max 13 characters
+    'clickToFocus' => '操作するにはここをクリック', //max 30 characters
     'specMode' => '観戦モード',
     'specModeInfo' => '現在観戦モードです。',
-    'endSpec' => '参戦するには半角で /play　と打ってください', //keep '/play'
+    'endSpec' => '半角で /play と打って参戦', //keep '/play'
     'typeHelp' => 'コマンド一覧を見るには半角で /help　と打ってください', //keep '/help'
     'st' => '位', //max 2, in 1st, can stay untranslated
     'nd' => '位', //max 2, in 2nd, can stay untranslated
     'rd' => '位', //max 2, in 3rd, can stay untranslated
     'th' => '位', //max 2, in 4th, can stay untranslated
-    'notPlaying' => 'プレイしていません', //max 12
-    'waitNext' => 'この試合が終わるまでお待ちください',//
+    'notPlaying' => '放置プレイ中', //max 12
+    'waitNext' => '試合終了までお待ちください',//
     'waitNext2' => '次の試合が開始されるまでまでお待ちください',
-    'pressStart' => 'スタートするには　”ニューゲーム”　ボタンを押してください', //'New game' should be same as in game.newGame
+    'pressStart' => '”ニューゲーム”を押して開始', //'New game' should be same as in game.newGame
 
     //Chat
     'warning' => '注意',
