@@ -1,7 +1,7 @@
 <?php
 return [
     'leaderboard' => 'Leaderboard',
-    'tournament' => 'Cómortas',
+    'tournament' => 'Comórtas',
     'login' => 'Logáil isteach',
     'register' => 'Clárú',
     'myProfile' => 'mo phróifíl',
