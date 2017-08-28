@@ -55,7 +55,7 @@ return [
     'userImpr' => 'Statistiche',
     'gameStats' => 'Multigiocatore',
     'latestGames' => 'Ultimi round',
-    'noGames' => 'This user has not played any games yet.',
+    'noGames' => 'Questo utente non ha mai giocato.',
     'gamesPlayed' => 'Round giocati',
     'totalTime' => 'Tempo di gioco totale',
     'linesSent' => 'Danni inflitti',
