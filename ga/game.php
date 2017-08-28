@@ -62,7 +62,7 @@ return [
     'freePlay'=> 'Imirt saorstíle',
     'close'=> 'Dún',
     'showMoreDetails' => 'Taispeáin níos mó sonraí',
-    'showMore'=> 'Taispeáin níos mó',
+    'showMore'=> '+ Mód níos mó',
     'showLess'=> 'Taispeáin níos lú',
     'lrem'=> 'Línte atá fágtha',
     'toRestart'=> 'A atosú',     //used in: press F4 to restart
