@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'play' => 'Seinn',
+    'play' => 'Imirt',
     'live' => 'Beo',
     'controls' => 'Rialuithe',
     'gameSettings' => 'Socruithe cluiche',
@@ -66,7 +66,7 @@ return [
     'showLess'=> 'Taispeáin níos lú',
     'lrem'=> 'Línte atá fágtha',
     'toRestart'=> 'A atosú',     //used in: press F4 to restart
-    'lobby'=> 'Stocaireacht',
+    'lobby'=> 'Lobby',
     'settings'=> 'Socruithe',
     'newGame'=> 'Cluiche nua',
     'roundTime'=> 'Am babhta',
