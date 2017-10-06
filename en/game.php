@@ -42,6 +42,7 @@ return [
     'startSE' => 'Enable game start sound effect',
     'faultSE'=> 'Special sound effect on finesse fault',
     'esound'=> 'Player join notification (a ding)',
+    'SEvol'=> 'SE volume',
     'otherSettings'=> 'Other settings',
     'nickname'=> 'Nickname',
     'saveReload'=> 'Save and reload the game for this to take effect.',
@@ -96,5 +97,9 @@ return [
     'hdThread' => 'HardDrop thread',
     'chatSend' => 'Send',
     'rememberName' => 'Remember nickname',
+    'survival' => 'Survival',
+    'all' => 'All',
+    'preset' => 'Preset',
+    'save' => 'Save',
     'translationBy' => '',
 ];
