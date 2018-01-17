@@ -69,8 +69,8 @@ return [
     'toRestart'=> 'reiniciar',     //used in: press F4 to restart
     'lobby'=> 'Lobby',
     'settings'=> 'Configuración',
-    'newGame'=> 'Nuevo Juego',
-    'roundTime'=> 'Tiempo de Juego',
+    'newGame'=> 'Nuevo', //short for "Nuevo Juego"
+    'roundTime'=> 'Tiempo', //short for "Tiempo de Juego"
     'sent'=> 'Enviadas',
     'received'=> 'Recibidas',
     'PPS'=> 'PPS',
