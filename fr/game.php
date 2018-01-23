@@ -5,7 +5,7 @@ return [
     'live' => 'Direct',
     'controls' => 'Contrôles',
     'gameSettings' => 'Options de jeu',
-    'appearance' => 'Apparance',
+    'appearance' => 'Apparence',
     'more' => '+',
     'gameControls' => 'Contrôles de jeu',
     'gameControlsInfo' => 'Cliquez sur une case et appuyez sur la touche souhaitée.',
