@@ -42,6 +42,7 @@ return [
     'startSE' => 'ゲーム開始時にSEを鳴らす',
     'faultSE'=> '最適化を間違えた時に専用SEを鳴らす',
     'esound'=> '部屋に人が来た時にSEを鳴らす (ベル音)',
+    'SEvol'=> 'SEの音量',
     'otherSettings'=> 'その他の設定',
     'nickname'=> 'ニックネーム',
     'saveReload'=> 'この設定を有効にするには設定を保存してページを再度読み込んでください',
@@ -96,5 +97,9 @@ return [
     'hdThread' => 'スレッド(harddrop.comに飛びます)',
     'chatSend' => '送信',
     'rememberName' => 'ニックネームを記憶する',
+    'survival' => 'サバイバル',
+    'all' => '上級',
+    'preset' => 'プリセット',
+    'save' => '保存',
     'translationBy' => 'k_rakko',
 ];
