@@ -1,12 +1,12 @@
 <?php
 return [
     //On screen captions
-    'ready' => '준비 ?',
+    'ready' => '준비',
     'go' => '시작 !',
     'notFocused' => '초점이 맞지 않은', //max 13 characters
-    'clickToFocus' => 'Cliquez ici pour activer', //max 30 characters
-    'specMode' => 'Mode spectateur',
-    'specModeInfo' => 'Vous êtes maintenant en mode spectateur.',
+    'clickToFocus' => '클릭하여 초점 맞추기', //max 30 characters
+    'specMode' => '관중 모드',
+    'specModeInfo' => '이제 뷰어 모드로 전환되었습니다.',
     'endSpec' => 'Tapez /play pour rejoindre la partie.', //keep '/play'
     'typeHelp' => 'Tapez /help pour la liste des commandes.', //keep '/help'
     'st' => 'st', //max 2, in 1st, can stay untranslated
@@ -18,12 +18,12 @@ return [
     'waitNext2' => 'Attendez le début de la manche suivante.',
     'pressStart' => 'Cliquez sur \'Nouvelle\' pour recommencer.', //'New game' should be same as in game.newGame
     //Chat
-    'warning' => 'Attention',
+    'warning' => '경고',
     'inactive1' => 'Le mode spectateur va être activé. Écrivez dans le tchat pour annuler.',
     'inactive2' => 'Inactivité détectée, la prochaine partie inactive activera le mode spectateur.',
     'nickFill' => 'Tapez votre pseudonyme pour pouvoir discuter !',
     'setButton' => 'Choisir', //max 4
-    'sendButton' => 'Envoyer', //max 4
+    'sendButton' => '보내', //max 4
     'rNameReq' => 'La partie doit avoir un nom!',
     'newsUser' => 'Actualités', //special username in chat
     'serverUser' => 'Serveur', //special username in chat
@@ -71,12 +71,12 @@ return [
     'connLost' => 'Connexion perdue !',
     'lastGame' => 'Dernière partie :',
     'roomSettings' => 'Paramètres du salon',
-    'attack' => 'Attaque',
-    'combo' => 'Combo',
-    'solid' => 'Solide',
+    'attack' => '공격',
+    'combo' => '콤보',
+    'solid' => '고체',
     'clear' => 'Clear',
     'mode' => 'Mode',
-    'garbage' => 'Handicap',
+    'garbage' => '쓰레기',
     'garbageDelay' => 'Délai handicap',
     'messiness' => 'Désordre',
     'replay' => 'Enregistrement',
