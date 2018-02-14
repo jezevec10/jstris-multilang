@@ -1,9 +1,9 @@
 <?php
 return [
     //On screen captions
-    'ready' => 'PRÊT ?',
-    'go' => 'PARTEZ !',
-    'notFocused' => 'Inactif', //max 13 characters
+    'ready' => '준비 ?',
+    'go' => '시작 !',
+    'notFocused' => '초점이 맞지 않은', //max 13 characters
     'clickToFocus' => 'Cliquez ici pour activer', //max 30 characters
     'specMode' => 'Mode spectateur',
     'specModeInfo' => 'Vous êtes maintenant en mode spectateur.',
