@@ -1,4 +1,5 @@
 <?php
+
 return [
     'play' => 'Jouer',
     'live' => 'Direct',
@@ -97,14 +98,3 @@ return [
     'rememberName' => 'Se souvenir de moi',
     'translationBy' => 'Noël Nadal',
 ];
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
