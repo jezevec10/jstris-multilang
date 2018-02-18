@@ -14,7 +14,7 @@ return [
     'softDrop' => '소프트 드랍',
     'hardDrop' => '하드 드랍',
     'rotateLeft' => '왼쪽으로 회전',
-    'rotateRight' => '오른쪽으로 회전'',
+    'rotateRight' => '오른쪽으로 회전',
     'rotate180' => '180도 회전',
     'hold' => '홀드',
     'touch' => '터치스크린 컨트롤 활성화 (실험적 기능)',
@@ -101,5 +101,7 @@ return [
     'all' => '모든 설정',
     'preset' => '사전 설정',
     'save' => '저장',
-    'translationBy' => 'Thanks to anyone who helped. Add your names here: Eddie, Cosin3, cuxx (turtlebk)',
+
+    //Thanks to anyone who helped. Add your names here:
+    'translationBy' => 'Eddie, Cosin3, cuxx (turtlebk)',
 ];
