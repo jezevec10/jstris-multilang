@@ -70,7 +70,7 @@ return [
     
     /* Stats */
     'improvementStats' => '더 많은 내용',
-    //keep ':이름'
+    //keep ':name'
     'improvementInfo' => '라인레이스 시간 (Y 축) vs 게임 한 날짜 (X 축). 강조된 선은 이름 또는 개인 기록을 표시합니다. 커서를 통해 임의대로 세부 정보를 확인 할 수 있습니다.',
     'date' => '날짜',
     'result' => '결과',
