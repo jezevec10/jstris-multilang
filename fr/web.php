@@ -64,7 +64,7 @@ return [
     'maxREN' => 'Combo max.',
     'longestGame' => 'Plus longue partie',
     'totalB2B' => 'Total de B2Bs',
-    'mostSent' => 'Max. d\envoyé',
+    'mostSent' => 'Max. d\'envoyé',
     'hours' => 'heures',
     'minutes' => 'minutes',
     
