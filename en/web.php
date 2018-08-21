@@ -7,6 +7,7 @@ return [
     'register' => 'Register',
     'myProfile' => 'My profile',
     'myImprovement' => 'My improvement',
+    'favReplays' => 'Favorite replays',
     'settings' => 'Settings',
     'logout' => 'Logout',
     
@@ -31,6 +32,7 @@ return [
     'latestGames' => 'Latest games',
     'leastBlocks' => 'The least blocks',
     'myTimes' => 'My times',
+    'perfectFinesse' => '0 finesse',
     
     /* Replay */
     'load' => 'Load',
@@ -41,12 +43,33 @@ return [
     'slowestSeg' => 'Slowest segments',
     'speedChart' => 'Speed chart',
     'moreStats' => 'More stats',
+    'lines' => 'Lines',
+    'scoringPlaylist' => 'Scoring playlist',
+    'filterSP' => 'Filter scoring playlist',
+    'applyFilter' => 'Apply filter',
+    'timestamp' => 'Timestamp',
+    'action' => 'Action', // e.g. combo, tspin, perfect clear
+    'scoreEq' => 'Score equivalent',
+    'position' => 'Position', //position in a replay
+    'lAVG' => 'Local average',
+    'gAVG' => 'Global average',
+    'repHelp' => 'Help', //link that shows information how to use the tool
     
     /* PW change */
     'pwChange' => 'Change password',
     'newPw' => 'New Password',
     'againPw' => 'Again',
     'applyChange' => 'Apply change',
+    
+    /* Localization settings */
+    'localSettings' => 'Localization settings',
+    'lang' => 'Language',
+    'langNone' => 'None (selectable in the top menu)',
+    'langDesc' => 'Select the preferred language.',
+    'timezone' => 'Timezone',
+    'timezoneDesc' => 'Used to convert time into your local time.',
+    'country' => 'Country',
+    'countryDesc' => 'Used to display per-country leader boards.',
     
     /* Profile */
     'ownProfile' => 'This is your public profile accessible at',
@@ -82,6 +105,7 @@ return [
     /* About */
     'aboutInfo' => 'Jstris is a simple online multiplayer block game built in Javascript, HTML5 and Python (server).',
     'version' => 'Version',
+    'changelog' => 'Changelog',
     'discussion' => 'Discussion',
     'learnMore' => 'Learn more',
     'contact' => 'Contact',

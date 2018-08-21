@@ -18,6 +18,8 @@ return [
     'waitNext' => 'Wait until the round ends',
     'waitNext2' => 'Please wait for the next round',
     'pressStart' => 'Press \'New game\' to start', //'New game' should be same as in game.newGame
+    'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
+    'speedLimitIs' => 'The speed limit is', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => 'Warning',
