@@ -10,7 +10,7 @@ return [
     'login' => '登录',
     'register' => '注册',
     'myProfile' => '我的个人资料',
-    'myImprovement' => '我的提升水平',
+    'myImprovement' => '我的进步数据',
     'favReplays' => '已收藏录像',
     'settings' => '设置',
     'logout' => '退出登录',
