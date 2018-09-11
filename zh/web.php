@@ -11,19 +11,20 @@ return [
     'register' => '注册',
     'myProfile' => '我的个人资料',
     'myImprovement' => '我的进步数据',
+    'myImprovement' => '我的进步数据',
     'favReplays' => '已收藏录像',
     'settings' => '设置',
     'logout' => '退出登录',
     
     /* Leaderboard */
-    'name' => '名称',
+    'name' => '玩家名',
     'time' => '时间',
-    'blocks' => '方块数',
+    'blocks' => '块数',
     'PPS' => 'PPS',
-    'finesse' => '未优化操作',
+    'finesse' => '冗余操作',
     'date' => '日期',
     'replay' => '回放',
-    'place' => '放置(place)',//未知应用地点
+    'place' => '放置(place)',//未知应用地点 (unknown apply place)
     'nli' => '未登录！',
     'today' => '今日',
     'lastWeek' => '截至上周',
@@ -36,7 +37,7 @@ return [
     'latestGames' => '最近游戏',
     'leastBlocks' => '最少方块数',
     'myTimes' => '我的时间',
-    'perfectFinesse' => '操作完全最优化',
+    'perfectFinesse' => '无冗余操作',
     
     /* Replay */
     'load' => '读取',
@@ -62,7 +63,7 @@ return [
     /* PW change */
     'pwChange' => '更改密码',
     'newPw' => '新密码',
-    'againPw' => '重复新密码',
+    'againPw' => '重复',
     'applyChange' => '应用更改',
     
     /* Localization settings */
@@ -73,7 +74,7 @@ return [
     'timezone' => '时区',
     'timezoneDesc' => '用于将时间转换为你所在当地时间.',
     'country' => '国家',
-    'countryDesc' => '设置后可显示国家内排行榜.',
+    'countryDesc' => '设置后可应用于国家内排行榜.',
     
     /* Profile */
     'ownProfile' => '您的公共个人资料可访问在',
@@ -107,7 +108,7 @@ return [
     'dispAll' => '显示所有游戏',
     
     /* About */
-    'aboutInfo' => 'Jstris 是一款简单的在线多人方块游戏. 使用Javascript、HTML5 和 Python（服务器）搭建.',//is a simple online multiplayer block game built in Javascript, HTML5 and Python (server).
+    'aboutInfo' => 'Jstris 是一款简单的在线多人方块游戏. 本游戏使用Javascript、HTML5 和 Python（服务器）搭建.',//is a simple online multiplayer block game built in Javascript, HTML5 and Python (server).
     'version' => '版本',
     'changelog' => '更新历史',
     'discussion' => '讨论区',
