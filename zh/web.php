@@ -24,7 +24,7 @@ return [
     'finesse' => '冗余操作',
     'date' => '日期',
     'replay' => '回放',
-    'place' => '放置(place)',//未知应用地点 (unknown apply place)
+    'place' => '排名',
     'nli' => '未登录！',
     'today' => '今日',
     'lastWeek' => '截至上周',
