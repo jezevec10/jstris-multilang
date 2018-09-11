@@ -18,7 +18,7 @@ return [
     'nd' => 'nd', //max 2, in 2nd, can stay untranslated
     'rd' => 'rd', //max 2, in 3rd, can stay untranslated
     'th' => 'th', //max 2, in 4th, can stay untranslated
-    'notPlaying' => 'Not playing', //max 12
+    'notPlaying' => '不在游戏中', //max 12
     'waitNext' => '等待当前局结束',
     'waitNext2' => '请等待下一局开始',
     'pressStart' => '按 \'New game\' 开始', //'New game' should be same as in game.newGame
@@ -33,9 +33,9 @@ return [
     'setButton' => '设置', //max 4
     'sendButton' => '发送', //max 4
     'rNameReq' => '房间名不能为空！',
-    'newsUser' => 'News', //special username in chat
+    'newsUser' => '公告', //special username in chat
     'serverUser' => '服务器', //special username in chat
-    'noNamed' => 'NoNamed', //user wihtout name (guest), max 7, can stay untranslated
+    'noNamed' => '游客', //user wihtout name (guest), max 7, can stay untranslated
     'watching' => '旁观者', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'加入了房间.', //in 'User1 joined the room.'
     'joined' => '加入了！', //in title: 'User1 joined!'
@@ -55,7 +55,7 @@ return [
 
     //Dynamic elements
     'received' => '接受行数', //max 15
-    'finesse' => '未优化操作',   //max 15
+    'finesse' => '冗余操作',   //max 15
 
     //List of rooms
     'roomName' => '房间名',
@@ -100,7 +100,7 @@ return [
     'applyConfirm' => '是否应用？',
     'invalidDAS' => 'DAS 值无效，未做更改！',
     'settingsChanged' => '在一局游戏中更改了设置。录像回放无效。',
-    'segment' => '分段 (Segment)',//Segment
+    'segment' => '分段',//Segment
     'duration' => '持续时间',
 ];
 
