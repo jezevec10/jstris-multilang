@@ -117,6 +117,6 @@ return [
     'all' => '全部',
     'preset' => '预置',
     'save' => '保存',
-    'translationBy' => 'T022.teatube from Tetris.[stu♂y] group',
+    'translationBy' => 'teatube',
 ];
 
