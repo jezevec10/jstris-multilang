@@ -78,7 +78,7 @@ return [
     'newGame'=> '新游戏',
     'roundTime'=> '本局时间',
     'score'=> '分数',
-    'sent'=> '送行数',
+    'sent'=> '发送行数',
     'received'=> '接收行数',
     'PPS'=> '块/秒',
     'APM'=> '攻击/分',
