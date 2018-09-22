@@ -60,7 +60,7 @@ return [
     'practiceModes'=> 'Modos de prática',
     'practice'=> 'Prática',
     'sprint'=> 'Maratona',
-    'cheese'=> 'Corrida de queijo',
+    'cheese'=> 'Queijo',
     'freePlay'=> 'Jogo livre',
     'close'=> 'Fechar',
     'showMoreDetails' => 'Mostrar mais detalhes',
