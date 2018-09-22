@@ -7,6 +7,7 @@ return [
     'register' => 'Registrarse',
     'myProfile' => 'Mi Perfil',
     'myImprovement' => 'Mi desarrollo',
+    'favReplays' => 'Repeticiones favoritas',
     'settings' => 'Configuraciones',
     'logout' => 'Desconectarse',
     
@@ -31,6 +32,7 @@ return [
     'latestGames' => 'Últimos juegos',
     'leastBlocks' => 'Menor cantidad de piezas',
     'myTimes' => 'Mis tiempos',
+    'perfectFinesse' => '0 finesse',
     
     /* Replay */
     'load' => 'Cargar',
@@ -41,12 +43,33 @@ return [
     'slowestSeg' => 'Segmentos más lentos',
     'speedChart' => 'Gráfico de velocidad',
     'moreStats' => 'Más estadísticas',
+    'lines' => 'Líneas',
+    'scoringPlaylist' => 'Reproducción de puntuación',
+    'filterSP' => 'Filtrar reproducción de puntuación',
+    'applyFilter' => 'Aplicar filtro',
+    'timestamp' => 'Marca de tiempo',
+    'action' => 'Acción', // e.g. combo, tspin, perfect clear
+    'scoreEq' => 'Equivalente de puntuación',
+    'position' => 'Posición', //position in a replay
+    'lAVG' => 'Promedio local',
+    'gAVG' => 'Promedio global',
+    'repHelp' => 'Ayuda', //link that shows information how to use the tool
     
     /* PW change */
     'pwChange' => 'Cambiar contraseña',
     'newPw' => 'Nueva contraseña',
     'againPw' => 'Reingresar contraseña',
     'applyChange' => 'Aplicar cambios',
+
+    /* Localization settings */
+    'localSettings' => 'Configuraciónes de localización',
+    'lang' => 'Idioma',
+    'langNone' => 'Ninguno (seleccionable en el menú superior)',
+    'langDesc' => 'Seleccionar el idioma preferido.',
+    'timezone' => 'Zona horaria',
+    'timezoneDesc' => 'Usado para convertir el tiempo en tu hora local.',
+    'country' => 'País',
+    'countryDesc' => 'Usado para mostrar tablas de posiciones por país.',
     
     /* Profile */
     'ownProfile' => 'Este es tu perfil público accesible en',
@@ -72,7 +95,7 @@ return [
     /* Stats */
     'improvementStats' => 'Estadísticas de mejora',
     //keep ':name'
-    'improvementInfo' => 'El siguiente gráfico muestra el tiempo de Carrera (Eje Y) versus la fecha de la partida (Eje X). Las líneas destacadas muestran mejoras en el récord personal de :name\'s . Puedes colocar el cursor sobre cualquier punto para ver más detalles.',
+    'improvementInfo' => 'El siguiente gráfico muestra el tiempo de Carrera (Eje Y) versus la fecha de la partida (Eje X). Las líneas destacadas muestran mejoras en el récord personal de :name. Puedes colocar el cursor sobre cualquier punto para ver más detalles.',
     'date' => 'Fecha',
     'result' => 'Resultado',
     'submit' => 'Enviar',
