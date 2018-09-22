@@ -45,7 +45,7 @@ return [
     'noSpectators' => 'Ninguém está assistindo agora.',
     'replayAvailable' => 'Replay disponível em',
     'oldVer' => 'Você tem uma versão antiga, use CTRL+F5 para recarregar para a nova versão!',
-    'privateRoom' => 'Este é sua sala privada onde vicê não será perturbado enquanto joga. Verifique o Lobby para ver salas públicas.',
+    'privateRoom' => 'Este é sua sala privada onde você não será perturbado enquanto joga. Verifique o Lobby para ver salas públicas.',
     'restartInfo' =>  'Recomeçe pelo F4 ou configure uma tecla personalizada.',
     'joinLinkInfo' => 'Esta sala é privada. O único jeito que alguém possa entrar é usando esse link:',
 

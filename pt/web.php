@@ -95,7 +95,7 @@ return [
     /* Stats */
     'improvementStats' => 'Estatísticas de progresso',
     //keep ':name'
-    'improvementInfo' => 'O seguinte gráfico mostra o tempo de corrida da linha (eixo Y) contra a data de jogo (eixo X). A linha destacada mostra melhoras nos recordes pessoais de :name . Você pode colocar seu cursor sobre qualquer ponto para mostrar detalhes do jogo.',
+    'improvementInfo' => 'O seguinte gráfico mostra o tempo de corrida da linha (eixo Y) contra a data de jogo (eixo X). A linha destacada mostra melhoras nos recordes pessoais de :name. Você pode colocar seu cursor sobre qualquer ponto para mostrar detalhes do jogo.',
     'date' => 'Data',
     'result' => 'Resultado',
     'submit' => 'Enviar',

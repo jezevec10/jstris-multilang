@@ -34,7 +34,7 @@ return [
     'grid' => 'Grade',
     'ghost' => 'Fantasma',
     'enabled' => 'Habilitado',
-    'disabled' => 'Disabilitado',
+    'disabled' => 'Desabilitado',
     'appearSound' => 'Aparência & Som',
     'blockStyle' => 'Blocos',
     'solidBlocks' => 'Cor sólida (sem pele)',
