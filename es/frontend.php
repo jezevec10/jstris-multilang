@@ -18,6 +18,8 @@ return [
     'waitNext' => 'Espera a que termine la partida',
     'waitNext2' => 'Por favor espera la siguiente partida',
     'pressStart' => 'Presiona \'Nuevo Juego\' para comenzar', //'New game' should be same as in game.newGame
+    'slowDown' => 'DECELERE', //When a speed limit is exceeded
+    'speedLimitIs' => 'El límite de velocidad es', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => 'Advertencia',
