@@ -3,6 +3,11 @@
 return [
     'leaderboard' => 'Leaderboard',
     'tournament' => 'Tournament',
+    'maps' => 'Maps',
+    'mapsBrowse' => 'Browse',
+    'mapsDesigner' => 'Map Designer',
+    'mapsLatestGames' => 'Latest games',
+    'guide' => 'Guide',
     'login' => 'Login',
     'register' => 'Register',
     'myProfile' => 'My profile',
