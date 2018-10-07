@@ -103,5 +103,5 @@ return [
     'save' => '저장',
 
     //Thanks to anyone who helped. Add your names here:
-    'translationBy' => 'Eddie, Cosin3, cuxx (turtlebk)',
+    'translationBy' => 'Dinir, Eddie, Cosin3, cuxx (turtlebk)',
 ];
