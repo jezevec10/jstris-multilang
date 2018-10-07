@@ -1,11 +1,18 @@
 <?php
+
 return [
     'leaderboard' => '리더 보드',
     'tournament' => '토너먼트',
+    'maps' => '맵',
+    'mapsBrowse' => '둘러보기',
+    'mapsDesigner' => '맵 디자이너',
+    'mapsLatestGames' => '최근 기록',
+    'guide' => '가이드',
     'login' => '로그인',
     'register' => '가입',
     'myProfile' => '내 프로필',
     'myImprovement' => '나의 기록들',
+    'favReplays' => '저장한 리플레이',
     'settings' => '설정',
     'logout' => '로그 아웃',
     
@@ -30,6 +37,7 @@ return [
     'latestGames' => '이전 게임들',
     'leastBlocks' => '적은 블럭수',
     'myTimes' => '나의 기록들',
+    'perfectFinesse' => '0 finesse',
     
     /* Replay */
     'load' => '불러오기',
