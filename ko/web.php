@@ -5,6 +5,7 @@ return [
     'tournament' => '토너먼트',
     'maps' => '맵',
     'mapsBrowse' => '둘러보기',
+    'myMaps' => 'My maps',
     'mapsDesigner' => '맵 디자이너',
     'mapsLatestGames' => '최근 기록',
     'guide' => '가이드',

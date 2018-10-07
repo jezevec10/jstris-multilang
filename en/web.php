@@ -5,6 +5,7 @@ return [
     'tournament' => 'Tournament',
     'maps' => 'Maps',
     'mapsBrowse' => 'Browse',
+    'myMaps' => 'My maps',
     'mapsDesigner' => 'Map Designer',
     'mapsLatestGames' => 'Latest games',
     'guide' => 'Guide',
