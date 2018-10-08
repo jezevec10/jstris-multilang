@@ -19,7 +19,7 @@ return [
     'waitNext2' => '다음 라운드를 기다려주세요.',
     'pressStart' => '\'새 게임\'을 눌러 게임을 시작하십시오.', //'New game' should be same as in game.newGame
     'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
-    'speedLimitIs' => 'The speed limit is', //In a sentence: The speed limit is 2 PPS
+    'speedLimitIs' => '속도 제한: ', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => '경고',
@@ -90,7 +90,7 @@ return [
     'messiness' => '깎기 어렵게',
     'replay' => '다시보기',
     'rep' => 'Rep', //max 3, short for Replay
-    'rec' => 'Rec.', //max 4, short for Received
+    'rec' => '받음', //max 4, short for Received
     'enterNullDAS' => '널포미노에서 사용하는 DAS 값',
     'suggestedIs' => '원하는 DAS 값',
     'applyConfirm' => '적용',

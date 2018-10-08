@@ -5,7 +5,7 @@ return [
     'tournament' => '토너먼트',
     'maps' => '맵',
     'mapsBrowse' => '둘러보기',
-    'myMaps' => 'My maps',
+    'myMaps' => '내가 만든 맵',
     'mapsDesigner' => '맵 디자이너',
     'mapsLatestGames' => '최근 기록',
     'guide' => '가이드',
@@ -38,7 +38,7 @@ return [
     'latestGames' => '이전 게임들',
     'leastBlocks' => '적은 블럭수',
     'myTimes' => '나의 기록들',
-    'perfectFinesse' => '0 finesse',
+    'perfectFinesse' => '0 피네스',
     
     /* Replay */
     'load' => '불러오기',
@@ -49,17 +49,17 @@ return [
     'slowestSeg' => '가장 느린 구간',
     'speedChart' => '속도 차트',
     'moreStats' => '스탯 더보기',
-    'lines' => 'Lines',
-    'scoringPlaylist' => 'Scoring playlist',
-    'filterSP' => 'Filter scoring playlist',
-    'applyFilter' => 'Apply filter',
-    'timestamp' => 'Timestamp',
-    'action' => 'Action', // e.g. combo, tspin, perfect clear
-    'scoreEq' => 'Score equivalent',
-    'position' => 'Position', //position in a replay
-    'lAVG' => 'Local average',
-    'gAVG' => 'Global average',
-    'repHelp' => 'Help', //link that shows information how to use the tool
+    'lines' => '줄',
+    'scoringPlaylist' => '점수 명세',
+    'filterSP' => '점수 명세 필터',
+    'applyFilter' => '필터 적용',
+    'timestamp' => '시간',
+    'action' => '기술', // e.g. combo, tspin, perfect clear
+    'scoreEq' => '점수',
+    'position' => '현재 위치', //position in a replay
+    'lAVG' => '구간 평균',
+    'gAVG' => '전체 평균',
+    'repHelp' => '도움말', //link that shows information how to use the tool
     
     /* PW change */
     'pwChange' => '비밀번호 변경',
@@ -68,14 +68,14 @@ return [
     'applyChange' => '변경하기',
     
     /* Localization settings */
-    'localSettings' => 'Localization settings',
-    'lang' => 'Language',
-    'langNone' => 'None (selectable in the top menu)',
-    'langDesc' => 'Select the preferred language.',
-    'timezone' => 'Timezone',
-    'timezoneDesc' => 'Used to convert time into your local time.',
-    'country' => 'Country',
-    'countryDesc' => 'Used to display per-country leader boards.',
+    'localSettings' => '지역 설정',
+    'lang' => '언어',
+    'langNone' => '설정 없음 (상단에서 직접 선택)',
+    'langDesc' => '선호하는 언어를 설정하세요.',
+    'timezone' => '시간대',
+    'timezoneDesc' => '설정한 시간대에 맞춰 시간을 표시합니다.',
+    'country' => '국가',
+    'countryDesc' => '국가별 리더보드를 표시할 때 사용합니다.',
     
     /* Profile */
     'ownProfile' => '공개 프로필',
@@ -101,7 +101,7 @@ return [
     /* Stats */
     'improvementStats' => '더 많은 내용',
     //keep ':name'
-    'improvementInfo' => '라인레이스 시간 (Y 축) vs 게임 한 날짜 (X 축). 강조된 선은 :name\'s 또는 개인 기록을 표시합니다. 커서를 통해 임의대로 세부 정보를 확인 할 수 있습니다.',
+    'improvementInfo' => '게임 기록을 플레이한 날짜에 따라 정렬한 그래프입니다. 강조된 선은 :name님의 개인 기록 향상 추세를 나타냅니다. 마우스를 올려 각 게임에 대한 정보를 확인할 수 있습니다.',
     'date' => '날짜',
     'result' => '결과',
     'submit' => '제출',
@@ -111,7 +111,7 @@ return [
     /* About */
     'aboutInfo' => 'Jstris는 자바스크립트를 이용한 쉽고 편한 블록 게임이며, 서버는 HTML5 와 Python을 사용합니다.',
     'version' => '버전',
-    'changelog' => 'Changelog',
+    'changelog' => '변경사항',
     'discussion' => '토론',
     'learnMore' => '더보기',
     'contact' => '연락처',
