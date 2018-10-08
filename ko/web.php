@@ -49,12 +49,33 @@ return [
     'slowestSeg' => '가장 느린 구간',
     'speedChart' => '속도 차트',
     'moreStats' => '스탯 더보기',
+    'lines' => 'Lines',
+    'scoringPlaylist' => 'Scoring playlist',
+    'filterSP' => 'Filter scoring playlist',
+    'applyFilter' => 'Apply filter',
+    'timestamp' => 'Timestamp',
+    'action' => 'Action', // e.g. combo, tspin, perfect clear
+    'scoreEq' => 'Score equivalent',
+    'position' => 'Position', //position in a replay
+    'lAVG' => 'Local average',
+    'gAVG' => 'Global average',
+    'repHelp' => 'Help', //link that shows information how to use the tool
     
     /* PW change */
     'pwChange' => '비밀번호 변경',
     'newPw' => '새 비밀번호',
     'againPw' => '새 비밀번호 재입력',
     'applyChange' => '변경하기',
+    
+    /* Localization settings */
+    'localSettings' => 'Localization settings',
+    'lang' => 'Language',
+    'langNone' => 'None (selectable in the top menu)',
+    'langDesc' => 'Select the preferred language.',
+    'timezone' => 'Timezone',
+    'timezoneDesc' => 'Used to convert time into your local time.',
+    'country' => 'Country',
+    'countryDesc' => 'Used to display per-country leader boards.',
     
     /* Profile */
     'ownProfile' => '공개 프로필',
@@ -90,6 +111,7 @@ return [
     /* About */
     'aboutInfo' => 'Jstris는 자바스크립트를 이용한 쉽고 편한 블록 게임이며, 서버는 HTML5 와 Python을 사용합니다.',
     'version' => '버전',
+    'changelog' => 'Changelog',
     'discussion' => '토론',
     'learnMore' => '더보기',
     'contact' => '연락처',

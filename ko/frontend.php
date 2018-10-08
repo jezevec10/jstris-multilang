@@ -1,4 +1,5 @@
 <?php
+
 return [
     //On screen captions
     'ready' => '준비',
@@ -17,6 +18,9 @@ return [
     'waitNext' => '라운드가 끝날 때까지 기다려주세요.',
     'waitNext2' => '다음 라운드를 기다려주세요.',
     'pressStart' => '\'새 게임\'을 눌러 게임을 시작하십시오.', //'New game' should be same as in game.newGame
+    'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
+    'speedLimitIs' => 'The speed limit is', //In a sentence: The speed limit is 2 PPS
+
     //Chat
     'warning' => '경고',
     'inactive1' => '관전모드입니다. 채팅으로 변경 가능합니다.',
@@ -44,13 +48,16 @@ return [
     'privateRoom' => '현재 혼자하기를 진행중입니다. 대기실로 이동 후 멀티로 이동해 보세요.',
     'restartInfo' =>  '재시작은 F4 또는 환경설정에서 설정가능',
     'joinLinkInfo' => '혼자하기입니다. 링크를 통하여 입장 가능한 방입니다.',
+
     //Dynamic elements
     'received' => '받은', //max 15
     'finesse' => '피네스',   //max 15
+
     //List of rooms
     'roomName' => '방 이름',
     'games' => '게임', //number of games played in a room
     'players' => '선수', //number of players
+
     //Results
     'name' => '이름',
     'wins' => '승',
@@ -59,10 +66,12 @@ return [
     'sent' => '보낸',
     'blocks' => '블록', //as number of blocks placed
     'ren' => '콤보',
+
     //Practice mode result
     'gameTime' => '시간', //in Sprint time: xx.xx
     'see' => '보기', //in 'See 40L leaderboard'
     'leaderboard' => '리더 보드',
+
     //Less common strings, can stay untranslated
     'warning2' => '경고',
     'connected' => '연결됨',
