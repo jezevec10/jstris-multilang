@@ -3,17 +3,24 @@
 return [
     'leaderboard' => 'ランキング',
     'tournament' => 'トーナメント',
+    'maps' => 'マップ',
+    'mapsBrowse' => '一覧',
+    'myMaps' => 'マイマップ',
+    'mapsDesigner' => 'マップを作成',
+    'mapsLatestGames' => '新着リプレイ',
+    'guide' => 'ヘルプ',
     'login' => 'ログイン',
     'register' => '登録',
     'myProfile' => 'プロファイル',
     'myImprovement' => 'ステータスの推移',
+    'favReplays' => 'お気に入りのリプレイ',
     'settings' => 'アカウント設定',
     'logout' => 'ログアウト',
     
     /* Leaderboard */
     'name' => '名前',
     'time' => 'タイム',
-    'blocks' => 'ミノ',
+    'blocks' => 'ブロック',
     'PPS' => 'PPS',
     'finesse' => '最適化ミス',
     'date' => '日付',
@@ -29,8 +36,9 @@ return [
     'bestGames' => 'プレイヤー重複あり',
     'bestSubs' => '〜秒以下のみ',
     'latestGames' => '新着リプレイ',
-    'leastBlocks' => '設置ミノ数順',
+    'leastBlocks' => '設置ブロック数順',
     'myTimes' => '自分の記録のみ',
+    'perfectFinesse' => '最適化ミス0',
     
     /* Replay */
     'load' => '読み込み',
@@ -41,12 +49,33 @@ return [
     'slowestSeg' => '最も遅い区間',
     'speedChart' => 'スピードのグラフ',
     'moreStats' => '他の統計量',
+    'lines' => 'ライン',
+    'scoringPlaylist' => 'スコアイベント一覧',
+    'filterSP' => '一覧表にフィルターを掛ける',
+    'applyFilter' => 'フィルターを適用',
+    'timestamp' => '時刻',
+    'action' => 'イベント', // e.g. combo, tspin, perfect clear
+    'scoreEq' => '獲得スコア',
+    'position' => '再生位置', //position in a replay
+    'lAVG' => '局所平均',
+    'gAVG' => '全体平均',
+    'repHelp' => '使い方', //link that shows information how to use the tool
     
     /* PW change */
     'pwChange' => 'パスワード変更',
     'newPw' => '新しいパスワード',
     'againPw' => '確認のためもう一度入れてください',
     'applyChange' => '変更を適用',
+
+    /* Localization settings */
+    'localSettings' => '言語設定',
+    'lang' => '言語',
+    'langNone' => '未指定 (トップメニューで変更したい場合)',
+    'langDesc' => '使いたい言語を選択',
+    'timezone' => 'タイムゾーン',
+    'timezoneDesc' => '時刻表示に使用'
+    'country' => '国',
+    'countryDesc' => '国ごとのランキングを表示する際に使用',
     
     /* Profile */
     'ownProfile' => 'このページは誰でも以下のアドレスからアクセスできます:',
@@ -60,7 +89,7 @@ return [
     'totalTime' => 'プレイ時間',
     'linesSent' => '送ったライン合計',
     'linesRec' => '受けたライン合計',
-    'placedBlocks' => '置いたミノ合計',
+    'placedBlocks' => '置いたブロック合計',
     'maxAPM' => '最大APM',
     'maxREN' => '最大REN数',
     'longestGame' => '最も長かったゲーム',
@@ -80,8 +109,9 @@ return [
     'dispAll' => 'ベストでないゲームも全て表示',
     
     /* About */
-    'aboutInfo' => 'JstrisはJavascriptとHTML5とPython(サーバーのみ)で作られたシンプルなオンライン対戦パズルゲームです。',
+    'aboutInfo' => 'JstrisはJavascriptとHTML5とPython(サーバー)で作られたシンプルなオンライン対戦パズルゲームです。',
     'version' => 'バージョン',
+    'changelog' => 'チェンジログ',
     'discussion' => 'ディスカッション',
     'learnMore' => 'もっと知りたい人向け',
     'contact' => 'コンタクト',
