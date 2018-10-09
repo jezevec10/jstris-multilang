@@ -115,7 +115,7 @@ return [
     'discussion' => '토론',
     'learnMore' => '더 보기',
     'contact' => '연락처',
-    'serverCoverage' => '서버 후원',
+    'serverCoverage' => '서버 비용 확보 상황', // 320 폭의 모바일 화면에서 9자 미만이 적당합니다.
     'supporters' => '프로젝트 후원자',
     
     /* Other */
