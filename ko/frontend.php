@@ -19,7 +19,7 @@ return [
     'waitNext2' => '다음 라운드까지 기다려주세요.', // 채팅에 나타나는 메세지
     'pressStart' => '\'새 게임\'을 눌러 게임을 시작하세요', //'New game' should be same as in game.newGame
     'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
-    'speedLimitIs' => '속도 제한: ', //In a sentence: The speed limit is 2 PPS
+    'speedLimitIs' => '속도 제한:', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => '경고',
@@ -79,7 +79,7 @@ return [
     'connected' => '연결됨',
     'client' => '클라이언트',
     'notConnected' => '연결되지 않음',
-    'connLost' => '접속이 끊어졌습니다!',
+    'connLost' => '접속 끊어짐!',
     'lastGame' => '마지막으로 플레이한 게임:',
     'roomSettings' => '방 설정:',
     'attack' => '공격',
@@ -97,7 +97,7 @@ return [
     'suggestedIs' => '추천 DAS 값:',
     'applyConfirm' => '적용할까요?',
     'invalidDAS' => 'DAS 값이 올바르지 않아 적용할 수 없습니다!',
-    'settingsChanged' => '게임 중 설정이 변경되어, 다시보기를 저장하지 않습니다.',
+    'settingsChanged' => '게임 중 설정이 바뀌어서, 다시보기를 저장하지 않습니다.',
     'segment' => '구간',
     'duration' => '길이',
 ];
