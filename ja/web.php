@@ -73,7 +73,7 @@ return [
     'langNone' => '未指定 (トップメニューで変更したい場合)',
     'langDesc' => '使いたい言語を選択',
     'timezone' => 'タイムゾーン',
-    'timezoneDesc' => '時刻表示に使用'
+    'timezoneDesc' => '時刻表示に使用',
     'country' => '国',
     'countryDesc' => '国ごとのランキングを表示する際に使用',
     
