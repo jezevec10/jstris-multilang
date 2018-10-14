@@ -41,7 +41,7 @@ return [
     'perfectFinesse' => '0 피네스',
     
     /* Replay */
-    'load' => '불러오기',
+    'load' => '로드', // 2글자를 초과하면 버튼이 길어져 아래로 내려갑니다.
     'play' => '재생',
     'pause' => '정지',
     'showSeg' => '구간 보기',
