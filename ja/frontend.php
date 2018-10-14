@@ -18,6 +18,8 @@ return [
     'waitNext' => '試合終了までお待ちください',//
     'waitNext2' => '次の試合が開始されるまでまでお待ちください',
     'pressStart' => '”ニューゲーム”を押して開始', //'New game' should be same as in game.newGame
+    'slowDown' => '速度オーバー', //When a speed limit is exceeded
+    'speedLimitIs' => '制限速度：', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => '注意',
@@ -62,7 +64,7 @@ return [
     'time' => 'タイム', //as game duration
     'received' => '受けたライン',
     'sent' => '攻撃',
-    'blocks' => 'ミノ数', //as number of blocks placed
+    'blocks' => 'ブロック数', //as number of blocks placed
     'ren' => 'REN',
 
     //Practice mode result

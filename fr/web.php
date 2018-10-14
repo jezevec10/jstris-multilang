@@ -71,7 +71,7 @@ return [
     /* Stats */
     'improvementStats' => 'Statistiques de progression',
     //keep ':name'
-    'improvementInfo' => 'Le graphe ci-dessous montre les temps de sprint (axe des ordonnées) en fonction de leur date (axe des abscisses). La ligne rouge montre l\'évolution du record personnel de :name. Passez votre souris sur un point pour afficher les détails du sprint correspondant.',
+    'improvementInfo' => 'Le graphe ci-dessous montre les temps de sprint (axe des ordonnées) en fonction de leur date (axe des abscisses). La ligne surlignée montre l\'évolution du record personnel de :name. Passez votre souris sur un point pour afficher les détails du sprint correspondant.',
     'date' => 'Date',
     'result' => 'Résultat',
     'submit' => 'Afficher',
