@@ -63,7 +63,7 @@ return [
     
     /* PW change */
     'pwChange' => '비밀번호 변경',
-    'newPw' => '새로운 비밀번호',
+    'newPw' => '새 비밀번호', // 7자 미만일 때 한 줄에 들어갑니다.
     'againPw' => '다시 입력',
     'applyChange' => '적용',
     
