@@ -22,7 +22,7 @@ return [
     'time' => '时间',
     'blocks' => '块数',
     'PPS' => 'PPS',
-    'finesse' => '冗余操作',
+    'finesse' => '多余操作',
     'date' => '日期',
     'replay' => '回放',
     'place' => '排名',
