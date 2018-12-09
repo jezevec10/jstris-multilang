@@ -1,9 +1,5 @@
 <?php
-//翻译总说明		http://t.cn/RsjC2bm 
-//game.php （本页）	http://t.cn/RsjiB5H 
-//frontend.php 		http://t.cn/Rsj6XrE 
-//web.php			http://t.cn/Rsj6Fo8 
-//game-example.php	http://t.cn/RsjaPri (翻译示例/当前jstris所使用)
+
 return [
     'play' => '游戏模式',
     'live' => '在线对战',
@@ -45,7 +41,7 @@ return [
     'invisibleBlocks' => '隐形',
     'enableSE' => '启用音效',
     'startSE' => '启用开局音效',
-    'faultSE'=> '启用冗余操作(finesse fault)音效',
+    'faultSE'=> '启用多余操作(finesse fault)音效',
     'esound'=> '玩家加入提示音 (叮~)',
     'SEvol'=> '声效音量',
     'otherSettings'=> '其他设置',
@@ -53,7 +49,7 @@ return [
     'saveReload'=> '保存并重新载入游戏以生效.',
     'sprintReset'=> '重置竞速',
     'or'=> '或',
-    'finFault'=> '操作冗余(finesse fault)',
+    'finFault'=> '操作多余(finesse fault)',
     'altResetKeyInfo'=> '设置新的按键以重新开始竞速.',
     'gameReset'=> '重置游戏',
     'altLiveResetKeyInfo'=> '设置新的按键以重新开始对战.',
@@ -82,7 +78,7 @@ return [
     'received'=> '接收行数',
     'PPS'=> '块/秒',
     'APM'=> '攻击/分',
-    'finesse'=> '冗余操作',
+    'finesse'=> '多余操作',
     'save'=> '保存',
     'createRoom'=> '创建房间',
     'refreshList'=> '刷新列表',
@@ -119,4 +115,3 @@ return [
     'save' => '保存',
     'translationBy' => 'teatube',
 ];
-
