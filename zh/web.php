@@ -1,16 +1,17 @@
 <?php
-//翻译总说明			http://t.cn/RsjC2bm 
-//game.php 				http://t.cn/RsjiB5H 
-//frontend.php	 		http://t.cn/Rsj6XrE 
-//web.php（本页）		http://t.cn/Rsj6Fo8 
-//game-example.php		http://t.cn/RsjaPri (翻译示例/当前jstris所使用)
+
 return [
     'leaderboard' => '排行榜',
     'tournament' => '锦标赛',
+    'maps' => '地图',
+    'mapsBrowse' => '浏览',
+    'myMaps' => '我的地图',
+    'mapsDesigner' => '地图设计者',
+    'mapsLatestGames' => '最新游戏',
+    'guide' => '指南',
     'login' => '登录',
     'register' => '注册',
     'myProfile' => '我的个人资料',
-    'myImprovement' => '我的进步数据',
     'myImprovement' => '我的进步数据',
     'favReplays' => '已收藏录像',
     'settings' => '设置',
@@ -37,7 +38,7 @@ return [
     'latestGames' => '最近游戏',
     'leastBlocks' => '最少方块数',
     'myTimes' => '我的时间',
-    'perfectFinesse' => '无冗余操作',
+    'perfectFinesse' => '无多余操作',
     
     /* Replay */
     'load' => '读取',
@@ -56,8 +57,8 @@ return [
     'action' => '动作', // e.g. combo, tspin, perfect clear
     'scoreEq' => '分值',
     'position' => '位置', //position in a replay
-    'lAVG' => '本地平均值',
-    'gAVG' => '全球平均值',
+    'lAVG' => '分段平均值',
+    'gAVG' => '总体平均值',
     'repHelp' => '帮助', //link that shows information how to use the tool
     
     /* PW change */
@@ -123,4 +124,3 @@ return [
     'brb' => '直接返回. ',
     'tryAgain' => '网站正在升级，请稍后再试.',
 ];
-
