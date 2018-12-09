@@ -6,7 +6,7 @@ return [
     'maps' => '地图',
     'mapsBrowse' => '浏览',
     'myMaps' => '我的地图',
-    'mapsDesigner' => '地图设计者',
+    'mapsDesigner' => '地图设计器',
     'mapsLatestGames' => '最新游戏',
     'guide' => '指南',
     'login' => '登录',
