@@ -8,7 +8,7 @@ return [
     'myMaps' => '我的地图',
     'mapsDesigner' => '地图设计器',
     'mapsLatestGames' => '最新游戏',
-    'guide' => '指南',
+    'guide' => '导航',
     'login' => '登录',
     'register' => '注册',
     'myProfile' => '我的个人资料',
