@@ -1,9 +1,5 @@
 <?php
-//翻译总说明			http://t.cn/RsjC2bm 
-//game.php 				http://t.cn/RsjiB5H 
-//frontend.php（本页） 	http://t.cn/Rsj6XrE 
-//web.php				http://t.cn/Rsj6Fo8 
-//game-example.php		http://t.cn/RsjaPri (翻译示例/当前jstris所使用)
+
 return [
     //On screen captions
     'ready' => 'READY',
@@ -55,7 +51,7 @@ return [
 
     //Dynamic elements
     'received' => '接受行数', //max 15
-    'finesse' => '冗余操作',   //max 15
+    'finesse' => '多余操作',   //max 15
 
     //List of rooms
     'roomName' => '房间名',
@@ -103,4 +99,3 @@ return [
     'segment' => '分段',//Segment
     'duration' => '持续时间',
 ];
-
