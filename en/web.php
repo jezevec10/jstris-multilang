@@ -7,6 +7,7 @@ return [
     'mapsBrowse' => 'Browse',
     'myMaps' => 'My maps',
     'mapsDesigner' => 'Map Designer',
+    'randomMap' => 'Random map',
     'mapsLatestGames' => 'Latest games',
     'guide' => 'Guide',
     'login' => 'Login',

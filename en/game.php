@@ -109,6 +109,7 @@ return [
     'chatSend' => 'Send',
     'rememberName' => 'Remember nickname',
     'survival' => 'Survival',
+    'mapDownstack' => 'Map downstack',
     'ultra' => 'Ultra',
     'all' => 'All',
     'preset' => 'Preset',
