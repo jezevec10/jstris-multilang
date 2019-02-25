@@ -9,7 +9,7 @@ return [
     'mapsDesigner' => '地图设计器',
     'randomMap' => '随机地图',
     'mapsLatestGames' => '最新游戏',
-    'guide' => '导航',
+    'guide' => '游戏指南',
     'login' => '登录',
     'register' => '注册',
     'myProfile' => '我的个人资料',
