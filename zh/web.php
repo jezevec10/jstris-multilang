@@ -7,6 +7,7 @@ return [
     'mapsBrowse' => '浏览',
     'myMaps' => '我的地图',
     'mapsDesigner' => '地图设计器',
+    'randomMap' => '随机地图',
     'mapsLatestGames' => '最新游戏',
     'guide' => '导航',
     'login' => '登录',
