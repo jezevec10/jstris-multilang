@@ -113,7 +113,6 @@ return [
     'ultra' => '限时极限',
     'all' => '全部',
     'preset' => '预置',
-    'mapDownstack' => 'Map downstack',
     'save' => '保存',
     'translationBy' => 'teatube',
 ];
