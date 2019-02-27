@@ -109,9 +109,11 @@ return [
     'chatSend' => '发送',
     'rememberName' => '记住昵称',
     'survival' => '生存模式',
+    'mapDownstack' => '地图挖掘',
     'ultra' => '限时极限',
     'all' => '全部',
     'preset' => '预置',
+    'mapDownstack' => 'Map downstack',
     'save' => '保存',
     'translationBy' => 'teatube',
 ];
