@@ -51,7 +51,7 @@ return [
 
     //Dynamic elements
     'received' => 'Recebido', //max 15
-    'finesse' => 'Finesse',   //max 15
+    'finesse' => 'Fineza',   //max 15
 
     //List of rooms
     'roomName' => 'Nome da sala',
