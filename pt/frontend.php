@@ -20,6 +20,7 @@ return [
     'pressStart' => 'Pressione \'Novo jogo\' para começar', //'New game' should be same as in game.newGame
     'slowDown' => 'DESACELERE', //When a speed limit is exceeded
     'speedLimitIs' => 'O limite de velocidade é', //In a sentence: The speed limit is 2 PPS
+    'connecting' => 'Conectando...', //when connecting to the game server
 
     //Chat
     'warning' => 'Aviso',
