@@ -39,6 +39,7 @@ return [
     'blockStyle' => 'Blocos',
     'solidBlocks' => 'Cor sólida (sem pele)',
     'invisibleBlocks' => 'Invisível',
+    'monochrome' => 'Monocromático',
     'enableSE' => 'Habilitar efeitos sonoros',
     'startSE' => 'Habilitar efeito sonoro de começo de jogo',
     'faultSE'=> 'Efeito sonoro especial na falha de fineza',
