@@ -73,7 +73,7 @@ return [
     'leaderboard' => 'Lider tablosu',
 
     //Less common strings, can stay untranslated
-    'warning2' => 'Uyarı'
+    'warning2' => 'Uyarı',
     'connected' => 'Bağlandı',
     'client' => 'client',
     'notConnected' => 'BAĞLI DEĞİL',
