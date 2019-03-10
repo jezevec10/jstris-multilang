@@ -3,6 +3,13 @@
 return [
     'leaderboard' => 'Classificação',
     'tournament' => 'Torneio',
+    'maps' => 'Mapas',
+    'mapsBrowse' => 'Navegar',
+    'myMaps' => 'Meus mapas',
+    'mapsDesigner' => 'Criador de Mapas',
+    'randomMap' => 'Mapa aleatório',
+    'mapsLatestGames' => 'Últimos jogos',
+    'guide' => 'Guia',
     'login' => 'Entrar',
     'register' => 'Registrar',
     'myProfile' => 'Meu perfil',
@@ -16,7 +23,7 @@ return [
     'time' => 'Tempo',
     'blocks' => 'Blocos',
     'PPS' => 'PPS',
-    'finesse' => 'Finesse',
+    'finesse' => 'Fineza',
     'date' => 'Data',
     'replay' => 'Replay',
     'place' => 'Lugar',
@@ -32,7 +39,7 @@ return [
     'latestGames' => 'Jogos recentes',
     'leastBlocks' => 'Menor quantia de blocos',
     'myTimes' => 'Meus tempos',
-    'perfectFinesse' => 'Finesse 0',
+    'perfectFinesse' => 'Fineza 0',
     
     /* Replay */
     'load' => 'Carregar',
