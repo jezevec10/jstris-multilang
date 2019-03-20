@@ -18,8 +18,8 @@ return [
     'rotate180' => 'Перевернуть',
     'hold' => 'Замена',
     'touch' => 'Включить сенсорное управление (экспериментально)',
-    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). "Горизонт. Чувствительность" or "ГУ" from Tetris Ultimate can be used, instead.
-    'ARR' => 'ЧАП', //Custom abbreviation from "Частота Авто-Передвижения" (Rate of Auto-Movement). "Горизонт. Скорость" or "ГС" from Tetris Ultimate can be used, instead.
+    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLukrer
+    'ARR' => 'ЧАП', //Custom abbreviation from "Частота Авто-Передвижения" (Rate of Auto-Movement). -mLurker
     'softDropSpeed' => 'Скорость падения',
     'sdSlow' => 'Медленная',
     'sdMedium' => 'Средняя',
@@ -37,8 +37,9 @@ return [
     'disabled' => 'Выкл.',
     'appearSound' => 'Вид и Звук',
     'blockStyle' => 'Фигуры',
-    'solidBlocks' => 'Простой цвет (без текстур)',
+    'solidBlocks' => 'Цвета (без текстур)',
     'invisibleBlocks' => 'Невидимые',
+	'monochrome' => 'Один цвет',
     'enableSE' => 'Звуковые эффекты',
     'startSE' => 'Звуковой эффект в начале раунда',
     'faultSE'=> 'Звуковой эффект в случае несоблюдения техники', //No appropriate term for "Tetris Finesse" in Russian, wrote "Special sound effect on technique fault". -mLurker
@@ -61,7 +62,7 @@ return [
     'practice'=> 'Практика',
     'sprint'=> 'Спринт',
     'cheese'=> 'Очистка', //No official translation of "Cheese race", wrote "Cleanup" instead. Use "Сырная гонка" for a literal translation. -mLurker
-    'freePlay'=> 'Практика', // "Free play" mode seems to be identical to "Practice" mode. Please correct me if I am wrong. -mLurker
+    'freePlay'=> 'Практика', 
     'close'=> 'Закрыть',
     'showMoreDetails' => 'Показать больше',
     'showMore'=> 'Показать больше',
@@ -108,6 +109,7 @@ return [
     'hdThread' => 'Ветка в форуме HardDrop',
     'chatSend' => 'Отправить',
     'rememberName' => 'Запомнить никнейм', //See "nickname" for explanation. "Запомнить псевдоним" can be used, too. -mLurker
+	'mapDownstack' => 'Карты', //Updated. -mLurker
     'survival' => 'Выживание',
     'ultra' => 'Ультра',
     'all' => 'Все',

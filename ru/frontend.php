@@ -10,16 +10,17 @@ return [
     'specModeInfo' => 'Вы находитесь в режиме наблюдателя.',
     'endSpec' => 'Напишите /play, чтобы войти в игру.', //keep '/play'
     'typeHelp' => 'Напишите /help для доступных команд.', //keep '/help'
-    'st' => 'ый', //max 2, in 1st, can stay untranslated
-    'nd' => 'ой', //max 2, in 2nd, can stay untranslated
-    'rd' => 'ий', //max 2, in 3rd, can stay untranslated
-    'th' => 'ый', //max 2, in 4th, can stay untranslated
+    'st' => '', //max 2, in 1st, can stay untranslated (Deleted, it stops making sense when numbers are more than 4. -mLurker)
+    'nd' => '', //max 2, in 2nd, can stay untranslated
+    'rd' => '', //max 2, in 3rd, can stay untranslated
+    'th' => '', //max 2, in 4th, can stay untranslated
     'notPlaying' => 'Вне игры', //max 12
     'waitNext' => 'Подождите до окончания раунда.',
     'waitNext2' => 'Ожидайте следующего раунда.',
     'pressStart' => 'Нажмите \'Новая игра\', чтобы начать', //'New game' should be same as in game.newGame
     'slowDown' => 'ПРИТОРМОЗИТЕ', //When a speed limit is exceeded
     'speedLimitIs' => 'Скоростной лимит:', //In a sentence: The speed limit is 2 PPS
+	'connecting' => 'Соединение...', //when connecting to the game server
 
     //Chat
     'warning' => 'Внимание',
@@ -33,20 +34,20 @@ return [
     'serverUser' => 'Сервер', //special username in chat
     'noNamed' => 'Аноним', //user wihtout name (guest), max 7, can stay untranslated (Used "Anonymous", character limit. -mLurker)
     'watching' => 'Наблюдатели', //in 'Watching: user1,user2..', altern.=Spectators
-    'userJoined'=>'присоединился к комнате', //in 'User1 joined the room.'
+    'userJoined'=>'вошёл в комнату', //in 'User1 joined the room.'
     'joined' => 'присоединился', //in title: 'User1 joined!'
     'userCame' => 'присоединился как наблюдатель',  //in 'User1 came to watch.'
     'isSpectating' => 'наблюдает', //in 'User1 is now spectating.'
     'spectator' => 'Наблюдатель',
     'hasLeft' => 'вышел.', //in 'Spectator User1 has left.'
-    'signedAs' => 'Вы зарегистрированы как',
+    'signedAs' => 'Вы зарегистрированы под именем',
     'welcome' => 'Добро пожаловать,', //in 'Welcome User1!'
     'welcomeIn' => 'Добро пожаловать в', //in 'Welcome in RoomName.'
     'noSpectators' => 'Никто сейчас не наблюдает.',
     'replayAvailable' => 'Повтор сохранён в:',
     'oldVer' => 'У вас устаревшая версия, нажмите CTRL+F5, чтобы загрузить новую версию!',
     'privateRoom' => 'Это - ваша приватная комната, никто тут вам не помешает. Просмотрите Лобби для открытых комнат.',
-    'restartInfo' =>  'Перезапустите, нажав на F4 (или на выбранную вами клавишу).',
+    'restartInfo' =>  'Нажмите на F4 (или на выбранную вами клавишу), чтобы перезапустить.',
     'joinLinkInfo' => 'Эта комната - приватная. В неё можно войти только через эту ссылку:',
 
     //Dynamic elements
