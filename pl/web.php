@@ -1,0 +1,127 @@
+<?php
+
+return [
+    'leaderboard' => 'Ranking',
+    'tournament' => 'Turniej',
+    'maps' => 'Mapy',
+    'mapsBrowse' => 'Przegl¹daj',
+    'myMaps' => 'Moje mapy',
+    'mapsDesigner' => 'Projektant map',
+    'randomMap' => 'Losowa mapa',
+    'mapsLatestGames' => 'Ostatnie gry',
+    'guide' => 'Przewodnik',
+    'login' => 'Login',
+    'register' => 'Rejestracja',
+    'myProfile' => 'Mój profil',
+    'myImprovement' => 'Mój postêp',
+    'favReplays' => 'Ulubione powtórki',
+    'settings' => 'Ustawienia',
+    'logout' => 'Wyloguj',
+    
+    /* Leaderboard */
+    'name' => 'Nazwa',
+    'time' => 'Czas',
+    'blocks' => 'Bloki',
+    'PPS' => 'PPS',
+    'finesse' => 'Finezja',
+    'date' => 'Data',
+    'replay' => 'Powtórka',
+    'place' => 'Miejsce',
+    'nli' => 'Nie zalogowano!',
+    'today' => 'Dziœ',
+    'lastWeek' => 'Ostatni tydzieñ',
+    'lastMonth' => 'Ostatni miesi¹c',
+    'lastYear' => 'Ostatni rok',
+    'allTime' => 'Zawsze',
+    'bestPlayers' => 'Najlepsi gracze',
+    'bestGames' => 'Najlepsze gry',
+    'bestSubs' => 'Najlepsi poni¿ej',
+    'latestGames' => 'Ostatnie gry',
+    'leastBlocks' => 'Najmniej bloków',
+    'myTimes' => 'Moje czasy',
+    'perfectFinesse' => '0 b³êdów finezji',
+    
+    /* Replay */
+    'load' => 'Za³aduj',
+    'play' => 'Odtwórz',
+    'pause' => 'Pauza',
+    'showSeg' => 'Poka¿ segmenty',
+    'fastestSeg' => 'Najszybsze segmenty',
+    'slowestSeg' => 'Najwolniejsze segmenty',
+    'speedChart' => 'Wykres prêdkoœci',
+    'moreStats' => 'Wiêcej statystyk',
+    'lines' => 'Linii',
+    'scoringPlaylist' => 'Punktacja',
+    'filterSP' => 'Przefiltruj punktacjê',
+    'applyFilter' => 'Zastosuj filtr',
+    'timestamp' => 'Czas',
+    'action' => 'Akcja', // e.g. combo, tspin, perfect clear
+    'scoreEq' => 'Odpowiadaj¹ce punkty',
+    'position' => 'Pozycja', //position in a replay
+    'lAVG' => 'Lokalna œrednia',
+    'gAVG' => 'Globalna œrednia',
+    'repHelp' => 'Pomoc', //link that shows information how to use the tool
+    
+    /* PW change */
+    'pwChange' => 'Zmieñ has³o',
+    'newPw' => 'Nowe has³o',
+    'againPw' => 'Znowu',
+    'applyChange' => 'Zastosuj zmiany',
+    
+    /* Localization settings */
+    'localSettings' => 'Ustawienia lokalizacji',
+    'lang' => 'Jêzyk',
+    'langNone' => '¯aden (wybór w górnym menu)',
+    'langDesc' => 'Ustaw preferowany jêzyk.',
+    'timezone' => 'Strefa czasowa',
+    'timezoneDesc' => 'U¿ywana do konwersji czasu na twój lokalny.',
+    'country' => 'Kraj',
+    'countryDesc' => 'U¿ywany do wyœwietlania krajowych rankingów.',
+    
+    /* Profile */
+    'ownProfile' => 'To jest twój profil publiczny dostêpny pod',
+    'bestTimes' => 'Najlepsze czasy',
+    'allTimes' => 'Wyœwietl wszystkie czasy sprintów',
+    'userImpr' => 'Wyœwietl statystyki postêpu',
+    'gameStats' => 'Statystyki gry',
+    'latestGames' => 'Ostatnie gry',
+    'noGames' => 'Ten u¿ytkownik nie rozegra³ jeszcze ¿adnych gier.',
+    'gamesPlayed' => 'Gry',
+    'totalTime' => 'Ca³kowity czas',
+    'linesSent' => 'Wys³ano linii',
+    'linesRec' => 'Otrzymano linii',
+    'placedBlocks' => 'U³o¿onych bloków',
+    'maxAPM' => 'Max. APM',
+    'maxREN' => 'Max. Combo',
+    'longestGame' => 'Najd³u¿sza gra',
+    'totalB2B' => 'Ca³kowite B2B',
+    'mostSent' => 'Najwiêcej wys³ano',
+    'hours' => 'godzin',
+    'minutes' => 'minut',
+    
+    /* Stats */
+    'improvementStats' => 'Statystyki postêpu',
+    //keep ':name'
+    'improvementInfo' => 'Poni¿szy graf pokazuje czas wyœcigu (oœ Y) wzglêdem daty rozegrania gry (oœ X). Podœwietlone linie pokazuj¹ postêp w osobistych rekordach u¿ytkownika :name. Mo¿esz ustawiæ kursor nad dowolnym punktem by pokazaæ szczegó³y gry.',
+    'date' => 'Data',
+    'result' => 'Wynik',
+    'submit' => 'Wyœlij',
+    'qSettings' => 'Ustawienia zapytania',
+    'dispAll' => 'Wyœwietl wszystkie gry',
+    
+    /* About */
+    'aboutInfo' => 'Jstris jest prost¹ sieciow¹ gr¹ bazuj¹c¹ na blokach, zbudowan¹ w Javascripcie, HTML5 i Pythonie (serwer).',
+    'version' => 'Wersja',
+    'changelog' => 'Historia zmian',
+    'discussion' => 'Dyskusja',
+    'learnMore' => 'Dowiedz siê wiêcej',
+    'contact' => 'Kontakt',
+    'serverCoverage' => 'Pokrycie kosztu serwera',
+    'supporters' => 'Wspomo¿yciele projektu',
+    
+    /* Other */
+    'notFound' => 'Nie znaleziono.',
+    'invalidLink' => '¯¹dany link jest niew³aœciwy.',
+    'brb' => 'Powrót wkrótce.',
+    'tryAgain' => 'Strona jest uaktualniana, Proszê spróbowaæ ponownie za kilka chwil.',
+];
