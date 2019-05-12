@@ -32,7 +32,7 @@ return [
     'gridVertical' => 'Pionowa',
     'gridFull' => 'Pełna',
     'grid' => 'Siatka',
-    'ghost' => 'Zuch',
+    'ghost' => 'Duch',
     'enabled' => 'Włączony',
     'disabled' => 'Wyłączony',
     'appearSound' => 'Wygląd i dźwięk',

@@ -10,10 +10,10 @@ return [
     'specModeInfo' => 'Jesteś teraz w trybie widza.',
     'endSpec' => 'Wpisz /play by dołączyć do gry', //keep '/play'
     'typeHelp' => 'Wpisz /help by uzyskać listę komend.', //keep '/help'
-    'st' => 'sz', //max 2, in 1st, can stay untranslated
-    'nd' => 'gi', //max 2, in 2nd, can stay untranslated
-    'rd' => 'ci', //max 2, in 3rd, can stay untranslated
-    'th' => 'ty', //max 2, in 4th, can stay untranslated
+    'st' => 'st', //max 2, in 1st, can stay untranslated , "szy" could work
+    'nd' => 'nd', //max 2, in 2nd, can stay untranslated , "gi" could work
+    'rd' => 'rd', //max 2, in 3rd, can stay untranslated , "ci" could work
+    'th' => 'th', //max 2, in 4th, can stay untranslated , "ty" could work, except for numbers ending in 7 or 8. Hence, these suffixes are untranslated for consistency.
     'notPlaying' => 'Nie gra', //max 12
     'waitNext' => 'Poczekaj na koniec rundy',
     'waitNext2' => 'Proszę poczekać na kolejną rundę',
