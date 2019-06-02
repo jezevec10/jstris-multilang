@@ -20,7 +20,7 @@ return [
     'touch' => 'Kích hoạt điều khiển trên màn hình thông minh (thử nghiệm)',
     'DAS' => 'DAS',
     'ARR' => 'ARR',
-    'softDropSpeed' => 'Thả nhẹ',
+    'softDropSpeed' => 'Tốc độ thả nhẹ',
     'sdSlow' => 'Chậm',
     'sdMedium' => 'Trung',
     'sdFast' => 'Nhanh',
