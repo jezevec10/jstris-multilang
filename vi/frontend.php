@@ -17,7 +17,7 @@ return [
     'notPlaying' => 'Không chơi', //max 12
     'waitNext' => 'Vui lòng đợi đến cuối vòng',
     'waitNext2' => 'Vui lòng đợi đến vòng tiếp theo',
-    'pressStart' => 'Nhấn \'Màn mới\' để bắt đầu', //'New game' should be same as in game.newGame
+    'pressStart' => 'Nhấn \'Ván mới\' để bắt đầu', //'New game' should be same as in game.newGame
     'slowDown' => 'CHẬM LẠI', //When a speed limit is exceeded
     'speedLimitIs' => 'Giới hạn tốc độ là', //In a sentence: The speed limit is 2 PPS
     'connecting' => 'Đang kết nối', //when connecting to the game server
