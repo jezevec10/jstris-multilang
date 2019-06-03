@@ -65,7 +65,7 @@ return [
     /* PW change */
     'pwChange' => 'Zmień hasło',
     'newPw' => 'Nowe hasło',
-    'againPw' => 'Znowu',
+    'againPw' => 'Powtórz',
     'applyChange' => 'Zastosuj zmiany',
     
     /* Localization settings */
