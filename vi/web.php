@@ -75,8 +75,8 @@ return [
     'langDesc' => 'Lựa chọn ngôn ngữ ưa thích.',
     'timezone' => 'Múi giờ',
     'timezoneDesc' => 'Dùng để chuyển đổi sang thời gian nội của múi giờ được chọn.',
-    'country' => 'Nước',
-    'countryDesc' => 'Dùng để xem bảng xếp hạng của nước.',
+    'country' => 'Quốc gia',
+    'countryDesc' => 'Dùng để xem bảng xếp hạng của quốc gia.',
     
     /* Profile */
     'ownProfile' => 'Đây là nơi mà bạn có thể thấy thông tin công khai của mình',
