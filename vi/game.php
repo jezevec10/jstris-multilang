@@ -2,7 +2,7 @@
 
 return [
     'play' => 'Chơi',
-    'live' => 'Trực tiếp',
+    'live' => 'Trực tuyến',
     'controls' => 'Điều khiển',
     'gameSettings' => 'Cài đặt game',
     'appearance' => 'Trang trí',
