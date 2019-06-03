@@ -115,5 +115,5 @@ return [
     'all' => 'Tất cả',
     'preset' => 'Set cài đặt',
     'save' => 'Lưu',
-    'translationBy' => 'Shard_Nguyễn',
+    'translationBy' => 'Shard_Nguyễn and Mai_Nguyễn',
 ];
