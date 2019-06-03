@@ -31,7 +31,7 @@ return [
     'sendButton' => 'Gửi', //max 4
     'rNameReq' => 'Vui lòng điền tên phòng',
     'newsUser' => 'Mới', //special username in chat
-    'serverUser' => 'Server', //special username in chat
+    'serverUser' => 'Máy chủ', //special username in chat
     'noNamed' => 'Khách', //user wihtout name (guest), max 7, can stay untranslated
     'watching' => 'Đang theo dõi', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'đã vào phòng', //in 'User1 joined the room.'
@@ -88,7 +88,7 @@ return [
     'mode' => 'Chế độ',
     'garbage' => 'Rác',
     'garbageDelay' => 'Thời gian kéo dài rác',
-    'messiness' => 'Độ khó',
+    'messiness' => 'Độ rải rác của rác',
     'replay' => 'Replay',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => 'Rec.', //max 4, short for Received
