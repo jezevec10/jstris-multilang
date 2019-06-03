@@ -46,7 +46,7 @@ return [
     'noSpectators' => 'Hiện không có người theo dõi',
     'replayAvailable' => 'Replay được tạo tại',
     'oldVer' => 'Bạn đang dùng phiên bản cũ, nhấn CTRL+F5 để tải lại phiên bản mới',
-    'privateRoom' => 'Đây là phòng kín, nơi mà bạn không bị những người khác ngó nhìn. Vào phần Sảnh để xem phòng công khai',
+    'privateRoom' => 'Đây là phòng kín, nơi mà bạn không bị những người khác ngó nhìn. Vào phần Sảnh để xem phòng công khai.',
     'restartInfo' =>  'Chơi lại bằng cách nhấn F4 hoặc key tùy chọn.',
     'joinLinkInfo' => 'Đây là phòng kín. Cách duy nhất để rủ người khác vào phòng là dùng đường dẫn này:',
 
