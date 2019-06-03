@@ -69,7 +69,7 @@ return [
     'applyChange' => 'Áp dụng thay đổi',
     
     /* Localization settings */
-    'localSettings' => 'Cài đặt ngôn ngữ và địa điểm',
+    'localSettings' => 'Cài đặt ngôn ngữ và quốc gia',
     'lang' => 'Ngôn ngữ game',
     'langNone' => 'Không có gì (Có thể chọn được trong menu trên cùng)',
     'langDesc' => 'Lựa chọn ngôn ngữ ưa thích.',
