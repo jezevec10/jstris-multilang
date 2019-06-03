@@ -12,7 +12,7 @@ return [
     'guide' => 'Hướng dẫn',
     'login' => 'Đăng nhập',
     'register' => 'Đăng kí',
-    'myProfile' => 'Trang thông tin',
+    'myProfile' => 'Trang cá nhân',
     'myImprovement' => 'Độ tiến triển',
     'favReplays' => 'Replay ưa thích',
     'settings' => 'Cài đặt',
@@ -35,7 +35,7 @@ return [
     'allTime' => 'Tất cả',
     'bestPlayers' => 'Theo người chơi',
     'bestGames' => 'Game tốt nhất',
-    'bestSubs' => 'Thời gian đạt dưới 20',
+    'bestSubs' => 'Đạt mốc ngắn nhất',
     'latestGames' => 'Game mới nhất',
     'leastBlocks' => 'Ít gạch nhất',
     'myTimes' => 'Thời gian của tôi',
@@ -58,7 +58,7 @@ return [
     'action' => 'Kiểu loại hàng', // e.g. combo, tspin, perfect clear
     'scoreEq' => 'Điểm tương ứng',
     'position' => 'Thời điểm hiện tại', //position in a replay
-    'lAVG' => 'Trung bình game',
+    'lAVG' => 'Trung bình nội địa',
     'gAVG' => 'Trung bình quốc tế',
     'repHelp' => 'Help', //link that shows information how to use the tool
     
@@ -102,7 +102,7 @@ return [
     /* Stats */
     'improvementStats' => 'Thông tin tiến triển',
     //keep ':name'
-    'improvementInfo' => 'Biểu đồ này cho thấy thời gian Sprint (trục Y) với thời điểm game (trục X). Dòng nổi bật cho thấy những tiến triển trong :name\'s các kỉ lục cá nhân. Bạn có thể đặt chuột qua bất kì điểm nào để xem thông tin của game đó.',
+    'improvementInfo' => 'Biểu đồ này cho thấy thời gian Sprint (trục Y) với thời điểm game (trục X). Dòng nổi bật cho thấy những tiến triển của :name\. Bạn có thể đặt chuột qua bất kì điểm nào để xem thông tin của game đó.',
     'date' => 'Thời điểm',
     'result' => 'Kết quả',
     'submit' => 'Tải lên',
