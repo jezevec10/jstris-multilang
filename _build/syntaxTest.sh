@@ -1,6 +1,6 @@
 #/bin/bash
 
-for DIR in `find . -mindepth 1 -type d`
+for DIR in `find . -mindepth 1 -maxdepth 1 -type d -not -path '*/\.*' -a -not -path '*/\_*'| sort`
 do
   #skip _directories
   firstChar=${DIR:0:1}
