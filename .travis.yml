@@ -1,0 +1,12 @@
+language: php
+php:
+  - 7.3
+script: mkdir -p _build/output && php -r 'print("Test");' > _build/output/index.md
+deploy:
+  provider: pages
+  local_dir: _build/output
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
