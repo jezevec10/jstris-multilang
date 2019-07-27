@@ -1,7 +1,7 @@
 language: php
 php:
   - 7.3
-script: mkdir -p _build/output && php -r 'print("Test");' > _build/output/index.md
+script: bash ./_build/syntaxTest.sh
 deploy:
   provider: pages
   local_dir: _build/output
