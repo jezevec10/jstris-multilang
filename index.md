@@ -83,3 +83,7 @@ Select a language to view more information on which translations are missing.
         </div>
     </td></tr>
 </tbody></table>
+
+-------------------
+
+*Auto-generated on **Sunday, 28-Jul-19 16:31:11 UTC**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
