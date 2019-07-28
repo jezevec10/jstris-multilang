@@ -31,7 +31,7 @@ return [
     'sendButton' => 'Gửi', //max 4
     'rNameReq' => 'Vui lòng điền tên phòng',
     'newsUser' => 'Mới', //special username in chat
-    'serverUser' => 'Server', //special username in chat
+    'serverUser' => 'Máy chủ', //special username in chat
     'noNamed' => 'Khách', //user wihtout name (guest), max 7, can stay untranslated
     'watching' => 'Đang theo dõi', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'đã vào phòng', //in 'User1 joined the room.'
@@ -46,7 +46,7 @@ return [
     'noSpectators' => 'Hiện không có người theo dõi',
     'replayAvailable' => 'Replay được tạo tại',
     'oldVer' => 'Bạn đang dùng phiên bản cũ, nhấn CTRL+F5 để tải lại phiên bản mới',
-    'privateRoom' => 'Đây là phòng kín, nơi mà bạn không bị những người khác ngó nhìn. Vào phần Sảnh để xem phòng công khai',
+    'privateRoom' => 'Đây là phòng kín, nơi mà bạn không bị những người khác ngó nhìn. Vào phần Sảnh để xem phòng công khai.',
     'restartInfo' =>  'Chơi lại bằng cách nhấn F4 hoặc key tùy chọn.',
     'joinLinkInfo' => 'Đây là phòng kín. Cách duy nhất để rủ người khác vào phòng là dùng đường dẫn này:',
 
@@ -88,7 +88,7 @@ return [
     'mode' => 'Chế độ',
     'garbage' => 'Rác',
     'garbageDelay' => 'Thời gian kéo dài rác',
-    'messiness' => 'Độ khó',
+    'messiness' => 'Độ rải rác của rác',
     'replay' => 'Replay',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => 'Rec.', //max 4, short for Received
