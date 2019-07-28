@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Ko - coverage report
+# ko - coverage report
 
 <table>
 <thead>
@@ -27,20 +27,30 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in ko/frontend.php:**
+## Frontend
+
+**Missing in ko/frontend.php:**
+
 ```
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in ko/game.php:**
+
+## Game
+
+**Missing in ko/game.php:**
+
 ```
 'monochrome' => 'Monochrome',
 'mapDownstack' => 'Map downstack',
 ```
-    ## Web
-    **Missing in ko/web.php:**
+
+## Web
+
+**Missing in ko/web.php:**
+
 ```
 'randomMap' => 'Random map',
 ```
+

@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Zh - coverage report
+# zh - coverage report
 
 <table>
 <thead>
@@ -27,18 +27,28 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in zh/frontend.php:**
+## Frontend
+
+**Missing in zh/frontend.php:**
+
 ```
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in zh/game.php:**
+
+## Game
+
+**Missing in zh/game.php:**
+
 ```
 'monochrome' => 'Monochrome',
 ```
-    ## Web
-    **Missing in zh/web.php:**
+
+## Web
+
+**Missing in zh/web.php:**
+
 ```
 ```
+

@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Tr - coverage report
+# tr - coverage report
 
 <table>
 <thead>
@@ -27,18 +27,28 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in tr/frontend.php:**
+## Frontend
+
+**Missing in tr/frontend.php:**
+
 ```
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in tr/game.php:**
+
+## Game
+
+**Missing in tr/game.php:**
+
 ```
 'monochrome' => 'Monochrome',
 ```
-    ## Web
-    **Missing in tr/web.php:**
+
+## Web
+
+**Missing in tr/web.php:**
+
 ```
 ```
+

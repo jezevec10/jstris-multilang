@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Pt - coverage report
+# pt - coverage report
 
 <table>
 <thead>
@@ -27,16 +27,26 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in pt/frontend.php:**
+## Frontend
+
+**Missing in pt/frontend.php:**
+
 ```
 ```
-    ## Game
-    **Missing in pt/game.php:**
+
+## Game
+
+**Missing in pt/game.php:**
+
 ```
 ```
-    ## Web
-    **Missing in pt/web.php:**
+
+## Web
+
+**Missing in pt/web.php:**
+
 ```
 ```
+

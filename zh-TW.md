@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Zh-tw - coverage report
+# zh-TW - coverage report
 
 <table>
 <thead>
@@ -27,16 +27,22 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in zh-TW/frontend.php:**
+## Frontend
+
+**Missing in zh-TW/frontend.php:**
+
 ```
 'slowDown' => 'SLOW DOWN',
 'speedLimitIs' => 'The speed limit is',
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in zh-TW/game.php:**
+
+## Game
+
+**Missing in zh-TW/game.php:**
+
 ```
 'ARR' => 'ARR',
 'monochrome' => 'Monochrome',
@@ -57,8 +63,11 @@
 'all' => 'All',
 'preset' => 'Preset',
 ```
-    ## Web
-    **Missing in zh-TW/web.php:**
+
+## Web
+
+**Missing in zh-TW/web.php:**
+
 ```
 'maps' => 'Maps',
 'mapsBrowse' => 'Browse',
@@ -90,3 +99,4 @@
 'countryDesc' => 'Used to display per-country leader boards.',
 'changelog' => 'Changelog',
 ```
+

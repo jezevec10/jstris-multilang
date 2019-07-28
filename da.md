@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Da - coverage report
+# da - coverage report
 
 <table>
 <thead>
@@ -27,20 +27,30 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in da/frontend.php:**
+## Frontend
+
+**Missing in da/frontend.php:**
+
 ```
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in da/game.php:**
+
+## Game
+
+**Missing in da/game.php:**
+
 ```
 'monochrome' => 'Monochrome',
 'mapDownstack' => 'Map downstack',
 ```
-    ## Web
-    **Missing in da/web.php:**
+
+## Web
+
+**Missing in da/web.php:**
+
 ```
 'randomMap' => 'Random map',
 ```
+

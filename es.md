@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Es - coverage report
+# es - coverage report
 
 <table>
 <thead>
@@ -27,14 +27,20 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in es/frontend.php:**
+## Frontend
+
+**Missing in es/frontend.php:**
+
 ```
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in es/game.php:**
+
+## Game
+
+**Missing in es/game.php:**
+
 ```
 'ARR' => 'ARR',
 'monochrome' => 'Monochrome',
@@ -51,8 +57,11 @@
 'mapDownstack' => 'Map downstack',
 'ultra' => 'Ultra',
 ```
-    ## Web
-    **Missing in es/web.php:**
+
+## Web
+
+**Missing in es/web.php:**
+
 ```
 'maps' => 'Maps',
 'mapsBrowse' => 'Browse',
@@ -63,3 +72,4 @@
 'guide' => 'Guide',
 'changelog' => 'Changelog',
 ```
+

@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# Ru - coverage report
+# ru - coverage report
 
 <table>
 <thead>
@@ -27,16 +27,26 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in ru/frontend.php:**
+## Frontend
+
+**Missing in ru/frontend.php:**
+
 ```
 ```
-    ## Game
-    **Missing in ru/game.php:**
+
+## Game
+
+**Missing in ru/game.php:**
+
 ```
 ```
-    ## Web
-    **Missing in ru/web.php:**
+
+## Web
+
+**Missing in ru/web.php:**
+
 ```
 ```
+

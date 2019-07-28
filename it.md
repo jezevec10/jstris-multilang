@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# It - coverage report
+# it - coverage report
 
 <table>
 <thead>
@@ -27,16 +27,22 @@
     </td></tr>
 </tbody></table>
 
+-----------------------
 
-    ## Frontend
-    **Missing in it/frontend.php:**
+## Frontend
+
+**Missing in it/frontend.php:**
+
 ```
 'slowDown' => 'SLOW DOWN',
 'speedLimitIs' => 'The speed limit is',
 'connecting' => 'Connecting...',
 ```
-    ## Game
-    **Missing in it/game.php:**
+
+## Game
+
+**Missing in it/game.php:**
+
 ```
 'ARR' => 'ARR',
 'monochrome' => 'Monochrome',
@@ -57,8 +63,11 @@
 'all' => 'All',
 'preset' => 'Preset',
 ```
-    ## Web
-    **Missing in it/web.php:**
+
+## Web
+
+**Missing in it/web.php:**
+
 ```
 'maps' => 'Maps',
 'mapsBrowse' => 'Browse',
@@ -90,3 +99,4 @@
 'countryDesc' => 'Used to display per-country leader boards.',
 'changelog' => 'Changelog',
 ```
+
