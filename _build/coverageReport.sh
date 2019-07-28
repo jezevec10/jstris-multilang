@@ -8,6 +8,8 @@ mkdir -p "$OUTPUT_DIR"
 echo -n "" > "$OUTPUT_DIR"/jsons.txt
 echo -n "" > "$OUTPUT_DIR"/index.md
 
+cp ./_build/templates/style.css "$OUTPUT_DIR"
+
 for DIR in `find . -mindepth 1 -maxdepth 1 -type d -not -path '*/\.*' -a -not -path '*/\_*'| sort`
 do
   #skip hidden directories and base language
