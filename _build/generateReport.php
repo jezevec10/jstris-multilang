@@ -34,8 +34,10 @@ foreach($data as $langCode => $langData){
     $data[$langCode]["cov"] = round(($totalWords-$totalMissing)/($totalWords/100), 2);
 }
 
-// Create document
+// Write coverage json
+file_put_contents($OUTPUT_DIR."/coverage.json", \json_encode($data));
 
+// Create document
 $loader = new \Twig\Loader\FilesystemLoader(__DIR__.'/templates');
 $twig = new \Twig\Environment($loader, [
     'cache' => false,

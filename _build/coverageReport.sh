@@ -22,5 +22,8 @@ do
 
 done
 
-
+# create the report
 php ./_build/generateReport.php "$OUTPUT_DIR"/jsons.txt "$OUTPUT_DIR"
+
+# cleanup
+rm "$OUTPUT_DIR"/jsons.txt
