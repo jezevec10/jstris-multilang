@@ -6,7 +6,7 @@
 3. Copy the missing strings to the corresponding files of your language and translate them in your repository fork.
 4. Create pull request.
 
-## Making a correction in an existing language
+## Making a correction in an existing translation
 Fork this repository, modify the current files in the directory of the language you want to modify, create a pull request.
 
 ## Adding a new language
