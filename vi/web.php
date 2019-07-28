@@ -102,7 +102,7 @@ return [
     /* Stats */
     'improvementStats' => 'Thông tin tiến triển',
     //keep ':name'
-    'improvementInfo' => 'Biểu đồ này cho thấy thời gian Sprint (trục Y) với thời điểm game (trục X). Dòng nổi bật cho thấy những tiến triển của :name\. Bạn có thể đặt chuột qua bất kì điểm nào để xem thông tin của game đó.',
+    'improvementInfo' => 'Biểu đồ này cho thấy thời gian Sprint (trục Y) với thời điểm game (trục X). Dòng nổi bật cho thấy những tiến triển của :name. Bạn có thể đặt chuột qua bất kì điểm nào để xem thông tin của game đó.',
     'date' => 'Thời điểm',
     'result' => 'Kết quả',
     'submit' => 'Tải lên',
