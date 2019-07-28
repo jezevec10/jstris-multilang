@@ -45,10 +45,3 @@
 'monochrome' => 'Monochrome',
 ```
 
-## Web
-
-**Missing in zh/web.php:**
-
-```
-```
-

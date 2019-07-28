@@ -29,24 +29,3 @@
 
 -----------------------
 
-## Frontend
-
-**Missing in ru/frontend.php:**
-
-```
-```
-
-## Game
-
-**Missing in ru/game.php:**
-
-```
-```
-
-## Web
-
-**Missing in ru/web.php:**
-
-```
-```
-
