@@ -14,11 +14,11 @@ return [
     'nd' => 'nd', //max 2, in 2nd, can stay untranslated
     'rd' => 'rd', //max 2, in 3rd, can stay untranslated
     'th' => 'th', //max 2, in 4th, can stay untranslated
-    'notPlaying' => 'No Jugando', //max 12
+    'notPlaying' => 'Sin Jugar', //max 12
     'waitNext' => 'Espera a que termine la partida',
     'waitNext2' => 'Por favor espera la siguiente partida',
     'pressStart' => 'Presiona \'Nuevo Juego\' para comenzar', //'New game' should be same as in game.newGame
-    'slowDown' => 'DECELERE', //When a speed limit is exceeded
+    'slowDown' => 'DESACELERE', //When a speed limit is exceeded
     'speedLimitIs' => 'El límite de velocidad es', //In a sentence: The speed limit is 2 PPS
 
     //Chat
@@ -76,7 +76,7 @@ return [
     'warning2' => 'ADVERTENCIA',
     'connected' => 'Conectado',
     'client' => 'cliente',
-    'notConnected' => 'NO CONECTADO',
+    'notConnected' => 'DESCONECTADO',
     'connLost' => 'Conexión perdida!',
     'lastGame' => 'Último juego:',
     'roomSettings' => 'Configuración de Sala:',
@@ -85,17 +85,17 @@ return [
     'solid' => 'Sólido',
     'clear' => 'Borradas',
     'mode' => 'Modo',
-    'garbage' => 'Agujeros',
-    'garbageDelay' => 'Frecuencia de agujeros',
+    'garbage' => 'Basura',
+    'garbageDelay' => 'Frecuencia de basura',
     'messiness' => 'Desorden',
     'replay' => 'Repetir',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => 'Rec.', //max 4, short for Received
-    'enterNullDAS' => 'Ingreasar valor DAS de Nullpomino:',
+    'enterNullDAS' => 'Ingresar valor DAS de Nullpomino:',
     'suggestedIs' => 'DAS sugerido',
     'applyConfirm' => '¿Aplicar?',
-    'invalidDAS' => 'Valor DAS invalido, ¡no se ha cambiado!',
-    'settingsChanged' => 'Configuraciones cambiadas durante la partida, repetición invalidada.',
+    'invalidDAS' => 'Valor DAS inválido, ¡no se ha cambiado!',
+    'settingsChanged' => 'Configuraciones cambiadas durante la partida, la repetición será invalidada.',
     'segment' => 'Segmento',
     'duration' => 'Duración',
 ];
