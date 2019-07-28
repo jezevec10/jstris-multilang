@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
-# {{ langCode|capitalize }} - coverage report
+# {{ langCode }} - coverage report
 
 <table>
 <thead>
@@ -19,13 +19,17 @@
 {% endfor %}
 </tbody></table>
 
+-----------------------
 
 {% for key,file in data if file.cov is defined %}
-    ## {{ key|capitalize }}
-    **Missing in {{ langCode }}/{{ key }}.php:**
+## {{ key|capitalize }}
+
+**Missing in {{ langCode }}/{{ key }}.php:**
+
 ```
 {% for translKey,translVal in file.missing %}
 '{{ translKey }}' => '{{ translVal }}',
 {% endfor %}
 ```
+
 {% endfor %}

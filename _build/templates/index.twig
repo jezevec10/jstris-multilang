@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="style.css">
 
 # Translation coverage
 
@@ -13,7 +13,7 @@ Select a language to view more information on which translations are missing.
 </thead>
 <tbody>
 {% for key,lang in data %}
-    <tr><td><a href="/{{ key }}.html">{{ key }}</a></td><td>{{ lang.cov }}%</td><td>
+    <tr><td><a href="{{ key }}.html">{{ key }}</a></td><td>{{ lang.cov }}%</td><td>
         <div class="pb">
             <span class="pb-fill" style="width: {{ lang.cov }}%;"></span>
         </div>

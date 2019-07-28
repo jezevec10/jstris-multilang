@@ -6,6 +6,7 @@ script: bash ./_build/syntaxTest.sh
 
 before_deploy:
   - cd ./_build && composer install --prefer-source --no-interaction --dev && cd -
+  - cp ./_build/templates/style.css ./_build/output
   - bash ./_build/coverageReport.sh ./_build/output
 
 deploy:
