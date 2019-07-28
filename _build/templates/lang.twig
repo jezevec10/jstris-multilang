@@ -21,7 +21,7 @@
 
 -----------------------
 
-{% for key,file in data if file.cov is defined %}
+{% for key,file in data if file.cov is defined and file.missing|length > 0 %}
 ## {{ key|capitalize }}
 
 **Missing in {{ langCode }}/{{ key }}.php:**
