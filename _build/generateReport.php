@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__.'/vendor/autoload.php';
+\date_default_timezone_set('UTC');
 
 $DATA_FILE=$argv[1];
 $OUTPUT_DIR=$argv[2];
@@ -40,7 +41,7 @@ $twig = new \Twig\Environment($loader, [
     'cache' => false,
 ]);
 
-$index = $twig->render('index.twig', ['data' => $data]);
+$index = $twig->render('index.twig', ['data' => $data, 'genDate'=>\date("r")]);
 file_put_contents($OUTPUT_DIR.'/index.md', $index);
 
 foreach($data as $langCode => $langData){
