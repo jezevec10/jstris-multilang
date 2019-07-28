@@ -2,6 +2,7 @@
 require_once __DIR__.'/vendor/autoload.php';
 
 $DATA_FILE=$argv[1];
+$OUTPUT_DIR=$argv[2];
 
 $fn = fopen($DATA_FILE,"r");
 
@@ -39,4 +40,10 @@ $twig = new \Twig\Environment($loader, [
     'cache' => false,
 ]);
 
-echo $twig->render('index.twig', ['data' => $data]);
+$index = $twig->render('index.twig', ['data' => $data]);
+file_put_contents($OUTPUT_DIR.'/index.md', $index);
+
+foreach($data as $langCode => $langData){
+    $langReport = $twig->render('lang.twig', ['data' => $langData, 'langCode'=>$langCode]);
+    file_put_contents($OUTPUT_DIR."/${langCode}.md", $langReport);
+}

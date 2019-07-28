@@ -21,4 +21,4 @@ do
 done
 
 
-php ./_build/generateReport.php "$OUTPUT_DIR"/jsons.txt >> "$OUTPUT_DIR"/index.md
+php ./_build/generateReport.php "$OUTPUT_DIR"/jsons.txt "$OUTPUT_DIR"

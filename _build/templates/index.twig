@@ -1,26 +1,8 @@
+<link rel="stylesheet" href="/style.css">
+
 # Translation coverage
 
-<style>
-table > tbody > tr > td:nth-child(1), table > tbody > tr > td:nth-child(2) {
-width: 9.8%;
-}
-table > tbody > tr > td:nth-child(3) {
-width: 79.8%;
-}
-.pb {
-width: 100%;
-background-color: #e0e0e0;
-padding: 3px;
-border-radius: 3px;
-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
-}
-.pb-fill {
-display: block;
-height: 1em;
-background-color: #0366d6;
-transition: width 500ms ease-in-out;
-}
-</style>
+Select a language to view more information on which translations are missing.
 
 <table>
 <thead>
