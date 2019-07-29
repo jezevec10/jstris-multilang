@@ -28,7 +28,7 @@
 
 ```
 {% for translKey,translVal in file.missing %}
-'{{ translKey }}' => '{{ translVal|raw }}',
+'{{ translKey }}' => '{{ translVal | replace({'\'': '\\\''}) | raw }}',
 {% endfor %}
 ```
 
