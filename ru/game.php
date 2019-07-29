@@ -77,8 +77,8 @@ return [
     'score'=> 'Очки',
     'sent'=> 'Отправлено',
     'received'=> 'Получено',
-    'PPS'=> 'Фигуры в секунду', // For an abbreviation, use "Ф./с". -mLurker
-    'APM'=> 'Атака в минуту', // For an abbreviation, use "Ат./мин". -mLurker
+    'PPS'=> 'Ф./с',
+    'APM'=> 'Ат./мин',
     'finesse'=> 'Техника', //See "faultSE" for explanation", wrote "Technique". -mLurker
     'save'=> 'Сохранить',
     'createRoom'=> 'Cоздать комнату',
