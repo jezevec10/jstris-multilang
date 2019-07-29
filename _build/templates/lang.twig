@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="style.css">
+
+# {{ langCode }} - coverage report
+
+<table>
+<thead>
+    <tr>
+        <th>File</th>
+        <th colspan="2">Translation coverage</th>
+    </tr>
+</thead>
+<tbody>
+{% for key,file in data if file.cov is defined %}
+    <tr><td><a href="#">{{ key }}</a></td><td>{{ file.cov }}%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: {{ file.cov }}%;"></span>
+        </div>
+    </td></tr>
+{% endfor %}
+</tbody></table>
+
+-----------------------
+
+{% for key,file in data if file.cov is defined and file.missing|length > 0 %}
+## {{ key|capitalize }}
+
+**Missing in {{ langCode }}/{{ key }}.php:**
+
+```
+{% for translKey,translVal in file.missing %}
+'{{ translKey }}' => '{{ translVal | replace({'\'': '\\\''}) | raw }}',
+{% endfor %}
+```
+
+{% endfor %}
