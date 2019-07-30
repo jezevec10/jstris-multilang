@@ -1,0 +1,127 @@
+<?php
+
+return [
+    'leaderboard' => 'Papan peringkat',
+    'tournament' => 'Turnament',
+    'maps' => 'Maps',
+    'mapsBrowse' => 'Browse',
+    'myMaps' => 'My maps',
+    'mapsDesigner' => 'Map Designer',
+    'randomMap' => 'Map acak',
+    'mapsLatestGames' => 'Game terbaru',
+    'guide' => 'Panduan',
+    'login' => 'Masuk',
+    'register' => 'Mendaftar',
+    'myProfile' => 'Profilku',
+    'myImprovement' => 'Improvisasiku',
+    'favReplays' => 'Tayangan ulang favorit',
+    'settings' => 'Pengaturan',
+    'logout' => 'Keluar',
+    
+    /* Leaderboard */
+    'name' => 'Nama',
+    'time' => 'Waktu',
+    'blocks' => 'Blocks',
+    'PPS' => 'PPS',
+    'finesse' => 'Kemahiran',
+    'date' => 'Tanggal',
+    'replay' => 'Tayangan ulang',
+    'place' => 'Place',
+    'nli' => 'Belum masuk!',
+    'today' => 'Hari ini',
+    'lastWeek' => 'Minggu lalu',
+    'lastMonth' => 'Bulan lalu',
+    'lastYear' => 'Tahun lalu',
+    'allTime' => 'Semua waktu',
+    'bestPlayers' => 'Pemain terbaik',
+    'bestGames' => 'Permainan terbaik',
+    'bestSubs' => 'Subs terbaik',
+    'latestGames' => 'Permainan terbaru',
+    'leastBlocks' => 'Block terkecil',
+    'myTimes' => 'Waktuku',
+    'perfectFinesse' => '0 finesse',
+    
+    /* Replay */
+    'load' => 'Muat',
+    'play' => 'Mulai',
+    'pause' => 'Jeda',
+    'showSeg' => 'Tampilkan segmen',
+    'fastestSeg' => 'Segmen tercepat',
+    'slowestSeg' => 'Segmen terlambat',
+    'speedChart' => 'Grafik kecepatan',
+    'moreStats' => 'Lebih banyak statistik',
+    'lines' => 'Lines',
+    'scoringPlaylist' => 'Mencetak daftar putar',
+    'filterSP' => 'Mengfilter skor daftar putar',
+    'applyFilter' => 'Menerapkan filter',
+    'timestamp' => 'Cap waktu',
+    'action' => 'Action', // e.g. combo, tspin, perfect clear
+    'scoreEq' => 'Skor Setara',
+    'position' => 'Peringkat', //position in a replay
+    'lAVG' => 'Rata-rata lokal',
+    'gAVG' => 'Rata-rata global',
+    'repHelp' => 'Bantuan', //link that shows information how to use the tool
+    
+    /* PW change */
+    'pwChange' => 'Ganti password',
+    'newPw' => 'Password baru',
+    'againPw' => 'Sekali lagi',
+    'applyChange' => 'Terapkan perubahan',
+    
+    /* Localization settings */
+    'localSettings' => 'Pengaturan lokalisasi',
+    'lang' => 'Bahasa',
+    'langNone' => 'Tidak ada (Memilih di menu atas)',
+    'langDesc' => 'Memilih bahasa pilihan.',
+    'timezone' => 'Zona waktu',
+    'timezoneDesc' => 'Gunakan untuk merubah waktu ke waktu lokalmu.',
+    'country' => 'Negara',
+    'countryDesc' => 'Gunakan untuk menampilkan papan peringkat per-negara.',
+    
+    /* Profile */
+    'ownProfile' => 'Ini adalah profil publikmu dapat diakses di',
+    'bestTimes' => 'Waktu terbaik',
+    'allTimes' => 'Lihat semua waktu sprint',
+    'userImpr' => 'Lihat statistik improvisasi',
+    'gameStats' => 'Statistik permainan',
+    'latestGames' => 'Permainan terakhir',
+    'noGames' => 'Pemain ini belum bermain game apapun.',
+    'gamesPlayed' => 'Permainan',
+    'totalTime' => 'Total waktu',
+    'linesSent' => 'Lines terkirim',
+    'linesRec' => 'Lines diterima',
+    'placedBlocks' => 'Blocks ditempatkan',
+    'maxAPM' => 'Maks. APM',
+    'maxREN' => 'Maks. Combo',
+    'longestGame' => 'Game terpanjang',
+    'totalB2B' => 'Total B2Bs',
+    'mostSent' => 'Paling banyak mengirim',
+    'hours' => 'jam',
+    'minutes' => 'menit',
+    
+    /* Stats */
+    'improvementStats' => 'Statistik improvisasi',
+    //keep ':name'
+    'improvementInfo' => 'Grafik ini menunjukan waktu perlombaan garis (sumbu Y) vs tanggal permainan (sumbu X). Garis yang disorot menunjukkan peningkatan di :name catatan pribadi. Kamu bisa meletakan kursormu di semua titik untuk melihat detail permainan.',
+    'date' => 'Tanggal',
+    'result' => 'Hasil',
+    'submit' => 'Kirim',
+    'qSettings' => 'Pengaturan permintaan',
+    'dispAll' => 'Tampilakan semua permainan',
+    
+    /* About */
+    'aboutInfo' => 'Jstris adalah sebuah permainan block simpel  online multiplayer dibuat di Javascript, HTML5 and Python (server).',
+    'version' => 'Versi',
+    'changelog' => 'Catatan perubahan',
+    'discussion' => 'Diskusi',
+    'learnMore' => 'Pelajari lebih lanjut',
+    'contact' => 'Kontak',
+    'serverCoverage' => 'Biaya server',
+    'supporters' => 'Pendukung projek',
+    
+    /* Other */
+    'notFound' => 'Tidak ditemukan.',
+    'invalidLink' => 'Link yang diminta salah.',
+    'brb' => 'Akan kembali lagi.',
+    'tryAgain' => 'Situs dalam update, tolong coba lagi beberapa waktu.',
+];

@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="style.css">
+
+# Translation coverage
+
+Select a language to view more information on which translations are missing.
+
+<table>
+<thead>
+    <tr>
+        <th>Lang.</th>
+        <th colspan="2">Translation coverage</th>
+    </tr>
+</thead>
+<tbody>
+{% for key,lang in data %}
+    <tr><td><a href="{{ key }}.html">{{ key }}</a></td><td>{{ lang.cov }}%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: {{ lang.cov }}%;"></span>
+        </div>
+    </td></tr>
+{% endfor %}
+</tbody></table>
+
+-------------------
+
+*Auto-generated on **{{ genDate }}**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*

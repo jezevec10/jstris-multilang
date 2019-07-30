@@ -39,7 +39,7 @@ return [
     'blockStyle' => 'Фигуры',
     'solidBlocks' => 'Цвета (без текстур)',
     'invisibleBlocks' => 'Невидимые',
-	'monochrome' => 'Один цвет',
+    'monochrome' => 'Один цвет',
     'enableSE' => 'Звуковые эффекты',
     'startSE' => 'Звуковой эффект в начале раунда',
     'faultSE'=> 'Звуковой эффект в случае несоблюдения техники', //No appropriate term for "Tetris Finesse" in Russian, wrote "Special sound effect on technique fault". -mLurker
@@ -109,7 +109,7 @@ return [
     'hdThread' => 'Ветка в форуме HardDrop',
     'chatSend' => 'Отправить',
     'rememberName' => 'Запомнить никнейм', //See "nickname" for explanation. "Запомнить псевдоним" can be used, too. -mLurker
-	'mapDownstack' => 'Карты', //Updated. -mLurker
+    'mapDownstack' => 'Карты', //Updated. -mLurker
     'survival' => 'Выживание',
     'ultra' => 'Ультра',
     'all' => 'Все',

@@ -20,7 +20,7 @@ return [
     'date' => 'Fecha',
     'replay' => 'Repetición',
     'place' => 'Lugar',
-    'nli' => '¡No conectado!',
+    'nli' => '¡Desconectado!',
     'today' => 'Hoy',
     'lastWeek' => 'Semana pasada',
     'lastMonth' => 'Mes pasado',
