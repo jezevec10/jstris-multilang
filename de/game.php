@@ -130,7 +130,7 @@ return [
     'showHoldQueue' => 'Zeige H+Q',
     'showStats' => 'Zeige Statistiken',
     'roomLimits' => 'Raumbeitrittslimit',
-    'setLimitsInfo' => 'Sie können Bedingungen für Spieler, die dem Raum beitreten, setzen. Lasse das Feld frei,um kein Limit zu setzen.',
+    'setLimitsInfo' => 'Sie können Bedingungen für Spieler, die dem Raum beitreten, setzen. Lasse das Feld frei, um kein Limit zu setzen.',
     'addLimit' => 'Hinzufügebeitrittslimit',
     's40L' => 'Sprint 40L',
     'accGametime' => 'Spielzeit',

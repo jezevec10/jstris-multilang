@@ -114,7 +114,7 @@ return [
     'repFail' => 'Speichern der Wiederholung fehlgeschlagen.',
     'repInChat' => 'Wiedergabedatei im Chat gespeichert. Um diese zu behalten den Text in der Box in einen beliebigen Texteditor kopieren.',
     'repTxtInfo' => 'Die kopierte Wiedergabedatei kann dann im Wiederholer abgespielt oder gegebenenfalls erneut abgeschickt werden.',
-    'newPB' => 'IHRE NEUE BESTZEIT ',
+    'newPB' => 'IHRE NEUE BESTZEIT',
     'firstPB' => 'Dies war Ihre erste Runde. Erhalte eine neue Bestzeit, um Ihren Fortschritt zu verfolgen.',
     'infoPB' => '{prevPB} war Ihr letzter Rekord ist {prevAgo}. Ihre Verbesserung beträgt {PBdiff}.',
     'daysAgo' => 'Tage her',
@@ -127,7 +127,7 @@ return [
     'idleDC' => 'Verbindung wegen Inaktivität getrennt! Zuschauerbereich war voll.',
     'RLreach' => 'Limit erreicht.',
     'ban1' => 'Ihr Zugang zu Live Spielen wurde permanent eingeschränkt. Sie können immer noch die Einzielspielermodi spielen.',
-    'ban2' => 'Dieses Nutzerprofil wurde GEBANNT . Melden Sie sich neu auf der Seite an, um mehr zu erfahren.',
+    'ban2' => 'Dieses Nutzerprofil wurde GEBANNT. Melden Sie sich neu auf der Seite an, um mehr zu erfahren.',
     'ncGS' => 'Keine Verbindung zum Spielserver, versuche {refr}.',
     'refr' => 'Neuladen der Seite',
     //Room info detail
