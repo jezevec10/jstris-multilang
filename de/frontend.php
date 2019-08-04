@@ -20,6 +20,10 @@ return [
     'pressStart' => 'Drücke \'Neues Spiel\' um zu starten', //'New game' should be same as in game.newGame
     'slowDown' => 'LANGSAMER!',
     'speedLimitIs' => 'Das Limit beträgt',
+    'connecting' => 'Verbinden...', //when connecting to the game server
+    'signingIn' => 'Anmelden',
+    'loginFail' => 'Anmeldung Fehlgeschlagen!',
+    'mapLoading' => 'Map lädt...',
 
     //Chat
     'warning' => 'Warnung',
@@ -45,7 +49,8 @@ return [
     'noSpectators' => 'Niemand schaut gerade zu.',
     'replayAvailable' => 'Widerholung hier verfügber',
     'oldVer' => 'Sie benutzen eine veraltete Version drücke STRG+F5 um die Seite neu zu laden!',
-    'privateRoom' => 'Du befindest dich in einem Privatem Raum, in diesem du nicht gestört wirst während des Spiel\'s. In der Lobby findest du öffentliche Räume, denen du beitreten kannst.',
+    'oldVer2' => 'Sie benutzen eine veraltete Version! Drücke {key} um den Client neu zu laden',
+    'privateRoom' => 'Sie befinden sich in einem Privatem Raum, in diesem werden Sie während des Spiel\'s nicht gestört. In der Lobby finden Sie öffentliche Räume, denen Sie beitreten können.',
     'restartInfo' =>  'Neustart mit F4 oder eingestellter Taste.',
     'joinLinkInfo' => 'Dieser Raum ist Privat. Der einzige Weg beizutreten ist über diesen Link:',
 
@@ -98,4 +103,41 @@ return [
     'settingsChanged' => 'Einstellung wärend des Spiels geändert. Wiederholung wird nicht gespeichert.',
     'segment' => 'Segment',
     'duration' => 'Dauer',
+    'roomFull' => 'Dieser Raum scheint voll zu sein.',
+    'lobbyInfo' => 'Dieser Chat ist mit {discord} verbunden.',
+    'newHost' => 'Sie sind nun Leiter dieses Raums.',
+    'badRoom' => 'Dieser Raum existiert nicht mehr. Trete dem Standard Raum bei!',
+    'stngsChanged' => 'Einstellungen durch den Leiter geändert',
+    'stngsCustom' => 'Benutzerdefinierte Einstellungen',
+    'aSpec' => 'Bereits am Zuschauen!',
+    'aPlay' => 'Bereits am Spielen!',
+    'repFail' => 'Speichern der Wiederholung fehlgeschlagen.',
+    'repInChat' => 'Wiedergabedatei im Chat gespeichert. Um diese zu behalten den Text in der Box in einen beliebigen Texteditor kopieren.',
+    'repTxtInfo' => 'Die kopierte Wiedergabedatei kann dann im Wiederholer abgespielt oder gegebenenfalls erneut abgeschickt werden.',
+    'newPB' => 'IHRE NEUE BESTZEIT ',
+    'firstPB' => 'Dies war Ihre erste Runde. Erhalte eine neue Bestzeit, um Ihren Fortschritt zu verfolgen.',
+    'infoPB' => '{prevPB} war Ihr letzter Rekord ist {prevAgo}. Ihre Verbesserung beträgt {PBdiff}.',
+    'daysAgo' => 'Tage her',
+    'raceFin' => 'DAS RENNEN WURDE BEENDET',
+    'raceFinInfo' => 'Sie können diese Runde beendet, allerdings kann die nächste Runde jederzeit starten.',
+    'oops' => 'Hoppla!',
+    'chatNA' => 'Öffentliches chatten ist für Gäste oder Spieler mit weniger als {chReq} Stunden Spielzeit nicht verfügbar.',
+    'leMore' => 'Erfahre mehr',
+    'connLimit' => 'Die maximale Anzahl offener Verbindung für diese IP ist momentan erreicht. Falls Sie dieses Limit erhöhen möchten, kontaktieren Sie uns über Discorded.',
+    'idleDC' => 'Verbindung wegen Inaktivität getrennt! Zuschauerbereich war voll.',
+    'RLreach' => 'Limit erreicht.',
+    'ban1' => 'Ihr Zugang zu Live Spielen wurde permanent eingeschränkt. Sie können immer noch die Einzielspielermodi spielen.',
+    'ban2' => 'Dieses Nutzerprofil wurde GEBANNT . Melden Sie sich neu auf der Seite an, um mehr zu erfahren.',
+    'ncGS' => 'Keine Verbindung zum Spielserver, versuche {refr}.',
+    'refr' => 'Neuladen der Seite',
+    //Room info detail
+    'noPlayers' => 'Keine Spieler',
+    'cntMore' => '{cnt} Weitere',          //e.g. +10 more
+    'cntGuests' => '{cnt} Gäste',      //e.g. +10 guests
+    'cntSpec' => '{cnt} am Zuschauen',    //e.g. +10 spectating
+    'joinPossible' => 'Beitreten möglich',
+    'notEligible' => 'Nicht geeignet',
+    'gTimeShort' => 'S.zeit',
+    'on' => 'An',
+    'off' => 'Aus',
 ];
