@@ -11,6 +11,7 @@ $data = [];
 
 while(!feof($fn)){
     $line = trim(fgets($fn));
+    $line = str_replace("\xEF\xBB\xBF",'',$line);
     if(!$line || strlen($line)<2) continue;
     $lineData = json_decode($line, true);
     if(!$lineData) continue;
