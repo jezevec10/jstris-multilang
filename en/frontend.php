@@ -112,7 +112,7 @@ return [
     'aSpec' => 'Already spectating!',
     'aPlay' => 'Already playing!',
     'repFail' => 'Replay failed to save.',
-    'repInChat' => 'Replayfile dumped into the chat. To preserve it, copy the text in the box and paste into your favourite text editor.',
+    'repInChat' => 'Replay file dumped into the chat. To preserve it, copy the text in the box and paste into your favourite text editor.',
     'repTxtInfo' => 'The copied replayfile can be then played in the replayer or possibly resubmitted to the site.',
 
     'newPB' => 'YOUR NEW PERSONAL BEST',

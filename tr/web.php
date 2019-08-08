@@ -61,6 +61,7 @@ return [
     'lAVG' => 'Yerel ortalama',
     'gAVG' => 'Genel ortalama',
     'repHelp' => 'Yardım', //link that shows information how to use the tool
+    'repExport' => 'GIF veya video',
     
     /* PW change */
     'pwChange' => 'Şifreni değiştir',
@@ -98,7 +99,40 @@ return [
     'mostSent' => 'En çok gönderilen',
     'hours' => 'saat',
     'minutes' => 'dakika',
+    'createdMaps' => 'Oluşturulan haritalar',
+    'viewMapsBy' => 'Şu kişi tarafından oluşturulan tüm haritalar',
+    'playersCount' => 'Oyuncular',
+    'gameResultPosition' => 'Pozisyon',
+    'gameResultRoundTime' => 'Oyun süresi',
+    'viewAllGamesOf' => 'Tüm oyunlarını görüntüle :mode',
+    'noGamesOf' => ':name daha hiç bir oyun :mode oynamadı.',
     
+        /* Maps */
+    'map' => 'Harita',
+    'mapCreate' => 'Yeni oluştur',
+    'mapName' => 'İsim',
+    'mapNameLong' => 'Harita Adı',
+    'mapDesc' => 'Açıklama',
+    'mapRules' => 'Kurallar',
+    'mapOptions' => 'Ayarlar',
+    'mapPlay' => 'Oyna',
+    'mapPlayLink' => 'Play Map',
+    'mapAuthor' => 'Yaratıcı',
+    'mapCreatedBy' => 'Oluşturan',
+    'backToMaps' => 'Haritalara geri dön',
+    'playThisMap' => 'Bu haritayı oyna',
+    'search' => 'Ara',
+    'myMaps' => 'Haritalarım',
+    'mapsByUser' => ':name\' ait haritalar',
+    'displayUnpublished' => ':cnt Adet yayımlanmamış haritaları göster',
+    'displayPublished' => ':cnt Adet yayımlanmış haritaları göster',
+    'usersMapMedals' => ':name\' ait harita madalyaları',
+    'usersCompletedMaps' => ':name\' ait tamamlanmış haritalar',
+    'showRecords' => 'Kayıtları göster',
+    'details' => 'Detaylar',
+    'playedBy' => 'Tarafından oynandı',
+    'latestMapGames' => 'En son harita oyunları',
+
     /* Stats */
     'improvementStats' => 'Gelişme istatistikleri',
     //keep ':name'
@@ -118,6 +152,9 @@ return [
     'contact' => 'İletişim',
     'serverCoverage' => 'Sunucu maliyeti',
     'supporters' => 'Projeyi destekleyenler',
+    'translators' => 'Çevirmenler',
+    'moderators' => 'Yöneticiler',
+    
     
     /* Other */
     'notFound' => 'Bulunamadı.',

@@ -8,22 +8,22 @@ return [
     'clickToFocus' => 'Oyuna odaklanmak için tıkla', //max 30 characters
     'specMode' => 'İzleyici modu',
     'specModeInfo' => 'İzleyici modundasın.',
-    'endSpec' => 'Oyuna katılmak için /play yaz.', //keep '/play'
-    'typeHelp' => 'Yardım için /help yaz.', //keep '/help'
+    'endSpec' => 'Oyuna katılmak için /play yazın.', //keep '/play'
+    'typeHelp' => 'Yardım için /help yazın.', //keep '/help'
     'st' => 'st', //max 2, in 1st, can stay untranslated
     'nd' => 'nd', //max 2, in 2nd, can stay untranslated
     'rd' => 'rd', //max 2, in 3rd, can stay untranslated
     'th' => 'th', //max 2, in 4th, can stay untranslated
     'notPlaying' => 'Oynamıyor', //max 12
-    'waitNext' => 'Round bitene kadar bekle',
-    'waitNext2' => 'Lütfen sonraki round için bekle',
+    'waitNext' => 'Tur bitene kadar bekle',
+    'waitNext2' => 'Lütfen sonraki tur için bekleyin',
     'pressStart' => 'Yeni oyun için \'New game\'e tıkla.', //'New game' should be same as in game.newGame
-    'slowDown' => 'YAVAŞLA', //When a speed limit is exceeded
+    'slowDown' => 'YAVAŞLAYIN', //When a speed limit is exceeded
     'speedLimitIs' => 'Hız limiti', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => 'Uyarı',
-    'inactive1' => 'İzleyici moduna geçilecek. Engellemek için chate yaz.',
+    'inactive1' => 'İzleyici moduna geçilecek. Engellemek için chate yazın.',
     'inactive2' => 'Hareketsizlik belirlendi, sonraki oyunda izleyici moduna geçilecek.',
     'nickFill' => 'Mesaj yazabilmek için kullanıcı adını yaz',
     'setButton' => 'Set', //max 4
@@ -45,7 +45,7 @@ return [
     'noSpectators' => 'Kimse şu anda izlemiyor.',
     'replayAvailable' => 'Tekrar şurada mevcut',
     'oldVer' => 'Şu anda eski bir sürümü kullanıyorsunuz. CTRL + F5 ile yenileyin!',
-    'privateRoom' => 'TBurası özel odanız. Oynarken sizi kimse rahatsız edemez. Açık lobileri görmek için Lobiye bakın.',
+    'privateRoom' => 'Burası özel odanız. Oynarken sizi kimse rahatsız edemez. Açık lobileri görmek için Lobiye bakın.',
     'restartInfo' =>  'F4e basarak ya da başka bir tuş atayarak yeniden başlat.',
     'joinLinkInfo' => 'Bu oda özel. Başkaları sadece şu linki kullanarak katılabilir:',
 
@@ -98,4 +98,46 @@ return [
     'settingsChanged' => 'Oyun sırasında ayarlar değiştirildi. Replay geçersiz.',
     'segment' => 'Segment',
     'duration' => 'Süre',
+    'roomFull' => 'Görünüşe göre oda dolu.',
+    'lobbyInfo' => 'Bu sohbet {discord} ile paylaşılıyor.',
+    'newHost' => 'Artık bu odanın sahibi sizsiniz.',
+    'badRoom' => 'Bu oda artık mevcut değil, Varsayılan odaya katılıyor!',
+    'stngsChanged' => 'Ayar ana bilgisayar tarafından değiştirildi',
+    'stngsCustom' => 'Özel ayarlar',
+    'aSpec' => 'Zaten izleniyor!',
+    'aPlay' => 'Zaten oynanıyor!',
+    'repFail' => 'Tekrar kaydedilemedi.',
+    'repInChat' => 'Tekrar dosyası sohbete girdilendi. Korumak için, kutudaki metni kopyalayın ve en sevdiğiniz metin editörüne yapıştırın.',
+    'repTxtInfo' => 'Kopyalanan tekrar oynatım dosyası daha sonra oynatıcıda oynatılabilir veya muhtemelen siteye yeniden gönderilebilir.',
+
+    'newPB' => 'YENİ KİŞİSEL EN İYİ SKORUNUZ',
+    'firstPB' => 'Bu senin ilk oyundu. Gelişimi izlemek için başka bir PB alın.',
+    'infoPB' => 'Önceki kaydınız {prevPB}, ve {prevAgo} elde edildi . Gelişiminiz ise {PBdiff}.',
+    'daysAgo' => 'gün önce',
+
+    'raceFin' => 'YARIŞ BİTTİ',
+    'raceFinInfo' => 'Koşuyu tamamlayabilirsiniz, ancak bir sonraki tur herhangi bir zamanda başlayabilir.',
+
+    'oops' => 'Haydaa!',
+    'chatNA' => 'Genel sohbet, {chReq} saatten daha az oyun süresi olan misafirler veya kullanıcılar için mevcut değildir.',
+    'leMore' => 'Daha fazlasını öğren',
+
+    'connLimit' => 'Bu IP için maksimum açık bağlantı miktarına şu anda ulaşılıyor. Sınırların artırılması gerekiyorsa, Discord yoluyla bize ulaşın.',
+    'idleDC' => 'Hareketsizlik nedeniyle bağlantı kesildi! Seyirci bölümü doluydu.',
+    'RLreach' => 'Limite ulaşıldı.',
+    'ban1' => 'Canlı oyunlara erişiminiz kalıcı olarak kısıtlandı. Tek oyunculu modları hala oynayabilirsiniz.',
+    'ban2' => 'Bu kullanıcı hesabı YASAKLANDI. Daha fazla bilgi için web sitesine yeniden giriş yapın.',
+    'ncGS' => 'Oyun sunucusuna bağlı değil, {refr} deneyin.',
+    'refr' => 'sayfa yenileniyor',
+
+    //Room info detail
+    'noPlayers' => 'Oyuncular yok',
+    'cntMore' => '{cnt} fazlası',          //e.g. +10 more
+    'cntGuests' => '{cnt} misafirler',      //e.g. +10 guests
+    'cntSpec' => '{cnt} izliyor',    //e.g. +10 spectating
+    'joinPossible' => 'Katılmak mümkün',
+    'notEligible' => 'Uygun değil',
+    'gTimeShort' => 'G.süresi',
+    'on' => 'Açık',
+    'off' => 'Kapalı',
 ];
