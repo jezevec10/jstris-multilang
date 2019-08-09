@@ -92,7 +92,7 @@ return [
 
     /* Maps */
     'map' => 'Carte',
-    'mapCreate' => 'Créer une nouvelle',
+    'mapCreate' => 'Créer une nouvelle carte',
     'mapName' => 'Nom',
     'mapNameLong' => 'Nom de la carte',
     'mapDesc' => 'Description',
