@@ -20,9 +20,9 @@
             <span class="pb-fill" style="width: 58.64%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>53.19%</td><td>
+    <tr><td><a href="#">web</a></td><td>81.56%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 53.19%;"></span>
+            <span class="pb-fill" style="width: 81.56%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -159,71 +159,31 @@
 **Missing in fr/web.php:**
 
 ```
-'maps' => 'Maps',
-'mapsBrowse' => 'Browse',
-'myMaps' => 'My maps',
 'mapsDesigner' => 'Map Designer',
-'randomMap' => 'Random map',
-'mapsLatestGames' => 'Latest games',
-'guide' => 'Guide',
-'favReplays' => 'Favorite replays',
 'perfectFinesse' => '0 finesse',
 'lines' => 'Lines',
 'scoringPlaylist' => 'Scoring playlist',
 'filterSP' => 'Filter scoring playlist',
-'applyFilter' => 'Apply filter',
 'timestamp' => 'Timestamp',
 'action' => 'Action',
-'scoreEq' => 'Score equivalent',
 'position' => 'Position',
 'lAVG' => 'Local average',
 'gAVG' => 'Global average',
-'repHelp' => 'Help',
-'repExport' => 'GIF or video',
-'localSettings' => 'Localization settings',
-'lang' => 'Language',
 'langNone' => 'None (selectable in the top menu)',
 'langDesc' => 'Select the preferred language.',
 'timezone' => 'Timezone',
 'timezoneDesc' => 'Used to convert time into your local time.',
-'country' => 'Country',
 'continent' => 'Continent',
 'countryDesc' => 'Used to display per-country leader boards.',
-'blockCnt' => ':cnt blocks',
 'APM10Games' => '10-games APM',
 'PPS10Games' => '10-games PPS',
-'createdMaps' => 'Created maps',
 'viewMapsBy' => 'View all maps created by',
-'playersCount' => 'Players',
-'gameResultPosition' => 'Position',
-'gameResultRoundTime' => 'Gametime',
-'viewAllGamesOf' => 'View all games of :mode',
-'noGamesOf' => ':name hasn\'t played any games of :mode yet.',
-'map' => 'Map',
-'mapCreate' => 'Create new',
-'mapName' => 'Name',
-'mapNameLong' => 'Map name',
-'mapDesc' => 'Description',
-'mapRules' => 'Rules',
-'mapOptions' => 'Options',
-'mapPlay' => 'Play',
 'mapPlayLink' => 'Play Map',
-'mapAuthor' => 'Author',
-'mapCreatedBy' => 'Created by',
 'backToMaps' => 'Back to maps',
-'playThisMap' => 'Play this map',
-'search' => 'Search',
 'mapsByUser' => ':name\'s maps',
 'displayUnpublished' => 'Display :cnt unpublished maps',
 'displayPublished' => 'Display :cnt published maps',
 'usersMapMedals' => ':name\'s map medals',
 'usersCompletedMaps' => ':name\'s completed maps',
-'showRecords' => 'Show records',
-'details' => 'Details',
-'playedBy' => 'Played by',
-'latestMapGames' => 'The latest map games',
-'changelog' => 'Changelog',
-'translators' => 'Translators',
-'moderators' => 'Moderators',
 ```
 
