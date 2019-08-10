@@ -8,7 +8,13 @@ return [
     'myImprovement' => 'Ma progression',
     'settings' => 'Options',
     'logout' => 'Déconnexion',
-    
+    'favReplays' => 'Replays favoris',
+    'mapsLatestGames' => 'Dernières parties',
+    'randomMap' => 'Carte aléatoire',
+    'mapsBrowse' => 'Parcourir',
+    'maps' => 'Cartes',
+    'guide' => 'Guide',
+
     /* Leaderboard */
     'name' => 'Nom',
     'time' => 'Temps',
@@ -30,7 +36,7 @@ return [
     'latestGames' => 'Dernières parties',
     'leastBlocks' => 'Le moins de blocs',
     'myTimes' => 'Mes temps',
-    
+
     /* Replay */
     'load' => 'Charger',
     'play' => 'Lecture',
@@ -40,13 +46,22 @@ return [
     'slowestSeg' => 'Moins bons segments',
     'speedChart' => 'Graphe de vitesse',
     'moreStats' => 'Plus de stats',
-    
+    'applyFilter' => 'Appliquer le filtre',
+    'scoreEq' => 'Score équivalent',
+    'repHelp' => 'Aide', //link that shows information how to use the tool
+    'repExport' => 'GIF ou vidéo',
+
     /* PW change */
     'pwChange' => 'Changer de mot de passe',
     'newPw' => 'Nouveau mot de passe',
     'againPw' => 'Répéter le mot de passe',
     'applyChange' => 'Mettre à jour',
-    
+
+    /* Localization settings */
+    'localSettings' => 'Paramètres de localisation',
+    'lang' => 'Langue',
+    'country' => 'Pays',
+
     /* Profile */
     'ownProfile' => 'Ceci est votre profil public, accessible à l\'adresse',
     'bestTimes' => 'Meilleurs temps',
@@ -67,7 +82,33 @@ return [
     'mostSent' => 'Max. d\'envoyé',
     'hours' => 'heures',
     'minutes' => 'minutes',
-    
+    'viewAllGamesOf' => 'Voir toutes les parties du mode de jeu :mode',
+    'noGamesOf' => ':name n\'a encore jamais joué dans le mode de jeu :mode.',
+    'createdMaps' => 'Création de cartes',
+    'playersCount' => 'Joueurs',
+    'gameResultPosition' => 'Position',
+    'gameResultRoundTime' => 'Temps de jeu',
+    'blockCnt' => ':cnt blocs',
+
+    /* Maps */
+    'map' => 'Carte',
+    'mapCreate' => 'Créer une nouvelle carte',
+    'mapName' => 'Nom',
+    'mapNameLong' => 'Nom de la carte',
+    'mapDesc' => 'Description',
+    'mapRules' => 'Régle',
+    'mapOptions' => 'Options',
+    'mapPlay' => 'Jouer',
+    'mapAuthor' => 'Auteur',
+    'mapCreatedBy' => 'Créé par',
+    'playThisMap' => 'Jouer cette carte',
+    'search' => 'Rechercher',
+    'myMaps' => 'Mes cartes',
+    'showRecords' => 'Voir les records',
+    'details' => 'Détails',
+    'playedBy' => 'Joué par',
+    'latestMapGames' => 'La dernière carte joué',
+
     /* Stats */
     'improvementStats' => 'Statistiques de progression',
     //keep ':name'
@@ -77,7 +118,7 @@ return [
     'submit' => 'Afficher',
     'qSettings' => 'Afficher un autre graphe',
     'dispAll' => 'Afficher toutes les parties',
-    
+
     /* About */
     'aboutInfo' => 'Jstris est un jeu multijoueur en ligne simple d\'empilement de blocs codé en Javascript, HTML5, et Python (côté serveur).',
     'version' => 'Version',
@@ -86,7 +127,10 @@ return [
     'contact' => 'Contact',
     'serverCoverage' => 'Frais d\'hébergement du site',
     'supporters' => 'Donateurs',
-    
+    'moderators' => 'Modérateurs',
+    'translators' => 'Traducteurs',
+    'changelog' => 'Notes de mise à jour',
+
     /* Other */
     'notFound' => 'Introuvable.',
     'invalidLink' => 'Le lien entré n\'est pas valide.',
