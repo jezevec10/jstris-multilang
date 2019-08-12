@@ -1,19 +1,22 @@
 <?php
+
 return [
     'leaderboard' => 'Classement',
     'tournament' => 'Tournoi',
+    'maps' => 'Cartes',
+    'mapsBrowse' => 'Parcourir',
+    'myMaps' => 'Mes cartes',
+    'mapsDesigner' => 'Créateur de cartes',
+    'randomMap' => 'Carte aléatoire',
+    'mapsLatestGames' => 'Dernières parties',
+    'guide' => 'Guide',
     'login' => 'Connexion',
     'register' => 'Inscription',
     'myProfile' => 'Mon profil',
     'myImprovement' => 'Ma progression',
+    'favReplays' => 'Replays favoris',
     'settings' => 'Options',
     'logout' => 'Déconnexion',
-    'favReplays' => 'Replays favoris',
-    'mapsLatestGames' => 'Dernières parties',
-    'randomMap' => 'Carte aléatoire',
-    'mapsBrowse' => 'Parcourir',
-    'maps' => 'Cartes',
-    'guide' => 'Guide',
 
     /* Leaderboard */
     'name' => 'Nom',
@@ -36,6 +39,7 @@ return [
     'latestGames' => 'Dernières parties',
     'leastBlocks' => 'Le moins de blocs',
     'myTimes' => 'Mes temps',
+    'perfectFinesse' => '0 finesse',
 
     /* Replay */
     'load' => 'Charger',
@@ -46,8 +50,15 @@ return [
     'slowestSeg' => 'Moins bons segments',
     'speedChart' => 'Graphe de vitesse',
     'moreStats' => 'Plus de stats',
+    'lines' => 'Lignes',
+    //TODO: I haven't been abble to find 'scoring playlist' in the website and have no idea what the context is
     'applyFilter' => 'Appliquer le filtre',
+    'timestamp' => 'Moment',
+    'action' => 'Action',
     'scoreEq' => 'Score équivalent',
+    'position' => 'Position',
+    'lAVG' => 'Moyenne locale',
+    'gAVG' => 'Moyenne mondiale',
     'repHelp' => 'Aide', //link that shows information how to use the tool
     'repExport' => 'GIF ou vidéo',
 
@@ -60,7 +71,13 @@ return [
     /* Localization settings */
     'localSettings' => 'Paramètres de localisation',
     'lang' => 'Langue',
+    'langNone' => 'Aucun (selectionnable dans le menu en haut',
+    'langDesc' => 'Selectionnez votre langue préféré.',
+    'timezone' => 'fuseau horaire',
+    'timesoneDesc' => 'Pour convertir en heure locale',
     'country' => 'Pays',
+    'continent' => 'Continent',
+    'countryDesc' => 'Utilisé pour montrer les classements par pays',
 
     /* Profile */
     'ownProfile' => 'Ceci est votre profil public, accessible à l\'adresse',
@@ -75,6 +92,8 @@ return [
     'linesSent' => 'Lignes envoyées',
     'linesRec' => 'Lignes reçues',
     'placedBlocks' => 'Blocs placés',
+    'APM10Games' => 'APM sur 10 parties',
+    'PPS10Games' => 'PPS sur 10 parties',
     'maxAPM' => 'APM max.',
     'maxREN' => 'Combo max.',
     'longestGame' => 'Plus longue partie',
@@ -99,11 +118,18 @@ return [
     'mapRules' => 'Régle',
     'mapOptions' => 'Options',
     'mapPlay' => 'Jouer',
+    'mapPlayLink' => 'Jouer la carte',
     'mapAuthor' => 'Auteur',
     'mapCreatedBy' => 'Créé par',
+    'backToMaps' => 'retourner aux cartes',
     'playThisMap' => 'Jouer cette carte',
     'search' => 'Rechercher',
     'myMaps' => 'Mes cartes',
+    'mapsByUser' => 'cartes de :name',
+    'displayUnpublished' => 'Montrer :cnt cartes non publiées',
+    'displayPublished' => 'Montrer :cnt cartes publiées',
+    'usersMapMedals' => 'Médailles de :name',
+    'usersCompletedMaps' => 'Cartes complétées de :name',
     'showRecords' => 'Voir les records',
     'details' => 'Détails',
     'playedBy' => 'Joué par',
@@ -120,8 +146,9 @@ return [
     'dispAll' => 'Afficher toutes les parties',
 
     /* About */
-    'aboutInfo' => 'Jstris est un jeu multijoueur en ligne simple d\'empilement de blocs codé en Javascript, HTML5, et Python (côté serveur).',
+    'aboutInfo' => 'Jstris est un jeu multijoueur en ligne d\'empilement de blocs codé en Javascript, HTML5, et Python (côté serveur).',
     'version' => 'Version',
+    'changelog' => 'Notes de mises à jour',
     'discussion' => 'Discussion',
     'learnMore' => 'En savoir plus',
     'contact' => 'Contact',
@@ -129,7 +156,6 @@ return [
     'supporters' => 'Donateurs',
     'moderators' => 'Modérateurs',
     'translators' => 'Traducteurs',
-    'changelog' => 'Notes de mise à jour',
 
     /* Other */
     'notFound' => 'Introuvable.',
