@@ -143,6 +143,6 @@ return [
     'joinPossible' => 'Puedes ingresar',
     'notEligible' => 'No personalizable',
     'gTimeShort' => 'T.juego',
-    'on' => 'Prendido',
-    'off' => 'Apagado',
+    'on' => 'Habilitado',
+    'off' => 'Deshabilitado',
 ];
