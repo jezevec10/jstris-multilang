@@ -10,14 +10,14 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>65.32%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>64.29%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 65.32%;"></span>
+            <span class="pb-fill" style="width: 64.29%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>58.64%</td><td>
+    <tr><td><a href="#">game</a></td><td>57.58%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 58.64%;"></span>
+            <span class="pb-fill" style="width: 57.58%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">web</a></td><td>53.19%</td><td>
@@ -58,6 +58,8 @@
 'daysAgo' => 'days ago',
 'raceFin' => 'THE RACE HAS FINISHED',
 'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
+'notTSD' => 'NOT TSD',
+'notTSDInfo' => 'Only T-Spin Double is allowed',
 'oops' => 'Oops!',
 'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
 'leMore' => 'Learn more',
@@ -94,7 +96,9 @@
 'FPSDAS' => 'FPS-based DAS',
 'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
 'webGL' => 'Use WebGL',
+'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'trem' => 'time remaining',
+'tsdsCounter' => 'TSDs done',
 'score' => 'Score',
 'KPP' => 'KPP',
 'editRoom' => 'Edit',
@@ -114,6 +118,7 @@
 'survival' => 'Survival',
 'mapDownstack' => 'Map downstack',
 'ultra' => 'Ultra',
+'20TSD' => '20TSD',
 'all' => 'All',
 'preset' => 'Preset',
 'audioCredits' => 'Audio Assets by',

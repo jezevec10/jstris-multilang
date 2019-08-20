@@ -10,14 +10,14 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>95.97%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>94.44%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 95.97%;"></span>
+            <span class="pb-fill" style="width: 94.44%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>79.63%</td><td>
+    <tr><td><a href="#">game</a></td><td>78.18%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 79.63%;"></span>
+            <span class="pb-fill" style="width: 78.18%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">web</a></td><td>97.16%</td><td>
@@ -39,6 +39,8 @@
 'loginFail' => 'Log in failed!',
 'mapLoading' => 'Map loading...',
 'oldVer2' => 'You still have the old version! Use {key} to reload your client',
+'notTSD' => 'NOT TSD',
+'notTSDInfo' => 'Only T-Spin Double is allowed',
 ```
 
 ## Game
@@ -54,6 +56,8 @@
 'FPSDAS' => 'FPS-based DAS',
 'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
 'webGL' => 'Use WebGL',
+'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
+'tsdsCounter' => 'TSDs done',
 'KPP' => 'KPP',
 'editRoom' => 'Edit',
 'savePreset' => 'Save the preset',
@@ -61,6 +65,7 @@
 'spectateRooms' => 'Spectate only rooms',
 'gmodeTeam' => 'Team',
 'applyCh' => 'Apply changes',
+'20TSD' => '20TSD',
 'audioCredits' => 'Audio Assets by',
 'fullScreen' => 'Full screen',
 'showHoldQueue' => 'Show H+Q',

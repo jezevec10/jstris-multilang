@@ -10,14 +10,14 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>98.39%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>96.83%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 98.39%;"></span>
+            <span class="pb-fill" style="width: 96.83%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>98.15%</td><td>
+    <tr><td><a href="#">game</a></td><td>96.36%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 98.15%;"></span>
+            <span class="pb-fill" style="width: 96.36%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">web</a></td><td>97.16%</td><td>
@@ -36,6 +36,8 @@
 ```
 'oldVer2' => 'You still have the old version! Use {key} to reload your client',
 'daysAgo' => 'days ago',
+'notTSD' => 'NOT TSD',
+'notTSDInfo' => 'Only T-Spin Double is allowed',
 ```
 
 ## Game
@@ -43,8 +45,11 @@
 **Missing in fr/game.php:**
 
 ```
+'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'trem' => 'time remaining',
+'tsdsCounter' => 'TSDs done',
 'mapDownstack' => 'Map downstack',
+'20TSD' => '20TSD',
 'clearDelay' => 'Clear delay',
 ```
 
