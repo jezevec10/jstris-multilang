@@ -61,6 +61,7 @@ return [
     'FPSDAS' => 'FPS-based DAS',
     'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
     'webGL' => 'Use WebGL',
+    'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
     'saveClose'=> 'Save Settings & Close',
     'resetAll'=> 'Reset all',
     'close'=> 'Close',
@@ -76,6 +77,7 @@ return [
     'showLess'=> 'Show less',
     'lrem'=> 'lines remaining',
     'trem'=> 'time remaining',
+    'tsdsCounter'=> 'TSDs done',
     'toRestart'=> 'to restart',     //used in: press F4 to restart
     'lobby'=> 'Lobby',
     'settings'=> 'Settings',
@@ -126,6 +128,7 @@ return [
     'survival' => 'Survival',
     'mapDownstack' => 'Map downstack',
     'ultra' => 'Ultra',
+    '20TSD' => '20TSD',
     'all' => 'All',
     'preset' => 'Preset',
     'save' => 'Save',

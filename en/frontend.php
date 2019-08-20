@@ -123,6 +123,9 @@ return [
     'raceFin' => 'THE RACE HAS FINISHED',
     'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
 
+    'notTSD' => 'NOT TSD',
+    'notTSDInfo' => 'Only T-Spin Double is allowed',
+
     'oops' => 'Oops!',
     'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
     'leMore' => 'Learn more',
