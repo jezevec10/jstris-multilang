@@ -124,7 +124,7 @@ return [
     'raceFinInfo' => 'Puedes completar la carrera, pero la proxima ronda puede empezar en cualquier momento.',
 
     'notTSD' => 'NO TSD',
-    'notTSDInfo' => 'Solamente es permitido el T-Spin Double',
+    'notTSDInfo' => 'Solamente es permitido<br>el T-Spin Double',
 	
     'oops' => 'Uf!',
     'chatNA' => 'El chat publico no esta habilitado para invitados o usuarios con menos de {chReq} horas de juego.',
