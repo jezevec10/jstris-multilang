@@ -134,7 +134,7 @@ return [
     'idleDC' => 'Desconectado por inactividad! La zona de espectadores esta llena.',
     'RLreach' => 'Limite de velocidad alcanzado.',
     'ban1' => 'El acceso a los juegos ha sido restringido permanentemente. Todavía puedes jugar los modos de un solo jugador.',
-    'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
+    'ban2' => 'Esta cuenta fue BANEADA. Logueate en el sitio para más información.',
     'ncGS' => 'No estás conectado al servidor de juego, re-intentando {refr}.',
     'refr' => 'refrescando la página',
 
@@ -146,6 +146,6 @@ return [
     'joinPossible' => 'Puedes ingresar',
     'notEligible' => 'No personalizable',
     'gTimeShort' => 'T.juego',
-    'on' => 'Habilitado',
-    'off' => 'Deshabilitado',
+    'on' => 'Sí',
+    'off' => 'No',
 ];
