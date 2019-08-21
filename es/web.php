@@ -3,7 +3,7 @@
 return [
     'leaderboard' => 'Tabla de Posiciones',
     'tournament' => 'Torneo',
-	'maps' => 'Mapas',
+    'maps' => 'Mapas',
     'mapsBrowse' => 'Explorar',
     'myMaps' => 'Mis mapas',
     'mapsDesigner' => 'diseñador de Mapas',
@@ -33,7 +33,7 @@ return [
     'lastMonth' => 'Mes pasado',
     'lastYear' => 'Año pasado',
     'allTime' => 'Histórico',
-    'bestPlayers' => 'Figuras',
+    'bestPlayers' => 'Mejores jugadores',
     'bestGames' => 'Mejores partidas',
     'bestSubs' => 'Mejores tiempos',
     'latestGames' => 'Últimos juegos',
@@ -46,13 +46,13 @@ return [
     'play' => 'Jugar',
     'pause' => 'Pausar',
     'showSeg' => 'Mostrar segmentos',
-    'fastestSeg' => 'Segmentos más rápidos',
-    'slowestSeg' => 'Segmentos más lentos',
+    'fastestSeg' => 'Segmentos rápidos',
+    'slowestSeg' => 'Segmentos lentos',
     'speedChart' => 'Gráfico de velocidad',
     'moreStats' => 'Más estadísticas',
     'lines' => 'Líneas',
-    'scoringPlaylist' => 'Reproducción de puntuación',
-    'filterSP' => 'Filtrar reproducción de puntuación',
+    'scoringPlaylist' => 'Lista de puntuación',
+    'filterSP' => 'Filtrar lista de puntuación',
     'applyFilter' => 'Aplicar filtro',
     'timestamp' => 'Marca de tiempo',
     'action' => 'Acción', // e.g. combo, tspin, perfect clear
@@ -61,7 +61,7 @@ return [
     'lAVG' => 'Promedio local',
     'gAVG' => 'Promedio global',
     'repHelp' => 'Ayuda', //link that shows information how to use the tool
-	'repExport' => 'GIF ó video',
+    'repExport' => 'GIF ó video',
     
     /* PW change */
     'pwChange' => 'Cambiar contraseña',
@@ -77,7 +77,7 @@ return [
     'timezone' => 'Zona horaria',
     'timezoneDesc' => 'Usado para convertir el tiempo en tu hora local.',
     'country' => 'País',
-	'continent' => 'Continente',
+    'continent' => 'Continente',
     'countryDesc' => 'Usado para mostrar tablas de posiciones por país.',
     
     /* Profile */
@@ -93,15 +93,15 @@ return [
     'linesSent' => 'Líneas enviadas',
     'linesRec' => 'Líneas recibidas',
     'placedBlocks' => 'Piezas jugadas',
-	'blockCnt' => ':cnt piezas',
+    'blockCnt' => ':cnt piezas',
     'APM10Games' => '10-juegos APM',
     'PPS10Games' => '10-juegos PPS',
-	'maxAPM' => 'APM máximo',
+    'maxAPM' => 'APM máximo',
     'maxREN' => 'Combo máximo',
-	'longestGame' => 'Partida mas larga',
-	'totalB2B' => 'B2Bs totales',
-	'mostSent' => 'Enviadas máxima',
-	'hours' => 'horas',
+    'longestGame' => 'Partida mas larga',
+    'totalB2B' => 'B2Bs totales',
+    'mostSent' => 'Enviadas máxima',
+    'hours' => 'horas',
     'minutes' => 'minutos',
     'createdMaps' => 'Mapas creados',
     'viewMapsBy' => 'Ver todos los mapas creados por',
@@ -110,12 +110,12 @@ return [
     'gameResultRoundTime' => 'Tiempo de juego',
     'viewAllGamesOf' => 'Ver todos los juegos en :mode',
     'noGamesOf' => ':name aún no ha jugado todavía en :mode',
-	
-	/* Maps */
+    
+    /* Maps */
     'map' => 'Mapa',
     'mapCreate' => 'Crear nuevo',
     'mapName' => 'Nombre',
-    'mapNameLong' => 'nombre del Mapa',
+    'mapNameLong' => 'Nombre del Mapa',
     'mapDesc' => 'Descripción',
     'mapRules' => 'Regla',
     'mapOptions' => 'Opciones',
@@ -150,17 +150,17 @@ return [
     /* About */
     'aboutInfo' => 'Jstris es un sencillo juego de bloques multijugador online, hecho en Javascript. HTML5 y Python (server).',
     'version' => 'Versión',
-	'changelog' => 'Changelog',
+    'changelog' => 'Control de cambios',
     'discussion' => 'Discusión',
     'learnMore' => 'Conoce más',
     'contact' => 'Contacto',
     'serverCoverage' => 'Cobertura del costo para el servidor',
     'supporters' => 'Patrocinadores del proyecto',
-	'translators' => 'Traductores',
+    'translators' => 'Traductores',
     'moderators' => 'Moderadores',
     
     /* Other */
-    'notFound' => 'No encontrado.',
+    'notFound' => 'No se encontró.',
     'invalidLink' => 'El enlace es inválido.',
     'brb' => 'Ya volvemos.',
     'tryAgain' => 'El sitio está siendo actualizado, por favor regresa en un momento.',
