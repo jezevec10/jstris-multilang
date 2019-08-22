@@ -137,7 +137,7 @@ return [
     'showHoldQueue' => '显示Hold和序列',
     'showStats' => '显示数据',
     'roomLimits' => '入房限制',
-    'setLimitsInfo' => '您可以设置加入您房间的玩家的要求. 无限制地保留字段为空.',
+    'setLimitsInfo' => '您可以设置加入您房间的玩家的要求. 无限制则保留字段为空.',
     'addLimit' => '添加入房限制',
     's40L' => '40L竞速',
     'accGametime' => '游戏时间',
