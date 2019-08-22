@@ -167,8 +167,8 @@ return [
     'garbageDelay' => '垃圾行延迟',
     'garbageMess' => '垃圾行混乱度',
     'solidAtk' => '实心行攻击',
-    'noFW' => '禁止四宽(4w)堆积',
-    'hostStart' => '仅限房主开始游戏',
+    'noFW' => '禁止四宽(4w)',
+    'hostStart' => '仅限房主开始',
 	
     'translationBy' => 'teatube',
 ];
