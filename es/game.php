@@ -125,7 +125,7 @@ return [
     'hdThread' => 'Hilo en HardDrop',
     'chatSend' => 'Enviar',
     'rememberName' => 'Recordar Apodo',
-    'survival' => 'Supervicencia',
+    'survival' => 'Supervivencia',
     'mapDownstack' => 'Mapas de downstack',
     'ultra' => 'Ultra',
     '20TSD' => '20TSD',
