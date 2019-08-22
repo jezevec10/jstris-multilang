@@ -21,7 +21,7 @@ return [
     'slowDown' => '【降速！】', //When a speed limit is exceeded
     'speedLimitIs' => '限速设置为', //In a sentence: The speed limit is 2 PPS
     'connecting' => '连接中...', //when connecting to the game server
-    'signingIn' => '登录中'
+    'signingIn' => '登录中',
     'loginFail' => '登录失败!',
     'mapLoading' => '地图读取中...',
 

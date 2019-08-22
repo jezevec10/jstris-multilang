@@ -126,6 +126,9 @@ return [
     'notTSD' => 'NOT TSD',
     'notTSDInfo' => 'Only T-Spin Double is allowed',
 
+    'fwDetect' => 'FOUR WIDE',
+    'fwDetectInfo' => 'Attacking yourself!',
+
     'oops' => 'Oops!',
     'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
     'leMore' => 'Learn more',
