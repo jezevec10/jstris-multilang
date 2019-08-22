@@ -56,7 +56,7 @@ return [
     'applyFilter' => '应用过滤',
     'timestamp' => '时间',
     'action' => '动作', // e.g. combo, tspin, perfect clear
-    'scoreEq' => '分值',
+    'scoreEq' => '得分',
     'position' => '位置', //position in a replay
     'lAVG' => '邻域平均值',
     'gAVG' => '全局平均值',
@@ -77,7 +77,7 @@ return [
     'timezone' => '时区',
     'timezoneDesc' => '用于将时间转换为你所在当地时间.',
     'country' => '国家',
-    'continent' => '大洲',
+    'continent' => '洲属',
     'countryDesc' => '设置后可应用于国家内排行榜.',
     /* Profile */
     'ownProfile' => '您的公共个人资料可访问在',
@@ -95,7 +95,7 @@ return [
     'blockCnt' => ':cnt 块',
     'APM10Games' => '近10场APM',
     'PPS10Games' => '近10场PPS',
-	'maxAPM' => '最大APM（攻击/分）',
+    'maxAPM' => '最大APM（攻击/分）',
     'maxREN' => '最大连击(Combo)',
     'longestGame' => '最长游戏',
     'totalB2B' => 'B2B总计',
@@ -112,17 +112,17 @@ return [
     
     /* Maps */
     'map' => '地图',
-    'mapCreate' => '创建新',
-    'mapName' => '名称',
+    'mapCreate' => '创建新地图',
+    'mapName' => '地图名',
     'mapNameLong' => '地图名称',
-    'mapDesc' => '描述',
+    'mapDesc' => '说明',
     'mapRules' => '规则',
     'mapOptions' => '选项',
-    'mapPlay' => '游玩',
+    'mapPlay' => '预览&游玩',
     'mapPlayLink' => '游玩地图',
     'mapAuthor' => '作者',
     'mapCreatedBy' => '作者',
-    'backToMaps' => '返回地图主页面',
+    'backToMaps' => '返回地图列表',
     'playThisMap' => '游玩此地图',
     'search' => '搜索',
     'myMaps' => '我的地图',
@@ -134,7 +134,7 @@ return [
     'showRecords' => '显示记录',
     'details' => '详细',
     'playedBy' => '玩家:',
-    'latestMapGames' => '最新地图模式游戏',
+    'latestMapGames' => '地图模式最新游戏',
     /* Stats */
     'improvementStats' => '进步数据',
     //keep ':name'
