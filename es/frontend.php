@@ -5,18 +5,18 @@ return [
     'ready' => '¿LISTO?',
     'go' => '¡AHORA!',
     'notFocused' => 'Desenfocado', //max 13 characters
-    'clickToFocus' => 'Click para enfocar', //max 30 characters
-    'specMode' => 'Modo espectador',
-    'specModeInfo' => 'Estás en modo espectador.',
-    'endSpec' => 'Escribe /play para unirte', //keep '/play'
-    'typeHelp' => 'Escribe /help para ver lista de comandos.', //keep '/help'
+    'clickToFocus' => 'Click aquí para enfocar', //max 30 characters
+    'specMode' => 'Modo Espectador',
+    'specModeInfo' => 'Estás en Modo Espectador.',
+    'endSpec' => 'Escribe /play para unirte al juego', //keep '/play'
+    'typeHelp' => 'Escribe /help para ver la lista de comandos.', //keep '/help'
     'st' => 'st', //max 2, in 1st, can stay untranslated
     'nd' => 'nd', //max 2, in 2nd, can stay untranslated
     'rd' => 'rd', //max 2, in 3rd, can stay untranslated
     'th' => 'th', //max 2, in 4th, can stay untranslated
     'notPlaying' => 'Sin jugar', //max 12
-    'waitNext' => 'Espera a que termine la partida',
-    'waitNext2' => 'Por favor espera la siguiente partida',
+    'waitNext' => 'Espera a que termine la ronda',
+    'waitNext2' => 'Por favor espera la siguiente ronda',
     'pressStart' => 'Presiona \'Nuevo\' para comenzar', //'New game' should be same as in game.newGame
     'slowDown' => 'DESACELERE', //When a speed limit is exceeded
     'speedLimitIs' => 'El límite de velocidad es', //In a sentence: The speed limit is 2 PPS
@@ -27,22 +27,22 @@ return [
 
     //Chat
     'warning' => 'Advertencia',
-    'inactive1' => 'El modo espectador será activado. Escribe en el chat para cancelarlo.',
-    'inactive2' => 'Inactividad detectada, la siguiente partida inactiva iniciará el modo espectador.',
+    'inactive1' => 'El Modo Espectador será activado. Escribe en el chat para cancelarlo.',
+    'inactive2' => 'Inactividad detectada, la siguiente ronda iniciará el Modo Espectador.',
     'nickFill' => 'Escribe tu apodo para chatear!',
     'setButton' => 'Set', //max 4
     'sendButton' => 'Send', //max 4
-    'rNameReq' => 'Debe escribirse el nombre de la Sala!',
+    'rNameReq' => 'Debes escribir el nombre de la Sala!',
     'newsUser' => 'Nuevo', //special username in chat
     'serverUser' => 'Servidor', //special username in chat
     'noNamed' => 'NoNamed', //user wihtout name (guest), max 7, can stay untranslated
     'watching' => 'Espectando', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'ingresó a la Sala', //in 'User1 joined the room.'
     'joined' => 'ingresó', //in title: 'User1 joined!'
-    'userCame' => 'vino a mirar',  //in 'User1 came to watch.'
+    'userCame' => 'vino a espectar',  //in 'User1 came to watch.'
     'isSpectating' => 'ahora está espectando', //in 'User1 is now spectating.'
     'spectator' => 'Espectador',
-    'hasLeft' => 'se marchó', //in 'Spectator User1 has left.'
+    'hasLeft' => 'se fue', //in 'Spectator User1 has left.'
     'signedAs' => 'Ingresaste como',
     'welcome' => 'Bienvenido,', //in 'Welcome User1!'
     'welcomeIn' => 'Bienvenido a', //in 'Welcome in RoomName.'
@@ -50,13 +50,13 @@ return [
     'replayAvailable' => 'Repetición disponible en',
     'oldVer' => 'Tienes una versión antigua, presiona CTRL+F5 para recargar la nueva versión!',
     'oldVer2' => 'Sigues teniendo una versión antigua! Presiona {key} para recargar el cliente',
-    'privateRoom' => 'Esta es tu sala privada en donde no te molestarán mientras juegas. Mira el Lobby para ver las Salas públicas.',
+    'privateRoom' => 'Esta es tu Sala Privada en donde no te molestarán mientras juegas. Mira el Lobby para ver las Salas Públicas.',
     'restartInfo' =>  'Reinicia con F4 o configura otra tecla.',
-    'joinLinkInfo' => 'Esta sala es privada. Sólo se puede ingresar con este link:',
+    'joinLinkInfo' => 'Esta sala es Privada. Sólo se puede ingresar con este link:',
     
     //Dynamic elements
     'received' => 'Recibidas', //max 15
-    'finesse' => 'Finesse',   //max 15
+    'finesse' => 'Finesse', //max 15
 
     //List of rooms
     'roomName' => 'Nombre de Sala',
@@ -78,7 +78,7 @@ return [
     'leaderboard' => 'tablas de posiciones',
 
     //Less common strings, can stay untranslated
-    'warning2' => 'ADVERTENCIA',
+    'warning2' => 'CUIDADO',
     'connected' => 'Conectado',
     'client' => 'cliente',
     'notConnected' => 'DESCONECTADO',
@@ -109,23 +109,23 @@ return [
     'badRoom' => 'Esta sala no existe más, ingresando a la sala Default!',
     'stngsChanged' => 'Configuraciones cambiadas por el anfitrión',
     'stngsCustom' => 'Configuraciones personalizadas',
-    'aSpec' => 'Ya estás en modo espectador!',
-    'aPlay' => 'Ya estás jugando!',
+    'aSpec' => 'Ya estás en Modo Espectador!',
+    'aPlay' => 'Ya estás Jugando!',
     'repFail' => 'La repetición no se pudo cambiar.',
     'repInChat' => 'Se dumpeo la repetición en el chat. Para conservarlo copia el texto del cuadro y pegalo en tu editor de texto favorito.',
     'repTxtInfo' => 'La copia del archivo de repetición puede ser reproducida en el reproductor interno o posiblemente resubida al sitio.',
-	
-    'newPB' => 'TU NUEVA MARCA PERSONAL',
+    
+    'newPB' => 'NUEVA MARCA PERSONAL',
     'firstPB' => 'Este fue tu primer juego. Haz otra marca personal para hacer un seguimiento de las estadisticas de mejora.',
     'infoPB' => 'Tu anterior record era {prevPB} logrado {prevAgo}. La mejora es {PBdiff}.',
-    'daysAgo' => 'días atras',
-
-    'raceFin' => 'LA CARRERA TERMINO',
+    'daysAgo' => 'días atras',    
+    
+    'raceFin' => 'LA CARRERA TERMINÓ',
     'raceFinInfo' => 'Puedes completar la carrera, pero la proxima ronda puede empezar en cualquier momento.',
 
     'notTSD' => 'NO TSD',
     'notTSDInfo' => 'Solamente es permitido<br>el T-Spin Double',
-	
+    
     'oops' => 'Uf!',
     'chatNA' => 'El chat publico no esta habilitado para invitados o usuarios con menos de {chReq} horas de juego.',
     'leMore' => 'Aprende más',
@@ -140,11 +140,11 @@ return [
 
     //Room info detail
     'noPlayers' => 'Sin jugadores',
-    'cntMore' => '{cnt} más',          //e.g. +10 more
-    'cntGuests' => '{cnt} invitados',      //e.g. +10 guests
-    'cntSpec' => '{cnt} espectadores',    //e.g. +10 spectating
+    'cntMore' => '{cnt} más', //e.g. +10 more
+    'cntGuests' => '{cnt} invitados', //e.g. +10 guests
+    'cntSpec' => '{cnt} espectadores', //e.g. +10 spectating
     'joinPossible' => 'Puedes ingresar',
-    'notEligible' => 'No personalizable',
+    'notEligible' => 'No es personalizable',
     'gTimeShort' => 'T.juego',
     'on' => 'Sí',
     'off' => 'No',
