@@ -18,7 +18,7 @@ return [
     'waitNext' => '等待当前局结束',
     'waitNext2' => '请等待下一局开始',
     'pressStart' => '按 \'New game\' 开始', //'New game' should be same as in game.newGame
-    'slowDown' => '【降速！】', //When a speed limit is exceeded
+    'slowDown' => '降速！', //When a speed limit is exceeded
     'speedLimitIs' => '限速设置为', //In a sentence: The speed limit is 2 PPS
     'connecting' => '连接中...', //when connecting to the game server
     'signingIn' => '登录中',
@@ -27,7 +27,7 @@ return [
 
     //Chat
     'warning' => '警告',
-    'inactive1' => '旁观模式已开启. 在聊天框输入以取消.',
+    'inactive1' => '旁观模式已开启. 在聊天框输入/play取消旁观.',
     'inactive2' => '检测到当前局无操作，下一局仍然无操作将会开启旁观模式.',
     'nickFill' => '输入你的用户名方可聊天！',
     'setButton' => '设置', //max 4
@@ -49,7 +49,7 @@ return [
     'noSpectators' => '当前没有人旁观.',
     'replayAvailable' => '在此观看录像',
     'oldVer' => '您正在使用旧版，请使用Ctrl＋F5(强刷新)读取新版！',
-    'oldVer2' => '你仍然在使用旧版！请按 {key} 键重新读取客户端',
+    'oldVer2' => '你仍然在使用旧版！请按 {key} 键重新读取客户端.',
     'privateRoom' => '这里是可以不受打扰的私密房间. 公共房间请查看大厅.',
     'restartInfo' =>  '按 F4 或 自定义的键位重新开始.',
     'joinLinkInfo' => '这是私密房间. 其他人进入此房只能通过以下链接:',
@@ -122,18 +122,18 @@ return [
     'raceFin' => '比赛已结束',
     'raceFinInfo' => '你可以继续完成此次比赛，但下一轮可以随时开始.',
 
-    'notTSD' => '【非TSD消除】',
+    'notTSD' => '非TSD消除',
     'notTSDInfo' => '仅允许T-spin Double/T2消除',
 
-    'fwDetect' => '【四宽堆积】',
+    'fwDetect' => '四宽堆积',
     'fwDetectInfo' => '检测到4w堆积，自攻自受！',
     
     'oops' => '呀!',
     'chatNA' => '公共聊天在低于{chReq}小时游戏时间时不可用.(游客/注册账户均受此限制)',
     'leMore' => '了解更多',
 
-    'connLimit' => '当前已达到此IP可开放连接的最大数量.如果您需要增加限制,请使用Discord与我们联系',
-    'idleDC' => '由于非活动状态而断开连接！观战位已满',
+    'connLimit' => '当前已达到此IP可开放连接的最大数量. 如果您需要提升限制数量，请使用Discord与我们联系',
+    'idleDC' => '由于非活动状态而断开连接！旁观位已满',
     'RLreach' => '已达到速度限制.',
     'ban1' => '【线上Ban】您对在线游戏的访问已被永久限制. 你仍然可以玩单人模式.',
     'ban2' => '【账户Ban】此用户帐户被禁止使用. 重新登录网站以获取详细信息.',
@@ -144,7 +144,7 @@ return [
     'noPlayers' => '无玩家',
     'cntMore' => '{cnt} 玩家',          //e.g. +10 more
     'cntGuests' => '{cnt} 游客',      //e.g. +10 guests
-    'cntSpec' => '{cnt} 观战',    //e.g. +10 spectating
+    'cntSpec' => '{cnt} 旁观',    //e.g. +10 spectating
     'joinPossible' => '可加入此房间',
     'notEligible' => '不满足加入条件',
     'gTimeShort' => '游戏时间',
