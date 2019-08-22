@@ -118,7 +118,7 @@ return [
     'mapDesc' => '说明',
     'mapRules' => '规则',
     'mapOptions' => '选项',
-    'mapPlay' => '游玩',
+    'mapPlay' => '预览&游玩',
     'mapPlayLink' => '游玩地图',
     'mapAuthor' => '作者',
     'mapCreatedBy' => '作者',
