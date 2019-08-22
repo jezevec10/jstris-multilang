@@ -6,8 +6,8 @@ return [
     'go' => 'GO!',
     'notFocused' => '失去焦点', //max 13 characters
     'clickToFocus' => '点击这里恢复游戏', //max 30 characters
-    'specMode' => '旁观模式',
-    'specModeInfo' => '当前处于旁观模式.',
+    'specMode' => '观战模式',
+    'specModeInfo' => '当前处于观战模式.',
     'endSpec' => '输入 /play 加入游戏', //keep '/play'
     'typeHelp' => '输入 /help 查看可用指令.', //keep '/help'
     'st' => 'st', //max 2, in 1st, can stay untranslated
@@ -27,8 +27,8 @@ return [
 
     //Chat
     'warning' => '警告',
-    'inactive1' => '旁观模式已开启. 在聊天框输入/play取消旁观.',
-    'inactive2' => '检测到当前局无操作，下一局仍然无操作将会开启旁观模式.',
+    'inactive1' => '观战模式已开启. 在聊天框输入/play取消观战.',
+    'inactive2' => '检测到当前局无操作，下一局仍然无操作将会开启观战模式.',
     'nickFill' => '输入你的用户名方可聊天！',
     'setButton' => '设置', //max 4
     'sendButton' => '发送', //max 4
@@ -36,17 +36,17 @@ return [
     'newsUser' => '公告', //special username in chat
     'serverUser' => '服务器', //special username in chat
     'noNamed' => '游客', //user wihtout name (guest), max 7, can stay untranslated
-    'watching' => '旁观者', //in 'Watching: user1,user2..', altern.=Spectators
+    'watching' => '观战者', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'加入了房间.', //in 'User1 joined the room.'
     'joined' => '加入了！', //in title: 'User1 joined!'
-    'userCame' => '加入旁观',  //in 'User1 came to watch.'
-    'isSpectating' => '正在旁观', //in 'User1 is now spectating.'
-    'spectator' => '旁观者模式',
+    'userCame' => '加入观战',  //in 'User1 came to watch.'
+    'isSpectating' => '正在观战', //in 'User1 is now spectating.'
+    'spectator' => '观战者模式',
     'hasLeft' => '已离开.', //in 'Spectator User1 has left.'
     'signedAs' => '您登录的账号为',
     'welcome' => '欢迎，', //in 'Welcome User1!'
     'welcomeIn' => '欢迎来到', //in 'Welcome in RoomName.'
-    'noSpectators' => '当前没有人旁观.',
+    'noSpectators' => '当前没有人观战.',
     'replayAvailable' => '在此观看录像',
     'oldVer' => '您正在使用旧版，请使用Ctrl＋F5(强刷新)读取新版！',
     'oldVer2' => '你仍然在使用旧版！请按 {key} 键重新读取客户端.',
@@ -108,7 +108,7 @@ return [
     'badRoom' => '房间不存在,正在加入默认房间!',
     'stngsChanged' => '房主更改了设置',
     'stngsCustom' => '自定义设置',
-    'aSpec' => '已经处于旁观模式!',
+    'aSpec' => '已经处于观战模式!',
     'aPlay' => '已经加入游戏!',
     'repFail' => '录像在线保存失败.',
     'repInChat' => '回放文件已经输出到聊天框. 如需保存，将下方文本框内容复制，并粘贴到文本编辑器保存.',
@@ -133,7 +133,7 @@ return [
     'leMore' => '了解更多',
 
     'connLimit' => '当前已达到此IP可开放连接的最大数量. 如果您需要提升限制数量，请使用Discord与我们联系',
-    'idleDC' => '由于非活动状态而断开连接！旁观位已满',
+    'idleDC' => '由于非活动状态而断开连接！观战位已满',
     'RLreach' => '已达到速度限制.',
     'ban1' => '【线上Ban】您对在线游戏的访问已被永久限制. 你仍然可以玩单人模式.',
     'ban2' => '【账户Ban】此用户帐户被禁止使用. 重新登录网站以获取详细信息.',
@@ -144,7 +144,7 @@ return [
     'noPlayers' => '无玩家',
     'cntMore' => '{cnt} 玩家',          //e.g. +10 more
     'cntGuests' => '{cnt} 游客',      //e.g. +10 guests
-    'cntSpec' => '{cnt} 旁观',    //e.g. +10 spectating
+    'cntSpec' => '{cnt} 观战',    //e.g. +10 spectating
     'joinPossible' => '可加入此房间',
     'notEligible' => '不满足加入条件',
     'gTimeShort' => '游戏时间',
