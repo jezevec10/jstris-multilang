@@ -125,7 +125,10 @@ return [
 
     'notTSD' => 'NO TSD',
     'notTSDInfo' => 'Solamente es permitido<br>el T-Spin Double',
-    
+
+    'fwDetect' => '4-WIDE',
+    'fwDetectInfo' => 'Te estás atacando!',
+
     'oops' => 'Uf!',
     'chatNA' => 'El chat publico no esta habilitado para invitados o usuarios con menos de {chReq} horas de juego.',
     'leMore' => 'Aprende más',
