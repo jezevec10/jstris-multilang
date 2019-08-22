@@ -122,9 +122,12 @@ return [
     'raceFin' => '比赛已结束',
     'raceFinInfo' => '你可以继续完成此次比赛，但下一轮可以随时开始.',
 
-    'notTSD' => '非TSD消除',
+    'notTSD' => '【非TSD消除】',
     'notTSDInfo' => '仅允许T-spin Double/T2消除',
 
+    'fwDetect' => '【四宽堆积】',
+    'fwDetectInfo' => '检测到4w堆积，自攻自受！',
+    
     'oops' => '呀!',
     'chatNA' => '公共聊天在低于{chReq}小时游戏时间时不可用.(游客/注册账户均受此限制)',
     'leMore' => '了解更多',
