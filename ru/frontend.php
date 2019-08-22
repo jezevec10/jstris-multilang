@@ -46,7 +46,7 @@ return [
     'noSpectators' => 'Никто сейчас не наблюдает.',
     'replayAvailable' => 'Повтор сохранён в:',
     'oldVer' => 'У Вас устаревшая версия, нажмите CTRL+F5, чтобы загрузить новую версию!',
-    'privateRoom' => 'Это - Ваша приватная комната, никто тут вам не помешает. Просмотрите Лобби для открытых комнат.',
+    'privateRoom' => 'Это - Ваша приватная комната, никто тут Вам не помешает. Просмотрите Лобби для открытых комнат.',
     'restartInfo' =>  'Нажмите на F4 (или на выбранную вами клавишу), чтобы перезапустить.',
     'joinLinkInfo' => 'Эта комната - приватная. В неё можно войти только через эту ссылку:',
 
@@ -100,7 +100,8 @@ return [
     'segment' => 'Сегмент',
     'duration' => 'Продолжительность',
 	
-	//New strings from July 29th -mLurker
+	//New strings:
+	//from July 29th, 2019. -mLurker
 	'signingIn' => 'Регистрация',
 	'loginFail' => 'Не удалось войти!',
 	'mapLoading' => 'Загрузка карты...',
@@ -141,4 +142,12 @@ return [
 	'gTimeShort' => 'Игр. время',
 	'on' => 'Вкл.',
 	'off' => 'Выкл.',
+	//from August 21st, 2019. -mLurker
+	'notTSD' => 'НЕ ТП2', //Replace with "НЕ TSD" to avoid localizing.
+	//Custom abbreviation meaning "T-Spin-2". No official translated term for "TSD" found.
+	//Under the same logic, "ТП0", "ТП1" and "ТП3" mean TSZ, TSS and TST respectively. All mentions of T-Spins have been localized. -mLurker
+	'notTSDInfo' => 'Разрешены только Т-Повороты-2.', //Use "Разрешены только T-Spin Double." to avoid localizing.
+	'fwDetect' => '4-РЯД', //Replace with "4-WIDE" to avoid localizing.
+	//Custom term meaning "4-row". All mentions of 4-wide have been localized, check game.php. -mLurker
+	'fwDetectInfo' => 'Атака направлена на себя!',
 ];

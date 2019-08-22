@@ -117,7 +117,8 @@ return [
     'save' => 'Сохранить',
     'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details. -mLurker
 	
-	//New strings from July 29th -mLurker
+	//New strings:
+	//from July 29th, 2019. -mLurker
 	'rescaleNow' => 'Обновлять поле других игроков сразу',
 	'rescaleNowInfo' => 'Если не отметить, то поля новых игроков появятся на след. раунде.',
 	'DAScancel' => 'Освежать ЗАП', //As in, "Refresh DAS". -mLurker
@@ -165,6 +166,10 @@ return [
 	'garbageDelay' => 'Задерж. мусора', //*
 	'garbageMess' => 'Замеш. мусора', //*
 	'solidAtk' => 'Атака полн.', //* As in, "Attack with full".
-	'noFW' => 'Бан на 4-wide', //* As in, "Ban 4-wide".
+	'noFW' => 'Бан на 4-ряд', //* As in, "Ban 4-wide". Revert back to "Бан на 4-wide" to avoid localizing.
 	'hostStart' => 'Старт от хоз.', //As in, "Start from host".
+	//from August 21st, 2019. -mLurker
+	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году',
+	'tsdsCounter' => 'ТП2 выполнено', //Replace with "TSD выполнено" to avoid localizing. See frontend.php for explanation. -mLurker
+	'20TSD' => '20ТП2', //Revert back to "20TSD" to avoid localizing.
 ];
