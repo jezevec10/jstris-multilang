@@ -159,7 +159,7 @@ return [
     'randomizer' => '序列生成',
     'previews' => '预览数',
     'solidGarbage' => '实心行',
-    'solidAfterSecs' => '开始于',
+    'solidAfterSecs' => '开始上涨于',
     'lockDelay' => '锁定延迟',
     'clearDelay' => '消行延迟',
     'speedLimit' => '速度限制',
