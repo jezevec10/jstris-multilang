@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'leaderboard' => 'Tabla de Posiciones',
+    'leaderboard' => 'Ranking',
     'tournament' => 'Torneo',
     'maps' => 'Mapas',
     'mapsBrowse' => 'Explorar',
@@ -24,7 +24,7 @@ return [
     'blocks' => 'Piezas',
     'PPS' => 'PPS',
     'finesse' => 'Finesse',
-    'date' => 'Fecha',
+    'date' => 'Fecha y Hora',
     'replay' => 'Repetición',
     'place' => 'Lugar',
     'nli' => '¡Desconectado!',

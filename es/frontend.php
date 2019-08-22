@@ -59,7 +59,7 @@ return [
     'finesse' => 'Finesse', //max 15
 
     //List of rooms
-    'roomName' => 'Nombre de Sala',
+    'roomName' => 'Nombre',
     'games' => 'Partidas', //number of games played in a room
     'players' => 'Jugadores', //number of players
 
