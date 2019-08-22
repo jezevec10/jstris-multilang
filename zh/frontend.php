@@ -28,7 +28,7 @@ return [
     //Chat
     'warning' => '警告',
     'inactive1' => '旁观模式已开启. 在聊天框输入以取消.',
-    'inactive2' => '检测到当前局无操作,下一局仍然无操作将会开启旁观模式.',
+    'inactive2' => '检测到当前局无操作，下一局仍然无操作将会开启旁观模式.',
     'nickFill' => '输入你的用户名方可聊天！',
     'setButton' => '设置', //max 4
     'sendButton' => '发送', //max 4
