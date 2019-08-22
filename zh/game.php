@@ -110,7 +110,7 @@ return [
     'gmode'=> '模式',
     'gmodeStandard'=> '基本模式',
     'gmodeCheese'=> '挖掘',
-    'gmodeTeam'=> '队伍',
+    'gmodeTeam'=> '组队',
     'isPrivate'=> '私密',
     'simple'=> '简洁',
     'advanced'=> '高级',
