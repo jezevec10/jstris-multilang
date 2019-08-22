@@ -36,12 +36,12 @@ return [
     'newsUser' => '公告', //special username in chat
     'serverUser' => '服务器', //special username in chat
     'noNamed' => '游客', //user wihtout name (guest), max 7, can stay untranslated
-    'watching' => '观战者', //in 'Watching: user1,user2..', altern.=Spectators
+    'watching' => '旁观者', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'加入了房间.', //in 'User1 joined the room.'
     'joined' => '加入了！', //in title: 'User1 joined!'
     'userCame' => '加入观战',  //in 'User1 came to watch.'
     'isSpectating' => '正在观战', //in 'User1 is now spectating.'
-    'spectator' => '观战者模式',
+    'spectator' => '旁观者模式',
     'hasLeft' => '已离开.', //in 'Spectator User1 has left.'
     'signedAs' => '您登录的账号为',
     'welcome' => '欢迎，', //in 'Welcome User1!'
