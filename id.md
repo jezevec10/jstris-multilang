@@ -10,9 +10,9 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>66.67%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>65.63%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 66.67%;"></span>
+            <span class="pb-fill" style="width: 65.63%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">game</a></td><td>68.48%</td><td>
@@ -57,6 +57,8 @@
 'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
+'fwDetect' => 'FOUR WIDE',
+'fwDetectInfo' => 'Attacking yourself!',
 'oops' => 'Oops!',
 'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
 'leMore' => 'Learn more',

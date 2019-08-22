@@ -10,9 +10,9 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>94.44%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>92.97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 94.44%;"></span>
+            <span class="pb-fill" style="width: 92.97%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">game</a></td><td>78.18%</td><td>
@@ -41,6 +41,8 @@
 'oldVer2' => 'You still have the old version! Use {key} to reload your client',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
+'fwDetect' => 'FOUR WIDE',
+'fwDetectInfo' => 'Attacking yourself!',
 ```
 
 ## Game

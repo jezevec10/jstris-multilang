@@ -10,9 +10,9 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>96.83%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>95.31%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 96.83%;"></span>
+            <span class="pb-fill" style="width: 95.31%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">game</a></td><td>96.36%</td><td>
@@ -38,6 +38,8 @@
 'daysAgo' => 'days ago',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
+'fwDetect' => 'FOUR WIDE',
+'fwDetectInfo' => 'Attacking yourself!',
 ```
 
 ## Game
