@@ -137,7 +137,7 @@ return [
     'showHoldQueue' => '显示Hold和序列',
     'showStats' => '显示数据',
     'roomLimits' => '入房限制',
-    'setLimitsInfo' => '您可以设置加入您房间的玩家的要求. 无限制地保留字段为空.',
+    'setLimitsInfo' => '您可以设置加入您房间的玩家的要求. 无限制则保留字段为空.',
     'addLimit' => '添加入房限制',
     's40L' => '40L竞速',
     'accGametime' => '游戏时间',
@@ -159,7 +159,7 @@ return [
     'randomizer' => '序列生成',
     'previews' => '预览数',
     'solidGarbage' => '实心行',
-    'solidAfterSecs' => '开始于',
+    'solidAfterSecs' => '开始上涨于',
     'lockDelay' => '锁定延迟',
     'clearDelay' => '消行延迟',
     'speedLimit' => '速度限制',
@@ -167,8 +167,8 @@ return [
     'garbageDelay' => '垃圾行延迟',
     'garbageMess' => '垃圾行混乱度',
     'solidAtk' => '实心行攻击',
-    'noFW' => '禁止四宽(4w)堆积',
-    'hostStart' => '仅限房主开始游戏',
+    'noFW' => '禁止四宽(4w)',
+    'hostStart' => '仅限房主开始',
 	
     'translationBy' => 'teatube',
 ];
