@@ -15,14 +15,14 @@
             <span class="pb-fill" style="width: 65.63%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>68.48%</td><td>
+    <tr><td><a href="#">game</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 68.48%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>73.76%</td><td>
+    <tr><td><a href="#">web</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 73.76%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -78,108 +78,5 @@
 'gTimeShort' => 'G.time',
 'on' => 'On',
 'off' => 'Off',
-```
-
-## Game
-
-**Missing in vi/game.php:**
-
-```
-'rescaleNow' => 'Resize multiplayer fields immediately',
-'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
-'DAScancel' => 'DAS cancellation',
-'DAScancelInfo' => 'If enabled, DAS cancels on direction change',
-'FPSDAS' => 'FPS-based DAS',
-'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
-'webGL' => 'Use WebGL',
-'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
-'tsdsCounter' => 'TSDs done',
-'KPP' => 'KPP',
-'editRoom' => 'Edit',
-'savePreset' => 'Save the preset',
-'overflowRooms' => 'Overflow rooms',
-'spectateRooms' => 'Spectate only rooms',
-'gmodeTeam' => 'Team',
-'applyCh' => 'Apply changes',
-'20TSD' => '20TSD',
-'audioCredits' => 'Audio Assets by',
-'fullScreen' => 'Full screen',
-'showHoldQueue' => 'Show H+Q',
-'showStats' => 'Show stats',
-'roomLimits' => 'Room join limits',
-'setLimitsInfo' => 'You can set requirements for players joining your room. Leave a field empty for no limit.',
-'addLimit' => 'Add join limit',
-'s40L' => 'Sprint 40L',
-'accGametime' => 'Gametime',
-'applyClose' => 'Apply & Close',
-'teamSel' => 'Team selection',
-'myTeam' => 'Playing for',
-'seconds' => 'seconds',
-'minutes' => 'minutes',
-'hours' => 'hours',
-'ms' => 'ms',
-'s' => 's',
-'hrs' => 'hrs',
-'attackTable' => 'Attack table',
-'comboTable' => 'Combo attack',
-'gBlocking' => 'Garbage blocking',
-'blocksType' => 'Blocks',
-'randomizer' => 'Randomizer',
-'previews' => 'Previews',
-'solidGarbage' => 'Solid garbage',
-'solidAfterSecs' => 'After',
-'lockDelay' => 'Lock delay',
-'clearDelay' => 'Clear delay',
-'speedLimit' => 'Speed limit',
-'gravityLvl' => 'Gravity lvl',
-'garbageDelay' => 'Garbage Delay',
-'garbageMess' => 'Messiness',
-'solidAtk' => 'Attack as solid',
-'noFW' => 'NoFourwide',
-'hostStart' => 'HostStart',
-```
-
-## Web
-
-**Missing in vi/web.php:**
-
-```
-'repExport' => 'GIF or video',
-'continent' => 'Continent',
-'blockCnt' => ':cnt blocks',
-'APM10Games' => '10-games APM',
-'PPS10Games' => '10-games PPS',
-'createdMaps' => 'Created maps',
-'viewMapsBy' => 'View all maps created by',
-'playersCount' => 'Players',
-'gameResultPosition' => 'Position',
-'gameResultRoundTime' => 'Gametime',
-'viewAllGamesOf' => 'View all games of :mode',
-'noGamesOf' => ':name hasn\'t played any games of :mode yet.',
-'map' => 'Map',
-'mapCreate' => 'Create new',
-'mapName' => 'Name',
-'mapNameLong' => 'Map name',
-'mapDesc' => 'Description',
-'mapRules' => 'Rules',
-'mapOptions' => 'Options',
-'mapPlay' => 'Play',
-'mapPlayLink' => 'Play Map',
-'mapAuthor' => 'Author',
-'mapCreatedBy' => 'Created by',
-'backToMaps' => 'Back to maps',
-'playThisMap' => 'Play this map',
-'search' => 'Search',
-'mapsByUser' => ':name\'s maps',
-'displayUnpublished' => 'Display :cnt unpublished maps',
-'displayPublished' => 'Display :cnt published maps',
-'usersMapMedals' => ':name\'s map medals',
-'usersCompletedMaps' => ':name\'s completed maps',
-'showRecords' => 'Show records',
-'details' => 'Details',
-'playedBy' => 'Played by',
-'latestMapGames' => 'The latest map games',
-'translators' => 'Translators',
-'moderators' => 'Moderators',
 ```
 
