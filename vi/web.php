@@ -35,7 +35,7 @@ return [
     'allTime' => 'Tất cả',
     'bestPlayers' => 'Theo người chơi',
     'bestGames' => 'Game tốt nhất',
-    'bestSubs' => 'Đạt mốc ngắn nhất',
+    'bestSubs' => 'Mốc thời gian',
     'latestGames' => 'Game mới nhất',
     'leastBlocks' => 'Ít gạch nhất',
     'myTimes' => 'Thời gian của tôi',
@@ -55,7 +55,7 @@ return [
     'filterSP' => 'Lọc danh sách điểm',
     'applyFilter' => 'Áp dụng bộ lọc',
     'timestamp' => 'Thởi điểm',
-    'action' => 'Kiểu loại hàng', // e.g. combo, tspin, perfect clear
+    'action' => 'Kiểu lấp hàng', // e.g. combo, tspin, perfect clear
     'scoreEq' => 'Điểm tương ứng',
     'position' => 'Thời điểm hiện tại', //position in a replay
     'lAVG' => 'Trung bình nội địa',
