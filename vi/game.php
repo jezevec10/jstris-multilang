@@ -115,7 +115,7 @@ return [
     'all' => 'Tất cả',
     'preset' => 'Set cài đặt',
     'save' => 'Lưu',
-    'translationBy' => 'Shard_Nguyễn and Mai_Nguyễn',
+    'translationBy' => 'Shard Nguyễn and TancaVN',
     'rescaleNow' => 'Tự động điều chỉnh độ lớn bản chơi ngay tức thì',
     'rescaleNowInfo' => 'Nếu không đánh dấu thì bảng chơi của người mới vào sẽ hiển thị trong vòng tiếp theo',
     'DAScancel' => 'Hủy DAS',
