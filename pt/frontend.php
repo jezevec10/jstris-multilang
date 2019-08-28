@@ -123,6 +123,12 @@ return [
     'raceFin' => 'A CORRIDA TERMINOU',
     'raceFinInfo' => 'Você pode completar a corrida, mas a próxima rodada pode começar a qualquer momento.',
 
+    'notTSD' => 'NÃO HOUVE GTD',
+    'notTSDInfo' => 'Apenas Giro-T Duplo é permitido',
+
+    'fwDetect' => 'FOUR WIDE',
+    'fwDetectInfo' => 'Atacando a si mesmo!',
+
     'oops' => 'Opa!',
     'chatNA' => 'Bate-papo público não está disponível para convidados ou usuários com menos de {chReq} horas de tempo jogando.',
     'leMore' => 'Saiba mais',
