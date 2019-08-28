@@ -96,4 +96,4 @@ Select a language to view more information on which translations are missing.
 
 -------------------
 
-*Auto-generated on **Wed, 28 Aug 2019 14:43:25 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Wed, 28 Aug 2019 14:43:53 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
