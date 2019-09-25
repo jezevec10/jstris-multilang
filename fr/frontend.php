@@ -114,22 +114,22 @@ return [
     'repTxtInfo' => 'Le fichier d\'enregistrement peut être visionné dans le lecteur ou possiblement retéléchargé sur le site.',
 
     'newPB' => 'NOUVEAU MEILLEUR SCORE',
-    'firstPB' => 'Ceci etait votre première partie, obtenez un nouveau meilleur score pour suivre votre progression',
-    'infoPB' => 'Votre ancien record etait {prevPB} atteint {prevAgo}. l\'amélioration depuis est : {PBdiff}.',
+    'firstPB' => 'Ceci était votre première partie, obtenez un nouveau meilleur score pour suivre votre progression',
+    'infoPB' => 'Votre ancien record était {prevPB}, atteint {prevAgo}. L\'amélioration depuis est : {PBdiff}.',
 
-    'raceFin' => 'LA COURSE EST FINI',
-    'raceFinInfo' => 'Vous pouvez finir la partie, mais le prochain tour peu commencer à n\'importe quel moment.',
+    'raceFin' => 'LA COURSE EST FINIE',
+    'raceFinInfo' => 'Vous pouvez finir la partie, mais le prochain tour peut commencer à n\'importe quel moment.',
 
     'oops' => 'Oops!',
-    'chatNA' => 'Le chat public n\'est pas disponible pour les invités ou les utilisateurs ayant moins de {chReq} heures de temps de jeu',
+    'chatNA' => 'Le tchat public n\'est pas disponible pour les invités ou les utilisateurs ayant moins de {chReq} heures de temps de jeu',
     'leMore' => 'En savoir plus',
-    'connLimit' => 'Le nombre maximum de connections pour cette IP a été atteint. Si vous avez besoin d\'augmenter cette limite, contactez-nous via Discord (en Anglais)',
-    'idleDC' => 'Deconnecté pour inactivité! Il n\'y avait plus de place pour le mode spectateur',
+    'connLimit' => 'Le nombre maximum de connexions pour cette addresse IP a été atteint. Si vous avez besoin d\'augmenter cette limite, contactez-nous via Discord (en anglais)',
+    'idleDC' => 'Déconnecté pour inactivité! Il n\'y avait plus de place pour le mode spectateur',
     'RLreach' => 'Limite de vitesse atteinte.',
-    'ban1' => 'Votre accès aux jeux en ligne a été, Vous pouvez encore jouer aux jeux solo.',
-    'ban2' => 'Ce compte d\'utilisateur a été BANNI. Reconnectez vous sur le site pour plus d\'informations.',
+    'ban1' => 'Votre accès aux modes multijoueur a été désactiver, vous pouvez encore jouer aux modes solo.',
+    'ban2' => 'Ce compte utilisateur a été BANNI. Reconnectez-vous sur le site pour plus d\'informations.',
     'ncGS' => 'Hors-ligne, essayez de {refr}.',
-    'refr' => 'rafraichir la page',
+    'refr' => 'rafraîchir la page',
 
     //Room info detail
     'noPlayers' => 'Pas de joueurs',
