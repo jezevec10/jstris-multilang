@@ -147,7 +147,7 @@ return [
     'cntGuests' => '{cnt} invitados', //e.g. +10 guests
     'cntSpec' => '{cnt} espectadores', //e.g. +10 spectating
     'joinPossible' => 'Puedes ingresar',
-    'notEligible' => ' No elegible',
+    'notEligible' => 'No elegible',
     'gTimeShort' => 'T.juego',
     'on' => 'Sí',
     'off' => 'No',
