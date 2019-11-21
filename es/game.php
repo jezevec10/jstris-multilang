@@ -31,7 +31,7 @@ return [
     'gridPartial' => 'Parcial',
     'gridVertical' => 'Vertical',
     'gridFull' => 'Total',
-    'grid' => 'Grilla',
+    'grid' => 'Cuadrícula',
     'ghost' => 'Fantasma',
     'enabled' => 'Habilitado',
     'disabled' => 'Deshabilitado',
