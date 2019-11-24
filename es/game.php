@@ -54,8 +54,8 @@ return [
     'altResetKeyInfo'=> 'Elije una tecla para reiniciar Modo Carrera.',
     'gameReset'=> 'Reiniciar Juego',
     'altLiveResetKeyInfo'=> 'Elije una tecla para reiniciar juego En Línea.',
-    'rescaleNow' => 'Redimensionar grillas instantáneamente',
-    'rescaleNowInfo' => 'Si está deshabilitado la grilla de los nuevos jugadores apareceran en la ronda siguiente',
+    'rescaleNow' => 'Redimensionar cuadrícula instantáneamente',
+    'rescaleNowInfo' => 'Si está deshabilitado, la cuadrícula de los nuevos jugadores apareceran en la ronda siguiente',
     'DAScancel' => 'cancelación de DAS',
     'DAScancelInfo' => 'Si esta habilitado, el DAS se cancelará cuando cambies de dirección',
     'FPSDAS' => 'DAS basado en los FPS',
@@ -168,7 +168,7 @@ return [
     'garbageMess' => 'Desorden',
     'solidAtk' => 'Ataque solido',
     'noFW' => 'Sin 4-wide',
-    'hostStart' => 'modo Anfitríon',
+    'hostStart' => 'Anfitrión Inicia',
 
     'translationBy' => 'julf, Lucho',
 ];
