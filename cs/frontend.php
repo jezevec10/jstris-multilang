@@ -113,7 +113,7 @@ return [
     'aPlay' => 'Už hrajete!',
     'repFail' => 'Nahrávku se nepodařilo uložit.',
     'repInChat' => 'Nahrávku jste poslali do chatu. Chcete-li si uchovat, zkopírujte text v rámečku a vložte ho do nějakého textového editoru.',
-    'repTxtInfo' => 'Zkopírovaný soubor si poté můžete pustit zde v přehrávači.'
+    'repTxtInfo' => 'Zkopírovaný soubor si poté můžete pustit zde v přehrávači.',
 
     'newPB' => 'NOVÝ OSOBNÍ REKORD',
     'firstPB' => 'To byla vaše první hra. Zahrajte si znovu a sledujte svoje zlepšení.',
