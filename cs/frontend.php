@@ -68,7 +68,7 @@ return [
     'wins' => 'Výher',
     'time' => 'Čas', //as game duration
     'received' => 'Obdrženo',
-    'sent' => 'Odeslal/a',
+    'sent' => 'Odesláno',
     'blocks' => 'bloků', //as number of blocks placed
     'ren' => 'REN',
 
