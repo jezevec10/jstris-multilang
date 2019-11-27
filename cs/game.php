@@ -170,5 +170,5 @@ return [
     'noFW' => 'Zakázat šířku 4',
     'hostStart' => 'Start správce',
 
-    'translationBy' => 'Přeložil',
+    'translationBy' => 'isametry',
 ];
