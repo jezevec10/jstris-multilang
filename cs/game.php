@@ -91,12 +91,12 @@ return [
     'KPP'=> 'KPP',
     'finesse'=> 'Obratnost',
     'save'=> 'Uložit',
-    'createRoom'=> 'Vytvořit místnost',
+    'createRoom'=> 'Nová místnost',
     'editRoom'=> 'Upravit',
     'refreshList'=> 'Obnovit',
     'roomName'=> 'Název místnosti',
     'playersCount'=> 'Hráčů',
-    'usePreset' => 'Použít přednastavení',    //preset = predefined room settings
+    'usePreset' => 'Přednastavení',    //preset = predefined room settings
     'default' => 'Výchozí',
     'defaultDesc' => 'Výchozí nastavení',
     'otherOptions' => 'Další možnosti',
@@ -154,11 +154,11 @@ return [
     //all room settings
     'attackTable' => 'Tabulka útoků',
     'comboTable' => 'Kombo útok',
-    'gBlocking' => 'Přidat řádky (garbage)',
+    'gBlocking' => 'Způsob obrany',
     'blocksType' => 'Druhy bloků',
     'randomizer' => 'Náhoda',
     'previews' => 'Náhledy',
-    'solidGarbage' => 'Upevnit garbage',
+    'solidGarbage' => 'Pevná garbage',
     'solidAfterSecs' => 'za',
     'lockDelay' => 'Prodleva před upevněním',
     'clearDelay' => 'Prodleva před vyčištěním',
@@ -167,7 +167,7 @@ return [
     'garbageDelay' => 'Prodleva řádků garbage',
     'garbageMess' => 'Složitost řádků garbage',
     'solidAtk' => 'Útok pevnými řádky',
-    'noFW' => 'Zakázat šířku 4',
+    'noFW' => 'Zakázat 4W',
     'hostStart' => 'Start správce',
 
     'translationBy' => 'isametry',
