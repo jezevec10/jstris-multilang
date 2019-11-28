@@ -23,7 +23,7 @@ return [
     'time' => 'Čas',
     'blocks' => 'Bloků',
     'PPS' => 'PPS',
-    'finesse' => 'Obratnost (fns)',
+    'finesse' => 'Obratnost',
     'date' => 'Datum',
     'replay' => 'Záznam',
     'place' => 'Místo',
