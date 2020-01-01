@@ -15,14 +15,14 @@
             <span class="pb-fill" style="width: 63.28%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>57.58%</td><td>
+    <tr><td><a href="#">game</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 57.58%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>53.19%</td><td>
+    <tr><td><a href="#">web</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 53.19%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -81,155 +81,5 @@
 'gTimeShort' => 'G.time',
 'on' => 'On',
 'off' => 'Off',
-```
-
-## Game
-
-**Missing in zh-TW/game.php:**
-
-```
-'ARR' => 'ARR',
-'monochrome' => 'Monochrome',
-'SEvol' => 'SE volume',
-'rescaleNow' => 'Resize multiplayer fields immediately',
-'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
-'DAScancel' => 'DAS cancellation',
-'DAScancelInfo' => 'If enabled, DAS cancels on direction change',
-'FPSDAS' => 'FPS-based DAS',
-'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
-'webGL' => 'Use WebGL',
-'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
-'trem' => 'time remaining',
-'tsdsCounter' => 'TSDs done',
-'score' => 'Score',
-'KPP' => 'KPP',
-'editRoom' => 'Edit',
-'usePreset' => 'Use preset',
-'default' => 'Default',
-'defaultDesc' => 'The default settings',
-'otherOptions' => 'Other options',
-'customPreset' => 'Use custom preset',
-'browsePresets' => 'Browse custom presets',
-'submitPreset' => 'Submit a new one',
-'savePreset' => 'Save the preset',
-'customRooms' => 'Custom rooms',
-'overflowRooms' => 'Overflow rooms',
-'spectateRooms' => 'Spectate only rooms',
-'gmodeTeam' => 'Team',
-'applyCh' => 'Apply changes',
-'survival' => 'Survival',
-'mapDownstack' => 'Map downstack',
-'ultra' => 'Ultra',
-'20TSD' => '20TSD',
-'all' => 'All',
-'preset' => 'Preset',
-'audioCredits' => 'Audio Assets by',
-'fullScreen' => 'Full screen',
-'showHoldQueue' => 'Show H+Q',
-'showStats' => 'Show stats',
-'roomLimits' => 'Room join limits',
-'setLimitsInfo' => 'You can set requirements for players joining your room. Leave a field empty for no limit.',
-'addLimit' => 'Add join limit',
-'s40L' => 'Sprint 40L',
-'accGametime' => 'Gametime',
-'applyClose' => 'Apply & Close',
-'teamSel' => 'Team selection',
-'myTeam' => 'Playing for',
-'seconds' => 'seconds',
-'minutes' => 'minutes',
-'hours' => 'hours',
-'ms' => 'ms',
-'s' => 's',
-'hrs' => 'hrs',
-'attackTable' => 'Attack table',
-'comboTable' => 'Combo attack',
-'gBlocking' => 'Garbage blocking',
-'blocksType' => 'Blocks',
-'randomizer' => 'Randomizer',
-'previews' => 'Previews',
-'solidGarbage' => 'Solid garbage',
-'solidAfterSecs' => 'After',
-'lockDelay' => 'Lock delay',
-'clearDelay' => 'Clear delay',
-'speedLimit' => 'Speed limit',
-'gravityLvl' => 'Gravity lvl',
-'garbageDelay' => 'Garbage Delay',
-'garbageMess' => 'Messiness',
-'solidAtk' => 'Attack as solid',
-'noFW' => 'NoFourwide',
-'hostStart' => 'HostStart',
-```
-
-## Web
-
-**Missing in zh-TW/web.php:**
-
-```
-'maps' => 'Maps',
-'mapsBrowse' => 'Browse',
-'myMaps' => 'My maps',
-'mapsDesigner' => 'Map Designer',
-'randomMap' => 'Random map',
-'mapsLatestGames' => 'Latest games',
-'guide' => 'Guide',
-'favReplays' => 'Favorite replays',
-'perfectFinesse' => '0 finesse',
-'lines' => 'Lines',
-'scoringPlaylist' => 'Scoring playlist',
-'filterSP' => 'Filter scoring playlist',
-'applyFilter' => 'Apply filter',
-'timestamp' => 'Timestamp',
-'action' => 'Action',
-'scoreEq' => 'Score equivalent',
-'position' => 'Position',
-'lAVG' => 'Local average',
-'gAVG' => 'Global average',
-'repHelp' => 'Help',
-'repExport' => 'GIF or video',
-'localSettings' => 'Localization settings',
-'lang' => 'Language',
-'langNone' => 'None (selectable in the top menu)',
-'langDesc' => 'Select the preferred language.',
-'timezone' => 'Timezone',
-'timezoneDesc' => 'Used to convert time into your local time.',
-'country' => 'Country',
-'continent' => 'Continent',
-'countryDesc' => 'Used to display per-country leader boards.',
-'blockCnt' => ':cnt blocks',
-'APM10Games' => '10-games APM',
-'PPS10Games' => '10-games PPS',
-'createdMaps' => 'Created maps',
-'viewMapsBy' => 'View all maps created by',
-'playersCount' => 'Players',
-'gameResultPosition' => 'Position',
-'gameResultRoundTime' => 'Gametime',
-'viewAllGamesOf' => 'View all games of :mode',
-'noGamesOf' => ':name hasn\'t played any games of :mode yet.',
-'map' => 'Map',
-'mapCreate' => 'Create new',
-'mapName' => 'Name',
-'mapNameLong' => 'Map name',
-'mapDesc' => 'Description',
-'mapRules' => 'Rules',
-'mapOptions' => 'Options',
-'mapPlay' => 'Play',
-'mapPlayLink' => 'Play Map',
-'mapAuthor' => 'Author',
-'mapCreatedBy' => 'Created by',
-'backToMaps' => 'Back to maps',
-'playThisMap' => 'Play this map',
-'search' => 'Search',
-'mapsByUser' => ':name\'s maps',
-'displayUnpublished' => 'Display :cnt unpublished maps',
-'displayPublished' => 'Display :cnt published maps',
-'usersMapMedals' => ':name\'s map medals',
-'usersCompletedMaps' => ':name\'s completed maps',
-'showRecords' => 'Show records',
-'details' => 'Details',
-'playedBy' => 'Played by',
-'latestMapGames' => 'The latest map games',
-'changelog' => 'Changelog',
-'translators' => 'Translators',
-'moderators' => 'Moderators',
 ```
 
