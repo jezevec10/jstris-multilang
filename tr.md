@@ -15,14 +15,14 @@
             <span class="pb-fill" style="width: 92.97%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>78.18%</td><td>
+    <tr><td><a href="#">game</a></td><td>74.57%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 78.18%;"></span>
+            <span class="pb-fill" style="width: 74.57%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>97.16%</td><td>
+    <tr><td><a href="#">web</a></td><td>94.48%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 97.16%;"></span>
+            <span class="pb-fill" style="width: 94.48%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -50,6 +50,8 @@
 **Missing in tr/game.php:**
 
 ```
+'touchBtn' => 'Enable on-screen control buttons',
+'touchBtnMove' => 'Allow position adjustment by dragging',
 'monochrome' => 'Monochrome',
 'rescaleNow' => 'Resize multiplayer fields immediately',
 'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
@@ -59,6 +61,8 @@
 'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
 'webGL' => 'Use WebGL',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
+'mLay' => 'Use mobile layout',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'tsdsCounter' => 'TSDs done',
 'KPP' => 'KPP',
 'editRoom' => 'Edit',
@@ -86,6 +90,10 @@
 'ms' => 'ms',
 's' => 's',
 'hrs' => 'hrs',
+'allSpin' => 'All-spin',
+'asImmobile' => 'Immobile',
+'as4Point' => '4-point',
+'allSpinNA' => 'Excl. blocks',
 ```
 
 ## Web
@@ -97,5 +105,9 @@
 'blockCnt' => ':cnt blocks',
 'APM10Games' => '10-games APM',
 'PPS10Games' => '10-games PPS',
+'setOther' => 'Other options',
+'hideAcc' => 'Hidden account',
+'accVisibility' => 'Visibility',
+'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
 ```
 

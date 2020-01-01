@@ -15,14 +15,14 @@
             <span class="pb-fill" style="width: 64.84%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>67.27%</td><td>
+    <tr><td><a href="#">game</a></td><td>64.16%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 67.27%;"></span>
+            <span class="pb-fill" style="width: 64.16%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>73.05%</td><td>
+    <tr><td><a href="#">web</a></td><td>71.03%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 73.05%;"></span>
+            <span class="pb-fill" style="width: 71.03%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -86,6 +86,8 @@
 **Missing in ko/game.php:**
 
 ```
+'touchBtn' => 'Enable on-screen control buttons',
+'touchBtnMove' => 'Allow position adjustment by dragging',
 'monochrome' => 'Monochrome',
 'rescaleNow' => 'Resize multiplayer fields immediately',
 'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
@@ -95,6 +97,8 @@
 'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
 'webGL' => 'Use WebGL',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
+'mLay' => 'Use mobile layout',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'tsdsCounter' => 'TSDs done',
 'KPP' => 'KPP',
 'editRoom' => 'Edit',
@@ -138,6 +142,10 @@
 'garbageDelay' => 'Garbage Delay',
 'garbageMess' => 'Messiness',
 'solidAtk' => 'Attack as solid',
+'allSpin' => 'All-spin',
+'asImmobile' => 'Immobile',
+'as4Point' => '4-point',
+'allSpinNA' => 'Excl. blocks',
 'noFW' => 'NoFourwide',
 'hostStart' => 'HostStart',
 ```
@@ -185,5 +193,9 @@
 'latestMapGames' => 'The latest map games',
 'translators' => 'Translators',
 'moderators' => 'Moderators',
+'setOther' => 'Other options',
+'hideAcc' => 'Hidden account',
+'accVisibility' => 'Visibility',
+'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
 ```
 

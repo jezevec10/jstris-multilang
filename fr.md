@@ -15,14 +15,14 @@
             <span class="pb-fill" style="width: 95.31%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>96.36%</td><td>
+    <tr><td><a href="#">game</a></td><td>91.91%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 96.36%;"></span>
+            <span class="pb-fill" style="width: 91.91%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>97.16%</td><td>
+    <tr><td><a href="#">web</a></td><td>94.48%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 97.16%;"></span>
+            <span class="pb-fill" style="width: 94.48%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -47,12 +47,20 @@
 **Missing in fr/game.php:**
 
 ```
+'touchBtn' => 'Enable on-screen control buttons',
+'touchBtnMove' => 'Allow position adjustment by dragging',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
+'mLay' => 'Use mobile layout',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'trem' => 'time remaining',
 'tsdsCounter' => 'TSDs done',
 'mapDownstack' => 'Map downstack',
 '20TSD' => '20TSD',
 'clearDelay' => 'Clear delay',
+'allSpin' => 'All-spin',
+'asImmobile' => 'Immobile',
+'as4Point' => '4-point',
+'allSpinNA' => 'Excl. blocks',
 ```
 
 ## Web
@@ -64,5 +72,9 @@
 'filterSP' => 'Filter scoring playlist',
 'timezoneDesc' => 'Used to convert time into your local time.',
 'viewMapsBy' => 'View all maps created by',
+'setOther' => 'Other options',
+'hideAcc' => 'Hidden account',
+'accVisibility' => 'Visibility',
+'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
 ```
 

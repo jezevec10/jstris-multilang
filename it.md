@@ -15,14 +15,14 @@
             <span class="pb-fill" style="width: 63.28%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>57.58%</td><td>
+    <tr><td><a href="#">game</a></td><td>54.91%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 57.58%;"></span>
+            <span class="pb-fill" style="width: 54.91%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>53.19%</td><td>
+    <tr><td><a href="#">web</a></td><td>51.72%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 53.19%;"></span>
+            <span class="pb-fill" style="width: 51.72%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -88,6 +88,8 @@
 **Missing in it/game.php:**
 
 ```
+'touchBtn' => 'Enable on-screen control buttons',
+'touchBtnMove' => 'Allow position adjustment by dragging',
 'ARR' => 'ARR',
 'monochrome' => 'Monochrome',
 'SEvol' => 'SE volume',
@@ -99,6 +101,8 @@
 'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
 'webGL' => 'Use WebGL',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
+'mLay' => 'Use mobile layout',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'trem' => 'time remaining',
 'tsdsCounter' => 'TSDs done',
 'score' => 'Score',
@@ -156,6 +160,10 @@
 'garbageDelay' => 'Garbage Delay',
 'garbageMess' => 'Messiness',
 'solidAtk' => 'Attack as solid',
+'allSpin' => 'All-spin',
+'asImmobile' => 'Immobile',
+'as4Point' => '4-point',
+'allSpinNA' => 'Excl. blocks',
 'noFW' => 'NoFourwide',
 'hostStart' => 'HostStart',
 ```
@@ -231,5 +239,9 @@
 'changelog' => 'Changelog',
 'translators' => 'Translators',
 'moderators' => 'Moderators',
+'setOther' => 'Other options',
+'hideAcc' => 'Hidden account',
+'accVisibility' => 'Visibility',
+'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
 ```
 
