@@ -158,7 +158,11 @@ return [
     'supporters' => 'Sponzoři projektu',
     'translators' => 'Překladatelé',
     'moderators' => 'Moderátoři',
-    
+    'setOther' => 'Další možnosti',
+    'hideAcc' => 'Skrytý účet',
+    'accVisibility' => 'Viditelnost',
+    'hideAccInfo' => 'Po aktivaci nebude tento účet zobrazován ve veřejném žebříčku.',
+
     /* Other */
     'notFound' => 'Nenalezeno.',
     'invalidLink' => 'Odkaz je neplatný.',

@@ -170,5 +170,14 @@ return [
     'noFW' => 'Zakázat 4W',
     'hostStart' => 'Start správce',
 
-    'translationBy' => 'isametry',
+    'touchBtn' => 'Zobrazit tlačítka pro ovládaní dotykem',
+    'touchBtnMove' => 'Povolit úpravu umístění tlačítek tažením',
+    'mLay' => 'Použít mobilní verzi',
+    'mLayInfo' => 'Pro zapnutí/vypnutí mobilní verze hry. Uložení obnoví stránku.',
+    'allSpin' => 'All-spin',
+    'asImmobile' => 'Výchozí',
+    'as4Point' => '4-bodové',
+    'allSpinNA' => 'Vyřaz. bloky',
+
+    'translationBy' => 'isametry, jezevec10',
 ];
