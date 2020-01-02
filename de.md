@@ -49,7 +49,7 @@
 'touchBtnMove' => 'Allow position adjustment by dragging',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'mLay' => 'Use mobile layout',
-'mLayInfo' => 'Change to override mobile detection, requires refresh',
+'mLayInfo' => 'Change to override mobile detection. Page will be reloaded.',
 'tsdsCounter' => 'TSDs done',
 'editRoom' => 'Edit',
 'savePreset' => 'Save the preset',

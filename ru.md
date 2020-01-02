@@ -37,7 +37,7 @@
 'touchBtn' => 'Enable on-screen control buttons',
 'touchBtnMove' => 'Allow position adjustment by dragging',
 'mLay' => 'Use mobile layout',
-'mLayInfo' => 'Change to override mobile detection, requires refresh',
+'mLayInfo' => 'Change to override mobile detection. Page will be reloaded.',
 'allSpin' => 'All-spin',
 'asImmobile' => 'Immobile',
 'as4Point' => '4-point',
