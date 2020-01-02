@@ -65,7 +65,7 @@ return [
     'webGL' => 'Use WebGL',
     'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
     'mLay' => 'Use mobile layout',
-    'mLayInfo' => 'Change to override mobile detection, requires refresh',
+    'mLayInfo' => 'Change to override mobile detection. Page will be reloaded.',
     'saveClose'=> 'Save Settings & Close',
     'resetAll'=> 'Reset all',
     'close'=> 'Close',
