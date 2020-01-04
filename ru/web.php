@@ -91,7 +91,7 @@ return [
     'linesSent' => 'Отправлено рядов',
     'linesRec' => 'Получено рядов',
     'placedBlocks' => 'Поставлено фигур',
-    'maxAPM' => 'Макс. Д./мин',
+    'maxAPM' => 'Наиб. Ат./мин',
     'maxREN' => 'Наиб. комбо',
     'longestGame' => 'Самая долгая игра',
     'totalB2B' => 'Общее кол-во СкС', //"СкС" - rus. "Спина к спине", literally "Back-to-Back". -mLurker
@@ -124,4 +124,49 @@ return [
     'invalidLink' => 'Запрашиваемая ссылка неправильно набрана или не существует.',
     'brb' => 'Скоро вернёмся.',
     'tryAgain' => 'Сайт обновляется, зайдите позже.',
+	
+	//New strings from July 29th -mLurker
+	'repExport' => 'GIF или Видео',
+	'continent' => 'Континент',
+	'blockCnt' => ':cnt фигур',
+	'APM10Games' => 'Ат./мин за 10 игр',
+	'PPS10Games' => 'Ф./с за 10 игр',
+	'createdMaps' => 'Карты', //As in, "Maps". -mLurker
+	'viewMapsBy' => 'Просмотреть все карты от',
+	'playersCount' => 'Игроки',
+	'gameResultPosition' => 'Место',
+	'gameResultRoundTime' => 'Общ. время игры',
+	'viewAllGamesOf' => 'Просмотреть все игры в :mode',
+	'noGamesOf' => ':name ещё не играл в :mode.',
+	'map' => 'Карта',
+	'mapCreate' => 'Создать новую',
+	'mapName' => 'Название',
+	'mapNameLong' => 'Название карты',
+	'mapDesc' => 'Описание',
+	'mapRules' => 'Правила',
+	'mapOptions' => 'Настройки',
+	'mapPlay' => 'Играть',
+	'mapPlayLink' => 'Играть', //As in, "Play". -mLurker
+	'mapAuthor' => 'Автор',
+	'mapCreatedBy' => 'Создано ',
+	'backToMaps' => 'Вернуться к картам',
+	'playThisMap' => 'Сыграть в эту карту',
+	'search' => 'Поиск',
+	'mapsByUser' => 'Карты от :name',
+	'displayUnpublished' => 'Показать :cnt непубликованных карт', //Will not be always grammatically correct. Special string case for "Display *1 map" and "Display *2/*3/*4 maps" are required. -mLurker
+	'displayPublished' => 'Показать :cnt публикованных карт', //Same as above. -mLurker
+	'usersMapMedals' => 'Медали :name на картах',
+	'usersCompletedMaps' => 'Пройденные :name карты',
+	'showRecords' => 'Показать рекорды',
+	'details' => 'Детали',
+	'playedBy' => 'Сыграно',
+	'latestMapGames' => 'Последние сыгранные карты',
+	'translators' => 'Переводчики',
+	'moderators' => 'Модераторы',
+	
+	//from January 4th, 2020. -mLurker
+	'setOther' => 'Другие настройки',
+	'hideAcc' => 'Спрятать аккаунт', //As in, "Hide the account". -mLurker
+	'accVisibility' => 'Видимость',
+	'hideAccInfo' => 'Этот аккаунт не появится в списке рекордов, если эта настройка включена.',
 ];

@@ -45,9 +45,9 @@ return [
     'welcomeIn' => 'Добро пожаловать в', //in 'Welcome in RoomName.'
     'noSpectators' => 'Никто сейчас не наблюдает.',
     'replayAvailable' => 'Повтор сохранён в:',
-    'oldVer' => 'У вас устаревшая версия, нажмите CTRL+F5, чтобы загрузить новую версию!',
-    'privateRoom' => 'Это - ваша приватная комната, никто тут вам не помешает. Просмотрите Лобби для открытых комнат.',
-    'restartInfo' =>  'Нажмите на F4 (или на выбранную вами клавишу), чтобы перезапустить.',
+    'oldVer' => 'У Вас устаревшая версия, нажмите CTRL+F5, чтобы загрузить новую версию!',
+    'privateRoom' => 'Это - Ваша приватная комната, никто тут Вам не помешает. Просмотрите Лобби для открытых комнат.',
+    'restartInfo' =>  'Нажмите на F4 (или на выбранную Вами клавишу), чтобы перезапустить.',
     'joinLinkInfo' => 'Эта комната - приватная. В неё можно войти только через эту ссылку:',
 
     //Dynamic elements
@@ -83,7 +83,7 @@ return [
     'roomSettings' => 'Настройки комнаты:',
     'attack' => 'Атака',
     'combo' => 'Комбо',
-    'solid' => 'Твёрдо', //Where is this used? -mLurker
+    'solid' => 'Полные линии', //Updated. -mLurker
     'clear' => 'Очистка', //Taken from Tetris Ultimate, also unsure where this is used. -mLurker
     'mode' => 'Режим',
     'garbage' => 'Мусор',
@@ -96,7 +96,58 @@ return [
     'suggestedIs' => 'Рекомендуется значение ЗАП:', //See "DAS" in game.php. Introduced a custom abbreviation. "ГУ" or "DAS" can be used, instead. -mLurker
     'applyConfirm' => 'Применить?',
     'invalidDAS' => 'Неправильно введено значение ЗАП.', //See "DAS" in game.php. -mLurker
-    'settingsChanged' => 'Настройки были изменены во время игры. Повтор не будет сохранён.',
+    'settingsChanged' => 'Настройки были изменены во время игры. Повтор не будет сохранён.', //Obsolete? -mLurker
     'segment' => 'Сегмент',
     'duration' => 'Продолжительность',
+	
+	//New strings:
+	//from July 29th, 2019. -mLurker
+	'signingIn' => 'Регистрация',
+	'loginFail' => 'Не удалось войти!',
+	'mapLoading' => 'Загрузка карты...',
+	'oldVer2' => 'У Вас всё ещё устарешвая версия! Нажмите {key}, чтобы перезагрузить клиент.',
+	'roomFull' => 'Эта комната заполнена.',
+	'lobbyInfo' => 'Этот чат соединён с {discord} сервером.',
+	'newHost' => 'Вы теперь хозяин этой комнаты.',
+	'badRoom' => 'Эта комната исчезла! Перенаправление в Default room...',
+	'stngsChanged' => 'Настройки изменены хозяином',
+	'stngsCustom' => 'Польз. настройки',
+	'aSpec' => 'Вы уже наблюдаете!',
+	'aPlay' => 'Вы уже играете!',
+	'repFail' => 'Повтор не удалось сохранить.',
+	'repInChat' => 'Файл повтора выложен в чат. Скопируйте текст в окне и сохраните в текстовом файле.',
+	'repTxtInfo' => 'Этот файл можно потом открыть в проигрывателе на сайте или, возможно, переопубликовать на сайте.',
+	'newPB' => 'ВАШ НОВЫЙ РЕКОРД',
+	'firstPB' => 'Эта была Ваша первая игра. Поставьте ещё один рекорд, чтобы отметить Ваши улучшения.',
+	'infoPB' => 'Ваш предыдущий рекорд: {prevPB}, поставленный {prevAgo}. Ваше улучшение: {PBdiff}.',
+	'daysAgo' => 'дней назад',
+	'raceFin' => 'ГОНКА ОКОНЧЕНА',
+	'raceFinInfo' => 'Вы можете закончить, но следующий раунд может начаться в любой момент.',
+	'oops' => 'Ой!',
+	'chatNA' => 'Общий чат не доступен гостям и пользователям с менее, чем {chReq} часов игры.',
+	'leMore' => 'Узнать подробности',
+	'connLimit' => 'Максимальный лимит открытых соединении достигнут для этого IP. Если Вам требуется увеличить лимит, свяжитесь с нами в Discord сервере.',
+	'idleDC' => 'Вас отсоединили из-за бездействия! Места для наблюдателей заполнены.',
+	'RLreach' => 'Лимит соединении достигнут.',
+	'ban1' => 'Доступ к играм против игроков запрещён. Вы всё ещё можете играть в другие режимы.',
+	'ban2' => 'Эта учётная запись ЗАБАНЕНА. Войдите ещё раз для подробностей.', //Reverted to original meaning. -mLurker
+	'ncGS' => 'Вы не подключены к серверу, попробуйте {refr}.',
+	'refr' => 'перезагрузить страницу',
+	'noPlayers' => 'Нет игроков',
+	'cntMore' => '{cnt} ещё',
+	'cntGuests' => '{cnt} гостей',
+	'cntSpec' => '{cnt} наблюдателей',
+	'joinPossible' => 'Можно войти',
+	'notEligible' => 'Нельзя войти',
+	'gTimeShort' => 'Игр. время',
+	'on' => 'Вкл.',
+	'off' => 'Выкл.',
+	//from August 21st, 2019. -mLurker
+	'notTSD' => 'НЕ ТП2',
+	//Custom abbreviation meaning "T-Spin-2". No official translated term for "TSD" found.
+	//Under the same logic, "ТП0", "ТП1" and "ТП3" mean TSZ, TSS and TST respectively. All mentions of T-Spins have been localized. -mLurker
+	'notTSDInfo' => 'Разрешены только Т-Повороты-2.',
+	'fwDetect' => '4-РЯД',
+	//Custom term meaning "4-row". All mentions of 4-wide have been localized. -mLurker
+	'fwDetectInfo' => 'Атака направлена на себя!',
 ];

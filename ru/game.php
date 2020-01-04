@@ -2,7 +2,7 @@
 
 return [
     'play' => 'Играть',
-    'live' => 'Против игроков', //"Live" has no close analogy in Russian, wrote "versus players" instead
+    'live' => 'Против игроков', //"Live" has no close analogy in Russian, wrote "versus players" instead. -mLurker
     'controls' => 'Управление',
     'gameSettings' => 'Настройки игры',
     'appearance' => 'Вид',
@@ -17,8 +17,8 @@ return [
     'rotateRight' => 'Повернуть направо',
     'rotate180' => 'Перевернуть',
     'hold' => 'Замена',
-    'touch' => 'Включить сенсорное управление (экспериментально)',
-    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLukrer
+    'touch' => 'Включить управление смахиванием по экрану', //Changed to "Turn on swiping (on the screen) controls". -mLurker
+    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLurker
     'ARR' => 'ЧАП', //Custom abbreviation from "Частота Авто-Передвижения" (Rate of Auto-Movement). -mLurker
     'softDropSpeed' => 'Скорость падения',
     'sdSlow' => 'Медленная',
@@ -39,7 +39,7 @@ return [
     'blockStyle' => 'Фигуры',
     'solidBlocks' => 'Цвета (без текстур)',
     'invisibleBlocks' => 'Невидимые',
-	'monochrome' => 'Один цвет',
+    'monochrome' => 'Один цвет',
     'enableSE' => 'Звуковые эффекты',
     'startSE' => 'Звуковой эффект в начале раунда',
     'faultSE'=> 'Звуковой эффект в случае несоблюдения техники', //No appropriate term for "Tetris Finesse" in Russian, wrote "Special sound effect on technique fault". -mLurker
@@ -77,8 +77,8 @@ return [
     'score'=> 'Очки',
     'sent'=> 'Отправлено',
     'received'=> 'Получено',
-    'PPS'=> 'Фигуры в секунду', // For an abbreviation, use "Ф./с". -mLurker
-    'APM'=> 'Действия в минуту', // For an abbreviation, use "Д./мин". -mLurker
+    'PPS'=> 'Ф./с',
+    'APM'=> 'Ат./мин',
     'finesse'=> 'Техника', //See "faultSE" for explanation", wrote "Technique". -mLurker
     'save'=> 'Сохранить',
     'createRoom'=> 'Cоздать комнату',
@@ -94,26 +94,93 @@ return [
     'submitPreset' => 'Отправить пользовательские правила',
     'customRooms'=> 'Пользовательские комнаты',
     'gmode'=> 'Режим',
-    'gmodeStandard'=> 'Стандартный',
+    'gmodeStandard'=> 'Стандартн.', //Fixed according to UI limits. -mLurker
     'gmodeCheese'=> 'Очистка', //See "cheese" for explanation, wrote "Cleanup" instead. Use "Сырная гонка" for a literal translation. -mLurker
     'isPrivate'=> 'Приватная',
     'simple'=> 'Простые',
     'advanced'=> 'Продвинутые',
     'moreSett'=> 'Больше правил',
     'attack'=> 'Атака',
-    'gDist'=> 'Распределение рядов',
+    'gDist'=> 'Метод атаки', //Fixed. -mLurker
     'create'=> 'Создать',
     'cancel'=> 'Отменить',
     'about' => 'О сайте',
-    'donate' => 'Подарить',
+    'donate' => 'Пожертвовать',  //Fixed. -mLurker
     'hdThread' => 'Ветка в форуме HardDrop',
     'chatSend' => 'Отправить',
     'rememberName' => 'Запомнить никнейм', //See "nickname" for explanation. "Запомнить псевдоним" can be used, too. -mLurker
-	'mapDownstack' => 'Карты', //Updated. -mLurker
+    'mapDownstack' => 'Карты', //Updated. -mLurker
     'survival' => 'Выживание',
     'ultra' => 'Ультра',
     'all' => 'Все',
     'preset' => 'Правила',
     'save' => 'Сохранить',
     'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details. -mLurker
+	
+	//New strings:
+	//from July 29th, 2019. -mLurker
+	'rescaleNow' => 'Обновлять поле других игроков сразу',
+	'rescaleNowInfo' => 'Если не отметить, то поля новых игроков появятся на след. раунде.',
+	'DAScancel' => 'Освежать ЗАП', //As in, "Refresh DAS". -mLurker
+	'DAScancelInfo' => 'Если отметить, то Авто-Передвижение будет отменяться со сменой сторон передвижения.',
+	'FPSDAS' => 'Считать ЗАП по кадрам',
+	'FPSDASInfo' => 'Использует мониторные кадры (60 FPS) для считывания ЗАП. Точность cчёта времени будет снижена.',
+	'webGL' => 'Использовать WebGL',
+	'KPP' => 'Наж./Ф.',
+	'editRoom' => 'Изменить',
+	'savePreset' => 'Сохранить настройки',
+	'overflowRooms' => 'Запасные комнаты', //As in, "Extra Rooms". -mLurker
+	'spectateRooms' => 'Комнаты наблюдения',
+	'gmodeTeam' => 'Командн.',
+	'applyCh' => 'Применить изменения',
+	'audioCredits' => 'Авторы аудиофайлов:', //As in, "Authors of the audiofiles". -mLurker
+	'fullScreen' => 'В полный экран',
+	'showHoldQueue' => 'Показать З.+Оч.',
+	'showStats' => 'Показать статистику',
+	'roomLimits' => 'Ограничения на вход в комнату',
+	'setLimitsInfo' => 'Вы можете поставить ограничения на вход в вашу комнату. Оставьте поля пустыми для снятия ограничении.',
+	'addLimit' => 'Добавить ограничения',
+	's40L' => 'Время Спринта 40L',
+	'accGametime' => 'Общ. время игры',
+	'applyClose' => 'Применить и закрыть',
+	'teamSel' => 'Выбор команды',
+	'myTeam' => 'Вы играете за',
+	'seconds' => 'секунды',
+	'minutes' => 'минуты',
+	'hours' => 'часы',
+	'ms' => 'мс',
+	's' => 'с',
+	'hrs' => 'ч',
+	'attackTable' => 'Табл. атаки', //Shortened the prompts* in Advanced settings, as much as possible. Some prompts may have become too short to understand. -mLurker
+	'comboTable' => 'Табл. комбо', //*
+	'gBlocking' => 'Блок. мусора', //*
+	'blocksType' => 'Тип фигур',
+	'randomizer' => 'ГСФ', //* "Генератор Случайных Фигур", as in "Random Piece Generator". No short Russian term for "Randomizer" found. -mLurker
+	'previews' => 'Дл. очереди', //* As in, "Next queue length". -mLurker
+	'solidGarbage' => 'Заполнять', //* As in, "Fill". -mLurker
+	'solidAfterSecs' => 'После',
+	'lockDelay' => 'Задерж. фикс.', //*
+	'clearDelay' => 'Задерж. очист.', //*
+	'speedLimit' => 'Лим. скорости', //*
+	'gravityLvl' => 'Гравитация',
+	'garbageDelay' => 'Задерж. мусора', //*
+	'garbageMess' => 'Замеш. мусора', //*
+	'solidAtk' => 'Атака полн.', //* As in, "Attack with full". -mLurker
+	'noFW' => 'Бан на 4-ряд', //* As in, "Ban 4-wide". -mLurker
+	'hostStart' => 'Старт от хоз.', //As in, "Start from host". -mLurker
+	
+	//from August 21st, 2019. -mLurker
+	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году',
+	'tsdsCounter' => 'ТП2 выполнено', //See frontend.php for explanation. -mLurker
+	'20TSD' => '20ТП2',
+	
+	//from January 4th, 2020. -mLurker
+	'touchBtn' => 'Включить экранные кнопки',
+	'touchBtnMove' => 'Разрешить передвижение экранных кнопок',
+	'mLay' => 'Использовать мобильную раскладку',
+	'mLayInfo' => 'Отключите эту настройку, чтобы не загружать мобильную раскладку. Потребуется обновление.',
+	'allSpin' => 'Все Повороты',
+	'asImmobile' => 'По неподвиж.', //Shortened "By immobility". -mLurker
+	'as4Point' => 'По 4 точкам', //As in, "By 4 points". -mLurker
+	'allSpinNA' => 'Исключить Повороты', //As in, "Exclude Spins". -mLurker
 ];
