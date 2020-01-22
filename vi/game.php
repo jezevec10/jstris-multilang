@@ -64,8 +64,8 @@ return [
     'practice'=> 'Luyện tập',
     'sprint'=> 'Chạy dòng',
     'cheese'=> 'Đua phô mai',
-    'mLay' => 'Sử dụng layout của mobile', (67
-    'mLayInfo' => 'Phát hiện thay đổi trên mobile, vui lòng tải lại trang', (68
+    'mLay' => 'Sử dụng layout của mobile',
+    'mLayInfo' => 'Phát hiện thay đổi trên mobile, vui lòng tải lại trang',
     'freePlay'=> 'Tự do',
     'close'=> 'Đóng',
     'showMoreDetails' => 'Hiển thị thêm chi tiết',
