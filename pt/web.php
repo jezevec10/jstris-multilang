@@ -3,6 +3,13 @@
 return [
     'leaderboard' => 'Classificação',
     'tournament' => 'Torneio',
+    'maps' => 'Mapas',
+    'mapsBrowse' => 'Navegar',
+    'myMaps' => 'Meus mapas',
+    'mapsDesigner' => 'Criador de Mapas',
+    'randomMap' => 'Mapa aleatório',
+    'mapsLatestGames' => 'Últimos jogos',
+    'guide' => 'Guia',
     'login' => 'Entrar',
     'register' => 'Registrar',
     'myProfile' => 'Meu perfil',
@@ -16,7 +23,7 @@ return [
     'time' => 'Tempo',
     'blocks' => 'Blocos',
     'PPS' => 'PPS',
-    'finesse' => 'Finesse',
+    'finesse' => 'Fineza',
     'date' => 'Data',
     'replay' => 'Replay',
     'place' => 'Lugar',
@@ -32,7 +39,7 @@ return [
     'latestGames' => 'Jogos recentes',
     'leastBlocks' => 'Menor quantia de blocos',
     'myTimes' => 'Meus tempos',
-    'perfectFinesse' => 'Finesse 0',
+    'perfectFinesse' => 'Fineza 0',
     
     /* Replay */
     'load' => 'Carregar',
@@ -54,7 +61,8 @@ return [
     'lAVG' => 'Média local',
     'gAVG' => 'Média global',
     'repHelp' => 'Ajuda', //link that shows information how to use the tool
-    
+    'repExport' => 'GIF ou vídeo',
+	
     /* PW change */
     'pwChange' => 'Alterar senha',
     'newPw' => 'Nova senha',
@@ -70,7 +78,8 @@ return [
     'timezoneDesc' => 'Usado para converter o horário para seu horário local.',
     'country' => 'País',
     'countryDesc' => 'Usado para exibir classificações por país.',
-    
+    'continent' => 'Continente',
+	
     /* Profile */
     'ownProfile' => 'Este é seu perfil público acessível em',
     'bestTimes' => 'Melhores tempos',
@@ -84,6 +93,9 @@ return [
     'linesSent' => 'Linhas enviadas',
     'linesRec' => 'Linhas recebidas',
     'placedBlocks' => 'Blocos colocados',
+    'blockCnt' => ':cnt blocos',
+    'APM10Games' => 'APM em 10 jogos',
+    'PPS10Games' => 'PPS em 10 jogos',
     'maxAPM' => 'APM Máx.',
     'maxREN' => 'Combo Máx.',
     'longestGame' => 'Jogo mais longo',
@@ -91,7 +103,40 @@ return [
     'mostSent' => 'Mais enviado',
     'hours' => 'horas',
     'minutes' => 'minutos',
+    'createdMaps' => 'Mapas criados',
+    'viewMapsBy' => 'Ver todos os mapas criados por',
+    'playersCount' => 'Jogadores',
+    'gameResultPosition' => 'Posição',
+    'gameResultRoundTime' => 'Tempo de jogo',
+    'viewAllGamesOf' => 'Ver todos os jogos de :mode',
+    'noGamesOf' => ':name não jogou nenhum jogo de :mode ainda.',
     
+	/* Maps */
+    'map' => 'Mapa',
+    'mapCreate' => 'Criar novo',
+    'mapName' => 'Nome',
+    'mapNameLong' => 'Nome do mapa',
+    'mapDesc' => 'Descrição',
+    'mapRules' => 'Regras',
+    'mapOptions' => 'Opções',
+    'mapPlay' => 'Jogar',
+    'mapPlayLink' => 'Jogar Mapa',
+    'mapAuthor' => 'Autor',
+    'mapCreatedBy' => 'Criado por',
+    'backToMaps' => 'Voltar para mapas',
+    'playThisMap' => 'Jogar este map',
+    'search' => 'Procurar',
+    'myMaps' => 'Meus mapas',
+    'mapsByUser' => 'Mapas de :name',
+    'displayUnpublished' => 'Exibir :cnt mapas não publicados',
+    'displayPublished' => 'Exibir :cnt mapas publicados',
+    'usersMapMedals' => 'Medalhas de :name em mapas',
+    'usersCompletedMaps' => 'Mapas completados por :name',
+    'showRecords' => 'Mostrar recordes',
+    'details' => 'Detalhes',
+    'playedBy' => 'Jogado por',
+    'latestMapGames' => 'Os últimos jogos de mapas',
+	
     /* Stats */
     'improvementStats' => 'Estatísticas de progresso',
     //keep ':name'
@@ -111,10 +156,12 @@ return [
     'contact' => 'Contato',
     'serverCoverage' => 'Cobertura do custo do servidor',
     'supporters' => 'Apoiadores do projeto',
+    'translators' => 'Tradutores',
+    'moderators' => 'Moderadores',
     
     /* Other */
     'notFound' => 'Não encontrado.',
     'invalidLink' => 'O link solicitado é inválido.',
-    'brb' => 'Volto logo.',
-    'tryAgain' => 'O site está sendo atualizado, por favor tente novamente daqui a pouco.',
+    'brb' => 'Já voltamos.',
+    'tryAgain' => 'O site está sendo atualizado, por favor tente novamente em alguns instantes.',
 ];

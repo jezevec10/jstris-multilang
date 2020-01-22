@@ -1,0 +1,18 @@
+language: php
+php:
+  - 7.3
+
+script: bash ./_build/syntaxTest.sh
+
+before_deploy:
+  - cd ./_build && composer install --prefer-source --no-interaction --dev && cd -
+  - bash ./_build/coverageReport.sh ./_build/output
+
+deploy:
+  provider: pages
+  local_dir: _build/output
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master

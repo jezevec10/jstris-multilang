@@ -7,8 +7,9 @@ return [
     'mapsBrowse' => '浏览',
     'myMaps' => '我的地图',
     'mapsDesigner' => '地图设计器',
+    'randomMap' => '随机地图',
     'mapsLatestGames' => '最新游戏',
-    'guide' => '导航',
+    'guide' => '游戏指南',
     'login' => '登录',
     'register' => '注册',
     'myProfile' => '我的个人资料',
@@ -55,11 +56,12 @@ return [
     'applyFilter' => '应用过滤',
     'timestamp' => '时间',
     'action' => '动作', // e.g. combo, tspin, perfect clear
-    'scoreEq' => '分值',
+    'scoreEq' => '得分',
     'position' => '位置', //position in a replay
-    'lAVG' => '分段平均值',
-    'gAVG' => '总体平均值',
+    'lAVG' => '邻域平均值',
+    'gAVG' => '全局平均值',
     'repHelp' => '帮助', //link that shows information how to use the tool
+    'repExport' => 'GIF或视频',
     
     /* PW change */
     'pwChange' => '更改密码',
@@ -75,8 +77,8 @@ return [
     'timezone' => '时区',
     'timezoneDesc' => '用于将时间转换为你所在当地时间.',
     'country' => '国家',
+    'continent' => '洲属',
     'countryDesc' => '设置后可应用于国家内排行榜.',
-    
     /* Profile */
     'ownProfile' => '您的公共个人资料可访问在',
     'bestTimes' => '最佳时间',
@@ -90,6 +92,9 @@ return [
     'linesSent' => '发送行数',
     'linesRec' => '接收行数',
     'placedBlocks' => '放置方块数',
+    'blockCnt' => ':cnt 块',
+    'APM10Games' => '近10场APM',
+    'PPS10Games' => '近10场PPS',
     'maxAPM' => '最大APM（攻击/分）',
     'maxREN' => '最大连击(Combo)',
     'longestGame' => '最长游戏',
@@ -97,11 +102,43 @@ return [
     'mostSent' => '最多送行',
     'hours' => '小时',
     'minutes' => '分钟',
+    'createdMaps' => '创建的地图',
+    'viewMapsBy' => '查看此玩家创建的所有地图:',
+    'playersCount' => '玩家数',
+    'gameResultPosition' => '排名',
+    'gameResultRoundTime' => '游戏时间',
+    'viewAllGamesOf' => '查看:mode模式的所有游戏',
+    'noGamesOf' => ':name尚未游玩过:mode模式.',
     
+    /* Maps */
+    'map' => '地图',
+    'mapCreate' => '创建新地图',
+    'mapName' => '地图名',
+    'mapNameLong' => '地图名称',
+    'mapDesc' => '说明',
+    'mapRules' => '规则',
+    'mapOptions' => '选项',
+    'mapPlay' => '预览&游玩',
+    'mapPlayLink' => '游玩地图',
+    'mapAuthor' => '作者',
+    'mapCreatedBy' => '作者',
+    'backToMaps' => '返回地图列表',
+    'playThisMap' => '游玩此地图',
+    'search' => '搜索',
+    'myMaps' => '我的地图',
+    'mapsByUser' => ':name的地图',
+    'displayUnpublished' => '显示:cnt个未发表地图',
+    'displayPublished' => '显示:cnt个已发布地图',
+    'usersMapMedals' => ':name的地图徽章',
+    'usersCompletedMaps' => ':name的已完成地图',
+    'showRecords' => '显示记录',
+    'details' => '详细',
+    'playedBy' => '玩家:',
+    'latestMapGames' => '地图模式最新游戏',
     /* Stats */
     'improvementStats' => '进步数据',
     //keep ':name'
-    'improvementInfo' => '以下图表展示了消行竞速时间（Y轴）和游戏日期（X轴）的对应关系.高亮线展示了:name的个人记录. 你可以将鼠标悬停到任意点查看该局游戏详情.',//The following graph shows line race time (Y axis) vs game date (X axis). Highlighted line shows improvements in :name\'s personal records. You can place your cursor over any point to show the game details.
+    'improvementInfo' => '以下图表展示了消行竞速时间（Y轴）和游戏日期（X轴）的对应关系. 高亮线展示了:name的个人记录. 你可以将鼠标悬停到任意点查看该局游戏详情.',//The following graph shows line race time (Y axis) vs game date (X axis). Highlighted line shows improvements in :name\'s personal records. You can place your cursor over any point to show the game details.
     'date' => '日期',
     'result' => '结果',
     'submit' => '提交',
@@ -117,10 +154,12 @@ return [
     'contact' => '联系我们',
     'serverCoverage' => '服务器成本覆盖率',
     'supporters' => '项目赞助',
+    'translators' => '翻译者',
+    'moderators' => '管理员',
     
     /* Other */
     'notFound' => '未找到页面.',
     'invalidLink' => '访问链接无效.',
-    'brb' => '直接返回. ',
+    'brb' => '马上回来. ',
     'tryAgain' => '网站正在升级，请稍后再试.',
 ];
