@@ -150,4 +150,10 @@ return [
 	'fwDetect' => '4-РЯД',
 	//Custom term meaning "4-row". All mentions of 4-wide have been localized. -mLurker
 	'fwDetectInfo' => 'Атака направлена на себя!',
+	//from January 22nd, 2020. -mLurker
+	'notPC' => 'НЕ ПО', //Abbreviation "ПО" taken from Tetris Ultimate. -mLurker
+	'notPCInfo' => 'Полная Очистка поля на каждые 10 фигур. Ваше поле не очистится.', //As in, "Perfect Clear for every 10 blocks. Your board cannot be cleared." Shortened for brevity. -mLurker
+	'nsUnpub' => 'Рекорд не сохранён, эта карта не опубликована.',
+	'nsTspins' => 'Рекорд не сохранён, недостаточно Т-Поворотов.',
+	'nsLowPC' => 'Рекорд не сохранён, требуется минимум 2 Полных Очисток.',
 ];

@@ -183,4 +183,8 @@ return [
 	'asImmobile' => 'По неподвиж.', //Shortened "By immobility". -mLurker
 	'as4Point' => 'По 4 точкам', //As in, "By 4 points". -mLurker
 	'allSpinNA' => 'Исключить Повороты', //As in, "Exclude Spins". -mLurker
+	
+	//from January 22nd, 2020. -mLurker
+	'pcCounter' => 'Полные Очистки',
+	'PCmode' => 'Режим ПО',
 ];
