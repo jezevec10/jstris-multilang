@@ -10,14 +10,14 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>96.88%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>93.23%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 96.88%;"></span>
+            <span class="pb-fill" style="width: 93.23%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>90.75%</td><td>
+    <tr><td><a href="#">game</a></td><td>89.71%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 90.75%;"></span>
+            <span class="pb-fill" style="width: 89.71%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">web</a></td><td>97.24%</td><td>
@@ -36,8 +36,13 @@
 ```
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
+'notPC' => 'NOT a PC',
+'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
 'fwDetect' => 'FOUR WIDE',
 'fwDetectInfo' => 'Attacking yourself!',
+'nsUnpub' => 'Record not saved, the map is not published.',
+'nsTspins' => 'Record not saved, not enough T-Spins.',
+'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 ```
 
 ## Game
@@ -49,14 +54,16 @@
 'touchBtnMove' => 'Allow position adjustment by dragging',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'mLay' => 'Use mobile layout',
-'mLayInfo' => 'Change to override mobile detection. Page will be reloaded.',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'tsdsCounter' => 'TSDs done',
+'pcCounter' => 'Perfect Clears',
 'editRoom' => 'Edit',
 'savePreset' => 'Save the preset',
 'gmodeTeam' => 'Team',
 'applyCh' => 'Apply changes',
 'mapDownstack' => 'Map downstack',
 '20TSD' => '20TSD',
+'PCmode' => 'PC Mode',
 'allSpin' => 'All-spin',
 'asImmobile' => 'Immobile',
 'as4Point' => '4-point',

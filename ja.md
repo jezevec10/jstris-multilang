@@ -10,14 +10,14 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>64.84%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>62.41%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 64.84%;"></span>
+            <span class="pb-fill" style="width: 62.41%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>64.16%</td><td>
+    <tr><td><a href="#">game</a></td><td>63.43%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 64.16%;"></span>
+            <span class="pb-fill" style="width: 63.43%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">web</a></td><td>71.03%</td><td>
@@ -58,6 +58,8 @@
 'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
+'notPC' => 'NOT a PC',
+'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
 'fwDetect' => 'FOUR WIDE',
 'fwDetectInfo' => 'Attacking yourself!',
 'oops' => 'Oops!',
@@ -70,6 +72,9 @@
 'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
 'ncGS' => 'Not connected to the game server, try {refr}.',
 'refr' => 'refreshing the page',
+'nsUnpub' => 'Record not saved, the map is not published.',
+'nsTspins' => 'Record not saved, not enough T-Spins.',
+'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 'noPlayers' => 'No players',
 'cntMore' => '{cnt} more',
 'cntGuests' => '{cnt} guests',
@@ -98,8 +103,9 @@
 'webGL' => 'Use WebGL',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'mLay' => 'Use mobile layout',
-'mLayInfo' => 'Change to override mobile detection. Page will be reloaded.',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'tsdsCounter' => 'TSDs done',
+'pcCounter' => 'Perfect Clears',
 'KPP' => 'KPP',
 'editRoom' => 'Edit',
 'savePreset' => 'Save the preset',
@@ -109,6 +115,7 @@
 'applyCh' => 'Apply changes',
 'mapDownstack' => 'Map downstack',
 '20TSD' => '20TSD',
+'PCmode' => 'PC Mode',
 'audioCredits' => 'Audio Assets by',
 'fullScreen' => 'Full screen',
 'showHoldQueue' => 'Show H+Q',

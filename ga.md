@@ -10,14 +10,14 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>63.28%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>60.9%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 63.28%;"></span>
+            <span class="pb-fill" style="width: 60.9%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>54.91%</td><td>
+    <tr><td><a href="#">game</a></td><td>54.29%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 54.91%;"></span>
+            <span class="pb-fill" style="width: 54.29%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">web</a></td><td>51.72%</td><td>
@@ -60,6 +60,8 @@
 'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
+'notPC' => 'NOT a PC',
+'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
 'fwDetect' => 'FOUR WIDE',
 'fwDetectInfo' => 'Attacking yourself!',
 'oops' => 'Oops!',
@@ -72,6 +74,9 @@
 'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
 'ncGS' => 'Not connected to the game server, try {refr}.',
 'refr' => 'refreshing the page',
+'nsUnpub' => 'Record not saved, the map is not published.',
+'nsTspins' => 'Record not saved, not enough T-Spins.',
+'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 'noPlayers' => 'No players',
 'cntMore' => '{cnt} more',
 'cntGuests' => '{cnt} guests',
@@ -102,9 +107,10 @@
 'webGL' => 'Use WebGL',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'mLay' => 'Use mobile layout',
-'mLayInfo' => 'Change to override mobile detection. Page will be reloaded.',
+'mLayInfo' => 'Change to override mobile detection, requires refresh',
 'trem' => 'time remaining',
 'tsdsCounter' => 'TSDs done',
+'pcCounter' => 'Perfect Clears',
 'score' => 'Score',
 'KPP' => 'KPP',
 'editRoom' => 'Edit',
@@ -125,6 +131,7 @@
 'mapDownstack' => 'Map downstack',
 'ultra' => 'Ultra',
 '20TSD' => '20TSD',
+'PCmode' => 'PC Mode',
 'all' => 'All',
 'preset' => 'Preset',
 'audioCredits' => 'Audio Assets by',
