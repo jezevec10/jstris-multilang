@@ -164,4 +164,11 @@ return [
     'invalidLink' => 'Requested link is invalid.',
     'brb' => 'Be right back.',
     'tryAgain' => 'Site is being updated, please try again in a few moments.',
+
+    /* Settings - Other options */
+    'setOther' => 'Other options',
+    'hideAcc' => 'Hidden account',
+    'accVisibility' => 'Visibility',
+    'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
+
 ];

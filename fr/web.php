@@ -115,7 +115,7 @@ return [
     'mapName' => 'Nom',
     'mapNameLong' => 'Nom de la carte',
     'mapDesc' => 'Description',
-    'mapRules' => 'Régle',
+    'mapRules' => 'Règles',
     'mapOptions' => 'Options',
     'mapPlay' => 'Jouer',
     'mapPlayLink' => 'Jouer la carte',
@@ -133,7 +133,7 @@ return [
     'showRecords' => 'Voir les records',
     'details' => 'Détails',
     'playedBy' => 'Joué par',
-    'latestMapGames' => 'La dernière carte joué',
+    'latestMapGames' => 'La dernière carte jouée',
 
     /* Stats */
     'improvementStats' => 'Statistiques de progression',

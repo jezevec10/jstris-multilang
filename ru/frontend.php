@@ -47,7 +47,7 @@ return [
     'replayAvailable' => 'Повтор сохранён в:',
     'oldVer' => 'У Вас устаревшая версия, нажмите CTRL+F5, чтобы загрузить новую версию!',
     'privateRoom' => 'Это - Ваша приватная комната, никто тут Вам не помешает. Просмотрите Лобби для открытых комнат.',
-    'restartInfo' =>  'Нажмите на F4 (или на выбранную вами клавишу), чтобы перезапустить.',
+    'restartInfo' =>  'Нажмите на F4 (или на выбранную Вами клавишу), чтобы перезапустить.',
     'joinLinkInfo' => 'Эта комната - приватная. В неё можно войти только через эту ссылку:',
 
     //Dynamic elements
@@ -96,7 +96,7 @@ return [
     'suggestedIs' => 'Рекомендуется значение ЗАП:', //See "DAS" in game.php. Introduced a custom abbreviation. "ГУ" or "DAS" can be used, instead. -mLurker
     'applyConfirm' => 'Применить?',
     'invalidDAS' => 'Неправильно введено значение ЗАП.', //See "DAS" in game.php. -mLurker
-    'settingsChanged' => 'Настройки были изменены во время игры. Повтор не будет сохранён.',
+    'settingsChanged' => 'Настройки были изменены во время игры. Повтор не будет сохранён.', //Obsolete? -mLurker
     'segment' => 'Сегмент',
     'duration' => 'Продолжительность',
 	
@@ -118,7 +118,7 @@ return [
 	'repInChat' => 'Файл повтора выложен в чат. Скопируйте текст в окне и сохраните в текстовом файле.',
 	'repTxtInfo' => 'Этот файл можно потом открыть в проигрывателе на сайте или, возможно, переопубликовать на сайте.',
 	'newPB' => 'ВАШ НОВЫЙ РЕКОРД',
-	'firstPB' => 'Эта была Ваша первая игра. Поставьте ещё один рекорд, чтобы отметить ваши улучшения.',
+	'firstPB' => 'Эта была Ваша первая игра. Поставьте ещё один рекорд, чтобы отметить Ваши улучшения.',
 	'infoPB' => 'Ваш предыдущий рекорд: {prevPB}, поставленный {prevAgo}. Ваше улучшение: {PBdiff}.',
 	'daysAgo' => 'дней назад',
 	'raceFin' => 'ГОНКА ОКОНЧЕНА',
@@ -126,7 +126,7 @@ return [
 	'oops' => 'Ой!',
 	'chatNA' => 'Общий чат не доступен гостям и пользователям с менее, чем {chReq} часов игры.',
 	'leMore' => 'Узнать подробности',
-	'connLimit' => 'Максимальный лимит открытых соединении достигнут для этого IP. Если Вам требуется увеличить лимит, свяжитесь с нами в Discord сервере',
+	'connLimit' => 'Максимальный лимит открытых соединении достигнут для этого IP. Если Вам требуется увеличить лимит, свяжитесь с нами в Discord сервере.',
 	'idleDC' => 'Вас отсоединили из-за бездействия! Места для наблюдателей заполнены.',
 	'RLreach' => 'Лимит соединении достигнут.',
 	'ban1' => 'Доступ к играм против игроков запрещён. Вы всё ещё можете играть в другие режимы.',
@@ -143,11 +143,17 @@ return [
 	'on' => 'Вкл.',
 	'off' => 'Выкл.',
 	//from August 21st, 2019. -mLurker
-	'notTSD' => 'НЕ ТП2', //Replace with "НЕ TSD" to avoid localizing.
+	'notTSD' => 'НЕ ТП2',
 	//Custom abbreviation meaning "T-Spin-2". No official translated term for "TSD" found.
 	//Under the same logic, "ТП0", "ТП1" and "ТП3" mean TSZ, TSS and TST respectively. All mentions of T-Spins have been localized. -mLurker
-	'notTSDInfo' => 'Разрешены только Т-Повороты-2.', //Use "Разрешены только T-Spin Double." to avoid localizing.
-	'fwDetect' => '4-РЯД', //Replace with "4-WIDE" to avoid localizing.
-	//Custom term meaning "4-row". All mentions of 4-wide have been localized, check game.php. -mLurker
+	'notTSDInfo' => 'Разрешены только Т-Повороты-2.',
+	'fwDetect' => '4-РЯД',
+	//Custom term meaning "4-row". All mentions of 4-wide have been localized. -mLurker
 	'fwDetectInfo' => 'Атака направлена на себя!',
+	//from January 22nd, 2020. -mLurker
+	'notPC' => 'НЕ ПО', //Abbreviation "ПО" taken from Tetris Ultimate. -mLurker
+	'notPCInfo' => 'Полная Очистка поля на каждые 10 фигур. Ваше поле не очистится.', //As in, "Perfect Clear for every 10 blocks. Your board cannot be cleared." Shortened for brevity. -mLurker
+	'nsUnpub' => 'Рекорд не сохранён, эта карта не опубликована.',
+	'nsTspins' => 'Рекорд не сохранён, недостаточно Т-Поворотов.',
+	'nsLowPC' => 'Рекорд не сохранён, требуется минимум 2 Полных Очисток.',
 ];

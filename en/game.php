@@ -18,6 +18,8 @@ return [
     'rotate180' => 'Rotate 180',
     'hold' => 'Hold',
     'touch' => 'Enable touch screen controls (experimental)',
+    'touchBtn' => 'Enable on-screen control buttons',
+    'touchBtnMove' => 'Allow position adjustment by dragging',
     'DAS' => 'DAS',
     'ARR' => 'ARR',
     'softDropSpeed' => 'Soft-drop',
@@ -62,6 +64,8 @@ return [
     'FPSDASInfo' => 'Evaluate DAS on fixed intervals (lower timing accuracy)',
     'webGL' => 'Use WebGL',
     'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
+    'mLay' => 'Use mobile layout',
+    'mLayInfo' => 'Change to override mobile detection, requires refresh',
     'saveClose'=> 'Save Settings & Close',
     'resetAll'=> 'Reset all',
     'close'=> 'Close',
@@ -78,6 +82,7 @@ return [
     'lrem'=> 'lines remaining',
     'trem'=> 'time remaining',
     'tsdsCounter'=> 'TSDs done',
+    'pcCounter' => 'Perfect Clears',
     'toRestart'=> 'to restart',     //used in: press F4 to restart
     'lobby'=> 'Lobby',
     'settings'=> 'Settings',
@@ -129,6 +134,7 @@ return [
     'mapDownstack' => 'Map downstack',
     'ultra' => 'Ultra',
     '20TSD' => '20TSD',
+    'PCmode' => 'PC Mode',
     'all' => 'All',
     'preset' => 'Preset',
     'save' => 'Save',
@@ -167,6 +173,10 @@ return [
     'garbageDelay' => 'Garbage Delay',
     'garbageMess' => 'Messiness',
     'solidAtk' => 'Attack as solid',
+    'allSpin' => 'All-spin',
+    'asImmobile' => 'Immobile', // detection type for All-spin
+    'as4Point' => '4-point',    // detection type for All-spin
+    'allSpinNA' => 'Excl. blocks', // blocks excluded from All-spin bonus
     'noFW' => 'NoFourwide',
     'hostStart' => 'HostStart',
 

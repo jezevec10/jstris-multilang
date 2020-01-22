@@ -36,10 +36,10 @@ return [
     'newsUser' => 'Nuevo', //special username in chat
     'serverUser' => 'Servidor', //special username in chat
     'noNamed' => 'NoNamed', //user wihtout name (guest), max 7, can stay untranslated
-    'watching' => 'Espectando', //in 'Watching: user1,user2..', altern.=Spectators
+    'watching' => 'Espectadores', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'ingresó a la Sala', //in 'User1 joined the room.'
     'joined' => 'ingresó', //in title: 'User1 joined!'
-    'userCame' => 'vino a espectar',  //in 'User1 came to watch.'
+    'userCame' => 'vino a ver',  //in 'User1 came to watch.'
     'isSpectating' => 'ahora está espectando', //in 'User1 is now spectating.'
     'spectator' => 'Espectador',
     'hasLeft' => 'se fue', //in 'Spectator User1 has left.'
@@ -147,7 +147,7 @@ return [
     'cntGuests' => '{cnt} invitados', //e.g. +10 guests
     'cntSpec' => '{cnt} espectadores', //e.g. +10 spectating
     'joinPossible' => 'Puedes ingresar',
-    'notEligible' => 'No es personalizable',
+    'notEligible' => 'No elegible',
     'gTimeShort' => 'T.juego',
     'on' => 'Sí',
     'off' => 'No',
