@@ -18,6 +18,8 @@ return [
     'rotate180' => '180°转',
     'hold' => '暂存 (Hold) ',
     'touch' => '开启触摸控制（实验）',
+    'touchBtn' => '开启屏幕虚拟按键',
+    'touchBtnMove' => '选中此项后，拖拽调整按键位置（保存后刷新）',	
     'DAS' => '自动加速延迟(DAS)',
     'ARR' => '自动重复间隔(ARR)',
     'softDropSpeed' => '软降速度',
@@ -61,8 +63,10 @@ return [
     'FPSDAS' => '基于帧率(FPS)的 DAS',
     'FPSDASInfo' => '将 DAS 基于固定时间间隔(计时精度低)而非固定帧数',
     'webGL' => '使用 WebGL',
+    'mLay' => '使用手机布局',
+    'mLayInfo' => '更改此选项将覆盖手机检测，保存后刷新',
     'webGLInfo' => '如果无法使用OpenGL(:year)渲染，请禁用此选项',
-    'saveClose'=> '保存设置并退出',
+    'saveClose'=> '保存设置并退出',			  
     'resetAll'=> '全部重置',
     'close'=> '关闭',
     'gameResults'=> '游戏结果',
@@ -78,6 +82,7 @@ return [
     'lrem'=> '剩余行数',
     'trem'=> '剩余时间',
     'tsdsCounter'=> '完成TSD/T2数',
+    'pcCounter' => '全清数',									
     'toRestart'=> '重新开始',     //used in: press F4 to restart
     'lobby'=> '大厅',
     'settings'=> '设置',
@@ -129,6 +134,7 @@ return [
     'mapDownstack' => '地图挖掘',
     'ultra' => '限时极限',
     '20TSD' => '20TSD/T2',
+    'PCmode' => '全清模式',						  
     'all' => '全部',
     'preset' => '预置',
     'save' => '保存',
@@ -167,6 +173,10 @@ return [
     'garbageDelay' => '垃圾行延迟',
     'garbageMess' => '垃圾行混乱度',
     'solidAtk' => '实心行攻击',
+    'allSpin' => '全方块Spin',
+    'asImmobile' => '卡块/不可移动', // detection type for All-spin
+    'as4Point' => '4点检测',    // detection type for All-spin
+    'allSpinNA' => '不计Spin块', // blocks excluded from All-spin bonus
     'noFW' => '禁止四宽(4w)',
     'hostStart' => '仅限房主开始',
 	
