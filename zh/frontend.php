@@ -125,6 +125,9 @@ return [
     'notTSD' => '非TSD消除',
     'notTSDInfo' => '仅允许T-spin Double/T2消除',
 
+    'notPC' => '不能全清',
+    'notPCInfo' => '每10块全清一次. 当前版面不能全清.',
+	
     'fwDetect' => '四宽堆积',
     'fwDetectInfo' => '检测到4w堆积，自攻自受！',
     
@@ -140,6 +143,10 @@ return [
     'ncGS' => '连接到游戏服务器失败，请尝试{refr}.',
     'refr' => '刷新页面',
 
+    'nsUnpub' => '录像未保存. 因为地图未公开发表.',
+    'nsTspins' => '录像未保存. 因为T-spin数目不够.',
+    'nsLowPC' => '录像未保存. 至少需要全清 2 次.',
+	
     //Room info detail
     'noPlayers' => '无玩家',
     'cntMore' => '{cnt} 玩家',          //e.g. +10 more

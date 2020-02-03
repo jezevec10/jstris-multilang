@@ -118,7 +118,7 @@ return [
     'mapDesc' => '说明',
     'mapRules' => '规则',
     'mapOptions' => '选项',
-    'mapPlay' => '预览&游玩',
+    'mapPlay' => '游玩预览',
     'mapPlayLink' => '游玩地图',
     'mapAuthor' => '作者',
     'mapCreatedBy' => '作者',
@@ -162,4 +162,11 @@ return [
     'invalidLink' => '访问链接无效.',
     'brb' => '马上回来. ',
     'tryAgain' => '网站正在升级，请稍后再试.',
+
+    /* Settings - Other options */
+    'setOther' => '其他设置',
+    'hideAcc' => '隐藏账号',
+    'accVisibility' => '可见性',
+    'hideAccInfo' => '开启后，此账号将不计入公共排行榜.',
+	
 ];
