@@ -2,7 +2,7 @@
 
 return [
     'play' => 'Играть',
-    'live' => 'Против игроков', //"Live" has no close analogy in Russian, wrote "versus players" instead
+    'live' => 'Против игроков', //"Live" has no close analogy in Russian, wrote "versus players" instead. -mLurker
     'controls' => 'Управление',
     'gameSettings' => 'Настройки игры',
     'appearance' => 'Вид',
@@ -17,8 +17,8 @@ return [
     'rotateRight' => 'Повернуть направо',
     'rotate180' => 'Перевернуть',
     'hold' => 'Замена',
-    'touch' => 'Включить сенсорное управление (экспериментально)',
-    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLukrer
+    'touch' => 'Включить управление смахиванием по экрану', //Changed to "Turn on swiping (on the screen) controls". -mLurker
+    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLurker
     'ARR' => 'ЧАП', //Custom abbreviation from "Частота Авто-Передвижения" (Rate of Auto-Movement). -mLurker
     'softDropSpeed' => 'Скорость падения',
     'sdSlow' => 'Медленная',
@@ -94,7 +94,7 @@ return [
     'submitPreset' => 'Отправить пользовательские правила',
     'customRooms'=> 'Пользовательские комнаты',
     'gmode'=> 'Режим',
-    'gmodeStandard'=> 'Стандартный',
+    'gmodeStandard'=> 'Стандартн.', //Fixed according to UI limits. -mLurker
     'gmodeCheese'=> 'Очистка', //See "cheese" for explanation, wrote "Cleanup" instead. Use "Сырная гонка" for a literal translation. -mLurker
     'isPrivate'=> 'Приватная',
     'simple'=> 'Простые',
@@ -105,7 +105,7 @@ return [
     'create'=> 'Создать',
     'cancel'=> 'Отменить',
     'about' => 'О сайте',
-    'donate' => 'Подарить',
+    'donate' => 'Пожертвовать',  //Fixed. -mLurker
     'hdThread' => 'Ветка в форуме HardDrop',
     'chatSend' => 'Отправить',
     'rememberName' => 'Запомнить никнейм', //See "nickname" for explanation. "Запомнить псевдоним" can be used, too. -mLurker
@@ -117,7 +117,8 @@ return [
     'save' => 'Сохранить',
     'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details. -mLurker
 	
-	//New strings from July 29th -mLurker
+	//New strings:
+	//from July 29th, 2019. -mLurker
 	'rescaleNow' => 'Обновлять поле других игроков сразу',
 	'rescaleNowInfo' => 'Если не отметить, то поля новых игроков появятся на след. раунде.',
 	'DAScancel' => 'Освежать ЗАП', //As in, "Refresh DAS". -mLurker
@@ -154,9 +155,9 @@ return [
 	'comboTable' => 'Табл. комбо', //*
 	'gBlocking' => 'Блок. мусора', //*
 	'blocksType' => 'Тип фигур',
-	'randomizer' => 'ГСФ', //* "Генератор Случайных Фигур", as in "Random Piece Generator". No short Russian term for "Randomizer" found.
-	'previews' => 'Дл. очереди', //* As in, "Next queue length".
-	'solidGarbage' => 'Заполнять', //* As in, "Fill".
+	'randomizer' => 'ГСФ', //* "Генератор Случайных Фигур", as in "Random Piece Generator". No short Russian term for "Randomizer" found. -mLurker
+	'previews' => 'Дл. очереди', //* As in, "Next queue length". -mLurker
+	'solidGarbage' => 'Заполнять', //* As in, "Fill". -mLurker
 	'solidAfterSecs' => 'После',
 	'lockDelay' => 'Задерж. фикс.', //*
 	'clearDelay' => 'Задерж. очист.', //*
@@ -164,7 +165,26 @@ return [
 	'gravityLvl' => 'Гравитация',
 	'garbageDelay' => 'Задерж. мусора', //*
 	'garbageMess' => 'Замеш. мусора', //*
-	'solidAtk' => 'Атака полн.', //* As in, "Attack with full".
-	'noFW' => 'Бан на 4-wide', //* As in, "Ban 4-wide".
-	'hostStart' => 'Старт от хоз.', //As in, "Start from host".
+	'solidAtk' => 'Атака полн.', //* As in, "Attack with full". -mLurker
+	'noFW' => 'Бан на 4-ряд', //* As in, "Ban 4-wide". -mLurker
+	'hostStart' => 'Старт от хоз.', //As in, "Start from host". -mLurker
+	
+	//from August 21st, 2019. -mLurker
+	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году',
+	'tsdsCounter' => 'ТП2 выполнено', //See frontend.php for explanation. -mLurker
+	'20TSD' => '20ТП2',
+	
+	//from January 4th, 2020. -mLurker
+	'touchBtn' => 'Включить экранные кнопки',
+	'touchBtnMove' => 'Разрешить передвижение экранных кнопок',
+	'mLay' => 'Использовать мобильную раскладку',
+	'mLayInfo' => 'Отключите эту настройку, чтобы не загружать мобильную раскладку. Потребуется обновление.',
+	'allSpin' => 'Все Повороты',
+	'asImmobile' => 'По неподвиж.', //Shortened "By immobility". -mLurker
+	'as4Point' => 'По 4 точкам', //As in, "By 4 points". -mLurker
+	'allSpinNA' => 'Исключить Повороты', //As in, "Exclude Spins". -mLurker
+	
+	//from January 22nd, 2020. -mLurker
+	'pcCounter' => 'Полные Очистки',
+	'PCmode' => 'Режим ПО',
 ];

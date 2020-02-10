@@ -123,7 +123,7 @@ return [
     'oops' => 'Hoppla!',
     'chatNA' => 'Öffentliches chatten ist für Gäste oder Spieler mit weniger als {chReq} Stunden Spielzeit nicht verfügbar.',
     'leMore' => 'Erfahre mehr',
-    'connLimit' => 'Die maximale Anzahl offener Verbindung für diese IP ist momentan erreicht. Falls Sie dieses Limit erhöhen möchten, kontaktieren Sie uns über Discorded.',
+    'connLimit' => 'Die maximale Anzahl offener Verbindung für diese IP ist momentan erreicht. Falls Sie dieses Limit erhöhen möchten, kontaktieren Sie uns über Discord.',
     'idleDC' => 'Verbindung wegen Inaktivität getrennt! Zuschauerbereich war voll.',
     'RLreach' => 'Limit erreicht.',
     'ban1' => 'Ihr Zugang zu Live Spielen wurde permanent eingeschränkt. Sie können immer noch die Einzielspielermodi spielen.',

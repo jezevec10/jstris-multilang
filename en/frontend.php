@@ -123,6 +123,15 @@ return [
     'raceFin' => 'THE RACE HAS FINISHED',
     'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
 
+    'notTSD' => 'NOT TSD',
+    'notTSDInfo' => 'Only T-Spin Double is allowed',
+
+    'notPC' => 'NOT a PC',
+    'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
+
+    'fwDetect' => 'FOUR WIDE',
+    'fwDetectInfo' => 'Attacking yourself!',
+
     'oops' => 'Oops!',
     'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
     'leMore' => 'Learn more',
@@ -134,6 +143,10 @@ return [
     'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
     'ncGS' => 'Not connected to the game server, try {refr}.',
     'refr' => 'refreshing the page',
+
+    'nsUnpub' => 'Record not saved, the map is not published.',
+    'nsTspins' => 'Record not saved, not enough T-Spins.',
+    'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 
     //Room info detail
     'noPlayers' => 'No players',
