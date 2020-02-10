@@ -1,4 +1,5 @@
 <?php
+
 return [
     //On screen captions
     'ready' => 'PRÊT ?',
@@ -47,7 +48,8 @@ return [
     'welcomeIn' => 'Bienvenue dans', //in 'Welcome in RoomName.'
     'noSpectators' => 'Il n\'y a actuellement aucun spectateur.',
     'replayAvailable' => 'Enregistrement disponible à l\'adresse',
-    'oldVer' => 'Vous jouez avec une ancienne version, utiliser CTRL+F5 pour charger la nouvelle version !',
+    'oldVer' => 'Vous jouez avec une ancienne version, utilisez CTRL+F5 pour charger la nouvelle version !',
+    'oldVer2' => 'Vous avez encore l\'ancienne version! utilisez {key} pour recharger le client',
     'privateRoom' => 'Voici votre salon privé, dans laquelle vous ne serez pas dérangé pendant que vous jouez. Cliquez sur \'Parties\' pour voir les salons publics.',
     'restartInfo' =>  'Recommencez avec F4 ou définissez une touche personnalisée.',
     'joinLinkInfo' => 'Ce salon est privé. Le joueurs ne peuvent le rejoindre qu\'avec le lien suivant :',
@@ -116,9 +118,18 @@ return [
     'newPB' => 'NOUVEAU MEILLEUR SCORE',
     'firstPB' => 'Ceci était votre première partie, obtenez un nouveau meilleur score pour suivre votre progression',
     'infoPB' => 'Votre ancien record était {prevPB}, atteint {prevAgo}. L\'amélioration depuis est : {PBdiff}.',
+    'daysAgo' => 'il y a plusieurs jours',
 
     'raceFin' => 'LA COURSE EST FINIE',
     'raceFinInfo' => 'Vous pouvez finir la partie, mais le prochain tour peut commencer à n\'importe quel moment.',
+
+    'notTSD' => 'PAS TSD',
+    'notTSDInfo' => 'Seul le T-Spin Double est autorisé',
+
+    'notPCInfo' => 'Faites un Perfect Clear tous les 10 blocs. Votre plateau ne peut pas être vidé.',
+
+    'fwDetect' => 'QUATRE DE LARGE',
+    'fwDetectInfo' => 'Vous vous attaquez vous même!',
 
     'oops' => 'Oops!',
     'chatNA' => 'Le tchat public n\'est pas disponible pour les invités ou les utilisateurs ayant moins de {chReq} heures de temps de jeu',
@@ -130,6 +141,10 @@ return [
     'ban2' => 'Ce compte utilisateur a été BANNI. Reconnectez-vous sur le site pour plus d\'informations.',
     'ncGS' => 'Hors-ligne, essayez de {refr}.',
     'refr' => 'rafraîchir la page',
+
+    'nsUnpub' => 'Enregistrement non sauvegardé, la map n\'est pas publiée.',
+    'nsTspins' => 'Enregistrement non sauvegardé, pas assez de T-Spins.',
+    'nsLowPC' => 'Enregistrement non sauvegardé, au moins 2 Perfect Clear sont attendus',
 
     //Room info detail
     'noPlayers' => 'Pas de joueurs',
