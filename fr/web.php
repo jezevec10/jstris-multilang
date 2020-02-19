@@ -162,4 +162,10 @@ return [
     'invalidLink' => 'Le lien entré n\'est pas valide.',
     'brb' => 'Je reviens tout de suite.',
     'tryAgain' => 'Le site est en cours de mise à jour, merci de réessayer ultérieurement.',
+
+    /* Settings - Other options */
+    'setOther' => 'Autres options',
+    'hideAcc' => 'Comptes cachés',
+    'accVisibility' => 'Visibilité',
+    'hideAccInfo' => 'Si activé, le compte sera exclu des classements publiques',
 ];
