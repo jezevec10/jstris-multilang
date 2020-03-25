@@ -118,7 +118,7 @@ return [
     'newPB' => 'NOUVEAU MEILLEUR SCORE',
     'firstPB' => 'Ceci était votre première partie, obtenez un nouveau meilleur score pour suivre votre progression',
     'infoPB' => 'Votre ancien record était {prevPB}, atteint {prevAgo}. L\'amélioration depuis est : {PBdiff}.',
-    'daysAgo' => 'il y a plusieurs jours',
+    'daysAgo' => 'jours auparavant',
 
     'raceFin' => 'LA COURSE EST FINIE',
     'raceFinInfo' => 'Vous pouvez finir la partie, mais le prochain tour peut commencer à n\'importe quel moment.',
