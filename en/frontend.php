@@ -23,6 +23,7 @@ return [
     'connecting' => 'Connecting...', //when connecting to the game server
     'signingIn' => 'Signing in',
     'loginFail' => 'Log in failed!',
+    'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
     'mapLoading' => 'Map loading...',
 
     //Chat
