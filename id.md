@@ -10,19 +10,19 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>63.16%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>62.69%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 63.16%;"></span>
+            <span class="pb-fill" style="width: 62.69%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>64.57%</td><td>
+    <tr><td><a href="#">game</a></td><td>63.48%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 64.57%;"></span>
+            <span class="pb-fill" style="width: 63.48%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>71.72%</td><td>
+    <tr><td><a href="#">web</a></td><td>67.1%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 71.72%;"></span>
+            <span class="pb-fill" style="width: 67.1%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -36,6 +36,7 @@
 ```
 'signingIn' => 'Signing in',
 'loginFail' => 'Log in failed!',
+'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
 'mapLoading' => 'Map loading...',
 'oldVer2' => 'You still have the old version! Use {key} to reload your client',
 'roomFull' => 'It seems the room is full.',
@@ -92,6 +93,9 @@
 ```
 'touchBtn' => 'Enable on-screen control buttons',
 'touchBtnMove' => 'Allow position adjustment by dragging',
+'sound' => 'Sound',
+'enableVSE' => 'Voice comments',
+'rotateSE' => 'Sound effect of block rotation',
 'rescaleNow' => 'Resize multiplayer fields immediately',
 'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
 'DAScancel' => 'DAS cancellation',
@@ -200,5 +204,15 @@
 'hideAcc' => 'Hidden account',
 'accVisibility' => 'Visibility',
 'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
+'reportU' => 'Report user',
+'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
+'user' => 'User',
+'reason' => 'Reason',
+'rr0' => 'Spam or unwanted advertising',
+'rr1' => 'Sexually explicit content',
+'rr2' => 'Hate speech',
+'rr3' => 'Harassment or bullying',
+'rr4' => 'Other (specify)',
+'sendReport' => 'Send report',
 ```
 

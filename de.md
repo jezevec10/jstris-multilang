@@ -10,19 +10,19 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>93.23%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>92.54%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 93.23%;"></span>
+            <span class="pb-fill" style="width: 92.54%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>89.71%</td><td>
+    <tr><td><a href="#">game</a></td><td>88.2%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 89.71%;"></span>
+            <span class="pb-fill" style="width: 88.2%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>97.24%</td><td>
+    <tr><td><a href="#">web</a></td><td>90.97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 97.24%;"></span>
+            <span class="pb-fill" style="width: 90.97%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -34,6 +34,7 @@
 **Missing in de/frontend.php:**
 
 ```
+'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
 'notPC' => 'NOT a PC',
@@ -52,6 +53,9 @@
 ```
 'touchBtn' => 'Enable on-screen control buttons',
 'touchBtnMove' => 'Allow position adjustment by dragging',
+'sound' => 'Sound',
+'enableVSE' => 'Voice comments',
+'rotateSE' => 'Sound effect of block rotation',
 'webGLInfo' => 'Disable this if you aren\'t able to render OpenGL in :year',
 'mLay' => 'Use mobile layout',
 'mLayInfo' => 'Change to override mobile detection, requires refresh',
@@ -79,5 +83,15 @@
 'hideAcc' => 'Hidden account',
 'accVisibility' => 'Visibility',
 'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
+'reportU' => 'Report user',
+'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
+'user' => 'User',
+'reason' => 'Reason',
+'rr0' => 'Spam or unwanted advertising',
+'rr1' => 'Sexually explicit content',
+'rr2' => 'Hate speech',
+'rr3' => 'Harassment or bullying',
+'rr4' => 'Other (specify)',
+'sendReport' => 'Send report',
 ```
 

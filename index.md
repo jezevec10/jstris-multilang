@@ -12,93 +12,93 @@ Select a language to view more information on which translations are missing.
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="cs.html">cs</a></td><td>98.45%</td><td>
+    <tr><td><a href="cs.html">cs</a></td><td>95.5%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 98.45%;"></span>
+            <span class="pb-fill" style="width: 95.5%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="da.html">da</a></td><td>65.56%</td><td>
+    <tr><td><a href="da.html">da</a></td><td>63.6%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 65.56%;"></span>
+            <span class="pb-fill" style="width: 63.6%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="de.html">de</a></td><td>93.16%</td><td>
+    <tr><td><a href="de.html">de</a></td><td>90.36%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 93.16%;"></span>
+            <span class="pb-fill" style="width: 90.36%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="es.html">es</a></td><td>100%</td><td>
+    <tr><td><a href="es.html">es</a></td><td>97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 97%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="fr.html">fr</a></td><td>97.35%</td><td>
+    <tr><td><a href="fr.html">fr</a></td><td>94.43%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 97.35%;"></span>
+            <span class="pb-fill" style="width: 94.43%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ga.html">ga</a></td><td>55.41%</td><td>
+    <tr><td><a href="ga.html">ga</a></td><td>53.75%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 55.41%;"></span>
+            <span class="pb-fill" style="width: 53.75%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="id.html">id</a></td><td>66.45%</td><td>
+    <tr><td><a href="id.html">id</a></td><td>64.45%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 66.45%;"></span>
+            <span class="pb-fill" style="width: 64.45%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="it.html">it</a></td><td>55.41%</td><td>
+    <tr><td><a href="it.html">it</a></td><td>53.75%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 55.41%;"></span>
+            <span class="pb-fill" style="width: 53.75%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ja.html">ja</a></td><td>65.56%</td><td>
+    <tr><td><a href="ja.html">ja</a></td><td>63.6%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 65.56%;"></span>
+            <span class="pb-fill" style="width: 63.6%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ko.html">ko</a></td><td>65.56%</td><td>
+    <tr><td><a href="ko.html">ko</a></td><td>63.6%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 65.56%;"></span>
+            <span class="pb-fill" style="width: 63.6%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="pl.html">pl</a></td><td>66.45%</td><td>
+    <tr><td><a href="pl.html">pl</a></td><td>64.45%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 66.45%;"></span>
+            <span class="pb-fill" style="width: 64.45%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="pt.html">pt</a></td><td>100%</td><td>
+    <tr><td><a href="pt.html">pt</a></td><td>97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 97%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ru.html">ru</a></td><td>100%</td><td>
+    <tr><td><a href="ru.html">ru</a></td><td>97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 97%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="tr.html">tr</a></td><td>84.99%</td><td>
+    <tr><td><a href="tr.html">tr</a></td><td>82.44%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 84.99%;"></span>
+            <span class="pb-fill" style="width: 82.44%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="vi.html">vi</a></td><td>100%</td><td>
+    <tr><td><a href="vi.html">vi</a></td><td>97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 97%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="zh.html">zh</a></td><td>100%</td><td>
+    <tr><td><a href="zh.html">zh</a></td><td>97%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 97%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>85.43%</td><td>
+    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>82.87%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 85.43%;"></span>
+            <span class="pb-fill" style="width: 82.87%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -------------------
 
-*Auto-generated on **Wed, 25 Mar 2020 21:04:17 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Fri, 15 May 2020 23:15:54 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*

@@ -10,19 +10,19 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>60.9%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>60.45%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 60.9%;"></span>
+            <span class="pb-fill" style="width: 60.45%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>54.29%</td><td>
+    <tr><td><a href="#">game</a></td><td>53.37%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 54.29%;"></span>
+            <span class="pb-fill" style="width: 53.37%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>51.72%</td><td>
+    <tr><td><a href="#">web</a></td><td>48.39%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 51.72%;"></span>
+            <span class="pb-fill" style="width: 48.39%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -39,6 +39,7 @@
 'connecting' => 'Connecting...',
 'signingIn' => 'Signing in',
 'loginFail' => 'Log in failed!',
+'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
 'mapLoading' => 'Map loading...',
 'oldVer2' => 'You still have the old version! Use {key} to reload your client',
 'roomFull' => 'It seems the room is full.',
@@ -96,7 +97,10 @@
 'touchBtn' => 'Enable on-screen control buttons',
 'touchBtnMove' => 'Allow position adjustment by dragging',
 'ARR' => 'ARR',
+'sound' => 'Sound',
 'monochrome' => 'Monochrome',
+'enableVSE' => 'Voice comments',
+'rotateSE' => 'Sound effect of block rotation',
 'SEvol' => 'SE volume',
 'rescaleNow' => 'Resize multiplayer fields immediately',
 'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
@@ -250,5 +254,15 @@
 'hideAcc' => 'Hidden account',
 'accVisibility' => 'Visibility',
 'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
+'reportU' => 'Report user',
+'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
+'user' => 'User',
+'reason' => 'Reason',
+'rr0' => 'Spam or unwanted advertising',
+'rr1' => 'Sexually explicit content',
+'rr2' => 'Hate speech',
+'rr3' => 'Harassment or bullying',
+'rr4' => 'Other (specify)',
+'sendReport' => 'Send report',
 ```
 
