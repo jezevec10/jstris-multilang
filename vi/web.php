@@ -162,4 +162,8 @@ return [
     'latestMapGames' => 'Những map mới chơi nhất',
     'translators' => 'Người dịch',
     'moderators' => 'Người điều hành',
+    'setOther' => 'Tùy chọn khác', 
+    'hideAcc' => 'Ẩn tài khoản', 
+    'accVisibility' => 'Hiển thị', 
+    'hideAccInfo' => 'Nếu bật, tài khoản này sẽ không được liệt kê vào bảng xếp hạng công khai',
 ];

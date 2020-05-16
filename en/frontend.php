@@ -23,6 +23,7 @@ return [
     'connecting' => 'Connecting...', //when connecting to the game server
     'signingIn' => 'Signing in',
     'loginFail' => 'Log in failed!',
+    'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
     'mapLoading' => 'Map loading...',
 
     //Chat
@@ -126,6 +127,9 @@ return [
     'notTSD' => 'NOT TSD',
     'notTSDInfo' => 'Only T-Spin Double is allowed',
 
+    'notPC' => 'NOT a PC',
+    'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
+
     'fwDetect' => 'FOUR WIDE',
     'fwDetectInfo' => 'Attacking yourself!',
 
@@ -140,6 +144,10 @@ return [
     'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
     'ncGS' => 'Not connected to the game server, try {refr}.',
     'refr' => 'refreshing the page',
+
+    'nsUnpub' => 'Record not saved, the map is not published.',
+    'nsTspins' => 'Record not saved, not enough T-Spins.',
+    'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 
     //Room info detail
     'noPlayers' => 'No players',

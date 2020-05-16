@@ -164,4 +164,11 @@ return [
     'invalidLink' => 'El enlace es inválido.',
     'brb' => 'Ya volvemos.',
     'tryAgain' => 'El sitio está siendo actualizado, por favor regresa en un momento.',
+
+    /* Settings - Other options */
+    'setOther' => 'Otras opciones',
+    'hideAcc' => 'Esconder cuenta',
+    'accVisibility' => 'Visibilidad',
+    'hideAccInfo' => 'Si está habilitado la cuenta se excluirá en el Ranking público',
+
 ];

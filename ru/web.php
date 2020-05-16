@@ -163,4 +163,10 @@ return [
 	'latestMapGames' => 'Последние сыгранные карты',
 	'translators' => 'Переводчики',
 	'moderators' => 'Модераторы',
+	
+	//from January 4th, 2020. -mLurker
+	'setOther' => 'Другие настройки',
+	'hideAcc' => 'Спрятать аккаунт', //As in, "Hide the account". -mLurker
+	'accVisibility' => 'Видимость',
+	'hideAccInfo' => 'Этот аккаунт не появится в списке рекордов, если эта настройка включена.',
 ];
