@@ -23,6 +23,7 @@ return [
     'connecting' => 'Conectando...', //when connecting to the game server
     'signingIn' => 'Autenticandose',
     'loginFail' => 'Autenticación fallida!',
+    'loginFail2' => 'No iniciaste sesión! Estás jugando como invitado con el nombre: {name}.',
     'mapLoading' => 'Cargando mapa...',
 
     //Chat
@@ -154,7 +155,7 @@ return [
     'cntGuests' => '{cnt} invitados', //e.g. +10 guests
     'cntSpec' => '{cnt} espectadores', //e.g. +10 spectating
     'joinPossible' => 'Puedes ingresar',
-    'notEligible' => 'No seleccionable',
+    'notEligible' => 'No elegible',
     'gTimeShort' => 'T.juego',
     'on' => 'Sí',
     'off' => 'No',
