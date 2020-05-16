@@ -23,6 +23,7 @@ return [
     'connecting' => 'Conectando...', //when connecting to the game server
     'signingIn' => 'Autenticandose',
     'loginFail' => 'Autenticación fallida!',
+    'loginFail2' => 'No iniciaste sesión! Estás jugando como invitado con el nombre: {name}.',
     'mapLoading' => 'Cargando mapa...',
 
     //Chat
