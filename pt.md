@@ -53,7 +53,7 @@
 
 ```
 'reportU' => 'Report user',
-'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
+'reportDesc' => 'Here you can create a report if you think someone has abused the game chat.',
 'user' => 'User',
 'reason' => 'Reason',
 'rr0' => 'Spam or unwanted advertising',
