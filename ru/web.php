@@ -9,7 +9,7 @@ return [
     'mapsDesigner' => 'Дизайнер карт',
 	'randomMap' => 'Случайная карта',
     'mapsLatestGames' => 'Последние игры',
-    'guide' => 'Инструкции',
+    'guide' => 'Гид', //Guide translation coming soon. -mLurker
     'login' => 'Войти',
     'register' => 'Зарегистрироваться',
     'myProfile' => 'Мой профиль',
@@ -65,7 +65,7 @@ return [
     /* PW change */
     'pwChange' => 'Поменять пароль',
     'newPw' => 'Новый пароль',
-    'againPw' => 'Ещё раз',
+    'againPw' => 'ещё раз',
     'applyChange' => 'Применить изменения',
     
     /* Localization settings */
@@ -85,7 +85,7 @@ return [
     'userImpr' => 'Просмотреть статистику улучшения',
     'gameStats' => 'Статистика игр',
     'latestGames' => 'Последние игры',
-    'noGames' => 'Этот пользователь ещё не участвовал в играх.',
+    'noGames' => 'Этот пользователь ещё не участвовал(а) в играх.',
     'gamesPlayed' => 'Игры',
     'totalTime' => 'Общее проведённое время',
     'linesSent' => 'Отправлено рядов',
@@ -105,7 +105,7 @@ return [
     'improvementInfo' => 'Этот график показывает рекорды спринтов по оси Y и даты этих рекордов по оси X. Выделенная линия показывает улучшения в рекордах :name. Наведите ваш курсор на любое место, чтобы просмотреть больше.',
     'date' => 'Дата',
     'result' => 'Результат',
-    'submit' => 'Просмотреть', //Which means "Browse". Contextually would make more sense. Use "Предоставить" for literal translation, but I do not recommend this. -mLurker
+    'submit' => 'Просмотреть', //"Browse". -mLurker
     'qSettings' => 'Настройки поиска',
     'dispAll' => 'Показать все игры',
     
@@ -131,13 +131,13 @@ return [
 	'blockCnt' => ':cnt фигур',
 	'APM10Games' => 'Ат./мин за 10 игр',
 	'PPS10Games' => 'Ф./с за 10 игр',
-	'createdMaps' => 'Карты', //As in, "Maps". -mLurker
+	'createdMaps' => 'Карты', //"Maps". -mLurker
 	'viewMapsBy' => 'Просмотреть все карты от',
 	'playersCount' => 'Игроки',
 	'gameResultPosition' => 'Место',
 	'gameResultRoundTime' => 'Общ. время игры',
 	'viewAllGamesOf' => 'Просмотреть все игры в :mode',
-	'noGamesOf' => ':name ещё не играл в :mode.',
+	'noGamesOf' => ':name ещё не играл(а) в :mode.',
 	'map' => 'Карта',
 	'mapCreate' => 'Создать новую',
 	'mapName' => 'Название',
@@ -169,4 +169,16 @@ return [
 	'hideAcc' => 'Спрятать аккаунт', //As in, "Hide the account". -mLurker
 	'accVisibility' => 'Видимость',
 	'hideAccInfo' => 'Этот аккаунт не появится в списке рекордов, если эта настройка включена.',
+	
+	//from May 21st, 2020. -mLurker
+	'reportU' => 'Пожаловаться',
+	'reportDesc' => 'Вы можете отправить жалобу, если вы видите злоупотребление чата.',
+	'user' => 'Пользователь',
+	'reason' => 'Причина',
+	'rr0' => 'Спам или реклама',
+	'rr1' => 'Материал для взрослых', //"Adult content". -mLurker
+	'rr2' => 'Оскорбление', //"Offense". -mLurker
+	'rr3' => 'Травля или домогательство',
+	'rr4' => 'Другое',
+	'sendReport' => 'Отправить',
 ];

@@ -2,10 +2,10 @@
 
 return [
     'play' => 'Играть',
-    'live' => 'Против игроков', //"Live" has no close analogy in Russian, wrote "versus players" instead. -mLurker
+    'live' => 'Против игроков', //"Versus players". -mLurker
     'controls' => 'Управление',
     'gameSettings' => 'Настройки игры',
-    'appearance' => 'Вид',
+    'appearance' => 'Вид и Звук', //This string should be "Appearance and Sound" in English. -mLurker
     'more' => '+',
     'gameControls' => 'Управление игры',
     'gameControlsInfo' => 'Нажмите на текстовое окно и выберите желаемую клавишу.',
@@ -13,11 +13,11 @@ return [
     'moveRight' => 'Направо',
     'softDrop' => 'Медленное падение',
     'hardDrop' => 'Быстрое падение',
-    'rotateLeft' => 'Повернуть налево',
-    'rotateRight' => 'Повернуть направо',
-    'rotate180' => 'Перевернуть',
+    'rotateLeft' => 'Поворот налево',
+    'rotateRight' => 'Поворот направо',
+    'rotate180' => 'Переворот',
     'hold' => 'Замена',
-    'touch' => 'Включить управление смахиванием по экрану', //Changed to "Turn on swiping (on the screen) controls". -mLurker
+    'touch' => 'Включить управление смахиванием по экрану', //"Turn on swiping (on the screen) controls". -mLurker
     'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLurker
     'ARR' => 'ЧАП', //Custom abbreviation from "Частота Авто-Передвижения" (Rate of Auto-Movement). -mLurker
     'softDropSpeed' => 'Скорость падения',
@@ -35,18 +35,18 @@ return [
     'ghost' => 'Фантомная фигура',
     'enabled' => 'Вкл.',
     'disabled' => 'Выкл.',
-    'appearSound' => 'Вид и Звук',
+    'appearSound' => 'Вид', //This string now describes appearance settings only, changed accordingly. -mLurker
     'blockStyle' => 'Фигуры',
     'solidBlocks' => 'Цвета (без текстур)',
     'invisibleBlocks' => 'Невидимые',
     'monochrome' => 'Один цвет',
     'enableSE' => 'Звуковые эффекты',
     'startSE' => 'Звуковой эффект в начале раунда',
-    'faultSE'=> 'Звуковой эффект в случае несоблюдения техники', //No appropriate term for "Tetris Finesse" in Russian, wrote "Special sound effect on technique fault". -mLurker
+    'faultSE'=> 'Звуковой эффект в случае несоблюдения техники', //No official translation of "Tetris Finesse", wrote "Special sound effect on technique fault". -mLurker
     'esound'=> 'Оповещение о подключении игрока',
     'SEvol'=> 'Громкость зв. эффектов',
     'otherSettings'=> 'Другие настройки',
-    'nickname'=> 'Никнейм', //Literally "nickname". "Псевдоним" can be used, too. -mLurker
+    'nickname'=> 'Никнейм', //"nickname". "Псевдоним" can be used instead. -mLurker
     'saveReload'=> 'Сохраните и перезапустите игру, чтобы изменения вступили в силу.',
     'sprintReset'=> 'Перезапуск спринта',
     'or'=> 'или',
@@ -61,7 +61,7 @@ return [
     'practiceModes'=> 'Режимы для практики',
     'practice'=> 'Практика',
     'sprint'=> 'Спринт',
-    'cheese'=> 'Очистка', //No official translation of "Cheese race", wrote "Cleanup" instead. Use "Сырная гонка" for a literal translation. -mLurker
+    'cheese'=> 'Очистка', //No official translation of "Cheese race", wrote "Cleanup" instead. -mLurker
     'freePlay'=> 'Практика', 
     'close'=> 'Закрыть',
     'showMoreDetails' => 'Показать больше',
@@ -79,7 +79,7 @@ return [
     'received'=> 'Получено',
     'PPS'=> 'Ф./с',
     'APM'=> 'Ат./мин',
-    'finesse'=> 'Техника', //See "faultSE" for explanation", wrote "Technique". -mLurker
+    'finesse'=> 'Техника', //See "faultSE" for explanation, wrote "Technique". -mLurker
     'save'=> 'Сохранить',
     'createRoom'=> 'Cоздать комнату',
     'refreshList'=> 'Перезагрузить',
@@ -94,34 +94,34 @@ return [
     'submitPreset' => 'Отправить пользовательские правила',
     'customRooms'=> 'Пользовательские комнаты',
     'gmode'=> 'Режим',
-    'gmodeStandard'=> 'Стандартн.', //Fixed according to UI limits. -mLurker
-    'gmodeCheese'=> 'Очистка', //See "cheese" for explanation, wrote "Cleanup" instead. Use "Сырная гонка" for a literal translation. -mLurker
+    'gmodeStandard'=> 'Стандартн.',
+    'gmodeCheese'=> 'Очистка', //See "cheese" for explanation, wrote "Cleanup" instead. -mLurker
     'isPrivate'=> 'Приватная',
     'simple'=> 'Простые',
     'advanced'=> 'Продвинутые',
     'moreSett'=> 'Больше правил',
     'attack'=> 'Атака',
-    'gDist'=> 'Метод атаки', //Fixed. -mLurker
+    'gDist'=> 'Метод атаки',
     'create'=> 'Создать',
     'cancel'=> 'Отменить',
     'about' => 'О сайте',
-    'donate' => 'Пожертвовать',  //Fixed. -mLurker
-    'hdThread' => 'Ветка в форуме HardDrop',
+    'donate' => 'Пожертвовать',
+    'hdThread' => 'Ветка в форуме HardDrop', //Obsolete? -mLurker
     'chatSend' => 'Отправить',
     'rememberName' => 'Запомнить никнейм', //See "nickname" for explanation. "Запомнить псевдоним" can be used, too. -mLurker
-    'mapDownstack' => 'Карты', //Updated. -mLurker
+    'mapDownstack' => 'Карты',
     'survival' => 'Выживание',
     'ultra' => 'Ультра',
     'all' => 'Все',
     'preset' => 'Правила',
     'save' => 'Сохранить',
-    'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details. -mLurker
+    'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details in Discord - metallicLurker#9999
 	
 	//New strings:
 	//from July 29th, 2019. -mLurker
 	'rescaleNow' => 'Обновлять поле других игроков сразу',
 	'rescaleNowInfo' => 'Если не отметить, то поля новых игроков появятся на след. раунде.',
-	'DAScancel' => 'Освежать ЗАП', //As in, "Refresh DAS". -mLurker
+	'DAScancel' => 'Освежать ЗАП', //"Refresh DAS". -mLurker
 	'DAScancelInfo' => 'Если отметить, то Авто-Передвижение будет отменяться со сменой сторон передвижения.',
 	'FPSDAS' => 'Считать ЗАП по кадрам',
 	'FPSDASInfo' => 'Использует мониторные кадры (60 FPS) для считывания ЗАП. Точность cчёта времени будет снижена.',
@@ -129,11 +129,11 @@ return [
 	'KPP' => 'Наж./Ф.',
 	'editRoom' => 'Изменить',
 	'savePreset' => 'Сохранить настройки',
-	'overflowRooms' => 'Запасные комнаты', //As in, "Extra Rooms". -mLurker
-	'spectateRooms' => 'Комнаты наблюдения',
+	'overflowRooms' => 'Запасные комнаты', //"Extra Rooms". -mLurker
+	'spectateRooms' => 'Только для наблюдения', //Fixed for context. -mLurker
 	'gmodeTeam' => 'Командн.',
 	'applyCh' => 'Применить изменения',
-	'audioCredits' => 'Авторы аудиофайлов:', //As in, "Authors of the audiofiles". -mLurker
+	'audioCredits' => 'Авторы аудиофайлов:', //"Authors of the audiofiles". -mLurker
 	'fullScreen' => 'В полный экран',
 	'showHoldQueue' => 'Показать З.+Оч.',
 	'showStats' => 'Показать статистику',
@@ -181,10 +181,15 @@ return [
 	'mLayInfo' => 'Отключите эту настройку, чтобы не загружать мобильную раскладку. Потребуется обновление.',
 	'allSpin' => 'Все Повороты',
 	'asImmobile' => 'По неподвиж.', //Shortened "By immobility". -mLurker
-	'as4Point' => 'По 4 точкам', //As in, "By 4 points". -mLurker
-	'allSpinNA' => 'Исключить Повороты', //As in, "Exclude Spins". -mLurker
+	'as4Point' => 'По 4 точкам', //"By 4 points". -mLurker
+	'allSpinNA' => 'Исключить Повороты', //"Exclude Spins". -mLurker
 	
 	//from January 22nd, 2020. -mLurker
 	'pcCounter' => 'Полные Очистки',
 	'PCmode' => 'Режим ПО',
+	
+	//from May 21st, 2020. -mLurker
+	'sound' => 'Звук',
+	'enableVSE' => 'Комментатор', //"Announcer". -mLurker
+	'rotateSE' => 'Звуковой эффект поворота фигуры',
 ];
