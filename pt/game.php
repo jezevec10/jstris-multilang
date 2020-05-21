@@ -2,7 +2,7 @@
 
 return [
     'play' => 'Jogar',
-    'live' => 'Ao vivo',
+    'live' => 'Online',
     'controls' => 'Controles',
     'gameSettings' => 'Configurações do jogo',
     'appearance' => 'Aparência',
@@ -18,6 +18,8 @@ return [
     'rotate180' => 'Girar 180°',
     'hold' => 'Reserva',
     'touch' => 'Habilitar controles de toque (experimental)',
+    'touchBtn' => 'Habilitar botôes de controle na tela',
+    'touchBtnMove' => 'Permitir o ajuste de posição ao arrastar',
     'DAS' => 'DAS',
     'ARR' => 'ARR',
     'softDropSpeed' => 'Caída-lenta',
@@ -55,13 +57,15 @@ return [
     'gameReset'=> 'Jogo restabelecido',
     'altLiveResetKeyInfo'=> 'Escolha uma tecla alternativa para restabelecer um jogo ao vivo.',
     'rescaleNow' => 'Redimensionar áreas de multijogador imediatamente',
-    'rescaleNowInfo' => 'Se estiver desmarcado áreas de nobos jogadores aparecerão na próxima rodada',
+    'rescaleNowInfo' => 'Se estiver desmarcado áreas de novos jogadores aparecerão na próxima rodada',
     'DAScancel' => 'Cancelamento de DAS',
     'DAScancelInfo' => 'Se estiver ativado, o DAS é cancelado ao mudar de direção',
     'FPSDAS' => 'DAS baseado em FPS',
     'FPSDASInfo' => 'Avaliar DAS em intervalos fixos (menor precisão de tempo)',
     'webGL' => 'Usar WebGL',
     'webGLInfo' => 'Desabilite isso se você não consegue renderizar OpenGL em :year',
+    'mLay' => 'Usar layout móvel',
+    'mLayInfo' => 'Mude para anular a detecção de móveis, requer recarregamento',
     'saveClose'=> 'Salvar Configurações & Fechar',
     'resetAll'=> 'Restabelecer tudo',
     'close'=> 'Fechar',
@@ -78,6 +82,7 @@ return [
     'lrem'=> 'linhas restantes',
     'trem'=> 'tempo restante',
     'tsdsCounter'=> 'GTDs feitos',
+    'pcCounter' => 'Limpezas Totais',
     'toRestart'=> 'para reiniciar',     //used in: press F4 to restart
     'lobby'=> 'Lobby',
     'settings'=> 'Configurações',
@@ -129,7 +134,8 @@ return [
     'mapDownstack' => 'Downstack de mapas',
     'ultra' => 'Ultra',
     '20TSD' => '20GTD',
-    'all' => 'Todos',
+    'PCmode' => 'Modo LT',
+    'all' => 'Tudo',
     'preset' => 'Predefinição',
     'save' => 'Salvar',
     'audioCredits' => 'Recursos de Áudio por',
@@ -167,6 +173,10 @@ return [
     'garbageDelay' => 'Atraso de lixo',
     'garbageMess' => 'Bagunça',
     'solidAtk' => 'Atacar como sólido',
+    'allSpin' => 'All-spin',
+    'asImmobile' => 'Imóvel', // detection type for All-spin
+    'as4Point' => '4-pontos',    // detection type for All-spin
+    'allSpinNA' => 'Blocos excl.', // blocks excluded from All-spin bonus
     'noFW' => 'NoFourwide',
     'hostStart' => 'HostStart',
 

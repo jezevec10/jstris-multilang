@@ -187,7 +187,7 @@ return [
 	//from January 22nd, 2020. -mLurker
 	'pcCounter' => 'Полные Очистки',
 	'PCmode' => 'Режим ПО',
-	
+
 	//from May 21st, 2020. -mLurker
 	'sound' => 'Звук',
 	'enableVSE' => 'Комментатор', //"Announcer". -mLurker

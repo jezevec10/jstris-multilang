@@ -126,6 +126,8 @@ return [
     'fwDetectInfo' => 'Four wide sẽ kích hoạt chế độ tấn công ngược.',
     'oops' => 'Ối!',
     'chatNA' => 'Những người chơi với tư cách là khách hoặc người dùng có thời gian chơi dưới {chReq} tiếng sẽ không được dùng chức năng chat công khai.',
+    'notPC' => 'KHÔNG PHẢI LÀ PC', 
+    'notPCInfo' => 'Mỗi 10 gạch phải có một PC. Bảng của bạn không thể có PC khác.',
     'leMore' => 'Tìm hiểu thêm',
     'connLimit' => 'Số lượng kết nối mở dành cho IP này đã đạt mức tối đa. Nếu bạn muốn mở rộng giới hạn số lượng, liên hệ chúng tôi thông qua Discord',
     'idleDC' => 'Đã ngắt kết nối vì treo. Số lượng người theo dõi đã đầy.',
@@ -143,4 +145,7 @@ return [
     'gTimeShort' => 'T.gian chơi',
     'on' => 'Bật',
     'off' => 'Tắt',
+    'nsUnpub' => 'Kết quả không được lưu vì map chưa được công bố.',
+    'nsTspins' => 'Kết quả không được lưu, chưa đủ số lượng T-spin',
+    'nsLowPC' => 'Kết quả không được lưu, cần ít nhất 2 Perfect Clear',
 ];
