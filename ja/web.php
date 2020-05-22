@@ -5,13 +5,13 @@ return [
     'tournament' => 'トーナメント',
     'maps' => 'マップ',
     'mapsBrowse' => '一覧',
-    'myMaps' => 'マイマップ',
+    'myMaps' => 'あなたのマップ',
     'mapsDesigner' => 'マップを作成',
     'mapsLatestGames' => '新着リプレイ',
     'guide' => 'ヘルプ',
     'login' => 'ログイン',
     'register' => '登録',
-    'myProfile' => 'プロファイル',
+    'myProfile' => 'プロフィール',
     'myImprovement' => 'ステータスの推移',
     'favReplays' => 'お気に入りのリプレイ',
     'settings' => 'アカウント設定',
@@ -19,7 +19,7 @@ return [
     
     /* Leaderboard */
     'name' => '名前',
-    'time' => 'タイム',
+    'time' => '時間',
     'blocks' => 'ブロック',
     'PPS' => 'PPS',
     'finesse' => '最適化ミス',
@@ -54,7 +54,7 @@ return [
     'filterSP' => '一覧表にフィルターを掛ける',
     'applyFilter' => 'フィルターを適用',
     'timestamp' => '時刻',
-    'action' => 'イベント', // e.g. combo, tspin, perfect clear
+    'action' => 'アクション', // e.g. combo, tspin, perfect clear
     'scoreEq' => '獲得スコア',
     'position' => '再生位置', //position in a replay
     'lAVG' => '局所平均',
@@ -79,7 +79,7 @@ return [
     
     /* Profile */
     'ownProfile' => 'このページは誰でも以下のアドレスからアクセスできます:',
-    'bestTimes' => 'ベストタイム',
+    'bestTimes' => '自己ベスト',
     'allTimes' => 'すべてのスプリントの記録を見る',
     'userImpr' => 'ステータスの推移を見る',
     'gameStats' => '対戦データの統計',
@@ -93,11 +93,44 @@ return [
     'maxAPM' => '最大APM',
     'maxREN' => '最大REN数',
     'longestGame' => '最も長かったゲーム',
-    'totalB2B' => '合計BTB回数',
+    'totalB2B' => '合計B2B回数',
     'mostSent' => '送ったライン最大値',
     'hours' => '時間',
     'minutes' => '分',
+    'createdMaps' => 'Created maps',
+    'viewMapsBy' => '作成されたすべてのマップを表示',
+    'playersCount' => '人',
+    'gameResultPosition' => '順位',
+    'gameResultRoundTime' => 'ゲームの時間',
+    'viewAllGamesOf' => ':mode のすべてのゲームを表示',
+    'noGamesOf' => ':name はまだ:mode のゲームをプレイしていません。',
     
+    /* Maps */
+    'map' => 'マップ',
+    'mapCreate' => '新しく作る',
+    'mapName' => '名前',
+    'mapNameLong' => 'マップの名前',
+    'mapDesc' => '説明',
+    'mapRules' => 'ルール',
+    'mapOptions' => '設定',
+    'mapPlay' => 'スタート！',
+    'mapPlayLink' => 'マップスタート！',
+    'mapAuthor' => '著者',
+    'mapCreatedBy' => '作成者：',
+    'backToMaps' => 'マップリストに戻る',
+    'playThisMap' => 'マップをプレイ',
+    'search' => '探す',
+    'myMaps' => 'あなたのマップ',
+    'mapsByUser' => ':name のマップ',
+    'displayUnpublished' => ':cnt つの非公開マップを表示',
+    'displayPublished' => ':cnt つの公開マップを表示',
+    'usersMapMedals' => ':name のマップメダル',
+    'usersCompletedMaps' => ':name が完成したマップ',
+    'showRecords' => '自己ベスト',
+    'details' => '細部',
+    'playedBy' => '再生：',
+    'latestMapGames' => '最新のマップゲーム',
+
     /* Stats */
     'improvementStats' => 'ステータスの推移',
     //keep ':name'
@@ -112,15 +145,37 @@ return [
     'aboutInfo' => 'JstrisはJavascriptとHTML5とPython(サーバー)で作られたシンプルなオンライン対戦パズルゲームです。',
     'version' => 'バージョン',
     'changelog' => 'チェンジログ',
-    'discussion' => 'ディスカッション',
+    'discussion' => '話し合',
     'learnMore' => 'もっと知りたい人向け',
     'contact' => 'コンタクト',
     'serverCoverage' => 'サーバーコストの現況',
     'supporters' => 'プロジェクトのサポーター',
+    'translators' => '翻訳者',
+    'moderators' => 'モデレーター',
     
     /* Other */
     'notFound' => '見つかりませんでした',
     'invalidLink' => '指定されたリンクは無効です',
     'brb' => 'すぐに戻ります',
     'tryAgain' => 'サイトのアップデート中です。しばらくしてからもう一度お試し下さい。',
+];
+
+    /* Settings - Other options */
+    'setOther' => 'その他のオプション',
+    'hideAcc' => '隠しアカウント',
+    'accVisibility' => '可視性',
+    'hideAccInfo' => '有効にすると、このアカウントは公開ランキングから除外されます',
+
+    /* Chat reports */
+    'reportU' => 'ユーザーを報告する',
+    'reportDesc' => 'ここでは、誰かがゲームチャットを悪用したと思われる場合にレポートを作成できます。',
+    'user' => 'ユーザー',
+    'reason' => '理由',
+    'rr0' => 'スパムまたは不要な広告',
+    'rr1' => '露骨な性的コンテンツ',
+    'rr2' => 'ヘイトスピーチ',
+    'rr3' => '嫌がらせ',
+    'rr4' => 'その他（ご指定ください）',
+    'sendReport' => 'レポートを送信',
+    
 ];
