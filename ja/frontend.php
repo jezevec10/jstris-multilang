@@ -2,7 +2,7 @@
 
 return [
     //On screen captions
-    'ready' => 'READY?',
+    'ready' => 'READY',
     'go' => 'GO!',
     'notFocused' => '入力をスルー中', //max 13 characters
     'clickToFocus' => '操作するにはここをクリック', //max 30 characters
@@ -17,13 +17,13 @@ return [
     'notPlaying' => '放置プレイ中', //max 12
     'waitNext' => '試合終了までお待ちください',//
     'waitNext2' => '次の試合が開始されるまでまでお待ちください',
-    'pressStart' => '”ニューゲーム”を押して開始', //'New game' should be same as in game.newGame
+    'pressStart' => '「開始」を押して開始', //'New game' should be same as in game.newGame
     'slowDown' => '速度オーバー', //When a speed limit is exceeded
     'speedLimitIs' => '制限速度：', //In a sentence: The speed limit is 2 PPS
 
     //Chat
     'warning' => '注意',
-    'inactive1' => '観戦モードに移行します。キャンセルするにはチャットに何か(niceとでも)打ってください', 
+    'inactive1' => '観戦モードに移行します。キャンセルするにはチャットに何か打ってください', 
     'inactive2' => '放置状態を検出しました。次もそうなら観戦モードに移行します。',
     'nickFill' => 'チャットの前にニックネームを入れてください',
     'setButton' => '設定', //max 4
@@ -40,14 +40,15 @@ return [
     'spectator' => '観戦者の',
     'hasLeft' => 'さんが退室しました', //in 'Spectator User1 has left.'
     'signedAs' => 'あなたのログイン名：',
-    'welcome' => 'Welcome,', //in 'Welcome User1!'
-    'welcomeIn' => 'いらっしゃい!　この部屋の名前：', //in 'Welcome in RoomName.'
+    'welcome' => 'ようこそ、', //in 'Welcome User1!'
+    'welcomeIn' => 'ようこそ！この部屋の名前：', //in 'Welcome in RoomName.'
     'noSpectators' => '現在観戦者はいません',
     'replayAvailable' => 'リプレイ：',
     'oldVer' => '旧バージョンでプレイ中です。新バージョンでプレイするには　CTRL+F5 でリロードしてください。',
-    'privateRoom' => '現在邪魔の入らないプライベートルームにいます。誰でも入れる部屋を見るにはロビーを見てください。',
+    'oldVer2' => '古いバージョンが検出されました！{key}を押してリロードします。',
+    'privateRoom' => '現在邪魔の入らないプライベートルームにいます。ルームリストをチェックして、パブリックルームを確認できます。',
     'restartInfo' =>  'F4キーでやり直しできます。このキーは　"設定"　ボタンから変更加能です。',
-    'joinLinkInfo' => 'これはプライベートルームです。 以下のURLにアクセスする以外に他の人が入室する方法はありません:',
+    'joinLinkInfo' => 'これはプライベートルームです。 他のプレイヤーが参加できる唯一の方法は、次のリンクを使用することです：',
 
     //Dynamic elements
     'received' => '受けたライン', //max 15
@@ -61,16 +62,16 @@ return [
     //Results
     'name' => '名前',
     'wins' => '勝利数',
-    'time' => 'タイム', //as game duration
+    'time' => '時間', //as game duration
     'received' => '受けたライン',
     'sent' => '攻撃',
     'blocks' => 'ブロック数', //as number of blocks placed
     'ren' => 'REN',
 
     //Practice mode result
-    'gameTime' => 'タイム', //in Sprint time: xx.xx
+    'gameTime' => '時間', //in Sprint time: xx.xx
     'see' => '', //in 'See 40L leaderboard'
-    'leaderboard' => 'のランキングを見る',
+    'leaderboard' => 'ランキングを見る',
 
     //Less common strings, can stay untranslated
     'warning2' => '警告！',
@@ -91,11 +92,66 @@ return [
     'replay' => 'リプレイ',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => '受ライン', //max 4, short for Received
-    'enterNullDAS' => 'NullpominoにおけるDASの値を入れてください:',
+    'enterNullDAS' => 'NullpoMinoにおけるDASの値を入れてください:',
     'suggestedIs' => '対応するDAS:',
     'applyConfirm' => '適用しますか?',
     'invalidDAS' => '無効なDASの値が指定されたので変更されませんでした。',
     'settingsChanged' => 'ゲーム中に設定が変更されたのでリプレイ機能は無効化されました。',
     'segment' => '区間',
     'duration' => '長さ',
+    'roomFull' => '現在のルームは満員です。',
+    'lobbyInfo' => 'このチャットは{discord}と共有されています。',
+    'newHost' => 'あなたはこの部屋のホストになりました。',
+    'badRoom' => 'この部屋はもう存在しません。 デフォルトルームにリダイレクトされました。',
+    'stngsChanged' => 'ホストによって変更された設定',
+    'stngsCustom' => 'カスタム設定',
+    'aSpec' => 'すでに観戦中',
+    'aPlay' => 'すでにプレイしています',
+    'repFail' => 'リプレイを保存できません',
+    'repInChat' => 'リプレイファイルがチャットにダンプされました。 保存するには、ボックス内のテキストをコピーして、テキストエディターに貼り付けます。',
+    'repTxtInfo' => 'コピーされたリプレイファイルは、リプレーヤーで再生したり、場合によってはWebサイトに再送信したりできます。',
+
+    'newPB' => '新しい自己ベスト！',
+    'firstPB' => 'これはあなたの最初のゲームでした。 改善を追跡するには、別の自己ベストを入手してください。',
+    'infoPB' => '以前の記録は{prevPB}で、{prevAgo}に達成されました。改善は{PBdiff}です。',
+    'daysAgo' => '日前',
+
+    'raceFin' => 'RACE FINISH!',
+    'raceFinInfo' => '続行できますが、次のラウンドはいつでも開始できます',
+
+    'notTSD' => 'NOT a TSD',
+    'notTSDInfo' => 'T-Spin Doubleのみが許可されています',
+
+    'notPC' => 'NOT a PC',
+    'notPCInfo' => 'パーフェクトクリアは、10ブロックごとに実行する必要があります。 フィールドをクリアできません。',
+
+    'fwDetect' => 'FOUR WIDE',
+    'fwDetectInfo' => '自分のフィールドにラインが送られました！',
+
+    'oops' => 'おっとっと！',
+    'chatNA' => '公開チャットは、ゲストまたはゲーム時間{chReq}時間未満のユーザーは利用できません。',
+    'leMore' => 'もっと詳しく知る',
+
+    'connLimit' => 'このIPのオープン接続の最大数に現在達しています。 制限の増加については、Discord経由でお問い合わせください',
+    'idleDC' => '非アクティブのために切断されました。',
+    'RLreach' => 'レート制限に達しました',
+    'ban1' => 'マルチプレイヤーゲームへのアクセスは永久に制限されています。 シングルプレーモードでのみプレイできます。',
+    'ban2' => 'このユーザーアカウントは禁止されています。 詳細については、再ログインしてください。',
+    'ncGS' => 'ゲームサーバーに接続されていません。{refr}してください',
+    'refr' => 'ページをリロード',
+
+    'nsUnpub' => 'レコードは保存されていません。 レコードを保存するには、マップを公開する必要があります',
+    'nsTspins' => 'レコードが保存されていません。十分なT-Spinがありません',
+    'nsLowPC' => 'レコードは保存されていません。少なくとも2回のパーフェクトクリアが必要です',
+
+    //Room info detail
+    'noPlayers' => 'プレーヤーはいません',
+    'cntMore' => 'さらに{cnt}人',
+    'cntGuests' => 'ゲスト数：{cnt}人',
+    'cntSpec' => '観客数：{cnt}人',
+    'joinPossible' => '参加可能',
+    'notEligible' => '参加できません',
+    'gTimeShort' => 'G.TIME',
+    'on' => 'ON',
+    'off' => 'OFF',
 ];
