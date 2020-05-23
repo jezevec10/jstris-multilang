@@ -123,6 +123,15 @@ return [
     'raceFin' => 'A CORRIDA TERMINOU',
     'raceFinInfo' => 'Você pode completar a corrida, mas a próxima rodada pode começar a qualquer momento.',
 
+    'notTSD' => 'NÃO houve GTD',
+    'notTSDInfo' => 'Apenas Giro-T Duplo é permitido',
+
+    'notPC' => 'NÃO é uma LT',
+    'notPCInfo' => 'Faça uma Limpeza Total a cada 10 blocos. Sua matriz não pode ser clareada.',
+
+    'fwDetect' => 'FOUR WIDE',
+    'fwDetectInfo' => 'Atacando a si mesmo!',
+
     'oops' => 'Opa!',
     'chatNA' => 'Bate-papo público não está disponível para convidados ou usuários com menos de {chReq} horas de tempo jogando.',
     'leMore' => 'Saiba mais',
@@ -134,6 +143,10 @@ return [
     'ban2' => 'Esta conta de usuário está BANIDA. Reentre no site para mais informações.',
     'ncGS' => 'Não conectado a um servidor do jogo, tente {refr}.',
     'refr' => 'recarregando a página',
+
+    'nsUnpub' => 'Recorde não salvo, o mapa não será publicado.',
+    'nsTspins' => 'Recorde não salvo, Giros-T insuficientes.',
+    'nsLowPC' => 'Recorde não salvo, pelo menos 2 Limpezas Totais são necessárias.',
 
     //Room info detail
     'noPlayers' => 'Nenhum jogador',
