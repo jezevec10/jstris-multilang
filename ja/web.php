@@ -158,7 +158,6 @@ return [
     'invalidLink' => '指定されたリンクは無効です',
     'brb' => 'すぐに戻ります',
     'tryAgain' => 'サイトのアップデート中です。しばらくしてからもう一度お試し下さい。',
-];
 
     /* Settings - Other options */
     'setOther' => 'その他のオプション',
