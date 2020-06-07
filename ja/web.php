@@ -7,6 +7,7 @@ return [
     'mapsBrowse' => '一覧',
     'myMaps' => 'あなたのマップ',
     'mapsDesigner' => 'マップを作成',
+    'randomMap' => 'ランダムなマップ',
     'mapsLatestGames' => '新着リプレイ',
     'guide' => 'ヘルプ',
     'login' => 'ログイン',
@@ -34,7 +35,7 @@ return [
     'allTime' => 'すべて',
     'bestPlayers' => 'プレイヤー重複なし',
     'bestGames' => 'プレイヤー重複あり',
-    'bestSubs' => '〜秒以下のみ',
+    'bestSubs' => '?秒以下のみ',
     'latestGames' => '新着リプレイ',
     'leastBlocks' => '設置ブロック数順',
     'myTimes' => '自分の記録のみ',
@@ -60,6 +61,7 @@ return [
     'lAVG' => '局所平均',
     'gAVG' => '全体平均',
     'repHelp' => '使い方', //link that shows information how to use the tool
+    'repExport' => 'GIF or 動画',
     
     /* PW change */
     'pwChange' => 'パスワード変更',
@@ -90,6 +92,9 @@ return [
     'linesSent' => '送ったライン合計',
     'linesRec' => '受けたライン合計',
     'placedBlocks' => '置いたブロック合計',
+    'blockCnt' => ':cnt ピース',
+    'APM10Games' => '直近10ゲームの平均APM',
+    'PPS10Games' => '直近10ゲームの平均PPS',
     'maxAPM' => '最大APM',
     'maxREN' => '最大REN数',
     'longestGame' => '最も長かったゲーム',
@@ -99,7 +104,7 @@ return [
     'minutes' => '分',
     'createdMaps' => 'Created maps',
     'viewMapsBy' => '作成されたすべてのマップを表示',
-    'playersCount' => '人',
+    'playersCount' => '人数',
     'gameResultPosition' => '順位',
     'gameResultRoundTime' => 'ゲームの時間',
     'viewAllGamesOf' => ':mode のすべてのゲームを表示',
@@ -113,8 +118,8 @@ return [
     'mapDesc' => '説明',
     'mapRules' => 'ルール',
     'mapOptions' => '設定',
-    'mapPlay' => 'スタート！',
-    'mapPlayLink' => 'マップスタート！',
+    'mapPlay' => 'プレイ',
+    'mapPlayLink' => 'プレイ',
     'mapAuthor' => '著者',
     'mapCreatedBy' => '作成者：',
     'backToMaps' => 'マップリストに戻る',
@@ -145,7 +150,7 @@ return [
     'aboutInfo' => 'JstrisはJavascriptとHTML5とPython(サーバー)で作られたシンプルなオンライン対戦パズルゲームです。',
     'version' => 'バージョン',
     'changelog' => 'チェンジログ',
-    'discussion' => '話し合',
+    'discussion' => '話し合い', //話し合でtypoしてたので修正
     'learnMore' => 'もっと知りたい人向け',
     'contact' => 'コンタクト',
     'serverCoverage' => 'サーバーコストの現況',
@@ -176,5 +181,8 @@ return [
     'rr3' => '嫌がらせ',
     'rr4' => 'その他（ご指定ください）',
     'sendReport' => 'レポートを送信',
+
+    /* OWO What's this? */
+    'continent' => 'Continent',
     
 ];
