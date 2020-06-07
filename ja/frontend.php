@@ -8,7 +8,7 @@ return [
     'clickToFocus' => '操作するにはここをクリック', //max 30 characters
     'specMode' => '観戦モード',
     'specModeInfo' => '現在観戦モードです。',
-    'endSpec' => '半角で /play と打って参戦', //keep '/play'
+    'endSpec' => '半角で /play と打って参加', //keep '/play'
     'typeHelp' => 'コマンド一覧を見るには半角で /help　と打ってください', //keep '/help'
     'st' => '位', //max 2, in 1st, can stay untranslated
     'nd' => '位', //max 2, in 2nd, can stay untranslated
@@ -19,7 +19,12 @@ return [
     'waitNext2' => '次の試合が開始されるまでまでお待ちください',
     'pressStart' => '「開始」を押して開始', //'New game' should be same as in game.newGame
     'slowDown' => '速度オーバー', //When a speed limit is exceeded
-    'speedLimitIs' => '制限速度：', //In a sentence: The speed limit is 2 PPS
+    'speedLimitIs' => '速度制限：', //In a sentence: The speed limit is 2 PPS
+    'connecting' => '接続中…', //when connecting to the game server
+    'signingIn' => 'Signing in',
+    'loginFail' => 'ログインに失敗しました。',
+    'loginFail2' => 'ログインしていないので、 {name}という名前で表示されています。.',
+    'mapLoading' => 'マップを読み込み中…',
 
     //Chat
     'warning' => '注意',
@@ -45,9 +50,9 @@ return [
     'noSpectators' => '現在観戦者はいません',
     'replayAvailable' => 'リプレイ：',
     'oldVer' => '旧バージョンでプレイ中です。新バージョンでプレイするには　CTRL+F5 でリロードしてください。',
-    'oldVer2' => '古いバージョンが検出されました！{key}を押してリロードします。',
+    'oldVer2' => '古いバージョンが検出されました！{key}を押してリロードしてください。',
     'privateRoom' => '現在邪魔の入らないプライベートルームにいます。ルームリストをチェックして、パブリックルームを確認できます。',
-    'restartInfo' =>  'F4キーでやり直しできます。このキーは　"設定"　ボタンから変更加能です。',
+    'restartInfo' =>  'F4キーでやり直しできます。このキーは　"設定"　ボタンから変更可能です。',
     'joinLinkInfo' => 'これはプライベートルームです。 他のプレイヤーが参加できる唯一の方法は、次のリンクを使用することです：',
 
     //Dynamic elements
@@ -120,13 +125,13 @@ return [
     'raceFinInfo' => '続行できますが、次のラウンドはいつでも開始できます',
 
     'notTSD' => 'NOT a TSD',
-    'notTSDInfo' => 'T-Spin Doubleのみが許可されています',
+    'notTSDInfo' => 'T-Spin Doubleのみでラインを消去してください。',
 
     'notPC' => 'NOT a PC',
     'notPCInfo' => 'パーフェクトクリアは、10ブロックごとに実行する必要があります。 フィールドをクリアできません。',
 
     'fwDetect' => 'FOUR WIDE',
-    'fwDetectInfo' => '自分のフィールドにラインが送られました！',
+    'fwDetectInfo' => '自分のフィールドにラインが送られます！',
 
     'oops' => 'おっとっと！',
     'chatNA' => '公開チャットは、ゲストまたはゲーム時間{chReq}時間未満のユーザーは利用できません。',
