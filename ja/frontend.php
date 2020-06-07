@@ -21,7 +21,7 @@ return [
     'slowDown' => '速度オーバー', //When a speed limit is exceeded
     'speedLimitIs' => '速度制限：', //In a sentence: The speed limit is 2 PPS
     'connecting' => '接続中…', //when connecting to the game server
-    'signingIn' => 'Signing in',
+    'signingIn' => 'ログイン中…',
     'loginFail' => 'ログインに失敗しました。',
     'loginFail2' => 'ログインしていないので、 {name}という名前で表示されています。.',
     'mapLoading' => 'マップを読み込み中…',
