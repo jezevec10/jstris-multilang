@@ -182,5 +182,5 @@ return [
     'allSpinNA' => '除外するブロック', // blocks excluded from All-spin bonus
     'noFW' => '4列RENを制限する',
     'hostStart' => 'ホストスタート',
-    'translationBy' => 'k_rakko, MattMayuga,mitsuki0316',
+    'translationBy' => 'k_rakko, MattMayuga, mitsuki0316',
 ];
