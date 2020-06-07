@@ -183,5 +183,5 @@ return [
     'noFW' => 'Sin 4-wide',
     'hostStart' => 'Anfitrión Inicia',
 
-    'translationBy' => 'julf, Lucho',
+    'translationBy' => 'julf, Lucho, Erickmack',
 ];
