@@ -20,6 +20,11 @@ return [
     'pressStart' => 'Yeni oyun için \'New game\'e tıkla.', //'New game' should be same as in game.newGame
     'slowDown' => 'YAVAŞLAYIN', //When a speed limit is exceeded
     'speedLimitIs' => 'Hız limiti', //In a sentence: The speed limit is 2 PPS
+    'connecting' => 'Bağlanıyor...', //when connecting to the game server
+    'signingIn' => 'Giriş yapın',
+    'loginFail' => 'Giriş başarısız!',
+    'loginFail2' => 'Giriş yapamadınız! {Name} adlı konuk olarak oynuyorsunuz.',
+    'mapLoading' => 'Harita yükleniyor...',
 
     //Chat
     'warning' => 'Uyarı',
@@ -45,6 +50,7 @@ return [
     'noSpectators' => 'Kimse şu anda izlemiyor.',
     'replayAvailable' => 'Tekrar şurada mevcut',
     'oldVer' => 'Şu anda eski bir sürümü kullanıyorsunuz. CTRL + F5 ile yenileyin!',
+    'oldVer2' => 'Hala eski sürüme sahipsiniz! İstemcinizi yeniden yüklemek için {key} kullanın',    
     'privateRoom' => 'Burası özel odanız. Oynarken sizi kimse rahatsız edemez. Açık lobileri görmek için Lobiye bakın.',
     'restartInfo' =>  'F4e basarak ya da başka bir tuş atayarak yeniden başlat.',
     'joinLinkInfo' => 'Bu oda özel. Başkaları sadece şu linki kullanarak katılabilir:',
@@ -118,6 +124,18 @@ return [
     'raceFin' => 'YARIŞ BİTTİ',
     'raceFinInfo' => 'Koşuyu tamamlayabilirsiniz, ancak bir sonraki tur herhangi bir zamanda başlayabilir.',
 
+    'raceFin' => 'YARIŞ SONA ERDİ',
+    'raceFinInfo' => 'Koşuyu tamamlayabilirsiniz, ancak bir sonraki tur herhangi bir zamanda başlayabilir.',
+
+    'notTSD' => 'TSD olmadan',
+    'notTSDInfo' => 'Sadece T-Spin Çiftine izin verilir',
+
+    'notPC' => 'Mükemmel Netlik Değil',
+    'notPCInfo' => 'Her 10 blokta bir Mükemmel Netlik yapın. Tahtanız silinebilir değil.',
+
+    'fwDetect' => 'DÖRT GENİŞ',
+    'fwDetectInfo' => 'Kendine saldırıyorsun!',
+
     'oops' => 'Haydaa!',
     'chatNA' => 'Genel sohbet, {chReq} saatten daha az oyun süresi olan misafirler veya kullanıcılar için mevcut değildir.',
     'leMore' => 'Daha fazlasını öğren',
@@ -128,7 +146,11 @@ return [
     'ban1' => 'Canlı oyunlara erişiminiz kalıcı olarak kısıtlandı. Tek oyunculu modları hala oynayabilirsiniz.',
     'ban2' => 'Bu kullanıcı hesabı YASAKLANDI. Daha fazla bilgi için web sitesine yeniden giriş yapın.',
     'ncGS' => 'Oyun sunucusuna bağlı değil, {refr} deneyin.',
-    'refr' => 'sayfa yenileniyor',
+    'refr' => 'sayfa yenile',
+
+    'nsUnpub' => 'Kayıt kaydedilmedi, harita yayınlanmadı.',
+    'nsTspins' => 'Kayıt kaydedilmedi, yeterli T-çevirme yok.',
+    'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 
     //Room info detail
     'noPlayers' => 'Oyuncular yok',

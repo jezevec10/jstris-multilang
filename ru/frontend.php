@@ -26,7 +26,7 @@ return [
     'warning' => 'Внимание',
     'inactive1' => 'Будет активирован режим наблюдателя. Напишите в чат, чтобы отменить.',
     'inactive2' => 'Обнаружено бездействие. При бездействии в следующей игре активируется режим наблюдателя.',
-    'nickFill' => 'Напишите свой никнейм для доступа к чату.', //As a pure Russian variant, "Напишите свой псевдоним для доступа к чату." can be used instead. -mLurker
+    'nickFill' => 'Напишите свой никнейм для доступа к чату.', //Obsolete? -mLurker
     'setButton' => 'Отп.', //max 4 (Shortened "Отправить", character limit. -mLurker)
     'sendButton' => 'Отп.', //max 4 (Shortened "Отправить", character limit. -mLurker)
     'rNameReq' => 'Назовите комнату.',
@@ -34,12 +34,12 @@ return [
     'serverUser' => 'Сервер', //special username in chat
     'noNamed' => 'Аноним', //user wihtout name (guest), max 7, can stay untranslated (Used "Anonymous", character limit. -mLurker)
     'watching' => 'Наблюдатели', //in 'Watching: user1,user2..', altern.=Spectators
-    'userJoined'=>'вошёл в комнату', //in 'User1 joined the room.'
-    'joined' => 'присоединился', //in title: 'User1 joined!'
-    'userCame' => 'присоединился как наблюдатель',  //in 'User1 came to watch.'
+    'userJoined'=>'вошёл(-ла) в комнату', //in 'User1 joined the room.'
+    'joined' => 'присоединился(-лась)', //in title: 'User1 joined!'
+    'userCame' => 'присоединился(-лась) как наблюдатель',  //in 'User1 came to watch.'
     'isSpectating' => 'наблюдает', //in 'User1 is now spectating.'
     'spectator' => 'Наблюдатель',
-    'hasLeft' => 'вышел.', //in 'Spectator User1 has left.'
+    'hasLeft' => 'вышел(-ла).', //in 'Spectator User1 has left.'
     'signedAs' => 'Вы зарегистрированы под именем',
     'welcome' => 'Добро пожаловать,', //in 'Welcome User1!'
     'welcomeIn' => 'Добро пожаловать в', //in 'Welcome in RoomName.'
@@ -156,4 +156,6 @@ return [
 	'nsUnpub' => 'Рекорд не сохранён, эта карта не опубликована.',
 	'nsTspins' => 'Рекорд не сохранён, недостаточно Т-Поворотов.',
 	'nsLowPC' => 'Рекорд не сохранён, требуется минимум 2 Полных Очисток.',
+	//from May 21st, 2020. -mLurker
+	'loginFail2' => 'Вы не зарегистрированы! Вы играете под гостевым именем ({name}).', //"You are not logged in! You are playing under the guest name (name)". -mLurker
 ];
