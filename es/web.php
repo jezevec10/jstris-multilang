@@ -164,4 +164,23 @@ return [
     'invalidLink' => 'El enlace es inválido.',
     'brb' => 'Ya volvemos.',
     'tryAgain' => 'El sitio está siendo actualizado, por favor regresa en un momento.',
+
+    /* Settings - Other options */
+    'setOther' => 'Otras opciones',
+    'hideAcc' => 'Esconder cuenta',
+    'accVisibility' => 'Visibilidad',
+    'hideAccInfo' => 'Si está habilitado la cuenta se excluirá en el Ranking público',
+
+
+    /* Chat reports */
+    'reportU' => 'Reportar usuario',
+    'reportDesc' => 'Aquí puedes crear un reporte si piensas que alguien está abusando del chat.',
+    'user' => 'Usuario',
+    'reason' => 'Motivo',
+    'rr0' => 'Spam o publicidad no deseada',
+    'rr1' => 'Contenido sexualmente explícito',
+    'rr2' => 'Discriminación',
+    'rr3' => 'Acoso o Intimidación',
+    'rr4' => 'Otro (especifíca)',
+    'sendReport' => 'Enviar reporte',
 ];

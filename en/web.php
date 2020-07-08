@@ -171,4 +171,16 @@ return [
     'accVisibility' => 'Visibility',
     'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
 
+    /* Chat reports */
+    'reportU' => 'Report user',
+    'reportDesc' => 'Here you can create a report if you think someone has abused the game chat.',
+    'user' => 'User',
+    'reason' => 'Reason',
+    'rr0' => 'Spam or unwanted advertising',
+    'rr1' => 'Sexually explicit content',
+    'rr2' => 'Hate speech',
+    'rr3' => 'Harassment or bullying',
+    'rr4' => 'Other (specify)',
+    'sendReport' => 'Send report',
+    
 ];
