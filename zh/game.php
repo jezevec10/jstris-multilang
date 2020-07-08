@@ -182,6 +182,6 @@ return [
     'allSpinNA' => '不计Spin块', // blocks excluded from All-spin bonus
     'noFW' => '禁止四宽(4w)',
     'hostStart' => '仅限房主开始',
-	
+
     'translationBy' => 'teatube',
 ];
