@@ -38,12 +38,15 @@ return [
     'enabled' => '启用',
     'disabled' => '禁用',
     'appearSound' => '外观与音效',
+    'sound' => '音效',					   
     'blockStyle' => '方块样式',
     'solidBlocks' => '纯色（无皮肤）',
     'invisibleBlocks' => '隐形',
     'monochrome' => '单色',
     'enableSE' => '启用音效',
+    'enableVSE' => '语音播报',									
     'startSE' => '启用开局音效',
+    'rotateSE' => '方块旋转音效',												   
     'faultSE'=> '启用多余操作(finesse fault)音效',
     'esound'=> '玩家加入提示音 (叮~)',
     'SEvol'=> '声效音量',
@@ -179,6 +182,6 @@ return [
     'allSpinNA' => '不计Spin块', // blocks excluded from All-spin bonus
     'noFW' => '禁止四宽(4w)',
     'hostStart' => '仅限房主开始',
-	
+
     'translationBy' => 'teatube',
 ];

@@ -23,6 +23,7 @@ return [
     'connecting' => '连接中...', //when connecting to the game server
     'signingIn' => '登录中',
     'loginFail' => '登录失败!',
+    'loginFail2' => '尚未登录! 当前正在以游客名 {name} 进行游戏.',
     'mapLoading' => '地图读取中...',
 
     //Chat
