@@ -77,6 +77,7 @@ return [
     'timezone' => 'タイムゾーン',
     'timezoneDesc' => '時刻表示に使用',
     'country' => '国',
+    'continent' => '大陸',
     'countryDesc' => '国ごとのランキングを表示する際に使用',
     
     /* Profile */
@@ -181,8 +182,5 @@ return [
     'rr3' => '嫌がらせ',
     'rr4' => 'その他（ご指定ください）',
     'sendReport' => 'レポートを送信',
-
-    /* OWO What's this? */
-    'continent' => 'Continent',
     
 ];
