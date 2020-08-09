@@ -148,7 +148,7 @@ return [
     'dispAll' => 'Näytä kaikki pelit',
     
     /* About */
-    'aboutInfo' => 'Jstris on yksinkertainen verkkomoninpeli rakennettu Javascriptillä, HTML5:llä ja Pyhtonilla (palvelin).',
+    'aboutInfo' => 'Jstris on yksinkertainen verkkomoninpeli rakennettu Javascriptillä, HTML5:llä ja Pythonilla (palvelin).',
     'version' => 'Versio',
     'changelog' => 'Muutosloki',
     'discussion' => 'Keskustelu',
