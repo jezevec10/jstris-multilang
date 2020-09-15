@@ -186,5 +186,5 @@ return [
     'noFW' => 'SansQuatreDeLarge',
     'hostStart' => 'HôteDémarre',
 
-    'translationBy' => 'Noël Nadal, Aurélien Moisson-Franckhauser And Merevir go',
+    'translationBy' => 'Noël Nadal, Aurélien Moisson-Franckhauser, Merevir go',
 ];
