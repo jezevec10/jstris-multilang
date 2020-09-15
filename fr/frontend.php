@@ -23,7 +23,7 @@ return [
     'connecting' => 'Etablissement de la connection...',
     'signingIn' => 'Connexion',
     'loginFail' => 'Problème d\'authentification',
-    'loginFail2' => 'Non enregisté ! Vous jouez en tant qu/'invité {name}.',
+    'loginFail2' => 'Non enregisté ! Vous jouez en tant qu\'invité {name}.',
     'mapLoading' => 'Chargement de la carte',
 
     //Chat
