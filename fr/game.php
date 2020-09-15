@@ -153,6 +153,16 @@ return [
     'ms' => 'ms',
     's' => 's',
     'hrs' => 'hrs',
+    'sound' => 'Son',
+    'enableVSE' => 'Commentaires à la voix',
+    'rotateSE' => 'Son de rotation de bloc',
+    'trem' => 'temps restant',
+    'mapDownstack' => 'Map downstack',
+    '20TSD' => '20TSD',
+    'clearDelay' => 'Clear delay',
+    'allSpin' => 'All-spin',
+    'asImmobile' => 'Immobile',
+    'as4Point' => '4-point',
 
     //all room settings
     'attackTable' => 'Table d\'attaque',
