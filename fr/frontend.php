@@ -23,6 +23,7 @@ return [
     'connecting' => 'Etablissement de la connection...',
     'signingIn' => 'Connexion',
     'loginFail' => 'Problème d\'authentification',
+    'loginFail2' => 'Non enregisté ! Vous jouez en tant qu/'invité {name}.',
     'mapLoading' => 'Chargement de la carte',
 
     //Chat
@@ -126,6 +127,7 @@ return [
     'notTSD' => 'PAS TSD',
     'notTSDInfo' => 'Seul le T-Spin Double est autorisé',
 
+    'notPC' => 'Pas un Perfect Clear',
     'notPCInfo' => 'Faites un Perfect Clear tous les 10 blocs. Votre plateau ne peut pas être vidé.',
 
     'fwDetect' => 'QUATRE DE LARGE',
