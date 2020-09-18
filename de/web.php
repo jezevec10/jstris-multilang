@@ -69,7 +69,7 @@ return [
     'againPw' => 'Passwort wiederholen',
     'applyChange' => 'Anwenden',
 
- /* Localization settings */
+    /* Localization settings */
     'localSettings' => 'Standorteinstellungen',
     'lang' => 'Sprache',
     'langNone' => 'Keine (selectable in the top menu)',
@@ -164,4 +164,23 @@ return [
     'invalidLink' => 'Angeforderter Link ungültig.',
     'brb' => 'Wir sind bald zurück.',
     'tryAgain' => 'Die Webseite wird aktuell geupdated, versuche es bitte später nochmal.',
+
+    /* Settings - Other options */
+    'setOther' => 'Andere Optionen',
+    'hideAcc' => 'Verstecktes Konto',
+    'accVisibility' => 'Sichtbarkeit',
+    'hideAccInfo' => 'Wenn aktiviert, wird das Konto von öffentlichen Bestenlisten ausgeschlossen.',
+
+    /* Chat reports */
+    'reportU' => 'Benutzer melden',
+    'reportDesc' => 'Hier können Sie einen Bericht erstellen, wenn Sie denken, jemand hat das Spiel chat missbraucht.',
+    'user' => 'Benutzer',
+    'reason' => 'Grund',
+    'rr0' => 'Spam oder unerwünschte Werbung',
+    'rr1' => 'Sexuell explizite Inhalte',
+    'rr2' => 'Hassreden',
+    'rr3' => 'Belästigung oder Mobbing',
+    'rr4' => 'Andere (angeben)',
+    'sendReport' => 'Bericht senden',
+
 ];
