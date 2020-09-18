@@ -10,9 +10,9 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>77.99%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>80.5%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 77.99%;"></span>
+            <span class="pb-fill" style="width: 80.5%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">game</a></td><td>83.96%</td><td>
@@ -20,9 +20,9 @@
             <span class="pb-fill" style="width: 83.96%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>82.94%</td><td>
+    <tr><td><a href="#">web</a></td><td>91.18%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 82.94%;"></span>
+            <span class="pb-fill" style="width: 91.18%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -34,16 +34,12 @@
 **Missing in de/frontend.php:**
 
 ```
-'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
 'notTSD' => 'NOT TSD',
 'notTSDInfo' => 'Only T-Spin Double is allowed',
 'notPC' => 'NOT a PC',
 'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
 'fwDetect' => 'FOUR WIDE',
 'fwDetectInfo' => 'Attacking yourself!',
-'nsUnpub' => 'Record not saved, the map is not published.',
-'nsTspins' => 'Record not saved, not enough T-Spins.',
-'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 'noBlocks' => 'Out of blocks',
 'noBlocks2' => 'All blocks were used',
 'fr' => 'Friends',
@@ -116,20 +112,6 @@
 'friends' => 'Friends',
 'userRanking' => 'Ranking stats',
 'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
-'setOther' => 'Other options',
-'hideAcc' => 'Hidden account',
-'accVisibility' => 'Visibility',
-'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
-'reportU' => 'Report user',
-'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
-'user' => 'User',
-'reason' => 'Reason',
-'rr0' => 'Spam or unwanted advertising',
-'rr1' => 'Sexually explicit content',
-'rr2' => 'Hate speech',
-'rr3' => 'Harassment or bullying',
-'rr4' => 'Other (specify)',
-'sendReport' => 'Send report',
 'accept' => 'Accept',
 'ignore' => 'Ignore',
 'pending' => 'Pending Requests',
