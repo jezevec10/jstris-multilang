@@ -10,19 +10,19 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>83.02%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>84.28%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 83.02%;"></span>
+            <span class="pb-fill" style="width: 84.28%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>89.84%</td><td>
+    <tr><td><a href="#">game</a></td><td>95.19%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 89.84%;"></span>
+            <span class="pb-fill" style="width: 95.19%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>82.94%</td><td>
+    <tr><td><a href="#">web</a></td><td>90.59%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 82.94%;"></span>
+            <span class="pb-fill" style="width: 90.59%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -34,8 +34,6 @@
 **Missing in fr/frontend.php:**
 
 ```
-'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
-'notPC' => 'NOT a PC',
 'noBlocks' => 'Out of blocks',
 'noBlocks2' => 'All blocks were used',
 'fr' => 'Friends',
@@ -68,19 +66,9 @@
 **Missing in fr/game.php:**
 
 ```
-'sound' => 'Sound',
-'enableVSE' => 'Voice comments',
-'rotateSE' => 'Sound effect of block rotation',
 'DMsound' => 'Direct message notification',
-'trem' => 'time remaining',
-'mapDownstack' => 'Map downstack',
-'20TSD' => '20TSD',
-'clearDelay' => 'Clear delay',
 'gapWidth' => 'Gap width',
 'gInv' => 'Invert garbage',
-'allSpin' => 'All-spin',
-'asImmobile' => 'Immobile',
-'as4Point' => '4-point',
 'lines' => 'Lines',
 'statistics' => 'Stats',
 'vs' => 'VS',
@@ -95,22 +83,9 @@
 
 ```
 'friends' => 'Friends',
-'scoringPlaylist' => 'Scoring playlist',
-'filterSP' => 'Filter scoring playlist',
 'timezoneDesc' => 'Used to convert time into your local time.',
 'userRanking' => 'Ranking stats',
-'viewMapsBy' => 'View all maps created by',
 'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
-'reportU' => 'Report user',
-'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
-'user' => 'User',
-'reason' => 'Reason',
-'rr0' => 'Spam or unwanted advertising',
-'rr1' => 'Sexually explicit content',
-'rr2' => 'Hate speech',
-'rr3' => 'Harassment or bullying',
-'rr4' => 'Other (specify)',
-'sendReport' => 'Send report',
 'accept' => 'Accept',
 'ignore' => 'Ignore',
 'pending' => 'Pending Requests',
