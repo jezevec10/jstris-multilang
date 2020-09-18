@@ -10,19 +10,19 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>60.45%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>50.94%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 60.45%;"></span>
+            <span class="pb-fill" style="width: 50.94%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>53.37%</td><td>
+    <tr><td><a href="#">game</a></td><td>50.8%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 53.37%;"></span>
+            <span class="pb-fill" style="width: 50.8%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>48.39%</td><td>
+    <tr><td><a href="#">web</a></td><td>44.12%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 48.39%;"></span>
+            <span class="pb-fill" style="width: 44.12%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -78,6 +78,8 @@
 'nsUnpub' => 'Record not saved, the map is not published.',
 'nsTspins' => 'Record not saved, not enough T-Spins.',
 'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
+'noBlocks' => 'Out of blocks',
+'noBlocks2' => 'All blocks were used',
 'noPlayers' => 'No players',
 'cntMore' => '{cnt} more',
 'cntGuests' => '{cnt} guests',
@@ -87,6 +89,29 @@
 'gTimeShort' => 'G.time',
 'on' => 'On',
 'off' => 'Off',
+'fr' => 'Friends',
+'frLoad' => 'Loading friend list',
+'frLogin' => 'Log in first to use friend list',
+'frEmpty' => 'Friend list is empty',
+'frHowAdd' => 'Visit user\'s profile to send friend request.',
+'frPriv' => 'Private',
+'frIn' => 'Already in!',
+'frChat' => 'Open chat',
+'frRel' => 'Reload',
+'frMsgTo' => 'Message to {name}',
+'frInv' => 'Send room invite',
+'frInvTo' => 'Invite to join {room}',
+'frInvIn' => 'You are already in!',
+'frInvBy' => 'by {user}',
+'frOn' => 'ONLINE',
+'frOff' => 'OFFLINE',
+'frNewChatH' => 'This is the beginning of chat history with {name}.',
+'frWelc' => 'Welcome to the Friends tab',
+'frIntro' => 'In this area you can access a list of online friends, private chats, and room invites',
+'frIntro2' => 'To send a friend request, visit a user\'s profile',
+'frIntro3' => 'To manage friends, visit the {frPage}',
+'frPage' => 'Friends page',
+'frIntroCl' => 'Close intro',
 ```
 
 ## Game
@@ -101,6 +126,7 @@
 'monochrome' => 'Monochrome',
 'enableVSE' => 'Voice comments',
 'rotateSE' => 'Sound effect of block rotation',
+'DMsound' => 'Direct message notification',
 'SEvol' => 'SE volume',
 'rescaleNow' => 'Resize multiplayer fields immediately',
 'rescaleNowInfo' => 'If unchecked fields of new players will appear next round',
@@ -170,6 +196,8 @@
 'gravityLvl' => 'Gravity lvl',
 'garbageDelay' => 'Garbage Delay',
 'garbageMess' => 'Messiness',
+'gapWidth' => 'Gap width',
+'gInv' => 'Invert garbage',
 'solidAtk' => 'Attack as solid',
 'allSpin' => 'All-spin',
 'asImmobile' => 'Immobile',
@@ -177,6 +205,12 @@
 'allSpinNA' => 'Excl. blocks',
 'noFW' => 'NoFourwide',
 'hostStart' => 'HostStart',
+'lines' => 'Lines',
+'statistics' => 'Stats',
+'vs' => 'VS',
+'downstack' => 'garbage downstack',
+'wasted' => 'Wasted',
+'expand' => 'Expand',
 ```
 
 ## Web
@@ -192,6 +226,7 @@
 'mapsLatestGames' => 'Latest games',
 'guide' => 'Guide',
 'favReplays' => 'Favorite replays',
+'friends' => 'Friends',
 'perfectFinesse' => '0 finesse',
 'lines' => 'Lines',
 'scoringPlaylist' => 'Scoring playlist',
@@ -214,6 +249,7 @@
 'country' => 'Country',
 'continent' => 'Continent',
 'countryDesc' => 'Used to display per-country leader boards.',
+'userRanking' => 'Ranking stats',
 'blockCnt' => ':cnt blocks',
 'APM10Games' => '10-games APM',
 'PPS10Games' => '10-games PPS',
@@ -222,7 +258,7 @@
 'playersCount' => 'Players',
 'gameResultPosition' => 'Position',
 'gameResultRoundTime' => 'Gametime',
-'viewAllGamesOf' => 'View all games of :mode',
+'viewAllGamesOf' => 'All games of :mode',
 'noGamesOf' => ':name hasn\'t played any games of :mode yet.',
 'map' => 'Map',
 'mapCreate' => 'Create new',
@@ -250,12 +286,13 @@
 'changelog' => 'Changelog',
 'translators' => 'Translators',
 'moderators' => 'Moderators',
+'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
 'setOther' => 'Other options',
 'hideAcc' => 'Hidden account',
 'accVisibility' => 'Visibility',
 'hideAccInfo' => 'If enabled, the account will be excluded from public leaderboards.',
 'reportU' => 'Report user',
-'reportDesc' => 'Here you can create a report if you think someone has abused the game chat.',
+'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
 'user' => 'User',
 'reason' => 'Reason',
 'rr0' => 'Spam or unwanted advertising',
@@ -264,5 +301,17 @@
 'rr3' => 'Harassment or bullying',
 'rr4' => 'Other (specify)',
 'sendReport' => 'Send report',
+'accept' => 'Accept',
+'ignore' => 'Ignore',
+'pending' => 'Pending Requests',
+'frFilter' => 'Filter Names',
+'noPending' => 'At the moment you have no pending friend requests.',
+'onlineNow' => 'Online now',
+'recentlyAc' => 'Recently active',
+'lastActive' => 'Active :when',
+'noFriends' => 'At the moment your friend list is empty.',
+'ruSure' => 'Are you sure?',
+'rmFriend' => 'Do you want to remove this person from your friend list?',
+'rmConfirm' => 'Yes, remove',
 ```
 
