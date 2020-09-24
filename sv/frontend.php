@@ -74,9 +74,9 @@ return [
     'ren' => 'REN',
 
     //Practice mode result
-    'gameTime' => 'time', //in Sprint time: xx.xx
-    'see' => 'See', //in 'See 40L leaderboard'
-    'leaderboard' => 'leaderboard',
+    'gameTime' => 'tid', //in Sprint time: xx.xx
+    'see' => 'Se', //in 'See 40L leaderboard'
+    'leaderboard' => 'topplista',
 
     //Less common strings, can stay untranslated
     'warning2' => 'VARNING',
@@ -89,53 +89,53 @@ return [
     'attack' => 'Attack',
     'combo' => 'Kombo',
     'solid' => 'Solid',
-    'clear' => 'Clear',
+    'clear' => 'Rensad',
     'mode' => 'Läge',
-    'garbage' => 'Garbage',
-    'garbageDelay' => 'GarbageDelay',
-    'messiness' => 'Messiness',
+    'garbage' => 'Skräp',
+    'garbageDelay' => 'SkräpDröjning',
+    'messiness' => 'Rörighet',
     'replay' => 'Replay',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => 'Rec.', //max 4, short for Received
     'enterNullDAS' => 'Enter numeric NullpoMino DAS value:',
     'suggestedIs' => 'Suggested DAS is',
-    'applyConfirm' => 'Apply?',
+    'applyConfirm' => 'Tillämpa?',
     'invalidDAS' => 'DAS value is invalid, was not changed!',
-    'settingsChanged' => 'Settings changed during the game. Replay invalidated.',
+    'settingsChanged' => 'Inställningar har ändrats under detta spel. Replay ogiltighetsförklarad.',
     'segment' => 'Segment',
-    'duration' => 'Duration',
-    'roomFull' => 'It seems the room is full.',
-    'lobbyInfo' => 'This chat is shared with {discord}.',
-    'newHost' => 'You are now the host of this room.',
-    'badRoom' => 'This room no longer exists, joining the Default room!',
-    'stngsChanged' => 'Setting changed by the host',
-    'stngsCustom' => 'Custom settings',
-    'aSpec' => 'Already spectating!',
-    'aPlay' => 'Already playing!',
-    'repFail' => 'Replay failed to save.',
-    'repInChat' => 'Replay file dumped into the chat. To preserve it, copy the text in the box and paste into your favourite text editor.',
-    'repTxtInfo' => 'The copied replayfile can be then played in the replayer or possibly resubmitted to the site.',
+    'duration' => 'Varaktighet',
+    'roomFull' => 'Rummet verkar vara fullt.',
+    'lobbyInfo' => 'Den här chatten delas med {discord}.',
+    'newHost' => 'Du är nu ägaren av detta rum.',
+    'badRoom' => 'Det här rummet finns inte längre, ansluter till Standard rummet!',
+    'stngsChanged' => 'Inställning ändrad av ägaren',
+    'stngsCustom' => 'Egna inställningar',
+    'aSpec' => 'Redan i åskådarläge!',
+    'aPlay' => 'Spelar redan!',
+    'repFail' => 'Replay misslyckades att spara.',
+    'repInChat' => 'Replay filen dumpades i chatten. För att bevara den, kopiera texten i rutan och klistra in den i din favorit-textredigerare.',
+    'repTxtInfo' => 'Den kopierade replayfilen kan spelas upp i uppspelaren eller eventuellt skickas in igen till sidan.',
 
-    'newPB' => 'YOUR NEW PERSONAL BEST',
-    'firstPB' => 'This was your first game. Get another PB to track the improvment.',
-    'infoPB' => 'Your previous record was {prevPB} achieved {prevAgo}. The improvement is {PBdiff}.',
-    'daysAgo' => 'days ago',
+    'newPB' => 'DITT NYA REKORD',
+    'firstPB' => 'Det här var ditt första spel. Få ett nytt rekord för att spåra dina förbättringar.',
+    'infoPB' => 'Ditt tidigare rekord var {prevPB} uppnått {prevAgo}. Förbättringen är {PBdiff}.',
+    'daysAgo' => 'dagar sedan',
 
-    'raceFin' => 'THE RACE HAS FINISHED',
-    'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
+    'raceFin' => 'TÄVLNINGEN HAR AVSLUTATS',
+    'raceFinInfo' => 'Du kan spela vidare, men nästa runda kan starta när som helst.',
 
     'notTSD' => 'NOT TSD',
-    'notTSDInfo' => 'Only T-Spin Double is allowed',
+    'notTSDInfo' => 'Bara T-Spin Dubbel är tillåtet',
 
     'notPC' => 'NOT a PC',
     'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
 
     'fwDetect' => 'FOUR WIDE',
-    'fwDetectInfo' => 'Attacking yourself!',
+    'fwDetectInfo' => 'Attackerar dig själv!',
 
     'oops' => 'Oops!',
-    'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
-    'leMore' => 'Learn more',
+    'chatNA' => 'Allmän chattning är inte tillgängigt för gäster eller användare med mindre än {chReq} timmar av speltid.',
+    'leMore' => 'Läs mer',
 
     'connLimit' => 'The maximum amount of open connections for this IP is curently reached. If you need increased limits, contact us via Discord',
     'idleDC' => 'Disconnected for inactivity! Spectator section was full.',
@@ -150,13 +150,13 @@ return [
     'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
 
     //Room info detail
-    'noPlayers' => 'No players',
-    'cntMore' => '{cnt} more',          //e.g. +10 more
-    'cntGuests' => '{cnt} guests',      //e.g. +10 guests
-    'cntSpec' => '{cnt} spectating',    //e.g. +10 spectating
+    'noPlayers' => 'Inga spelare',
+    'cntMore' => '{cnt} mer',          //e.g. +10 more
+    'cntGuests' => '{cnt} gäster',      //e.g. +10 guests
+    'cntSpec' => '{cnt} åskådare',    //e.g. +10 spectating
     'joinPossible' => 'Join possible',
     'notEligible' => 'Not eligible',
     'gTimeShort' => 'G.time',
-    'on' => 'On',
-    'off' => 'Off',
+    'on' => 'På',
+    'off' => 'Av',
 ];

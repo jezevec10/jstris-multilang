@@ -170,7 +170,7 @@ return [
     'solidGarbage' => 'Solid garbage',
     'solidAfterSecs' => 'Efter',
     'lockDelay' => 'Lås dröjning',
-    'clearDelay' => 'Rense dröjning',
+    'clearDelay' => 'Rensa dröjning',
     'speedLimit' => 'hastighetsgräns',
     'gravityLvl' => 'Gravitations nivå',
     'garbageDelay' => 'Garbage Delay',
