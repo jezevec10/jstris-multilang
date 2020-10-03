@@ -15,7 +15,7 @@ return [
     'myProfile' => '我的个人资料',
     'myImprovement' => '我的进步数据',
     'favReplays' => '已收藏录像',
-    'friends' => '好友'
+    'friends' => '好友',
     'settings' => '设置',
     'logout' => '退出登录',
     
@@ -138,7 +138,7 @@ return [
     'details' => '详细',
     'playedBy' => '玩家:',
     'latestMapGames' => '地图模式最新游戏',
-    
+
     /* Stats */
     'improvementStats' => '进步数据',
     //keep ':name'
