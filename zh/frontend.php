@@ -147,7 +147,9 @@ return [
     'nsUnpub' => '录像未保存. 因为地图未公开发表.',
     'nsTspins' => '录像未保存. 因为T-spin数目不够.',
     'nsLowPC' => '录像未保存. 至少需要全清 2 次.',
-	
+    'noBlocks' => '无剩余方块',
+    'noBlocks2' => '无剩余方块',
+    
     //Room info detail
     'noPlayers' => '无玩家',
     'cntMore' => '{cnt} 玩家',          //e.g. +10 more
@@ -158,10 +160,6 @@ return [
     'gTimeShort' => '游戏时间',
     'on' => '开启',
     'off' => '关闭',
-
-    //Puzzle
-    'noBlocks' => '无剩余方块',
-    'noBlocks2' => '无剩余方块',
 
     //Friends
     'fr' => '好友',

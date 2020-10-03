@@ -15,6 +15,7 @@ return [
     'myProfile' => '我的个人资料',
     'myImprovement' => '我的进步数据',
     'favReplays' => '已收藏录像',
+    'friends' => '好友'
     'settings' => '设置',
     'logout' => '退出登录',
     
@@ -79,6 +80,7 @@ return [
     'country' => '国家',
     'continent' => '洲属',
     'countryDesc' => '设置后可应用于国家内排行榜.',
+
     /* Profile */
     'ownProfile' => '您的公共个人资料可访问在',
     'bestTimes' => '最佳时间',
@@ -86,6 +88,7 @@ return [
     'userImpr' => '查看进步数据',
     'gameStats' => '游戏数据',
     'latestGames' => '最近游戏',
+    'userRanking' => '排名数据',
     'noGames' => '该用户未曾进行任何游戏.',
     'gamesPlayed' => '游戏数',
     'totalTime' => '总时间',
@@ -135,6 +138,7 @@ return [
     'details' => '详细',
     'playedBy' => '玩家:',
     'latestMapGames' => '地图模式最新游戏',
+    
     /* Stats */
     'improvementStats' => '进步数据',
     //keep ':name'
@@ -162,6 +166,7 @@ return [
     'invalidLink' => '访问链接无效.',
     'brb' => '马上回来. ',
     'tryAgain' => '网站正在升级，请稍后再试.',
+    'wasteDesc' => '未用于 T-Spin 的 T 块占比',
 
     /* Settings - Other options */
     'setOther' => '其他设置',
@@ -181,10 +186,8 @@ return [
     'rr4' => '其他（特别说明）',
     'sendReport' => '提交举报',
 
-    /* Updates */
+    /* Friends */
     'friends' => '好友',
-    'userRanking' => '排名数据',
-    'wasteDesc' => '未用于 T-Spin 的 T 块占比',
     'accept' => '同意',
     'ignore' => '忽略',
     'pending' => '待处理请求',
