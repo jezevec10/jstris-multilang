@@ -180,4 +180,21 @@ return [
     'rr3' => '骚扰、霸凌、人身攻击',
     'rr4' => '其他（特别说明）',
     'sendReport' => '提交举报',
+
+    /* Updates */
+    'friends' => '好友',
+    'userRanking' => '排名数据',
+    'wasteDesc' => '未用于 T-Spin 的 T 块占比',
+    'accept' => '同意',
+    'ignore' => '忽略',
+    'pending' => '待处理请求',
+    'frFilter' => 'Filter Names',
+    'noPending' => '暂无待处理好友请求。',
+    'onlineNow' => '在线',
+    'recentlyAc' => '近期活动过',
+    'lastActive' => ':when 前在线',
+    'noFriends' => '目前没有好友。',
+    'ruSure' => '确定吗?',
+    'rmFriend' => '确定要将该用户移出好友列表?',
+    'rmConfirm' => '是，移出',
 ];

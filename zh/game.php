@@ -183,5 +183,16 @@ return [
     'noFW' => '禁止四宽(4w)',
     'hostStart' => '仅限房主开始',
 
+    //Updates
+    'DMsound' => '私信提醒',
+    'gapWidth' => '垃圾列宽',
+    'gInv' => '反转垃圾行',
+    'lines' => '行数',
+    'statistics' => '数据',
+    'vs' => 'VS',
+    'downstack' => '垃圾行挖掘',
+    'wasted' => '未使用 T 块',
+    'expand' => '扩展',
+
     'translationBy' => 'teatube',
 ];
