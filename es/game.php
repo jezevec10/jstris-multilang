@@ -2,7 +2,7 @@
 
 return [
     'play' => 'Jugar',
-    'live' => 'En línea', 
+    'live' => 'En línea',
     'controls' => 'Controles',
     'gameSettings' => 'Configuración',
     'appearance' => 'Apariencia',
