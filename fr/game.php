@@ -41,7 +41,7 @@ return [
     'blockStyle' => 'Blocs',
     'solidBlocks' => 'Couleur (sans texture)',
     'invisibleBlocks' => 'Invisible',
-    'monochrome' => 'Monochrome',
+    'monochrome' => 'Une seule couleur',
     'enableSE' => 'Activer les effets sonores',
     'startSE' => 'Activer l\'effet sonore de début de partie',
     'faultSE'=> 'Effet sonore pour les erreurs de finesse',
@@ -68,7 +68,7 @@ return [
     'mLayInfo' => 'Changez ceci pour contourner la détection mobile automatique, nécessite de rafraîchir',
     'saveClose'=> 'Enregistrer & Quitter',
     'resetAll'=> 'Tout réinitialiser',
-    'close'=> 'Fermet',
+    'close'=> 'Fermer',
     'gameResults'=> 'Résultats',
     'practiceModes'=> 'Modes d\entraînement',
     'practice'=> 'Entraînement',
@@ -101,8 +101,8 @@ return [
     'roomName'=> 'Nom de la partie',
     'playersCount'=> 'Joueurs',
     'usePreset' => 'Utiliser les paramètres préfaits',
-    'default' => 'Default',
-    'defaultDesc' => 'Les paramètres par défauts',
+    'default' => 'Défaut',
+    'defaultDesc' => 'Les paramètres par défaut',
     'otherOptions' => 'Autres options',
     'customPreset' => 'Utiliser les paramètres personnalisés',
     'browsePresets' => 'Voir les paramètres personnalisés',
@@ -153,6 +153,16 @@ return [
     'ms' => 'ms',
     's' => 's',
     'hrs' => 'hrs',
+    'sound' => 'Son',
+    'enableVSE' => 'Commentaires à la voix',
+    'rotateSE' => 'Son de rotation de bloc',
+    'trem' => 'temps restant',
+    'mapDownstack' => 'Map downstack',
+    '20TSD' => '20TSD',
+    'clearDelay' => 'Clear delay',
+    'allSpin' => 'All-spin',
+    'asImmobile' => 'Immobile',
+    'as4Point' => '4-point',
 
     //all room settings
     'attackTable' => 'Table d\'attaque',
@@ -164,7 +174,7 @@ return [
     'solidGarbage' => 'Handicap solide',
     'solidAfterSecs' => 'Après',
     'lockDelay' => 'Temps de bloquage',
-    //TODO: I'm not sure what clear delay is supposed to mean
+    'clearDelay'=> 'Temps de supression',
     'speedLimit' => 'Limite de vitesse',
     'gravityLvl' => 'Niveau de gravité',
     'garbageDelay' => 'Délai du handicap',
@@ -172,9 +182,9 @@ return [
     'solidAtk' => 'Attaquer avec du handicap solide',
     'noFW' => 'Anti 4-wide',
     'hostStart' => 'L\'hôte démarre',
-    'allSpinNA' => 'blocks Excl.', // blocks excluded from All-spin bonus
+    'allSpinNA' => 'blocks Excl.', // Blocks exclus du bonus All-spin
     'noFW' => 'SansQuatreDeLarge',
     'hostStart' => 'HôteDémarre',
 
-    'translationBy' => 'Noël Nadal Et Aurélien Moisson-Franckhauser',
+    'translationBy' => 'Noël Nadal, Aurélien Moisson-Franckhauser, Merevir go',
 ];

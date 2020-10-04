@@ -61,6 +61,8 @@ return [
     'gAVG' => 'Moyenne mondiale',
     'repHelp' => 'Aide', //link that shows information how to use the tool
     'repExport' => 'GIF ou vidéo',
+    'scoringPlaylist' => 'Playlist des scores',
+    'filterSP' => 'Filtrer la playlist scores',
 
     /* PW change */
     'pwChange' => 'Changer de mot de passe',
@@ -78,6 +80,7 @@ return [
     'country' => 'Pays',
     'continent' => 'Continent',
     'countryDesc' => 'Utilisé pour montrer les classements par pays',
+    
 
     /* Profile */
     'ownProfile' => 'Ceci est votre profil public, accessible à l\'adresse',
@@ -134,6 +137,7 @@ return [
     'details' => 'Détails',
     'playedBy' => 'Joué par',
     'latestMapGames' => 'La dernière carte jouée',
+    'viewMapsBy' => 'Voir toutes les cartes créés par',
 
     /* Stats */
     'improvementStats' => 'Statistiques de progression',
@@ -168,4 +172,16 @@ return [
     'hideAcc' => 'Comptes cachés',
     'accVisibility' => 'Visibilité',
     'hideAccInfo' => 'Si activé, le compte sera exclu des classements publiques',
+
+    /* Chat reports */
+    'reportU' => 'Signaler l\'utilisateur',
+    'reportDesc' => 'Ici vous pouvez signaler un utilisateur dans le chat.',
+    'user' => 'Utilisateur',
+    'reason' => 'Raison',
+    'rr0' => 'Spam ou Publicité',
+    'rr1' => 'Images pornographiques explicites',
+    'rr2' => 'Hate speech',
+    'rr3' => 'Harcèlement',
+    'rr4' => 'Autre (spécifier)',
+    'sendReport' => 'Envoyer le rapport',
 ];
