@@ -15,7 +15,7 @@ return [
     'myProfile' => 'Mi Perfil',
     'myImprovement' => 'Mi desarrollo',
     'favReplays' => 'Repeticiones favoritas',
-    'friends' => 'Amigos'
+    'friends' => 'Amigos',
     'settings' => 'Configuraciones',
     'logout' => 'Desconectarse',
     
