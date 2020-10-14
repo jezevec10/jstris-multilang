@@ -117,7 +117,7 @@ return [
     'repTxtInfo' => 'The copied replayfile can be then played in the replayer or possibly resubmitted to the site.',
 
     'newPB' => 'YOUR NEW PERSONAL BEST',
-    'firstPB' => 'This was your first game. Get another PB to track the improvment.',
+    'firstPB' => 'This was your first game. Get another PB to track the improvement.',
     'infoPB' => 'Your previous record was {prevPB} achieved {prevAgo}. The improvement is {PBdiff}.',
     'daysAgo' => 'days ago',
 
