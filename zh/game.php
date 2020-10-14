@@ -49,6 +49,7 @@ return [
     'rotateSE' => '方块旋转音效',												   
     'faultSE'=> '启用多余操作(finesse fault)音效',
     'esound'=> '玩家加入提示音 (叮~)',
+    'DMsound' => '私信提示音',
     'SEvol'=> '声效音量',
     'otherSettings'=> '其他设置',
     'nickname'=> '昵称',
@@ -175,6 +176,8 @@ return [
     'gravityLvl' => '重力等级',
     'garbageDelay' => '垃圾行延迟',
     'garbageMess' => '垃圾行混乱度',
+    'gapWidth' => '垃圾列宽',
+    'gInv' => '反转垃圾行',
     'solidAtk' => '实心行攻击',
     'allSpin' => '全方块Spin',
     'asImmobile' => '卡块/不可移动', // detection type for All-spin
@@ -182,6 +185,13 @@ return [
     'allSpinNA' => '不计Spin块', // blocks excluded from All-spin bonus
     'noFW' => '禁止四宽(4w)',
     'hostStart' => '仅限房主开始',
+
+    'lines' => '行数',
+    'statistics' => '数据', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => '垃圾行挖掘',
+    'wasted' => '未使用 T 块',
+    'expand' => '展开', //ttoltip for icon to expand chat
 
     'translationBy' => 'teatube',
 ];
