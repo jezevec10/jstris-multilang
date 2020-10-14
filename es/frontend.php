@@ -148,6 +148,8 @@ return [
     'nsUnpub' => 'Tu record no se ha guardado, el mapa no está publicado.',
     'nsTspins' => 'Tu record no se ha guardado, no realizaste suficientes T-Spins.',
     'nsLowPC' => 'Tu record no se ha guardado, se necesitan al menos 2 Perfect Clears.',
+    'noBlocks' => 'Bloques agotados',
+    'noBlocks2' => 'Todos los bloques fueron usados',
 
     //Room info detail
     'noPlayers' => 'Sin jugadores',
@@ -159,4 +161,29 @@ return [
     'gTimeShort' => 'T.juego',
     'on' => 'Sí',
     'off' => 'No',
+
+    //friends
+    'fr' => 'Amigos',
+    'frLoad' => 'Cargando lista de amigos',
+    'frLogin' => 'Inicia sesion para ver lista de amigos',
+    'frEmpty' => 'Lista de amigos vacia',
+    'frHowAdd' => 'Visita el perfil de usuario para enviar solicitud de amistad',
+    'frPriv' => 'Privado',
+    'frIn' => 'Ya estás dentro',
+    'frChat' => 'Abrir Chat',
+    'frRel' => 'Recargar',
+    'frMsgTo' => 'Mensaje para {name}',  //keep {name}
+    'frInv' => 'Enviar invitación a la sala',
+    'frInvTo' => 'Invitación para unirse a {room}',
+    'frInvIn' => 'Ya estás aquí!',
+    'frInvBy' => 'de {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Este es el inicio de tu chat con {name}.',
+    'frWelc' => 'Bienvenido a la pestaña de amigos',
+    'frIntro' => 'En esta area puedes acceder a la lista de amigos en linea, chat privados e invitaciones a salas.',
+    'frIntro2' => 'Para enviar una solicitud the amistad, visita el perfíl de un usuario.',
+    'frIntro3' => 'Para administrar tus amigos, visita {frPage}',
+    'frPage' => 'Página de amigos',
+    'frIntroCl' => 'Cerrar introducción',
 ];
