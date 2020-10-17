@@ -20,6 +20,11 @@
             <span class="pb-fill" style="width: 93.58%;"></span>
         </div>
     </td></tr>
+    <tr><td><a href="#">supporter</a></td><td>96.36%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: 96.36%;"></span>
+        </div>
+    </td></tr>
     <tr><td><a href="#">web</a></td><td>85.29%</td><td>
         <div class="pb">
             <span class="pb-fill" style="width: 85.29%;"></span>
@@ -79,6 +84,15 @@
 'downstack' => 'garbage downstack',
 'wasted' => 'Wasted',
 'expand' => 'Expand',
+```
+
+## Supporter
+
+**Missing in pt/supporter.php:**
+
+```
+'estimate' => 'Show estimate',
+'paymentsInfo' => 'Processed via :service_name.&nbsp; Can be cancelled anytime on account dashboard.',
 ```
 
 ## Web

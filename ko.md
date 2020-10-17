@@ -20,6 +20,11 @@
             <span class="pb-fill" style="width: 59.36%;"></span>
         </div>
     </td></tr>
+    <tr><td><a href="#">supporter</a></td><td>100%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: 100%;"></span>
+        </div>
+    </td></tr>
     <tr><td><a href="#">web</a></td><td>60.59%</td><td>
         <div class="pb">
             <span class="pb-fill" style="width: 60.59%;"></span>
