@@ -3,7 +3,7 @@
 return [
     'donate' => 'Doar', //menu item, short
     'descr' => 'Suporte o Jstris e habilite recompensas de Apoiador mandando uma doação.',
-    'supportJstris' => 'Support Jstris',
+    'supportJstris' => 'Suporte Jstris',
     'supportDesc1' => 'Se você aprecia o jogo, por favor considere uma doação para ajudar a cobrir os gastos do servidor e o desenvolvimento que está a vir.',
     'warnDelay' => 'Pode demorar até 10 minutos antes que a transação seja creditada para sua conta no Jstris. Então você poderá configurar as suas recomensas de Apoiador aqui.',
 
@@ -44,8 +44,8 @@ return [
     'learnMore' => 'Saiba mais', //show more information
 
     'gift' => 'Recompensas de presente',
-    'giftDesc' => 'aqui você pode doar no nome de outra conta Jsitrs. Entre o nome da conta no campo de texto a direita e pressione Ok. Depois disso, qualquer doação você enviar desta página será atribuída para a conta escolhida.',
-    'giftTo' => 'Presentiar conta',
+    'giftDesc' => 'Aqui você pode doar no nome de outra conta Jsitrs. Entre o nome da conta no campo de texto a direita e pressione Ok. Depois disso, qualquer doação você enviar desta página será atribuída para a conta escolhida.',
+    'giftTo' => 'Presentear conta',
     'set' => 'Ok', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Recompensas de Apoiador disponíveis',
