@@ -22,9 +22,9 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 52.01%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="de.html">de</a></td><td>77.06%</td><td>
+    <tr><td><a href="de.html">de</a></td><td>79.16%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 77.06%;"></span>
+            <span class="pb-fill" style="width: 79.16%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="es.html">es</a></td><td>99.82%</td><td>
@@ -57,9 +57,9 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 43.96%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ja.html">ja</a></td><td>81.79%</td><td>
+    <tr><td><a href="ja.html">ja</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 81.79%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="ko.html">ko</a></td><td>61.65%</td><td>
@@ -107,13 +107,13 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 90.37%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>67.78%</td><td>
+    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>77.23%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 67.78%;"></span>
+            <span class="pb-fill" style="width: 77.23%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -------------------
 
-*Auto-generated on **Sun, 18 Oct 2020 16:41:25 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Fri, 23 Oct 2020 21:02:40 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*

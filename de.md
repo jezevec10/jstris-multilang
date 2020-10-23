@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 0%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>91.18%</td><td>
+    <tr><td><a href="#">web</a></td><td>98.24%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 91.18%;"></span>
+            <span class="pb-fill" style="width: 98.24%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -179,17 +179,5 @@
 'friends' => 'Friends',
 'userRanking' => 'Ranking stats',
 'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
-'accept' => 'Accept',
-'ignore' => 'Ignore',
-'pending' => 'Pending Requests',
-'frFilter' => 'Filter Names',
-'noPending' => 'At the moment you have no pending friend requests.',
-'onlineNow' => 'Online now',
-'recentlyAc' => 'Recently active',
-'lastActive' => 'Active :when',
-'noFriends' => 'At the moment your friend list is empty.',
-'ruSure' => 'Are you sure?',
-'rmFriend' => 'Do you want to remove this person from your friend list?',
-'rmConfirm' => 'Yes, remove',
 ```
 
