@@ -15,6 +15,7 @@ return [
     'myProfile' => 'プロフィール',
     'myImprovement' => 'ステータスの推移',
     'favReplays' => 'お気に入りのリプレイ',
+    'friends' => 'フレンド',
     'settings' => 'アカウント設定',
     'logout' => 'ログアウト',
     
@@ -85,6 +86,7 @@ return [
     'bestTimes' => '自己ベスト',
     'allTimes' => 'すべてのスプリントの記録を見る',
     'userImpr' => 'ステータスの推移を見る',
+    'userRanking' => 'ランキングの統計',
     'gameStats' => '対戦データの統計',
     'latestGames' => '新着の対戦リプレイ',
     'noGames' => 'まだ対戦をプレイしていません',
@@ -164,6 +166,7 @@ return [
     'invalidLink' => '指定されたリンクは無効です',
     'brb' => 'すぐに戻ります',
     'tryAgain' => 'サイトのアップデート中です。しばらくしてからもう一度お試し下さい。',
+    'wasteDesc' => 'Tスピンに使われなかったTミノの割合(Tミノの数に対する)',
 
     /* Settings - Other options */
     'setOther' => 'その他のオプション',
@@ -182,5 +185,19 @@ return [
     'rr3' => '嫌がらせ',
     'rr4' => 'その他（ご指定ください）',
     'sendReport' => 'レポートを送信',
+
+    /* Friends */
+    'accept' => '承認',
+    'ignore' => '拒否',
+    'pending' => '保留中のリクエスト',
+    'frFilter' => '検索',
+    'noPending' => '現在，保留中ののリクエストはありません',
+    'onlineNow' => 'オンライン',
+    'recentlyAc' => '最近の活動',
+    'lastActive' => '最終オンライン :when',
+    'noFriends' => '現在，フレンドは居ません',
+    'ruSure' => 'よろしいですか?',
+    'rmFriend' => 'フレンドリストから削除しますか?',
+    'rmConfirm' => '削除する',
     
 ];
