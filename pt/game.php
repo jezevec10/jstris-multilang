@@ -180,5 +180,5 @@ return [
     'noFW' => 'NoFourwide',
     'hostStart' => 'HostStart',
 
-    'translationBy' => 'P1iko',
+    'translationBy' => 'P1iko, Ovie',
 ];
