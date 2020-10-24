@@ -183,4 +183,18 @@ return [
     'rr4' => 'Andere (angeben)',
     'sendReport' => 'Bericht senden',
 
+    /* Friends */
+    'accept' => 'Akzeptiere',
+    'ignore' => 'Ablehnen',
+    'pending' => 'Ausstehende Anträge',
+    'frFilter' => 'Suche',
+    'noPending' => 'Im Moment haben Sie keine ausstehenden Freundschaftsanfragen.',
+    'onlineNow' => 'Jetzt online',
+    'recentlyAc' => 'Kürzlich aktiv',
+    'lastActive' => 'Aktiv :when',
+    'noFriends' => 'Im Moment ist Ihre Freundesliste leer.',
+    'ruSure' => 'Sind Sie sicher?',
+    'rmFriend' => 'Möchten Sie diese Person von Ihrer Freundesliste entfernen?',
+    'rmConfirm' => 'entfernen',
+
 ];

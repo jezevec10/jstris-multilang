@@ -49,6 +49,7 @@ return [
     'rotateSE' => 'ブロック回転の効果音',
     'faultSE'=> '最適化を間違えた時に専用SEを鳴らす',
     'esound'=> '部屋に人が来た時にSEを鳴らす (ベル音)',
+    'DMsound' => 'メッセージが来た時に通知を鳴らす',
     'SEvol'=> 'SEの音量',
     'otherSettings'=> 'その他の設定',
     'nickname'=> 'ニックネーム',
@@ -175,6 +176,8 @@ return [
     'gravityLvl' => '重力Lv.',
     'garbageDelay' => 'お邪魔の遅延',
     'garbageMess' => '穴バラの確率',
+    'gapWidth' => '下穴の幅',
+    'gInv' => '下穴の数を反転',
     'solidAtk' => '下穴なし',
     'allSpin' => 'All-Spin',//T-spinがそのまま通ってるから、Allspinで固定。もしなにか案あれば変えてもらってokです。
     'asImmobile' => '制限', // detection type for All-spin
@@ -182,5 +185,14 @@ return [
     'allSpinNA' => '除外するブロック', // blocks excluded from All-spin bonus
     'noFW' => '4列RENを制限する',
     'hostStart' => 'ホストスタート',
-    'translationBy' => 'k_rakko, MattMayuga, mitsuki0316',
+
+    'lines' => 'ライン数',
+    'statistics' => '統計情報', //stat lines showing under the field
+    'vs' => '対戦スコア', //label for VS score stat
+    'downstack' => '下穴削り',
+    'wasted' => '非Tスピン回数',
+
+    'expand' => '展開する',  //ttoltip for icon to expand chat
+
+    'translationBy' => 'k_rakko, MattMayuga, mitsuki0316, ecto0310',
 ];

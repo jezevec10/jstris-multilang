@@ -15,6 +15,7 @@ return [
     'myProfile' => 'Mi Perfil',
     'myImprovement' => 'Mi desarrollo',
     'favReplays' => 'Repeticiones favoritas',
+    'friends' => 'Amigos',
     'settings' => 'Configuraciones',
     'logout' => 'Desconectarse',
     
@@ -85,6 +86,7 @@ return [
     'bestTimes' => 'Mejores tiempos',
     'allTimes' => 'Mirar tiempos de Carrera',
     'userImpr' => 'Ver estadísticas de mejora',
+    'userRanking' => 'Estadísticas de ranking',
     'gameStats' => 'Estadísticas de partidas',
     'latestGames' => 'Últimos juegos',
     'noGames' => 'Este usuario aún no ha jugado todavía.',
@@ -164,6 +166,7 @@ return [
     'invalidLink' => 'El enlace es inválido.',
     'brb' => 'Ya volvemos.',
     'tryAgain' => 'El sitio está siendo actualizado, por favor regresa en un momento.',
+    'wasteDesc' => 'Proporción de piezas T no usadas en un T-spin (Al total de piezas T)',
 
     /* Settings - Other options */
     'setOther' => 'Otras opciones',
@@ -183,4 +186,18 @@ return [
     'rr3' => 'Acoso o Intimidación',
     'rr4' => 'Otro (especifíca)',
     'sendReport' => 'Enviar reporte',
+
+    /* Friends */
+    'accept' => 'Aceptar',
+    'ignore' => 'Ignorar',
+    'pending' => 'Solicitudes pendientes',
+    'frFilter' => 'Filtrar nombres',
+    'noPending' => 'Por el momento no tienes solicitudes pendientes.',
+    'onlineNow' => 'En linea',
+    'recentlyAc' => 'Activo recientemente',
+    'lastActive' => 'Activo :when',
+    'noFriends' => 'Por el momento tu lista de amigos está vacía.',
+    'ruSure' => '¿Estás seguro?',
+    'rmFriend' => '¿Quiéres eliminar a esta persona de tu lista de amigos?',
+    'rmConfirm' => 'Si, eliminar',
 ];

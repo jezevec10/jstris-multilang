@@ -170,5 +170,5 @@ return [
     'noFW' => '禁止 4-wide',
     'hostStart' => '限房主開始',
 
-    'translationBy' => 'xFly',
+    'translationBy' => 'xFly, Helomair, bennxt',
 ];

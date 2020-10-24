@@ -196,7 +196,6 @@ return [
     'recentlyAc' => 'Recently active',
     'lastActive' => 'Active :when',
     'noFriends' => 'At the moment your friend list is empty.',
-    'lastActive' => 'Active :when',
     'ruSure' => 'Are you sure?',
     'rmFriend' => 'Do you want to remove this person from your friend list?',
     'rmConfirm' => 'Yes, remove',
