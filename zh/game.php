@@ -193,5 +193,5 @@ return [
     'wasted' => '未使用 T 块',
     'expand' => '展开', //ttoltip for icon to expand chat
 
-    'translationBy' => 'teatube',
+    'translationBy' => 'teatube, xb2002b',
 ];
