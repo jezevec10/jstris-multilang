@@ -38,7 +38,7 @@ return [
     'serverUser' => 'Serveur', //special username in chat
     'noNamed' => 'SansNom', //user wihtout name (guest), max 7, can stay untranslated
     'watching' => 'Spectateurs', //in 'Watching: user1,user2..', altern.=Spectators
-    'userJoined'=>'a rejoint le salon', //in 'User1 joined the room.'
+    'userJoined' => 'a rejoint le salon', //in 'User1 joined the room.'
     'joined' => 'a rejoint', //in title: 'User1 joined!'
     'userCame' => 'est venu regarder',  //in 'User1 came to watch.'
     'isSpectating' => 'est désormais spectateur', //in 'User1 is now spectating.'
@@ -52,7 +52,7 @@ return [
     'oldVer' => 'Vous jouez avec une ancienne version, utilisez CTRL+F5 pour charger la nouvelle version !',
     'oldVer2' => 'Vous avez encore l\'ancienne version! utilisez {key} pour recharger le client',
     'privateRoom' => 'Voici votre salon privé, dans laquelle vous ne serez pas dérangé pendant que vous jouez. Cliquez sur \'Parties\' pour voir les salons publics.',
-    'restartInfo' =>  'Recommencez avec F4 ou définissez une touche personnalisée.',
+    'restartInfo' => 'Recommencez avec F4 ou définissez une touche personnalisée.',
     'joinLinkInfo' => 'Ce salon est privé. Le joueurs ne peuvent le rejoindre qu\'avec le lien suivant :',
 
     //Dynamic elements
@@ -68,7 +68,6 @@ return [
     'name' => 'Nom',
     'wins' => 'Victoires',
     'time' => 'Temps', //as game duration
-    'received' => 'Reçu',
     'sent' => 'Envoyé',
     'blocks' => 'Blocs', //as number of blocks placed
     'ren' => 'REN',
@@ -105,7 +104,7 @@ return [
     'segment' => 'Segment',
     'duration' => 'Durée',
     'roomFull' => 'Il semblerait que le salon soit rempli.',
-    'lobbyInfo' => 'Ce chat est partagé avec {discord}.',
+    'lobbyInfo' => 'Ce tchat est partagé avec {discord}.',
     'newHost' => 'Vous êtes maintenant l\'hôte de ce salon.',
     'badRoom' => 'Ce salon n\'existe plus, Connexion au salon par defaut',
     'stngsChanged' => 'Paramètre changé par l\'hôte',
@@ -113,7 +112,7 @@ return [
     'aSpec' => 'Vous êtes déjà en mode spectateur',
     'aPlay' => 'Vous êtes déjà en train de jouer',
     'repFail' => 'Echec d\'enregistrement de la partie',
-    'repInChat' => 'l\'Enregistrement est dans le chat, pour le préserver, copiez le texte et collez le dans votre editeur de texte favoris.',
+    'repInChat' => 'l\'Enregistrement est dans le tchat, pour le préserver, copiez le texte et collez le dans votre editeur de texte favoris.',
     'repTxtInfo' => 'Le fichier d\'enregistrement peut être visionné dans le lecteur ou possiblement retéléchargé sur le site.',
 
     'newPB' => 'NOUVEAU MEILLEUR SCORE',
@@ -158,4 +157,32 @@ return [
     'gTimeShort' => 'G.time',
     'on' => 'On',
     'off' => 'Off',
+
+    'noBlocks' => 'Plus de blocs',
+    'noBlocks2' => 'Tous les blocs ont été utilisés',
+
+    //friends
+    'fr' => 'Amis',
+    'frLoad' => 'Chargement de la liste d\'amis',
+    'frLogin' => 'Connectez-vous pour utiliser la liste d\'amis',
+    'frEmpty' => 'La liste d\'amis est vide',
+    'frHowAdd' => 'Visitez le profil de l\'utilisateur pour envoyer une demande d\'ami.',
+    'frPriv' => 'Privé',
+    'frIn' => 'Déjà dans le salon!',
+    'frChat' => 'Ouvrir le tchat',
+    'frRel' => 'Recharger',
+    'frMsgTo' => 'Message à {name}',
+    'frInv' => 'Inviter dans le salon',
+    'frInvTo' => 'Inviter à rejoindre {room}',
+    'frInvIn' => 'Vous êtes déjà dans le salon!',
+    'frInvBy' => 'de {user}',
+    'frOn' => 'EN LIGNE',
+    'frOff' => 'HORS LIGNE',
+    'frNewChatH' => 'Début de l\'historique de discussion avec {name}.',
+    'frWelc' => 'Bienvenue dans l\'onglet "Amis"',
+    'frIntro' => 'Dans cet espace, vous pouvez accéder à votre liste d\'amis, vos tchats privés et invitations',
+    'frIntro2' => 'Pour envoyer une demande d\'ami, rendez-vous sur le profil d\'un utilisateur',
+    'frIntro3' => 'Pour gérer votre liste d\'amis, visitez la {frPage}',
+    'frPage' => 'Page "Amis"',
+    'frIntroCl' => 'Fermer l\'introduction',
 ];

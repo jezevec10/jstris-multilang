@@ -5,7 +5,6 @@ return [
     'tournament' => 'Tournoi',
     'maps' => 'Cartes',
     'mapsBrowse' => 'Parcourir',
-    'myMaps' => 'Mes cartes',
     'mapsDesigner' => 'Créateur de cartes',
     'randomMap' => 'Carte aléatoire',
     'mapsLatestGames' => 'Dernières parties',
@@ -15,6 +14,7 @@ return [
     'myProfile' => 'Mon profil',
     'myImprovement' => 'Ma progression',
     'favReplays' => 'Replays favoris',
+    'friends' => 'Amis',
     'settings' => 'Options',
     'logout' => 'Déconnexion',
 
@@ -24,7 +24,6 @@ return [
     'blocks' => 'Blocs',
     'PPS' => 'PPS',
     'finesse' => 'Finesse',
-    'date' => 'Date',
     'replay' => 'Revoir',
     'place' => 'Place',
     'nli' => 'Pas connecté!',
@@ -36,7 +35,6 @@ return [
     'bestPlayers' => 'Meilleurs joueurs',
     'bestGames' => 'Meilleures parties',
     'bestSubs' => 'Intervalle spécifique',
-    'latestGames' => 'Dernières parties',
     'leastBlocks' => 'Le moins de blocs',
     'myTimes' => 'Mes temps',
     'perfectFinesse' => '0 finesse',
@@ -51,7 +49,7 @@ return [
     'speedChart' => 'Graphe de vitesse',
     'moreStats' => 'Plus de stats',
     'lines' => 'Lignes',
-    //TODO: I haven't been abble to find 'scoring playlist' in the website and have no idea what the context is
+    'scoringPlaylist' => 'Playlist des scores',
     'applyFilter' => 'Appliquer le filtre',
     'timestamp' => 'Moment',
     'action' => 'Action',
@@ -61,7 +59,6 @@ return [
     'gAVG' => 'Moyenne mondiale',
     'repHelp' => 'Aide', //link that shows information how to use the tool
     'repExport' => 'GIF ou vidéo',
-    'scoringPlaylist' => 'Playlist des scores',
     'filterSP' => 'Filtrer la playlist scores',
 
     /* PW change */
@@ -74,19 +71,19 @@ return [
     'localSettings' => 'Paramètres de localisation',
     'lang' => 'Langue',
     'langNone' => 'Aucun (selectionnable dans le menu en haut',
-    'langDesc' => 'Selectionnez votre langue préféré.',
-    'timezone' => 'fuseau horaire',
-    'timesoneDesc' => 'Pour convertir en heure locale',
+    'langDesc' => 'Selectionnez votre langue préférée.',
+    'timezone' => 'Fuseau horaire',
+    'timezoneDesc' => 'Utilisé pour afficher les heures en heure locale.',
     'country' => 'Pays',
     'continent' => 'Continent',
     'countryDesc' => 'Utilisé pour montrer les classements par pays',
-    
 
     /* Profile */
     'ownProfile' => 'Ceci est votre profil public, accessible à l\'adresse',
     'bestTimes' => 'Meilleurs temps',
     'allTimes' => 'Voir tous les temps de sprint',
     'userImpr' => 'Voir les statistiques de progression',
+    'userRanking' => 'Statistiques de vos rangs',
     'gameStats' => 'Statistiques de jeu',
     'latestGames' => 'Dernières parties',
     'noGames' => 'Ce joueur n\'a pas encore joué de partie.',
@@ -166,6 +163,7 @@ return [
     'invalidLink' => 'Le lien entré n\'est pas valide.',
     'brb' => 'Je reviens tout de suite.',
     'tryAgain' => 'Le site est en cours de mise à jour, merci de réessayer ultérieurement.',
+    'wasteDesc' => 'Rapport de pièces T qui n\'ont pas été utilisées dans un T-Spin (par rapport au nombre total de T)',
 
     /* Settings - Other options */
     'setOther' => 'Autres options',
@@ -178,10 +176,24 @@ return [
     'reportDesc' => 'Ici vous pouvez signaler un utilisateur dans le chat.',
     'user' => 'Utilisateur',
     'reason' => 'Raison',
-    'rr0' => 'Spam ou Publicité',
+    'rr0' => 'Spam ou publicité',
     'rr1' => 'Images pornographiques explicites',
-    'rr2' => 'Hate speech',
-    'rr3' => 'Harcèlement',
+    'rr2' => 'Discours haineux',
+    'rr3' => 'Harcèlement ou intimidation',
     'rr4' => 'Autre (spécifier)',
     'sendReport' => 'Envoyer le rapport',
+
+    /* Friends */
+    'accept' => 'Accepter',
+    'ignore' => 'Ignorer',
+    'pending' => 'Requêtes en suspens',
+    'frFilter' => 'Filtrer les noms',
+    'noPending' => 'Vous n\'avez actuellement aucune demande d\'ami en attente.',
+    'onlineNow' => 'En ligne actuellement',
+    'recentlyAc' => 'Actif(s) récemment',
+    'lastActive' => 'Dernière activité :when',
+    'noFriends' => 'Votre liste d\'amis est vide.',
+    'ruSure' => 'Êtes-vous sûr?',
+    'rmFriend' => 'Êtes-vous sûr de vouloir retirer cette personne de votre liste d\'amis?',
+    'rmConfirm' => 'Oui, retirer',
 ];
