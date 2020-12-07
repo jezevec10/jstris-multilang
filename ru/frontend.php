@@ -93,9 +93,9 @@ return [
     'rep' => 'Пов', //max 3, short for Replay
     'rec' => 'Зап.', //max 4, short for Received
     'enterNullDAS' => 'Введите значение DAS из NullPoMino:',
-    'suggestedIs' => 'Рекомендуется значение ЗАП:', //See "DAS" in game.php. Introduced a custom abbreviation. "ГУ" or "DAS" can be used, instead. -mLurker
+    'suggestedIs' => 'Рекомендуется значение DAS:', //See "DAS" in game.php. Unlocalised by community request. -mLurker
     'applyConfirm' => 'Применить?',
-    'invalidDAS' => 'Неправильно введено значение ЗАП.', //See "DAS" in game.php. -mLurker
+    'invalidDAS' => 'Неправильно введено значение DAS.', //See "DAS" in game.php. -mLurker
     'settingsChanged' => 'Настройки были изменены во время игры. Повтор не будет сохранён.', //Obsolete? -mLurker
     'segment' => 'Сегмент',
     'duration' => 'Продолжительность',
@@ -143,19 +143,44 @@ return [
 	'on' => 'Вкл.',
 	'off' => 'Выкл.',
 	//from August 21st, 2019. -mLurker
-	'notTSD' => 'НЕ ТП2',
-	//Custom abbreviation meaning "T-Spin-2". No official translated term for "TSD" found.
-	//Under the same logic, "ТП0", "ТП1" and "ТП3" mean TSZ, TSS and TST respectively. All mentions of T-Spins have been localized. -mLurker
-	'notTSDInfo' => 'Разрешены только Т-Повороты-2.',
-	'fwDetect' => '4-РЯД',
-	//Custom term meaning "4-row". All mentions of 4-wide have been localized. -mLurker
+	'notTSD' => 'НЕ TSD',
+	//Unlocalised by community request. -mLurker
+	'notTSDInfo' => 'Разрешены только T-Spin Double.',
+	'fwDetect' => '4-WIDE',
+	//Unlocalised by community request. -mLurker
 	'fwDetectInfo' => 'Атака направлена на себя!',
 	//from January 22nd, 2020. -mLurker
-	'notPC' => 'НЕ ПО', //Abbreviation "ПО" taken from Tetris Ultimate. -mLurker
-	'notPCInfo' => 'Полная Очистка поля на каждые 10 фигур. Ваше поле не очистится.', //As in, "Perfect Clear for every 10 blocks. Your board cannot be cleared." Shortened for brevity. -mLurker
+	'notPC' => 'НЕ PC', //Unlocalised. -mLurker
+	'notPCInfo' => 'Perfect Clear считается каждые 10 фигур. Ваше поле не очистится.', //As in, "Perfect Clear is counted every 10 blocks. Your board cannot be cleared." Unlocalised. -mLurker
 	'nsUnpub' => 'Рекорд не сохранён, эта карта не опубликована.',
-	'nsTspins' => 'Рекорд не сохранён, недостаточно Т-Поворотов.',
-	'nsLowPC' => 'Рекорд не сохранён, требуется минимум 2 Полных Очисток.',
+	'nsTspins' => 'Рекорд не сохранён, недостаточно Т-Spin(-ов).',
+	'nsLowPC' => 'Рекорд не сохранён, требуется минимум 2 PC.',
 	//from May 21st, 2020. -mLurker
 	'loginFail2' => 'Вы не зарегистрированы! Вы играете под гостевым именем ({name}).', //"You are not logged in! You are playing under the guest name (name)". -mLurker
+	//from December 7th, 2020. -mLurker
+	'noBlocks' => 'НЕТ ФИГУР', //"NO BLOCKS", shortened for brevity. -mLurker
+	'noBlocks2' => 'Все фигуры использованы',
+	'fr' => 'Друзья',
+	'frLoad' => 'Загрузка списка друзей',
+	'frLogin' => 'Войдите в систему для списка друзей',
+	'frEmpty' => 'Список друзей пуст',
+	'frHowAdd' => 'Зайдите в профиль любого игрока, чтобы добавить их в друзья.',
+	'frPriv' => 'Приват. комната', //"Private room". -mLurker
+	'frIn' => 'Уже в комнате!', //"Already in the room!" -mLurker
+	'frChat' => 'Открыть чат',
+	'frRel' => 'Обновить',
+	'frMsgTo' => 'Написать {name}',
+	'frInv' => 'Отправить приглашение', //"Send invite". -mLurker
+	'frInvTo' => 'Приглашение в комнату {room}',
+	'frInvIn' => 'Уже в комнате!',
+	'frInvBy' => 'от {user}',
+	'frOn' => 'В СЕТИ',
+	'frOff' => 'НЕ В СЕТИ',
+	'frNewChatH' => 'Это - начало истории Ваших личных сообщении с {name}.',
+	'frWelc' => 'Добро пожаловать в раздел Друзей',
+	'frIntro' => 'Здесь Вы можете просмотреть список друзей, личные сообщения и приглашения в комнаты.',
+	'frIntro2' => 'Зайдите в профиль любого игрока, чтобы добавить их в друзья.',
+	'frIntro3' => 'Чтобы управить список друзей, войдите в страницу "{frPage}"',
+	'frPage' => 'Друзья',
+	'frIntroCl' => 'Закрыть руководство', //Or "Закрыть", if space is needed. -mLurker
 ];
