@@ -49,6 +49,7 @@ return [
     'rotateSE' => 'Sound effect of block rotation',
     'faultSE'=> 'Special sound effect on finesse fault',
     'esound'=> 'Player join notification (a ding)',
+    'DMsound'=> 'Direct message notification',
     'SEvol'=> 'SE volume',
     'otherSettings'=> 'Other settings',
     'nickname'=> 'Nickname',
@@ -175,6 +176,8 @@ return [
     'gravityLvl' => 'Gravity lvl',
     'garbageDelay' => 'Garbage Delay',
     'garbageMess' => 'Messiness',
+    'gapWidth' => 'Gap width',
+    'gInv' => 'Invert garbage',
     'solidAtk' => 'Attack as solid',
     'allSpin' => 'All-spin',
     'asImmobile' => 'Immobile', // detection type for All-spin
@@ -182,6 +185,14 @@ return [
     'allSpinNA' => 'Excl. blocks', // blocks excluded from All-spin bonus
     'noFW' => 'NoFourwide',
     'hostStart' => 'HostStart',
+
+    'lines' => 'Lines',
+    'statistics' => 'Stats', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'garbage downstack',
+    'wasted' => 'Wasted',
+
+    'expand' => 'Expand',  //ttoltip for icon to expand chat
 
     'translationBy' => '',
 ];

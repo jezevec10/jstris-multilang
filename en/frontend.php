@@ -117,7 +117,7 @@ return [
     'repTxtInfo' => 'The copied replayfile can be then played in the replayer or possibly resubmitted to the site.',
 
     'newPB' => 'YOUR NEW PERSONAL BEST',
-    'firstPB' => 'This was your first game. Get another PB to track the improvment.',
+    'firstPB' => 'This was your first game. Get another PB to track the improvement.',
     'infoPB' => 'Your previous record was {prevPB} achieved {prevAgo}. The improvement is {PBdiff}.',
     'daysAgo' => 'days ago',
 
@@ -148,6 +148,8 @@ return [
     'nsUnpub' => 'Record not saved, the map is not published.',
     'nsTspins' => 'Record not saved, not enough T-Spins.',
     'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
+    'noBlocks' => 'Out of blocks',
+    'noBlocks2' => 'All blocks were used',
 
     //Room info detail
     'noPlayers' => 'No players',
@@ -159,4 +161,29 @@ return [
     'gTimeShort' => 'G.time',
     'on' => 'On',
     'off' => 'Off',
+
+    //friends
+    'fr' => 'Friends',
+    'frLoad' => 'Loading friend list',
+    'frLogin' => 'Log in first to use friend list',
+    'frEmpty' => 'Friend list is empty',
+    'frHowAdd' => 'Visit user\'s profile to send friend request.',
+    'frPriv' => 'Private',
+    'frIn' => 'Already in!',
+    'frChat' => 'Open chat',
+    'frRel' => 'Reload',
+    'frMsgTo' => 'Message to {name}',  //keep {name}
+    'frInv' => 'Send room invite',
+    'frInvTo' => 'Invite to join {room}',
+    'frInvIn' => 'You are already in!',
+    'frInvBy' => 'by {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'This is the beginning of chat history with {name}.',
+    'frWelc' => 'Welcome to the Friends tab',
+    'frIntro' => 'In this area you can access a list of online friends, private chats, and room invites',
+    'frIntro2' => 'To send a friend request, visit a user\'s profile',
+    'frIntro3' => 'To manage friends, visit the {frPage}',
+    'frPage' => 'Friends page',
+    'frIntroCl' => 'Close intro',
 ];

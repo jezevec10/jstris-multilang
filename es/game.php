@@ -49,6 +49,7 @@ return [
     'rotateSE' => 'Efecto de sonido al rotar el bloque',
     'faultSE'=> 'Habilitar sonido en errores de Finesse',
     'esound'=> 'Notificación de jugador nuevo (campana)',
+    'DMsound'=> 'Notificación de mensaje directo',
     'SEvol'=> 'Volúmen',
     'otherSettings'=> 'Otras configuraciones',
     'nickname'=> 'Apodo',
@@ -175,6 +176,8 @@ return [
     'gravityLvl' => 'Gravedad',
     'garbageDelay' => 'T. de Basura',
     'garbageMess' => 'Desorden',
+    'gapWidth' => 'Ancho del espacio',
+    'gInv' => 'Invertir basura',
     'solidAtk' => 'Ataque solido',
     'allSpin' => 'All-spin',
     'asImmobile' => 'Inmóvil', // detection type for All-spin
@@ -183,5 +186,13 @@ return [
     'noFW' => 'Sin 4-wide',
     'hostStart' => 'Anfitrión Inicia',
 
-    'translationBy' => 'julf, Lucho',
+    'lines' => 'Lineas',
+    'statistics' => 'Stats', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'downstack de basura',
+    'wasted' => 'Desperdiciadas',
+
+    'expand' => 'Expander',  //ttoltip for icon to expand chat
+
+    'translationBy' => 'julf, Lucho, Erickmack',
 ];
