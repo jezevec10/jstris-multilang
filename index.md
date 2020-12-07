@@ -37,9 +37,9 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 81.79%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="fr.html">fr</a></td><td>81.61%</td><td>
+    <tr><td><a href="fr.html">fr</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 81.61%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="ga.html">ga</a></td><td>43.96%</td><td>
@@ -82,9 +82,9 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 88.62%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ru.html">ru</a></td><td>81.79%</td><td>
+    <tr><td><a href="ru.html">ru</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 81.79%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="sv.html">sv</a></td><td>81.79%</td><td>
@@ -116,4 +116,4 @@ Select a language to view more information on which translations are missing.
 
 -------------------
 
-*Auto-generated on **Sat, 24 Oct 2020 09:53:19 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Mon, 07 Dec 2020 14:38:14 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
