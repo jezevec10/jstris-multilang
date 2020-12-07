@@ -18,8 +18,8 @@ return [
     'rotate180' => 'Переворот',
     'hold' => 'Замена',
     'touch' => 'Включить управление смахиванием по экрану', //"Turn on swiping (on the screen) controls". -mLurker
-    'DAS' => 'ЗАП', //Custom abbreviation from "Задержка Авто-Передвижения" (Delay of Auto-Movement). -mLurker
-    'ARR' => 'ЧАП', //Custom abbreviation from "Частота Авто-Передвижения" (Rate of Auto-Movement). -mLurker
+    'DAS' => 'DAS', //Unlocalised by community request. -mLurker
+    'ARR' => 'ARR', //Unlocalised. -mLurker
     'softDropSpeed' => 'Скорость падения',
     'sdSlow' => 'Медленная',
     'sdMedium' => 'Средняя',
@@ -121,10 +121,10 @@ return [
 	//from July 29th, 2019. -mLurker
 	'rescaleNow' => 'Обновлять поле других игроков сразу',
 	'rescaleNowInfo' => 'Если не отметить, то поля новых игроков появятся на след. раунде.',
-	'DAScancel' => 'Освежать ЗАП', //"Refresh DAS". -mLurker
-	'DAScancelInfo' => 'Если отметить, то Авто-Передвижение будет отменяться со сменой сторон передвижения.',
-	'FPSDAS' => 'Считать ЗАП по кадрам',
-	'FPSDASInfo' => 'Использует мониторные кадры (60 FPS) для считывания ЗАП. Точность cчёта времени будет снижена.',
+	'DAScancel' => 'Освежать DAS', //"Refresh DAS". -mLurker
+	'DAScancelInfo' => 'Если отметить, то DAS будет отменяться со сменой сторон передвижения.',
+	'FPSDAS' => 'Считать DAS по кадрам',
+	'FPSDASInfo' => 'Использует мониторные кадры (60 FPS) для считывания DAS. Точность cчёта времени будет снижена.',
 	'webGL' => 'Использовать WebGL',
 	'KPP' => 'Наж./Ф.',
 	'editRoom' => 'Изменить',
@@ -166,13 +166,13 @@ return [
 	'garbageDelay' => 'Задерж. мусора', //*
 	'garbageMess' => 'Замеш. мусора', //*
 	'solidAtk' => 'Атака полн.', //* As in, "Attack with full". -mLurker
-	'noFW' => 'Бан на 4-ряд', //* As in, "Ban 4-wide". -mLurker
+	'noFW' => 'Бан на 4-wide', //* As in, "Ban 4-wide". -mLurker
 	'hostStart' => 'Старт от хоз.', //As in, "Start from host". -mLurker
 	
 	//from August 21st, 2019. -mLurker
 	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году',
-	'tsdsCounter' => 'ТП2 выполнено', //See frontend.php for explanation. -mLurker
-	'20TSD' => '20ТП2',
+	'tsdsCounter' => 'TSD выполнено', //See frontend.php for explanation. -mLurker
+	'20TSD' => '20TSD', //Unlocalised. -mLurker
 	
 	//from January 4th, 2020. -mLurker
 	'touchBtn' => 'Включить экранные кнопки',
@@ -185,11 +185,22 @@ return [
 	'allSpinNA' => 'Исключить Повороты', //"Exclude Spins". -mLurker
 	
 	//from January 22nd, 2020. -mLurker
-	'pcCounter' => 'Полные Очистки',
-	'PCmode' => 'Режим ПО',
+	'pcCounter' => 'Perfect Clears', //Unlocalised. -mLurker
+	'PCmode' => 'Режим PC',
 
 	//from May 21st, 2020. -mLurker
 	'sound' => 'Звук',
 	'enableVSE' => 'Комментатор', //"Announcer". -mLurker
-	'rotateSE' => 'Звуковой эффект поворота фигуры',
+	'rotateSE' => 'Звуковой эффект поворота фигуры', //Obsolete? -mLurker
+	
+	//from December 7th, 2020. -mLurker
+	'DMsound' => 'Напоминиание личн. сообщении',
+	'gapWidth' => 'Ширина дыр в мусоре',
+	'gInv' => 'Инверт. мусор',
+	'lines' => 'Линии',
+	'statistics' => 'Статистика',
+	'vs' => 'VS', //No term for VS Score. -mLurker
+	'downstack' => 'Очистка мусора',
+	'wasted' => 'Т Потрачено', //"T Wasted". -mLurker
+	'expand' => 'Раскрыть', //Not sure where this is used. -mLurker
 ];
