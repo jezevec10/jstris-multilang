@@ -38,14 +38,18 @@ return [
     'enabled' => 'Habilitado',
     'disabled' => 'Desabilitado',
     'appearSound' => 'Aparência & Som',
+    'sound' => 'Som',
     'blockStyle' => 'Blocos',
     'solidBlocks' => 'Cor sólida (sem pele)',
     'invisibleBlocks' => 'Invisível',
     'monochrome' => 'Monocromático',
     'enableSE' => 'Habilitar efeitos sonoros',
+    'enableVSE' => 'Comentários de voz',
     'startSE' => 'Habilitar efeito sonoro de começo de jogo',
+    'rotateSE' => 'Efeito sonoro de rotação do bloco',
     'faultSE'=> 'Efeito sonoro especial na falha de fineza',
     'esound'=> 'Notificação na entrada de jogador (um ding)',
+    'DMsound'=> 'Notificação de mensagem privada',
     'SEvol'=> 'Volume de ES',
     'otherSettings'=> 'Outras configurações',
     'nickname'=> 'Apelido',
@@ -172,6 +176,8 @@ return [
     'gravityLvl' => 'Nvl de gravidade',
     'garbageDelay' => 'Atraso de lixo',
     'garbageMess' => 'Bagunça',
+    'gapWidth' => 'Largura da lacuna',
+    'gInv' => 'Inverter o lixo',
     'solidAtk' => 'Atacar como sólido',
     'allSpin' => 'All-spin',
     'asImmobile' => 'Imóvel', // detection type for All-spin
@@ -180,5 +186,13 @@ return [
     'noFW' => 'NoFourwide',
     'hostStart' => 'HostStart',
 
-    'translationBy' => 'P1iko, Ovie',
+    'lines' => 'Linhas',
+    'statistics' => 'Stats', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'Lixo do downstack',
+    'wasted' => 'Desperdiçado',
+
+    'expand' => 'Expandir',
+
+    'translationBy' => 'P1iko, Ovie, kaikecarlos',
 ];
