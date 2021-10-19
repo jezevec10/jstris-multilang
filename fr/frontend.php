@@ -20,7 +20,7 @@ return [
     'pressStart' => 'Cliquez sur \'Nouvelle\' pour recommencer.', //'New game' should be same as in game.newGame
     'slowDown' => 'RALENTIS',
     'speedLimitIs' => 'la vitesse limite est',
-    'connecting' => 'Etablissement de la connection...',
+    'connecting' => 'Etablissement de la connexion...',
     'signingIn' => 'Connexion',
     'loginFail' => 'Problème d\'authentification',
     'loginFail2' => 'Non enregisté ! Vous jouez en tant qu\'invité {name}.',
