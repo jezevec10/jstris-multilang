@@ -15,6 +15,7 @@ return [
     'myProfile' => '個人檔案',
     'myImprovement' => '個人進步史',
     'favReplays' => '已收藏重播',
+    'friends' => '朋友',
     'settings' => '設定',
     'logout' => '登出',
     
@@ -27,7 +28,7 @@ return [
     'date' => '日期',
     'replay' => '重播',
     'place' => '排名',
-    'nli' => '未登入!',
+    'nli' => '未登入！',
     'today' => '今日',
     'lastWeek' => '一週內',
     'lastMonth' => '一個月內',
@@ -81,10 +82,11 @@ return [
     'countryDesc' => '用於顯示國家內排行',
     
     /* Profile */
-    'ownProfile' => '以下網址為你公開的個人檔案',
+    'ownProfile' => '以下網址為您的公開個人檔案',
     'bestTimes' => '最佳競速紀錄',
     'allTimes' => '查看所有 Sprint 的紀錄',
     'userImpr' => '查看進步史',
+    'userRanking' => 'Ranking stats',
     'gameStats' => '遊玩紀錄',
     'latestGames' => '最新遊戲',
     'noGames' => '該玩家還沒加入過任何遊戲.',
@@ -104,11 +106,11 @@ return [
     'hours' => '小時',
     'minutes' => '分鐘',
     'createdMaps' => '創立的地圖',
-    'viewMapsBy' => '察看此玩家建立的所有地圖',
+    'viewMapsBy' => '查看此玩家建立的所有地圖',
     'playersCount' => '玩家數',
     'gameResultPosition' => '排名',
     'gameResultRoundTime' => '遊戲時間',
-    'viewAllGamesOf' => '察看:mode模式的所有遊戲',
+    'viewAllGamesOf' => '查看:mode模式的所有遊戲',
     'noGamesOf' => ':name 尚未遊玩過:mode模式',
     
     /* Maps */
@@ -140,7 +142,7 @@ return [
     /* Stats */
     'improvementStats' => '進步史',
     //keep ':name'
-    'improvementInfo' => '以下的圖表顯示競速時間 (縱軸) 和 遊玩日期(橫軸). 加亮處為 :name 刷新紀錄的地方. 你可將滑鼠指向該行以顯示更多資訊.',
+    'improvementInfo' => '以下的圖表顯示競速時間 (縱軸) 和 遊玩日期 (橫軸). 加亮處為 :name 刷新紀錄的地方. 你可將滑鼠指向該行以顯示更多資訊.',
     'date' => '日期',
     'result' => '結果',
     'submit' => '送出',
@@ -148,7 +150,7 @@ return [
     'dispAll' => '查看所有遊戲',
     
     /* About */
-    'aboutInfo' => 'Jstris 是一個以Javascript, HTML5 和 Python (伺服器端)所製作的簡單多人俄羅斯方塊.',
+    'aboutInfo' => 'Jstris 是一個以 Javascript, HTML5 和 Python (伺服器端) 所製作的簡單多人俄羅斯方塊。',
     'version' => '版本',
     'changelog' => '更新日誌',
     'discussion' => '討論版',
@@ -164,4 +166,37 @@ return [
     'invalidLink' => '要求的連結無效',
     'brb' => '待會回來',
     'tryAgain' => '網站正在更新中, 等一回再回來吧',
+    'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
+    
+    /* Settings - Other options */
+    'setOther' => '其他設定',
+    'hideAcc' => '隱藏帳號',
+    'accVisibility' => '可見度',
+    'hideAccInfo' => '啟用後，帳號將從公開排行榜中排除。',
+
+    /* Chat reports */
+    'reportU' => '檢舉使用者',
+    'reportDesc' => '如果您認為某人在濫用遊戲內聊天，您可以在此處回報。',
+    'user' => '使用者',
+    'reason' => '原因',
+    'rr0' => '洗版或打廣告',
+    'rr1' => '露骨內容',
+    'rr2' => '仇恨言論',
+    'rr3' => '騷擾或霸凌',
+    'rr4' => '其他 (請說明)',
+    'sendReport' => '傳送報告',
+    
+    /* Friends */
+    'accept' => '接受',
+    'ignore' => '忽略',
+    'pending' => '待處理邀請',
+    'frFilter' => '過濾名稱',
+    'noPending' => '您目前沒有待處理的交友邀請。',
+    'onlineNow' => 'Online now',
+    'recentlyAc' => 'Recently active',
+    'lastActive' => 'Active :when',
+    'noFriends' => '您的朋友列表目前空空如也。',
+    'ruSure' => '您確定嗎？',
+    'rmFriend' => '您要將此使用者從您的朋友列表中移除嗎？',
+    'rmConfirm' => '是的，請移除',
 ];
