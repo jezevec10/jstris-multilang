@@ -113,7 +113,7 @@ return [
     'aSpec' => 'Már csatlakoztál nézőként!',
     'aPlay' => 'Már játszol!',
     'repFail' => 'A visszajátszás nem mentett',
-    'repInChat' => 'A visszajátszási fájl a csevegésbe került. A megőrzéshez másold ki a mezőben lévő szöveget, és illeszd be a kedvenc szövegszerkesztődbe.'
+    'repInChat' => 'A visszajátszási fájl a csevegésbe került. A megőrzéshez másold ki a mezőben lévő szöveget, és illeszd be a kedvenc szövegszerkesztődbe.',
     'repTxtInfo' => 'A másolt lejátszási fájl ezután lejátszható az visszajátszóban, vagy esetleg újra elküldhető a webhelyre.',
 
     'newPB' => 'ÚJ SZEMÉLYES CSÚCS',
