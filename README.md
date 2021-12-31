@@ -1,7 +1,7 @@
 # jstris-multilang
 
 ## Expanding the existing translations
-1. Visit the current **[Translation coverage report](https://jezevec10.github.io/jstris-multilang/)**
+1. ~~Visit the current **[Translation coverage report](https://jezevec10.github.io/jstris-multilang/)**~~ (**EDIT 2022:** Currently not up-to-date see issue #119)
 2. Click on the language you want to expand (must have coverage less than 100%)
 3. Copy the missing strings to the corresponding files of your language and translate them in your repository fork.
 4. Create pull request.
