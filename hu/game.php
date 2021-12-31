@@ -67,7 +67,7 @@ return [
     'FPSDAS' => 'Képkocka/másodperc(FPS)-alapú DAS',
     'FPSDASInfo' => 'A DAS ellenőrzése rögzített időközönként (kisebb időzítési pontosság)',
     'webGL' => 'WebGL használata',
-    'webGLInfo' => 'Ha nem tudsz OpenGL-t renderelni :year-ben, akkor kapcsold ki ezt a funkciót.,'
+    'webGLInfo' => 'Ha nem tudsz OpenGL-t renderelni :year-ben, akkor kapcsold ki ezt a funkciót.',
     'mLay' => 'Mobil megjelenítés használata',
     'mLayInfo' => 'Felülírja a mobil megjelenítés felismerését. Az oldal újratöltődik.',
     'saveClose'=> 'Beállítások mentése és bezárás',
