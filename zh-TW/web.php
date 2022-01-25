@@ -166,7 +166,7 @@ return [
     'invalidLink' => '要求的連結無效',
     'brb' => '待會回來',
     'tryAgain' => '網站正在更新中, 等一回再回來吧',
-    'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
+    'wasteDesc' => 'T方塊未被使用於T-Spin的比率',
     
     /* Settings - Other options */
     'setOther' => '其他設定',
@@ -192,9 +192,9 @@ return [
     'pending' => '待處理邀請',
     'frFilter' => '過濾名稱',
     'noPending' => '您目前沒有待處理的交友邀請。',
-    'onlineNow' => 'Online now',
-    'recentlyAc' => 'Recently active',
-    'lastActive' => 'Active :when',
+    'onlineNow' => '線上',
+    'recentlyAc' => '最近上線',
+    'lastActive' => '最後上線於 :when',
     'noFriends' => '您的朋友列表目前空空如也。',
     'ruSure' => '您確定嗎？',
     'rmFriend' => '您要將此使用者從您的朋友列表中移除嗎？',
