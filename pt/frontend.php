@@ -20,6 +20,10 @@ return [
     'pressStart' => 'Pressione \'Novo jogo\' para começar', //'New game' should be same as in game.newGame
     'slowDown' => 'DESACELERE', //When a speed limit is exceeded
     'speedLimitIs' => 'O limite de velocidade é', //In a sentence: The speed limit is 2 PPS
+    'connecting' => 'Conectando...', //when connecting to the game server
+    'signingIn' => 'Registrando-se',
+    'loginFail' => 'Falha ao entrar!',
+    'mapLoading' => 'Carregando mapa...',
 
     //Chat
     'warning' => 'Aviso',
@@ -40,18 +44,19 @@ return [
     'spectator' => 'Espectador',
     'hasLeft' => 'saiu', //in 'Spectator User1 has left.'
     'signedAs' => 'Você está assinado como',
-    'welcome' => 'Bem vindo(a),', //in 'Welcome User1!'
-    'welcomeIn' => 'Bem vindo(a) ao', //in 'Welcome in RoomName.'
+    'welcome' => 'Bem vindo,', //in 'Welcome User1!'
+    'welcomeIn' => 'Bem vindo ao', //in 'Welcome in RoomName.'
     'noSpectators' => 'Ninguém está assistindo agora.',
     'replayAvailable' => 'Replay disponível em',
     'oldVer' => 'Você tem uma versão antiga, use CTRL+F5 para recarregar para a nova versão!',
+    'oldVer2' => 'Você ainda tem uma versão antiga! Use {key} para recarregar seu cliente',
     'privateRoom' => 'Este é sua sala privada onde você não será perturbado enquanto joga. Verifique o Lobby para ver salas públicas.',
     'restartInfo' =>  'Recomeçe pelo F4 ou configure uma tecla personalizada.',
     'joinLinkInfo' => 'Esta sala é privada. O único jeito que alguém possa entrar é usando esse link:',
 
     //Dynamic elements
     'received' => 'Recebido', //max 15
-    'finesse' => 'Finesse',   //max 15
+    'finesse' => 'Fineza',   //max 15
 
     //List of rooms
     'roomName' => 'Nome da sala',
@@ -98,4 +103,86 @@ return [
     'settingsChanged' => 'Configurações alteradas durante o jogo. Replay invalidado.',
     'segment' => 'Segmento',
     'duration' => 'Duração',
+    'roomFull' => 'Parece que a sala está cheia.',
+    'lobbyInfo' => 'Este bate-papo é compartilhado com o {discord}.',
+    'newHost' => 'Você é agora o dono desta sala.',
+    'badRoom' => 'Esta sala não existe mais, entrando na Sala padrão!',
+    'stngsChanged' => 'Configuração mudada pelo dono',
+    'stngsCustom' => 'Configurações personalizadas',
+    'aSpec' => 'Já está espectando!',
+    'aPlay' => 'Já está jogando!',
+    'repFail' => 'Replay não pôde ser salvo.',
+    'repInChat' => 'Replayfile posto no bate-papo. Para preservá-lo, copie o texto na caixa e cole-o em seu editor de texto favorito.',
+    'repTxtInfo' => 'O replayfile copiado pode ser então reproduzido no replay ou possivelmente reenviada ao site.',
+
+    'newPB' => 'SEU NOVO MELHOR PESSOAL',
+    'firstPB' => 'Este foi seu primeiro jogo. Obtenha outro MP para acompanhar a melhoria.',
+    'infoPB' => 'Seu último recorde era de {prevPB} atingida {prevAgo}. A melhora é de {PBdiff}.',
+    'daysAgo' => 'dias atrás',
+
+    'raceFin' => 'A CORRIDA TERMINOU',
+    'raceFinInfo' => 'Você pode completar a corrida, mas a próxima rodada pode começar a qualquer momento.',
+
+    'notTSD' => 'NÃO houve GTD',
+    'notTSDInfo' => 'Apenas Giro-T Duplo é permitido',
+
+    'notPC' => 'NÃO é uma LT',
+    'notPCInfo' => 'Faça uma Limpeza Total a cada 10 blocos. Sua matriz não pode ser clareada.',
+
+    'fwDetect' => 'FOUR WIDE',
+    'fwDetectInfo' => 'Atacando a si mesmo!',
+
+    'oops' => 'Opa!',
+    'chatNA' => 'Bate-papo público não está disponível para convidados ou usuários com menos de {chReq} horas de tempo jogando.',
+    'leMore' => 'Saiba mais',
+
+    'connLimit' => 'A quantidade máxima de conexões abertas para este IP está atualmente ancançada. Se você necessitar de limites aumentados, contate-nos pelo Discord',
+    'idleDC' => 'Desconectado por inatividade! A seção de espectadores estava cheia.',
+    'RLreach' => 'Limite de taxa alcançada.',
+    'ban1' => 'Seu acesso aos jogos Ao Vivo foi permanentemente restrita. Você ainda pode jogar modos de único jogador.',
+    'ban2' => 'Esta conta de usuário está BANIDA. Reentre no site para mais informações.',
+    'ncGS' => 'Não conectado a um servidor do jogo, tente {refr}.',
+    'refr' => 'recarregando a página',
+
+    'nsUnpub' => 'Recorde não salvo, o mapa não será publicado.',
+    'nsTspins' => 'Recorde não salvo, Giros-T insuficientes.',
+    'nsLowPC' => 'Recorde não salvo, pelo menos 2 Limpezas Totais são necessárias.',
+    'noBlocks' => 'Sem blocos restantes',
+    'noBlocks2' => 'Todos os blocos foram usados',
+
+    //Room info detail
+    'noPlayers' => 'Nenhum jogador',
+    'cntMore' => '{cnt} outros',          //e.g. +10 more
+    'cntGuests' => '{cnt} convidados',      //e.g. +10 guests
+    'cntSpec' => '{cnt} espectando',    //e.g. +10 spectating
+    'joinPossible' => 'Entrar possível',
+    'notEligible' => 'Não elegível',
+    'gTimeShort' => 'Tempo j.',
+    'on' => 'Ativado',
+    'off' => 'Desativado',
+
+    // friends
+    'fr' => 'Amigos',
+    'frLoad' => 'Carregando lista de amigos',
+    'frLogin' => 'Entre primeiro para usar a lista de amigos',
+    'frEmpty' => 'Lista de amigos vazia',
+    'frHowAdd' => 'Visite o perfil do usuário para enviar uma solicitação de amizade',
+    'frPriv' => 'Privado',
+    'frIn' => 'Já está na sala!',
+    'frChat' => 'Abrir o chat',
+    'frRel' => 'Recarregar',
+    'frMsgTo' => 'Mensagem para {name}',
+    'frInv' => 'Convidar para sala',
+    'frInvTo' => 'Convite para entrar em {room}',
+    'frInvIn' => 'Você já está na sala',
+    'frInvBy' => 'por {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Esse é o início da conversa com {name}.',
+    'frWelc' => 'Bem-vindo a aba de amigos',
+    'frIntro' => 'Aqui você pode acessar a lista de amigos, chats privados e convites de salas',
+    'frIntro2' => 'Para enviar uma solicitação de amizade, vá até o perfil do usuário',
+    'frIntro3' => 'Para gerenciar os amigos, visite {frPage}',
+    'frPage' => 'Página de amigos',
+    'frIntroCl' => 'Fechar introdução',
 ];

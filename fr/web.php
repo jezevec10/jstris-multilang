@@ -1,21 +1,29 @@
 <?php
+
 return [
     'leaderboard' => 'Classement',
     'tournament' => 'Tournoi',
+    'maps' => 'Cartes',
+    'mapsBrowse' => 'Parcourir',
+    'mapsDesigner' => 'Créateur de cartes',
+    'randomMap' => 'Carte aléatoire',
+    'mapsLatestGames' => 'Dernières parties',
+    'guide' => 'Guide',
     'login' => 'Connexion',
     'register' => 'Inscription',
     'myProfile' => 'Mon profil',
     'myImprovement' => 'Ma progression',
+    'favReplays' => 'Replays favoris',
+    'friends' => 'Amis',
     'settings' => 'Options',
     'logout' => 'Déconnexion',
-    
+
     /* Leaderboard */
     'name' => 'Nom',
     'time' => 'Temps',
     'blocks' => 'Blocs',
     'PPS' => 'PPS',
     'finesse' => 'Finesse',
-    'date' => 'Date',
     'replay' => 'Revoir',
     'place' => 'Place',
     'nli' => 'Pas connecté!',
@@ -27,10 +35,10 @@ return [
     'bestPlayers' => 'Meilleurs joueurs',
     'bestGames' => 'Meilleures parties',
     'bestSubs' => 'Intervalle spécifique',
-    'latestGames' => 'Dernières parties',
     'leastBlocks' => 'Le moins de blocs',
     'myTimes' => 'Mes temps',
-    
+    'perfectFinesse' => '0 finesse',
+
     /* Replay */
     'load' => 'Charger',
     'play' => 'Lecture',
@@ -40,18 +48,42 @@ return [
     'slowestSeg' => 'Moins bons segments',
     'speedChart' => 'Graphe de vitesse',
     'moreStats' => 'Plus de stats',
-    
+    'lines' => 'Lignes',
+    'scoringPlaylist' => 'Playlist des scores',
+    'applyFilter' => 'Appliquer le filtre',
+    'timestamp' => 'Moment',
+    'action' => 'Action',
+    'scoreEq' => 'Score équivalent',
+    'position' => 'Position',
+    'lAVG' => 'Moyenne locale',
+    'gAVG' => 'Moyenne mondiale',
+    'repHelp' => 'Aide', //link that shows information how to use the tool
+    'repExport' => 'GIF ou vidéo',
+    'filterSP' => 'Filtrer la playlist scores',
+
     /* PW change */
     'pwChange' => 'Changer de mot de passe',
     'newPw' => 'Nouveau mot de passe',
     'againPw' => 'Répéter le mot de passe',
     'applyChange' => 'Mettre à jour',
-    
+
+    /* Localization settings */
+    'localSettings' => 'Paramètres de localisation',
+    'lang' => 'Langue',
+    'langNone' => 'Aucun (selectionnable dans le menu en haut',
+    'langDesc' => 'Selectionnez votre langue préférée.',
+    'timezone' => 'Fuseau horaire',
+    'timezoneDesc' => 'Utilisé pour afficher les heures en heure locale.',
+    'country' => 'Pays',
+    'continent' => 'Continent',
+    'countryDesc' => 'Utilisé pour montrer les classements par pays',
+
     /* Profile */
     'ownProfile' => 'Ceci est votre profil public, accessible à l\'adresse',
     'bestTimes' => 'Meilleurs temps',
     'allTimes' => 'Voir tous les temps de sprint',
     'userImpr' => 'Voir les statistiques de progression',
+    'userRanking' => 'Statistiques de vos rangs',
     'gameStats' => 'Statistiques de jeu',
     'latestGames' => 'Dernières parties',
     'noGames' => 'Ce joueur n\'a pas encore joué de partie.',
@@ -60,6 +92,8 @@ return [
     'linesSent' => 'Lignes envoyées',
     'linesRec' => 'Lignes reçues',
     'placedBlocks' => 'Blocs placés',
+    'APM10Games' => 'APM sur 10 parties',
+    'PPS10Games' => 'PPS sur 10 parties',
     'maxAPM' => 'APM max.',
     'maxREN' => 'Combo max.',
     'longestGame' => 'Plus longue partie',
@@ -67,7 +101,41 @@ return [
     'mostSent' => 'Max. d\'envoyé',
     'hours' => 'heures',
     'minutes' => 'minutes',
-    
+    'viewAllGamesOf' => 'Voir toutes les parties du mode de jeu :mode',
+    'noGamesOf' => ':name n\'a encore jamais joué dans le mode de jeu :mode.',
+    'createdMaps' => 'Création de cartes',
+    'playersCount' => 'Joueurs',
+    'gameResultPosition' => 'Position',
+    'gameResultRoundTime' => 'Temps de jeu',
+    'blockCnt' => ':cnt blocs',
+
+    /* Maps */
+    'map' => 'Carte',
+    'mapCreate' => 'Créer une nouvelle carte',
+    'mapName' => 'Nom',
+    'mapNameLong' => 'Nom de la carte',
+    'mapDesc' => 'Description',
+    'mapRules' => 'Règles',
+    'mapOptions' => 'Options',
+    'mapPlay' => 'Jouer',
+    'mapPlayLink' => 'Jouer la carte',
+    'mapAuthor' => 'Auteur',
+    'mapCreatedBy' => 'Créé par',
+    'backToMaps' => 'retourner aux cartes',
+    'playThisMap' => 'Jouer cette carte',
+    'search' => 'Rechercher',
+    'myMaps' => 'Mes cartes',
+    'mapsByUser' => 'cartes de :name',
+    'displayUnpublished' => 'Montrer :cnt cartes non publiées',
+    'displayPublished' => 'Montrer :cnt cartes publiées',
+    'usersMapMedals' => 'Médailles de :name',
+    'usersCompletedMaps' => 'Cartes complétées de :name',
+    'showRecords' => 'Voir les records',
+    'details' => 'Détails',
+    'playedBy' => 'Joué par',
+    'latestMapGames' => 'La dernière carte jouée',
+    'viewMapsBy' => 'Voir toutes les cartes créés par',
+
     /* Stats */
     'improvementStats' => 'Statistiques de progression',
     //keep ':name'
@@ -77,19 +145,55 @@ return [
     'submit' => 'Afficher',
     'qSettings' => 'Afficher un autre graphe',
     'dispAll' => 'Afficher toutes les parties',
-    
+
     /* About */
-    'aboutInfo' => 'Jstris est un jeu multijoueur en ligne simple d\'empilement de blocs codé en Javascript, HTML5, et Python (côté serveur).',
+    'aboutInfo' => 'Jstris est un jeu multijoueur en ligne d\'empilement de blocs codé en Javascript, HTML5, et Python (côté serveur).',
     'version' => 'Version',
+    'changelog' => 'Notes de mises à jour',
     'discussion' => 'Discussion',
     'learnMore' => 'En savoir plus',
     'contact' => 'Contact',
     'serverCoverage' => 'Frais d\'hébergement du site',
     'supporters' => 'Donateurs',
-    
+    'moderators' => 'Modérateurs',
+    'translators' => 'Traducteurs',
+
     /* Other */
     'notFound' => 'Introuvable.',
     'invalidLink' => 'Le lien entré n\'est pas valide.',
     'brb' => 'Je reviens tout de suite.',
     'tryAgain' => 'Le site est en cours de mise à jour, merci de réessayer ultérieurement.',
+    'wasteDesc' => 'Rapport de pièces T qui n\'ont pas été utilisées dans un T-Spin (par rapport au nombre total de T)',
+
+    /* Settings - Other options */
+    'setOther' => 'Autres options',
+    'hideAcc' => 'Comptes cachés',
+    'accVisibility' => 'Visibilité',
+    'hideAccInfo' => 'Si activé, le compte sera exclu des classements publiques',
+
+    /* Chat reports */
+    'reportU' => 'Signaler l\'utilisateur',
+    'reportDesc' => 'Ici vous pouvez signaler un utilisateur dans le chat.',
+    'user' => 'Utilisateur',
+    'reason' => 'Raison',
+    'rr0' => 'Spam ou publicité',
+    'rr1' => 'Images pornographiques explicites',
+    'rr2' => 'Discours haineux',
+    'rr3' => 'Harcèlement ou intimidation',
+    'rr4' => 'Autre (spécifier)',
+    'sendReport' => 'Envoyer le rapport',
+
+    /* Friends */
+    'accept' => 'Accepter',
+    'ignore' => 'Ignorer',
+    'pending' => 'Requêtes en suspens',
+    'frFilter' => 'Filtrer les noms',
+    'noPending' => 'Vous n\'avez actuellement aucune demande d\'ami en attente.',
+    'onlineNow' => 'En ligne actuellement',
+    'recentlyAc' => 'Actif(s) récemment',
+    'lastActive' => 'Dernière activité :when',
+    'noFriends' => 'Votre liste d\'amis est vide.',
+    'ruSure' => 'Êtes-vous sûr?',
+    'rmFriend' => 'Êtes-vous sûr de vouloir retirer cette personne de votre liste d\'amis?',
+    'rmConfirm' => 'Oui, retirer',
 ];

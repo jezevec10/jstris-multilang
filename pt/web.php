@@ -3,11 +3,19 @@
 return [
     'leaderboard' => 'Classificação',
     'tournament' => 'Torneio',
+    'maps' => 'Mapas',
+    'mapsBrowse' => 'Navegar',
+    'myMaps' => 'Meus mapas',
+    'mapsDesigner' => 'Criador de Mapas',
+    'randomMap' => 'Mapa aleatório',
+    'mapsLatestGames' => 'Últimos jogos',
+    'guide' => 'Guia',
     'login' => 'Entrar',
     'register' => 'Registrar',
     'myProfile' => 'Meu perfil',
     'myImprovement' => 'Meu progresso',
     'favReplays' => 'Replays favoritos',
+    'friends' => 'Amigos',
     'settings' => 'Configurações',
     'logout' => 'Sair',
     
@@ -16,7 +24,7 @@ return [
     'time' => 'Tempo',
     'blocks' => 'Blocos',
     'PPS' => 'PPS',
-    'finesse' => 'Finesse',
+    'finesse' => 'Fineza',
     'date' => 'Data',
     'replay' => 'Replay',
     'place' => 'Lugar',
@@ -32,7 +40,7 @@ return [
     'latestGames' => 'Jogos recentes',
     'leastBlocks' => 'Menor quantia de blocos',
     'myTimes' => 'Meus tempos',
-    'perfectFinesse' => 'Finesse 0',
+    'perfectFinesse' => 'Fineza 0',
     
     /* Replay */
     'load' => 'Carregar',
@@ -54,7 +62,8 @@ return [
     'lAVG' => 'Média local',
     'gAVG' => 'Média global',
     'repHelp' => 'Ajuda', //link that shows information how to use the tool
-    
+    'repExport' => 'GIF ou vídeo',
+	
     /* PW change */
     'pwChange' => 'Alterar senha',
     'newPw' => 'Nova senha',
@@ -70,12 +79,14 @@ return [
     'timezoneDesc' => 'Usado para converter o horário para seu horário local.',
     'country' => 'País',
     'countryDesc' => 'Usado para exibir classificações por país.',
-    
+    'continent' => 'Continente',
+	
     /* Profile */
     'ownProfile' => 'Este é seu perfil público acessível em',
     'bestTimes' => 'Melhores tempos',
     'allTimes' => 'Ver todos os tempos de maratona',
     'userImpr' => 'Ver estatísticas de progresso',
+    'userRanking' => 'Estatísticas de ranking',
     'gameStats' => 'Estatísticas de jogo',
     'latestGames' => 'Jogos recentes',
     'noGames' => 'Este usuário não jogou nenhuma partida ainda.',
@@ -84,6 +95,9 @@ return [
     'linesSent' => 'Linhas enviadas',
     'linesRec' => 'Linhas recebidas',
     'placedBlocks' => 'Blocos colocados',
+    'blockCnt' => ':cnt blocos',
+    'APM10Games' => 'APM em 10 jogos',
+    'PPS10Games' => 'PPS em 10 jogos',
     'maxAPM' => 'APM Máx.',
     'maxREN' => 'Combo Máx.',
     'longestGame' => 'Jogo mais longo',
@@ -91,7 +105,40 @@ return [
     'mostSent' => 'Mais enviado',
     'hours' => 'horas',
     'minutes' => 'minutos',
+    'createdMaps' => 'Mapas criados',
+    'viewMapsBy' => 'Ver todos os mapas criados por',
+    'playersCount' => 'Jogadores',
+    'gameResultPosition' => 'Posição',
+    'gameResultRoundTime' => 'Tempo de jogo',
+    'viewAllGamesOf' => 'Ver todos os jogos de :mode',
+    'noGamesOf' => ':name não jogou nenhum jogo de :mode ainda.',
     
+	/* Maps */
+    'map' => 'Mapa',
+    'mapCreate' => 'Criar novo',
+    'mapName' => 'Nome',
+    'mapNameLong' => 'Nome do mapa',
+    'mapDesc' => 'Descrição',
+    'mapRules' => 'Regras',
+    'mapOptions' => 'Opções',
+    'mapPlay' => 'Jogar',
+    'mapPlayLink' => 'Jogar Mapa',
+    'mapAuthor' => 'Autor',
+    'mapCreatedBy' => 'Criado por',
+    'backToMaps' => 'Voltar para mapas',
+    'playThisMap' => 'Jogar este map',
+    'search' => 'Procurar',
+    'myMaps' => 'Meus mapas',
+    'mapsByUser' => 'Mapas de :name',
+    'displayUnpublished' => 'Exibir :cnt mapas não publicados',
+    'displayPublished' => 'Exibir :cnt mapas publicados',
+    'usersMapMedals' => 'Medalhas de :name em mapas',
+    'usersCompletedMaps' => 'Mapas completados por :name',
+    'showRecords' => 'Mostrar recordes',
+    'details' => 'Detalhes',
+    'playedBy' => 'Jogado por',
+    'latestMapGames' => 'Os últimos jogos de mapas',
+	
     /* Stats */
     'improvementStats' => 'Estatísticas de progresso',
     //keep ':name'
@@ -111,10 +158,45 @@ return [
     'contact' => 'Contato',
     'serverCoverage' => 'Cobertura do custo do servidor',
     'supporters' => 'Apoiadores do projeto',
+    'translators' => 'Tradutores',
+    'moderators' => 'Moderadores',
     
     /* Other */
     'notFound' => 'Não encontrado.',
     'invalidLink' => 'O link solicitado é inválido.',
-    'brb' => 'Volto logo.',
-    'tryAgain' => 'O site está sendo atualizado, por favor tente novamente daqui a pouco.',
+    'brb' => 'Já voltamos.',
+    'tryAgain' => 'O site está sendo atualizado, por favor tente novamente em alguns instantes.',
+    'wasteDesc' => 'Taxa de peças T não usadas em um T-Spin (para o total de peças T)',
+
+    /* Settings - Other options */
+    'setOther' => 'Outras opções',
+    'hideAcc' => 'Conta oculta',
+    'accVisibility' => 'Visibilidade',
+    'hideAccInfo' => 'Ao habilitar, a conta será excluída das classificações públicas.',
+
+    /* Chat reports */
+    'reportU' => 'Denunciar usuário',
+    'reportDesc' => ' Aqui você pode fazer uma denúncia se acha que um usuário quebrou as regras no chat.',
+    'user' => 'Usuário',
+    'reason' => 'Motivo',
+    'rr0' => 'Spam ou divulgação inadequada',
+    'rr1' => 'Conteúdo sexualmente explícito',
+    'rr2' => 'Discurso de ódio',
+    'rr3' => 'Assédio ou bullying',
+    'rr4' => 'Outro (especifique)',
+    'sendReport' => 'Enviar denúncia',
+    
+    /* Friends */
+    'accept' => 'Aceitar',
+    'ignore' => 'Ignorar',
+    'pending' => 'Solicitações pendentes',
+    'frFilter' => 'Filtrar nomes',
+    'noPending' => 'No momento você não tem nenhuma solicitação de amizade.',
+    'onlineNow' => 'Online agora',
+    'recentlyAc' => 'Recentemente ativo',
+    'lastActive' => 'Ativo :when',
+    'noFriends' => 'No momento sua lista de amizade está vazia.',
+    'ruSure' => 'Você tem certeza?',
+    'rmFriend' => 'Você quer remover essa pessoa dos amigos?',
+    'rmConfirm' => 'Sim, remova',
 ];

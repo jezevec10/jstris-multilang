@@ -3,6 +3,13 @@
 return [
     'leaderboard' => 'Bestenliste',
     'tournament' => 'Turnier',
+    'maps' => 'Maps',
+    'mapsBrowse' => 'Durchsuchen',
+    'myMaps' => 'Meine Maps',
+    'mapsDesigner' => 'Map Designer',
+    'randomMap' => 'Zufällige Map',
+    'mapsLatestGames' => 'Letzten Spiele',
+    'guide' => 'Guide',
     'login' => 'Anmelden',
     'register' => 'Registrieren',
     'myProfile' => 'Mein Profil',
@@ -54,6 +61,7 @@ return [
     'lAVG' => 'Lokaler Durchschnitt',
     'gAVG' => 'Globaler Durchschnitt',
     'repHelp' => 'Hilfe', //link that shows information how to use the tool
+    'repExport' => 'GIF oder Video',
 
     /* PW change */
     'pwChange' => 'Passwort ändern',
@@ -61,7 +69,7 @@ return [
     'againPw' => 'Passwort wiederholen',
     'applyChange' => 'Anwenden',
 
- /* Localization settings */
+    /* Localization settings */
     'localSettings' => 'Standorteinstellungen',
     'lang' => 'Sprache',
     'langNone' => 'Keine (selectable in the top menu)',
@@ -69,6 +77,7 @@ return [
     'timezone' => 'Zeitzone',
     'timezoneDesc' => 'Wird zur Konvertierung der Zeit verwendet',
     'country' => 'Land',
+    'continent' => 'Kontinent',
     'countryDesc' => 'Wird zur Anzeige auf der Länderrangliste verwendet.',
 
     /* Profile */
@@ -84,13 +93,49 @@ return [
     'linesSent' => 'Reihen gesendet',
     'linesRec' => 'Reihen erhalten',
     'placedBlocks' => 'Plazierte Blöcke',
+    'blockCnt' => ':cnt Blöcke',
+    'APM10Games' => '10-Spiele APM',
+    'PPS10Games' => '10-Spiele PPS',
     'maxAPM' => 'Max. APM',
-    'maxREN' => 'Max. Combo',
+    'maxREN' => 'Max. Kombo',
     'longestGame' => 'Längstes Spiel',
     'totalB2B' => 'Total B2Bs',
     'mostSent' => 'Meist Gesendete Reihen',
     'hours' => 'Stunden',
     'minutes' => 'Minuten',
+    'createdMaps' => 'Erstellte Maps',
+    'viewMapsBy' => 'Zeige alle erstellten Maps',
+    'playersCount' => 'Spieler',
+    'gameResultPosition' => 'Position',
+    'gameResultRoundTime' => 'Spielzeit',
+    'viewAllGamesOf' => 'Zeige alle Spiele von :mode',
+    'noGamesOf' => ':name hat bislang noch keine :mode Spiele gespielt.',
+    
+    /* Maps */
+    'map' => 'Map',
+    'mapCreate' => 'Erstelle neue',
+    'mapName' => 'Name',
+    'mapNameLong' => 'Map Name',
+    'mapDesc' => 'Beschreibung',
+    'mapRules' => 'Regeln',
+    'mapOptions' => 'Optionen',
+    'mapPlay' => 'Spielen',
+    'mapPlayLink' => 'Map spielen',
+    'mapAuthor' => 'Autor',
+    'mapCreatedBy' => 'Erstellt von',
+    'backToMaps' => 'Zurück zu den Maps',
+    'playThisMap' => 'Spiele die Map',
+    'search' => 'Suchen',
+    'myMaps' => 'Meine Maps',
+    'mapsByUser' => ':names Maps',
+    'displayUnpublished' => 'Zeige :cnt unveröffentlichte Maps',
+    'displayPublished' => 'Zeige :cnt veröffentlichte Maps',
+    'usersMapMedals' => ':names Map Medaillen',
+    'usersCompletedMaps' => ':names fertige Maps',
+    'showRecords' => 'Zeige Rekorde',
+    'details' => 'Details',
+    'playedBy' => 'Gespielt von',
+    'latestMapGames' => 'Die letzten Spiele dieser Map',
     
     /* Stats */
     'improvementStats' => 'Fortschritts-Statistik',
@@ -111,10 +156,45 @@ return [
     'contact' => 'Kontakt',
     'serverCoverage' => 'Server Kostendeckung',
     'supporters' => 'Projekt Unterstützer',
+    'translators' => 'Übersetzer',
+    'moderators' => 'Moderatoren',
     
     /* Other */
     'notFound' => 'Nicht gefunden.',
     'invalidLink' => 'Angeforderter Link ungültig.',
     'brb' => 'Wir sind bald zurück.',
     'tryAgain' => 'Die Webseite wird aktuell geupdated, versuche es bitte später nochmal.',
+
+    /* Settings - Other options */
+    'setOther' => 'Andere Optionen',
+    'hideAcc' => 'Verstecktes Konto',
+    'accVisibility' => 'Sichtbarkeit',
+    'hideAccInfo' => 'Wenn aktiviert, wird das Konto von öffentlichen Bestenlisten ausgeschlossen.',
+
+    /* Chat reports */
+    'reportU' => 'Benutzer melden',
+    'reportDesc' => 'Hier können Sie einen Bericht erstellen, wenn Sie denken, jemand hat das Spiel chat missbraucht.',
+    'user' => 'Benutzer',
+    'reason' => 'Grund',
+    'rr0' => 'Spam oder unerwünschte Werbung',
+    'rr1' => 'Sexuell explizite Inhalte',
+    'rr2' => 'Hassreden',
+    'rr3' => 'Belästigung oder Mobbing',
+    'rr4' => 'Andere (angeben)',
+    'sendReport' => 'Bericht senden',
+
+    /* Friends */
+    'accept' => 'Akzeptiere',
+    'ignore' => 'Ablehnen',
+    'pending' => 'Ausstehende Anträge',
+    'frFilter' => 'Suche',
+    'noPending' => 'Im Moment haben Sie keine ausstehenden Freundschaftsanfragen.',
+    'onlineNow' => 'Jetzt online',
+    'recentlyAc' => 'Kürzlich aktiv',
+    'lastActive' => 'Aktiv :when',
+    'noFriends' => 'Im Moment ist Ihre Freundesliste leer.',
+    'ruSure' => 'Sind Sie sicher?',
+    'rmFriend' => 'Möchten Sie diese Person von Ihrer Freundesliste entfernen?',
+    'rmConfirm' => 'entfernen',
+
 ];

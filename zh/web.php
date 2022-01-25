@@ -1,18 +1,21 @@
 <?php
-//翻译总说明			http://t.cn/RsjC2bm 
-//game.php 				http://t.cn/RsjiB5H 
-//frontend.php	 		http://t.cn/Rsj6XrE 
-//web.php（本页）		http://t.cn/Rsj6Fo8 
-//game-example.php		http://t.cn/RsjaPri (翻译示例/当前jstris所使用)
+
 return [
     'leaderboard' => '排行榜',
     'tournament' => '锦标赛',
+    'maps' => '地图',
+    'mapsBrowse' => '浏览',
+    'myMaps' => '我的地图',
+    'mapsDesigner' => '地图设计器',
+    'randomMap' => '随机地图',
+    'mapsLatestGames' => '最新游戏',
+    'guide' => '游戏指南',
     'login' => '登录',
     'register' => '注册',
     'myProfile' => '我的个人资料',
     'myImprovement' => '我的进步数据',
-    'myImprovement' => '我的进步数据',
     'favReplays' => '已收藏录像',
+    'friends' => '好友',
     'settings' => '设置',
     'logout' => '退出登录',
     
@@ -21,7 +24,7 @@ return [
     'time' => '时间',
     'blocks' => '块数',
     'PPS' => 'PPS',
-    'finesse' => '冗余操作',
+    'finesse' => '多余操作',
     'date' => '日期',
     'replay' => '回放',
     'place' => '排名',
@@ -37,7 +40,7 @@ return [
     'latestGames' => '最近游戏',
     'leastBlocks' => '最少方块数',
     'myTimes' => '我的时间',
-    'perfectFinesse' => '无冗余操作',
+    'perfectFinesse' => '无多余操作',
     
     /* Replay */
     'load' => '读取',
@@ -54,11 +57,12 @@ return [
     'applyFilter' => '应用过滤',
     'timestamp' => '时间',
     'action' => '动作', // e.g. combo, tspin, perfect clear
-    'scoreEq' => '分值',
+    'scoreEq' => '得分',
     'position' => '位置', //position in a replay
-    'lAVG' => '本地平均值',
-    'gAVG' => '全球平均值',
+    'lAVG' => '邻域平均值',
+    'gAVG' => '全局平均值',
     'repHelp' => '帮助', //link that shows information how to use the tool
+    'repExport' => 'GIF或视频',
     
     /* PW change */
     'pwChange' => '更改密码',
@@ -74,8 +78,9 @@ return [
     'timezone' => '时区',
     'timezoneDesc' => '用于将时间转换为你所在当地时间.',
     'country' => '国家',
+    'continent' => '洲属',
     'countryDesc' => '设置后可应用于国家内排行榜.',
-    
+
     /* Profile */
     'ownProfile' => '您的公共个人资料可访问在',
     'bestTimes' => '最佳时间',
@@ -83,12 +88,16 @@ return [
     'userImpr' => '查看进步数据',
     'gameStats' => '游戏数据',
     'latestGames' => '最近游戏',
+    'userRanking' => '排名数据',
     'noGames' => '该用户未曾进行任何游戏.',
     'gamesPlayed' => '游戏数',
     'totalTime' => '总时间',
     'linesSent' => '发送行数',
     'linesRec' => '接收行数',
     'placedBlocks' => '放置方块数',
+    'blockCnt' => ':cnt 块',
+    'APM10Games' => '近10场APM',
+    'PPS10Games' => '近10场PPS',
     'maxAPM' => '最大APM（攻击/分）',
     'maxREN' => '最大连击(Combo)',
     'longestGame' => '最长游戏',
@@ -96,11 +105,44 @@ return [
     'mostSent' => '最多送行',
     'hours' => '小时',
     'minutes' => '分钟',
+    'createdMaps' => '创建的地图',
+    'viewMapsBy' => '查看此玩家创建的所有地图:',
+    'playersCount' => '玩家数',
+    'gameResultPosition' => '排名',
+    'gameResultRoundTime' => '游戏时间',
+    'viewAllGamesOf' => '查看:mode模式的所有游戏',
+    'noGamesOf' => ':name尚未游玩过:mode模式.',
     
+    /* Maps */
+    'map' => '地图',
+    'mapCreate' => '创建新地图',
+    'mapName' => '地图名',
+    'mapNameLong' => '地图名称',
+    'mapDesc' => '说明',
+    'mapRules' => '规则',
+    'mapOptions' => '选项',
+    'mapPlay' => '游玩预览',
+    'mapPlayLink' => '游玩地图',
+    'mapAuthor' => '作者',
+    'mapCreatedBy' => '作者',
+    'backToMaps' => '返回地图列表',
+    'playThisMap' => '游玩此地图',
+    'search' => '搜索',
+    'myMaps' => '我的地图',
+    'mapsByUser' => ':name的地图',
+    'displayUnpublished' => '显示:cnt个未发表地图',
+    'displayPublished' => '显示:cnt个已发布地图',
+    'usersMapMedals' => ':name的地图徽章',
+    'usersCompletedMaps' => ':name的已完成地图',
+    'showRecords' => '显示记录',
+    'details' => '详细',
+    'playedBy' => '玩家:',
+    'latestMapGames' => '地图模式最新游戏',
+
     /* Stats */
     'improvementStats' => '进步数据',
     //keep ':name'
-    'improvementInfo' => '以下图表展示了消行竞速时间（Y轴）和游戏日期（X轴）的对应关系.高亮线展示了:name的个人记录. 你可以将鼠标悬停到任意点查看该局游戏详情.',//The following graph shows line race time (Y axis) vs game date (X axis). Highlighted line shows improvements in :name\'s personal records. You can place your cursor over any point to show the game details.
+    'improvementInfo' => '以下图表展示了消行竞速时间（Y轴）和游戏日期（X轴）的对应关系. 高亮线展示了:name的个人记录. 你可以将鼠标悬停到任意点查看该局游戏详情.',//The following graph shows line race time (Y axis) vs game date (X axis). Highlighted line shows improvements in :name\'s personal records. You can place your cursor over any point to show the game details.
     'date' => '日期',
     'result' => '结果',
     'submit' => '提交',
@@ -116,11 +158,46 @@ return [
     'contact' => '联系我们',
     'serverCoverage' => '服务器成本覆盖率',
     'supporters' => '项目赞助',
+    'translators' => '翻译者',
+    'moderators' => '管理员',
     
     /* Other */
     'notFound' => '未找到页面.',
     'invalidLink' => '访问链接无效.',
-    'brb' => '直接返回. ',
+    'brb' => '马上回来. ',
     'tryAgain' => '网站正在升级，请稍后再试.',
-];
+    'wasteDesc' => '未用于 T-Spin 的 T 块占比',
 
+    /* Settings - Other options */
+    'setOther' => '其他设置',
+    'hideAcc' => '隐藏账号',
+    'accVisibility' => '可见性',
+    'hideAccInfo' => '开启后，此账号将不计入公共排行榜.',
+
+    /* Chat reports */
+    'reportU' => '举报用户',
+    'reportDesc' => '在此你可以举报你认为不正当使用游戏聊天的人。',
+    'user' => '用户',
+    'reason' => '举报理由',
+    'rr0' => '刷屏、垃圾广告',
+    'rr1' => '色情内容',
+    'rr2' => '谩骂、仇恨言论',
+    'rr3' => '骚扰、霸凌、人身攻击',
+    'rr4' => '其他（特别说明）',
+    'sendReport' => '提交举报',
+
+    /* Friends */
+    'friends' => '好友',
+    'accept' => '同意',
+    'ignore' => '忽略',
+    'pending' => '待处理请求',
+    'frFilter' => 'Filter Names',
+    'noPending' => '暂无待处理好友请求。',
+    'onlineNow' => '在线',
+    'recentlyAc' => '近期活动过',
+    'lastActive' => ':when 前在线',
+    'noFriends' => '目前没有好友。',
+    'ruSure' => '确定吗?',
+    'rmFriend' => '确定要将该用户移出好友列表?',
+    'rmConfirm' => '是，移出',
+];
