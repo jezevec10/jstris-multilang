@@ -1,0 +1,29 @@
+name: TranslationReport
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Validate composer.json and composer.lock
+      working-directory: ./_build
+      run: composer validate --strict
+
+    - name: Install dependencies
+      working-directory: ./_build
+      run: composer install --prefer-source --no-interaction --dev --no-progress
+
+    - name: Run report
+      working-directory: ./
+      run: bash ./_build/coverageReport.sh ./_build/output
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_build/output
