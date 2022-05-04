@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style.css">
 
-# cs - coverage report
+# hu - coverage report
 
 <table>
 <thead>
@@ -25,20 +25,12 @@
             <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>99.41%</td><td>
+    <tr><td><a href="#">web</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 99.41%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -----------------------
-
-## Web
-
-**Missing in cs/web.php:**
-
-```
-'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
-```
 

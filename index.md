@@ -12,9 +12,9 @@ Select a language to view more information on which translations are missing.
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="cs.html">cs</a></td><td>78.11%</td><td>
+    <tr><td><a href="cs.html">cs</a></td><td>99.82%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 78.11%;"></span>
+            <span class="pb-fill" style="width: 99.82%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="da.html">da</a></td><td>52.01%</td><td>
@@ -27,9 +27,14 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 79.16%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="es.html">es</a></td><td>99.82%</td><td>
+    <tr><td><a href="el.html">el</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 99.82%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
+        </div>
+    </td></tr>
+    <tr><td><a href="es.html">es</a></td><td>100%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="fi.html">fi</a></td><td>81.79%</td><td>
@@ -45,6 +50,16 @@ Select a language to view more information on which translations are missing.
     <tr><td><a href="ga.html">ga</a></td><td>43.96%</td><td>
         <div class="pb">
             <span class="pb-fill" style="width: 43.96%;"></span>
+        </div>
+    </td></tr>
+    <tr><td><a href="he.html">he</a></td><td>91.42%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: 91.42%;"></span>
+        </div>
+    </td></tr>
+    <tr><td><a href="hu.html">hu</a></td><td>100%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="id.html">id</a></td><td>52.71%</td><td>
@@ -97,6 +112,11 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 81.79%;"></span>
         </div>
     </td></tr>
+    <tr><td><a href="uk.html">uk</a></td><td>100%</td><td>
+        <div class="pb">
+            <span class="pb-fill" style="width: 100%;"></span>
+        </div>
+    </td></tr>
     <tr><td><a href="vi.html">vi</a></td><td>79.33%</td><td>
         <div class="pb">
             <span class="pb-fill" style="width: 79.33%;"></span>
@@ -107,13 +127,13 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>77.23%</td><td>
+    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>99.82%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 77.23%;"></span>
+            <span class="pb-fill" style="width: 99.82%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -------------------
 
-*Auto-generated on **Tue, 29 Dec 2020 10:49:45 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Wed, 04 May 2022 00:55:10 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
