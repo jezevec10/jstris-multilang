@@ -19,7 +19,7 @@ return [
     'hold' => 'Hold',
     'touch' => '開啟觸控螢幕測試 (實驗性)',
     'touchBtn' => '啟用螢幕控制按鈕',
-    'touchBtnMove' => 'Allow position adjustment by dragging',
+    'touchBtnMove' => '允許使用拖拉移動',
     'DAS' => 'DAS',
     'ARR' => 'ARR',
     'softDropSpeed' => '緩降速度',
@@ -44,7 +44,7 @@ return [
     'invisibleBlocks' => '隱形',
     'monochrome' => '單色',
     'enableSE' => '開啟音效',
-    'enableVSE' => 'Voice comments',
+    'enableVSE' => '開啟語音',
     'startSE' => '開啟開始遊戲音效',
     'rotateSE' => '方塊旋轉音效',
     'faultSE'=> '開啟 Finesse 移動錯誤時的音效',
@@ -176,8 +176,8 @@ return [
     'gravityLvl' => '自然下降速度',
     'garbageDelay' => '垃圾行延遲',
     'garbageMess' => '垃圾行混亂度',
-    'gapWidth' => '垃圾列寬',
-    'gInv' => '反轉垃圾行',
+    'gapWidth' => '間格寬度',
+    'gInv' => '顛倒垃圾状态',
     'solidAtk' => '實心行攻擊',
     'allSpin' => '全方塊反轉',
     'asImmobile' => '方塊不可移動', // detection type for All-spin
@@ -189,7 +189,7 @@ return [
     'lines' => '行/列數',
     'statistics' => '統計資料', //stat lines showing under the field
     'vs' => 'VS', //label for VS score stat
-    'downstack' => '垃圾下堆',
+    'downstack' => '垃圾行下消',
     'wasted' => '浪費',
 
     'expand' => '展開',  //ttoltip for icon to expand chat

@@ -114,31 +114,31 @@ return [
     'aPlay' => '已在遊玩！',
     'repFail' => '重播儲存失敗。',
     'repInChat' => '已將重播檔傾印至聊天室。若要保存，請將方框內的文字複製並貼上至您偏好的文字編輯器。',
-    'repTxtInfo' => 'The copied replayfile can be then played in the replayer or possibly resubmitted to the site.',
+    'repTxtInfo' => '複製的重播檔可以於播放器播放或再度上傳到網站。',
 
     'newPB' => '您的新個人紀錄',
-    'firstPB' => 'This was your first game. Get another PB to track the improvement.',
-    'infoPB' => 'Your previous record was {prevPB} achieved {prevAgo}. The improvement is {PBdiff}.',
+    'firstPB' => '這是你第一場遊戲，再度刷新紀錄以追蹤進度幅度。',
+    'infoPB' => '你先前紀錄 {prevPB} 完成於 {prevAgo}， 進步了 {PBdiff}。',
     'daysAgo' => '天前',
 
-    'raceFin' => 'THE RACE HAS FINISHED',
-    'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
+    'raceFin' => '比賽結束',
+    'raceFinInfo' => '你可以繼續完成比賽，但下一輪隨時可能開始。',
 
     'notTSD' => 'NOT TSD',
-    'notTSDInfo' => 'Only T-Spin Double is allowed',
+    'notTSDInfo' => '僅允許消除 T-Spin Double',
 
     'notPC' => 'NOT a PC',
-    'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
+    'notPCInfo' => '每 10 個方塊做出一次 Perfect Clear。你的版面無法完美消除。',
 
     'fwDetect' => 'FOUR WIDE',
-    'fwDetectInfo' => 'Attacking yourself',
+    'fwDetectInfo' => '正在攻擊自己',
 
     'oops' => '糟糕',
     'chatNA' => '訪客及遊玩時數低於 {chReq} 小時的使用者無法使用公開聊天。',
     'leMore' => '了解詳情',
 
     'connLimit' => '已達到此 IP 的開放連接數上限，如果您需要提高上限，請在 Discord 聯繫我們。',
-    'idleDC' => 'Disconnected for inactivity Spectator section was full.',
+    'idleDC' => '因閒置觀戰者區已滿而離線。',
     'RLreach' => '達到速率上限。',
     'ban1' => '您對線上遊戲的存取權已被永久限制。您仍可以遊玩單人模式。',
     'ban2' => '此使用者帳號已被封禁。重新登入至網頁以了解更多資訊。',
@@ -146,7 +146,7 @@ return [
     'refr' => '重新整理頁面',
 
     'nsUnpub' => '紀錄未儲存，此地圖尚未發佈。',
-    'nsTspins' => '紀錄未儲存，not enough T-Spins.',
+    'nsTspins' => '紀錄未儲存，T-Spin 次數不足。',
     'nsLowPC' => '紀錄未儲存，至少需要 2 次 Perfect Clears。',
     'noBlocks' => '方塊用盡',
     'noBlocks2' => '已使用所有方塊',
