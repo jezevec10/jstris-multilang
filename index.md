@@ -127,13 +127,13 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>99.82%</td><td>
+    <tr><td><a href="zh-TW.html">zh-TW</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 99.82%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -------------------
 
-*Auto-generated on **Wed, 04 May 2022 01:30:21 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Wed, 04 May 2022 02:02:34 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
