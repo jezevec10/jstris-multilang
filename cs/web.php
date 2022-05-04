@@ -166,6 +166,7 @@ return [
     'invalidLink' => 'Odkaz je neplatný.',
     'brb' => 'Vydržte chvilku.',
     'tryAgain' => 'Aktualizujeme stránku, zkuste to za chvíli znovu.',
+    'wasteDesc' => 'Podíl T bloků nevyužitých pro T-Spin (k celkovému počtu T bloků)',
 
     /* Settings - Other options */
     'setOther' => 'Další možnosti',
