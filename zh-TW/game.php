@@ -176,23 +176,23 @@ return [
     'gravityLvl' => '自然下降速度',
     'garbageDelay' => '垃圾行延遲',
     'garbageMess' => '垃圾行混亂度',
-    'gapWidth' => 'Gap width',
-    'gInv' => 'Invert garbage',
+    'gapWidth' => '垃圾列寬',
+    'gInv' => '反轉垃圾行',
     'solidAtk' => '實心行攻擊',
-    'allSpin' => 'All-spin',
-    'asImmobile' => 'Immobile', // detection type for All-spin
-    'as4Point' => '4-point',    // detection type for All-spin
+    'allSpin' => '全方塊反轉',
+    'asImmobile' => '方塊不可移動', // detection type for All-spin
+    'as4Point' => '4點檢測',    // detection type for All-spin
     'allSpinNA' => '排除方塊', // blocks excluded from All-spin bonus
-    'noFW' => '禁止 4-wide',
+    'noFW' => '禁止四寬',
     'hostStart' => '限房主開始',
 
-    'lines' => 'Lines',
+    'lines' => '行/列數',
     'statistics' => '統計資料', //stat lines showing under the field
     'vs' => 'VS', //label for VS score stat
-    'downstack' => 'garbage downstack',
-    'wasted' => 'Wasted',
+    'downstack' => '垃圾下堆',
+    'wasted' => '浪費',
 
     'expand' => '展開',  //ttoltip for icon to expand chat
 
-    'translationBy' => 'xFly, Helomair, bennxt, SiderealArt',
+    'translationBy' => 'xFly, Helomair, bennxt, SiderealArt, PikAsriel',
 ];
