@@ -20,6 +20,11 @@ return [
     'pressStart' => '\'새 게임\'을 눌러 게임을 시작하세요', //'New game' should be same as in game.newGame
     'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
     'speedLimitIs' => '속도 제한:', //In a sentence: The speed limit is 2 PPS
+    'connecting' => '연결 중...', //when connecting to the game server
+    'signingIn' => 'Signing in',
+    'loginFail' => '로그인 실패!',
+    'loginFail2' => '로그인하지 않았습니다! 게스트 {name}로 플레이 중입니다.',
+    'mapLoading' => '맵 불러오는 중...',
 
     //Chat
     'warning' => '경고',
@@ -100,4 +105,13 @@ return [
     'settingsChanged' => '게임 중 설정이 바뀌어서, 다시보기를 저장하지 않습니다.',
     'segment' => '구간',
     'duration' => '길이',
+    'roomFull' => '방 인원이 가득 찼습니다.',
+    
+    'newHost' => '방장이 되었습니다.',
+    'badRoom' => '방이 더이상 존재하지 않습니다, 대기실에 입장합니다!',
+    'stngsChanged' => '방장에 의해 설정이 변경되었습니다.',
+    'stngsCustom' => '사용자 설정',
+    'aSpec' => '이미 관전 중입니다!',
+    'aPlay' => '이미 플레이 중입니다!',
+    'repFail' => '다시보기를 저장하지 못했습니다.'
 ];
