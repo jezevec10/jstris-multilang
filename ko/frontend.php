@@ -21,7 +21,7 @@ return [
     'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
     'speedLimitIs' => '속도 제한:', //In a sentence: The speed limit is 2 PPS
     'connecting' => '연결 중...', //when connecting to the game server
-    'signingIn' => 'Signing in',
+    'signingIn' => '로그인 중',
     'loginFail' => '로그인 실패!',
     'loginFail2' => '로그인하지 않았습니다! 게스트 {name}로 플레이 중입니다.',
     'mapLoading' => '맵 불러오는 중...',
