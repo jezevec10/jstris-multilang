@@ -23,6 +23,7 @@ return [
     'connecting' => 'Verbinden...', //when connecting to the game server
     'signingIn' => 'Anmelden',
     'loginFail' => 'Anmeldung Fehlgeschlagen!',
+    'loginFail2' => 'Nicht eingeloggt! Sie spielen als Gast namens {name}.',
     'mapLoading' => 'Map lädt...',
 
     //Chat
@@ -130,6 +131,9 @@ return [
     'ban2' => 'Dieses Nutzerprofil wurde GEBANNT. Melden Sie sich neu auf der Seite an, um mehr zu erfahren.',
     'ncGS' => 'Keine Verbindung zum Spielserver, versuche {refr}.',
     'refr' => 'Neuladen der Seite',
+    'nsUnpub' => 'Datensatz nicht gespeichert. Weil die Karte nicht veröffentlicht wird.',
+    'nsTspins' => 'Datensatz nicht gespeichert. Weil nicht genug T-Spins.',
+    'nsLowPC' => 'Datensatz nicht gespeichert. Weil mindestens 2 perfekte Löschvorgänge erforderlich sind.',
     //Room info detail
     'noPlayers' => 'Keine Spieler',
     'cntMore' => '{cnt} Weitere',          //e.g. +10 more

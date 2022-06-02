@@ -147,7 +147,9 @@ return [
     'nsUnpub' => '录像未保存. 因为地图未公开发表.',
     'nsTspins' => '录像未保存. 因为T-spin数目不够.',
     'nsLowPC' => '录像未保存. 至少需要全清 2 次.',
-	
+    'noBlocks' => '无剩余方块',
+    'noBlocks2' => '无剩余方块',
+    
     //Room info detail
     'noPlayers' => '无玩家',
     'cntMore' => '{cnt} 玩家',          //e.g. +10 more
@@ -158,4 +160,29 @@ return [
     'gTimeShort' => '游戏时间',
     'on' => '开启',
     'off' => '关闭',
+
+    //Friends
+    'fr' => '好友',
+    'frLoad' => '加载好友列表中',
+    'frLogin' => '登录后才能使用好友列表',
+    'frEmpty' => '好友列表为空',
+    'frHowAdd' => '前往用户资料页来发送好友请求',
+    'frPriv' => 'Private',
+    'frIn' => '已加入！',
+    'frChat' => '打开聊天',
+    'frRel' => '刷新',
+    'frMsgTo' => '私信给 {name} ',
+    'frInv' => '发送房间邀请',
+    'frInvTo' => '邀请加入 {room}',
+    'frInvIn' => '你已加入房间！',
+    'frInvBy' => '来自 {user}',
+    'frOn' => '在线',
+    'frOff' => '离线',
+    'frNewChatH' => '这里是与 {name} 聊天记录的开始。',
+    'frWelc' => 'Welcome to the Friends tab',
+    'frIntro' => '这里你可以浏览在线好友的列表，私聊他们，邀请他们进入房间',
+    'frIntro2' => '要发送好友请求，访问他的用户资料页',
+    'frIntro3' => '前往 {frPage} 来管理你的好友',
+    'frPage' => '好友页面',
+    'frIntroCl' => '关闭引导',
 ];

@@ -23,6 +23,7 @@ return [
     'connecting' => 'Připojování...', //when connecting to the game server
     'signingIn' => 'Přihlašování',
     'loginFail' => 'Přihlašování selhalo!',
+    'loginFail2' => 'Nejste přihlášeni! Hrajete jako host jménem {name}.',
     'mapLoading' => 'Načítání mapy...',
 
     //Chat
@@ -126,6 +127,9 @@ return [
     'notTSD' => 'TO NENÍ TSD',
     'notTSDInfo' => 'Je povolen pouze dvojitý T-Spin (TSD)',
 
+    'notPC' => 'TO NENÍ PC',
+    'notPCInfo' => 'Každých 10 bloků musíte udělat Perfect Clear. Vaše pole už ale vyprázdnit nelze.',
+
     'fwDetect' => 'ŠÍŘKA 4',
     'fwDetectInfo' => 'Útočíte sami na sebe!',
 
@@ -141,6 +145,12 @@ return [
     'ncGS' => 'Nejste připojeni k serveru, zkuste {refr}.',
     'refr' => 'obnovit stránku',
 
+    'nsUnpub' => 'Rekord nebyl uložen, mapa není zveřejněná.',
+    'nsTspins' => 'Rekord nebyl uložen, nesplnili jste počet T-Spinů.',
+    'nsLowPC' => 'Rekord nebyl uložen, musíte udělat alespoň dvakrát Perfect Clear.',
+    'noBlocks' => 'Došly bloky',
+    'noBlocks2' => 'Využili jste všechny bloky',
+
     //Room info detail
     'noPlayers' => 'Žádní hráči',
     'cntMore' => '{cnt} dalších',          //e.g. +10 more
@@ -151,4 +161,29 @@ return [
     'gTimeShort' => 'G.time',
     'on' => 'Ano',
     'off' => 'Ne',
+
+    //friends
+    'fr' => 'Přátelé',
+    'frLoad' => 'Načítání seznamu přátel',
+    'frLogin' => 'Log in first to use friend list',
+    'frEmpty' => 'Seznam přátel je prázdný',
+    'frHowAdd' => 'Chcete-li uživateli poslat žádost o přátelství, navštivte jeho profil.',
+    'frPriv' => 'Soukromé',
+    'frIn' => 'Už se stalo!',
+    'frChat' => 'Otevřít chat',
+    'frRel' => 'Znovu načíst',
+    'frMsgTo' => 'Nová zpráva pro {name}',  //keep {name}
+    'frInv' => 'Poslat pozvánku do místnosti',
+    'frInvTo' => 'Pozvat do {room}',
+    'frInvIn' => 'Už tady jste!',
+    'frInvBy' => 'od {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Tady začíná chat s {name}.',
+    'frWelc' => 'Vítejte v záložce \„Přátelé\“',
+    'frIntro' => 'Tady najdete seznam svých přátel, soukromé chaty a pozvánky do místností',
+    'frIntro2' => 'Navštivte profil uživatele, chcete-li mu poslat žádost',
+    'frIntro3' => 'Spravovat své přátele můžete na stránce {frPage}',
+    'frPage' => 'Přátelé',
+    'frIntroCl' => 'Zavřít úvod',
 ];
