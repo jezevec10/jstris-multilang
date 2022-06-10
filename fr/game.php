@@ -192,5 +192,5 @@ return [
 
     'expand' => 'Etendre',  //tooltip for icon to expand chat
 
-    'translationBy' => 'Noël Nadal, Aurélien Moisson-Franckhauser, Merevir go',
+    'translationBy' => 'Noël Nadal, Merevir go',
 ];
