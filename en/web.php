@@ -12,7 +12,7 @@ return [
     'guide' => 'Guide',
     'login' => 'Login',
     'register' => 'Register',
-    'myProfile' => 'My profile',
+    'myProfile' => 'Profile',
     'myImprovement' => 'My improvement',
     'favReplays' => 'Favorite replays',
     'friends' => 'Friends',
@@ -41,6 +41,7 @@ return [
     'leastBlocks' => 'The least blocks',
     'myTimes' => 'My times',
     'perfectFinesse' => '0 finesse',
+    'mostGames' => 'The most games',
     
     /* Replay */
     'load' => 'Load',
