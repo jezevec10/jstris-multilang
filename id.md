@@ -15,9 +15,9 @@
             <span class="pb-fill" style="width: 52.83%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>60.43%</td><td>
+    <tr><td><a href="#">game</a></td><td>58.55%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 60.43%;"></span>
+            <span class="pb-fill" style="width: 58.55%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">supporter</a></td><td>0%</td><td>
@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 0%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>61.18%</td><td>
+    <tr><td><a href="#">web</a></td><td>60.82%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 61.18%;"></span>
+            <span class="pb-fill" style="width: 60.82%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -121,6 +121,8 @@
 **Missing in id/game.php:**
 
 ```
+'skin' => 'Skin',
+'skin2' => 'Block skin',
 'touchBtn' => 'Enable on-screen control buttons',
 'touchBtnMove' => 'Allow position adjustment by dragging',
 'sound' => 'Sound',
@@ -143,11 +145,14 @@
 'editRoom' => 'Edit',
 'savePreset' => 'Save the preset',
 'overflowRooms' => 'Overflow rooms',
+'guestRooms' => 'Guest rooms',
 'spectateRooms' => 'Spectate only rooms',
 'gmodeTeam' => 'Team',
 'applyCh' => 'Apply changes',
 '20TSD' => '20TSD',
 'PCmode' => 'PC Mode',
+'bots' => 'Bots',
+'rulesets' => 'Rulesets',
 'audioCredits' => 'Audio Assets by',
 'fullScreen' => 'Full screen',
 'showHoldQueue' => 'Show H+Q',
@@ -173,6 +178,7 @@
 'randomizer' => 'Randomizer',
 'previews' => 'Previews',
 'solidGarbage' => 'Solid garbage',
+'solidGarbageSpeed' => 'Solid g. speed',
 'solidAfterSecs' => 'After',
 'lockDelay' => 'Lock delay',
 'clearDelay' => 'Clear delay',
@@ -203,9 +209,10 @@
 
 ```
 'donate' => 'Donate',
-'descr' => 'Support Jstris by sending a donation and enable Supporter rewards',
+'supportUs' => 'Support Us',
+'descr' => 'Support Jstris and enable the Supporter rewards',
 'supportJstris' => 'Support Jstris',
-'supportDesc1' => 'If you appreciate this game, please consider a donation to this project and help cover server expenses and further development.',
+'supportDesc1' => 'If you appreciate this game, please consider becoming Supporter of this project and help cover server expenses and further development.',
 'warnDelay' => 'It may take up to 10 minutes until the transaction is credited to your Jstris account. Then you can configure your Supporter benefits here.',
 't1Full' => 'Tier 1 Supporter',
 't2Full' => 'Tier 2 Supporter',
@@ -218,7 +225,7 @@
 'discord' => 'Role on Jstris discord',
 'discordDesc' => 'Orange name on Jstris Discord server. Only applicable if you link Discord account to Jstris.',
 'list' => 'Name on the Supporters list',
-'listDesc' => 'A link to your in-game profile will be inluded in the list of supporters. Can be disabled in the settings.',
+'listDesc' => 'A link to your in-game profile will be included in the list of supporters. Can be disabled in the settings.',
 'customColor' => 'Custom color in chat',
 'customColorDesc' => 'You can set any name color you want using a color picker tool.',
 'moreIcons' => '2000+ name icons',
@@ -230,7 +237,7 @@
 'allFromT1' => 'and everything from Tier 1',
 'perMonth' => ':cost per month',
 'customAmount' => 'Custom amount',
-'customAmountDesc' => 'If you prefer to donate a custom amount, you can configure it here. In case of a one-time donation, the supporter benefits are assigned to your account for a duration based on the amount.',
+'customAmountDesc' => 'You may become Supporter with a one-time transaction or a custom amount. In case of one-time, the Supporter benefits are assigned to your account for a duration based on the amount.',
 'oneTime' => 'One time',
 'monthly' => 'Monthly',
 'other' => 'Other',
@@ -240,10 +247,10 @@
 'learnMore' => 'Learn more',
 'paymentsInfo' => 'Processed via :service_name.&nbsp; Can be cancelled anytime on account dashboard.',
 'gift' => 'Gift rewards',
-'giftDesc' => 'Here you can donate in the name of any other Jstris account. Enter the account username in the text field on the right and press Set. After that, any donation you will send from this page will be assigned to the chosen account.',
+'giftDesc' => '',
 'giftTo' => 'Gift to account',
 'set' => 'Set',
-'rewardsAvailable' => 'Donation rewards available',
+'rewardsAvailable' => 'Supporter rewards available',
 'rewardsList' => 'Thanks for your donation to Jstris! You may enable the following rewards.',
 'monthlyActive' => 'You currently have :type subscription active.',
 'customActive' => 'You have :type rewards enabled for :days days based on the donation amount.',
@@ -265,6 +272,7 @@
 
 ```
 'friends' => 'Friends',
+'mostGames' => 'The most games',
 'repExport' => 'GIF or video',
 'continent' => 'Continent',
 'userRanking' => 'Ranking stats',

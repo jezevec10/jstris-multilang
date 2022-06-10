@@ -15,19 +15,19 @@
             <span class="pb-fill" style="width: 52.2%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>59.36%</td><td>
+    <tr><td><a href="#">game</a></td><td>57.51%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 59.36%;"></span>
+            <span class="pb-fill" style="width: 57.51%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">supporter</a></td><td>100%</td><td>
+    <tr><td><a href="#">supporter</a></td><td>98.21%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 98.21%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>60.59%</td><td>
+    <tr><td><a href="#">web</a></td><td>60.23%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 60.59%;"></span>
+            <span class="pb-fill" style="width: 60.23%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -122,6 +122,8 @@
 **Missing in da/game.php:**
 
 ```
+'skin' => 'Skin',
+'skin2' => 'Block skin',
 'touchBtn' => 'Enable on-screen control buttons',
 'touchBtnMove' => 'Allow position adjustment by dragging',
 'sound' => 'Sound',
@@ -145,12 +147,15 @@
 'editRoom' => 'Edit',
 'savePreset' => 'Save the preset',
 'overflowRooms' => 'Overflow rooms',
+'guestRooms' => 'Guest rooms',
 'spectateRooms' => 'Spectate only rooms',
 'gmodeTeam' => 'Team',
 'applyCh' => 'Apply changes',
 'mapDownstack' => 'Map downstack',
 '20TSD' => '20TSD',
 'PCmode' => 'PC Mode',
+'bots' => 'Bots',
+'rulesets' => 'Rulesets',
 'audioCredits' => 'Audio Assets by',
 'fullScreen' => 'Full screen',
 'showHoldQueue' => 'Show H+Q',
@@ -176,6 +181,7 @@
 'randomizer' => 'Randomizer',
 'previews' => 'Previews',
 'solidGarbage' => 'Solid garbage',
+'solidGarbageSpeed' => 'Solid g. speed',
 'solidAfterSecs' => 'After',
 'lockDelay' => 'Lock delay',
 'clearDelay' => 'Clear delay',
@@ -200,6 +206,14 @@
 'expand' => 'Expand',
 ```
 
+## Supporter
+
+**Missing in da/supporter.php:**
+
+```
+'supportUs' => 'Support Us',
+```
+
 ## Web
 
 **Missing in da/web.php:**
@@ -207,6 +221,7 @@
 ```
 'randomMap' => 'Random map',
 'friends' => 'Friends',
+'mostGames' => 'The most games',
 'repExport' => 'GIF or video',
 'continent' => 'Continent',
 'userRanking' => 'Ranking stats',

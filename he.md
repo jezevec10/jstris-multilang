@@ -15,19 +15,19 @@
             <span class="pb-fill" style="width: 84.28%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">game</a></td><td>95.19%</td><td>
+    <tr><td><a href="#">game</a></td><td>92.23%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 95.19%;"></span>
+            <span class="pb-fill" style="width: 92.23%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">supporter</a></td><td>100%</td><td>
+    <tr><td><a href="#">supporter</a></td><td>98.21%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 98.21%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>91.18%</td><td>
+    <tr><td><a href="#">web</a></td><td>90.64%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 91.18%;"></span>
+            <span class="pb-fill" style="width: 90.64%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -71,7 +71,13 @@
 **Missing in he/game.php:**
 
 ```
+'skin' => 'Skin',
+'skin2' => 'Block skin',
 'DMsound' => 'Direct message notification',
+'guestRooms' => 'Guest rooms',
+'bots' => 'Bots',
+'rulesets' => 'Rulesets',
+'solidGarbageSpeed' => 'Solid g. speed',
 'gapWidth' => 'Gap width',
 'gInv' => 'Invert garbage',
 'lines' => 'Lines',
@@ -82,12 +88,21 @@
 'expand' => 'Expand',
 ```
 
+## Supporter
+
+**Missing in he/supporter.php:**
+
+```
+'supportUs' => 'Support Us',
+```
+
 ## Web
 
 **Missing in he/web.php:**
 
 ```
 'friends' => 'Friends',
+'mostGames' => 'The most games',
 'userRanking' => 'Ranking stats',
 'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
 'accept' => 'Accept',
