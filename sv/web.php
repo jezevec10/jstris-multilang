@@ -23,7 +23,7 @@ return [
     'time' => 'Tid',
     'blocks' => 'Block',
     'PPS' => 'PPS',
-    'finesse' => 'Finesse',
+    'finesse' => 'Finess',
     'date' => 'Datum',
     'replay' => 'Inspelning',
     'place' => 'Placerat',
@@ -39,7 +39,7 @@ return [
     'latestGames' => 'Senaste spelen',
     'leastBlocks' => 'Det minsta antalet block',
     'myTimes' => 'Mina Tider',
-    'perfectFinesse' => '0 finesse',
+    'perfectFinesse' => '0 finess',
     
     /* Replay */
     'load' => 'Ladda',
@@ -51,8 +51,8 @@ return [
     'speedChart' => 'Hastighetsdiagram',
     'moreStats' => 'Mer Statistik',
     'lines' => 'Linjer',
-    'scoringPlaylist' => 'Scoring playlist',
-    'filterSP' => 'Filtrera scoring playlist',
+    'scoringPlaylist' => 'Poäng spellista',
+    'filterSP' => 'Filtrera poäng spellista',
     'applyFilter' => 'Tillämpa filter',
     'timestamp' => 'Tidstämpel',
     'action' => 'Handling', // e.g. combo, tspin, perfect clear
@@ -93,7 +93,7 @@ return [
     'linesSent' => 'Linjer skickade',
     'linesRec' => 'Linjer mottagna',
     'placedBlocks' => 'Placerade block',
-    'blockCnt' => ':cnt blocks',
+    'blockCnt' => ':cnt antal block',
     'APM10Games' => '10-spel APM',
     'PPS10Games' => '10-spel PPS',
     'maxAPM' => 'Max. APM',

@@ -50,7 +50,7 @@ return [
     'slowestSeg' => 'Самые медленные сегменты',
     'speedChart' => 'График скорости',
     'moreStats' => 'Больше информации',
-    'lines' => 'Ряды',
+    'lines' => 'Линии',
     'scoringPlaylist' => 'Отчёт очков',
     'filterSP' => 'Фильтровать отчёт очков',
     'applyFilter' => 'Применить фильтр',
@@ -181,4 +181,21 @@ return [
 	'rr3' => 'Травля или домогательство',
 	'rr4' => 'Другое',
 	'sendReport' => 'Отправить',
+	
+	//from December 7th, 2020. -mLurker
+	'friends' => 'Друзья',
+	'userRanking' => 'Рейтинг рекордов', //"Ratings of records". -mLurker
+	'wasteDesc' => 'Соотношение кол-ва Т-Фигур, не использованных в Т-Поворотах, к общему кол-ву Т-Фигур',
+	'accept' => 'Добавить',
+	'ignore' => 'Отказать', //"Decline", changed for brevity. -mLurker
+	'pending' => 'Запросы в друзья',
+	'frFilter' => 'Искать по имени',
+	'noPending' => 'У Вас нет запросов в друзья.',
+	'onlineNow' => 'В сети',
+	'recentlyAc' => 'Недавно был(а) в сети',
+	'lastActive' => 'Был(а) в сети :when',
+	'noFriends' => 'Ваш список друзей пуст.',
+	'ruSure' => 'Вы уверены?',
+	'rmFriend' => 'Вы хотите убрать этого игрока из списка друзей?',
+	'rmConfirm' => 'Убрать', 
 ];

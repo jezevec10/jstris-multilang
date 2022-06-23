@@ -1,0 +1,30 @@
+name: TranslationReport
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      working-directory: ./_build
+      run: composer install --prefer-source --no-interaction --dev --no-progress
+
+    - name: Run syntax test
+      working-directory: ./
+      run: bash ./_build/syntaxTest.sh
+
+    - name: Run report
+      working-directory: ./
+      run: bash ./_build/coverageReport.sh ./_build/output
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_build/output
+        enable_jekyll: true

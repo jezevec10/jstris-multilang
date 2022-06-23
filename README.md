@@ -18,3 +18,5 @@ If you want to add your language to the game, clone this repository, copy the `e
 `frontend.php` - *(optional)* strings used only by the javascript game fronted
 
 `web.php` - *(optional)* all other strings used on the website (user profiles, leaderboards, statistics, replays, etc.)
+
+`supporter.php` - *(optional)* strings used in the Supporter rewards section
