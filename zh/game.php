@@ -193,5 +193,13 @@ return [
     'wasted' => '未使用 T 块',
     'expand' => '展开', //ttoltip for icon to expand chat
 
-    'translationBy' => 'teatube, xb2002b',
+    //June 2022
+    'skin' => '皮肤',
+    'skin2' => '方块皮肤',
+    'guestRooms' => '游客房间',
+    'bots' => '机器人',
+    'rulesets' => '环境',//五连块、大方块、三无
+    'solidGarbageSpeed' => '实心行上涨速度', 
+
+    'translationBy' => 'teatube, Allustrate',
 ];
