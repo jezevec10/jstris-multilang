@@ -9,7 +9,7 @@ return [
     'specMode' => 'Chế độ theo dõi',
     'specModeInfo' => 'Bây giờ bạn đang theo dõi',
     'endSpec' => 'Nhập /play để tham gia', //keep '/play'
-    'typeHelp' => 'Nhập /help để trợ giúp với những lệnh trong game.', //keep '/help'
+    'typeHelp' => 'Nhập /help để nhận trợ giúp với những lệnh trong game.', //keep '/help'
     'st' => 'st', //max 2, in 1st, can stay untranslated
     'nd' => 'nd', //max 2, in 2nd, can stay untranslated
     'rd' => 'rd', //max 2, in 3rd, can stay untranslated
@@ -20,7 +20,11 @@ return [
     'pressStart' => 'Nhấn \'Ván mới\' để bắt đầu', //'New game' should be same as in game.newGame
     'slowDown' => 'CHẬM LẠI', //When a speed limit is exceeded
     'speedLimitIs' => 'Giới hạn tốc độ là', //In a sentence: The speed limit is 2 PPS
-    'connecting' => 'Đang kết nối', //when connecting to the game server
+    'connecting' => 'Đang kết nối...', //when connecting to the game server
+    'signingIn' => 'Đang đăng nhập',
+    'loginFail' => 'Đăng nhập không thành công!',
+    'loginFail2' => 'Chưa đăng nhập! Bạn đang chơi với tư cách là khách có tên {name}.',
+    'mapLoading' => 'Đang tải map...',
 
     //Chat
     'warning' => 'Chú ý',
@@ -148,4 +152,29 @@ return [
     'nsUnpub' => 'Kết quả không được lưu vì map chưa được công bố.',
     'nsTspins' => 'Kết quả không được lưu, chưa đủ số lượng T-spin',
     'nsLowPC' => 'Kết quả không được lưu, cần ít nhất 2 Perfect Clear',
+    'noBlocks' => 'Đã hết gạch',
+    'noBlocks2' => 'Bạn đã dùng hết số gạch',
+    'fr' => 'Bạn bè',
+    'frLoad' => 'Đang tải danh sách bạn bè',
+    'frLogin' => 'Đăng nhập để sử dụng danh sách bạn bè',
+    'frEmpty' => 'Danh sách bạn bè đang trống',
+    'frHowAdd' => 'Truy cập vào hồ sơ của người dùng để gửi lời mời kết bạn.',
+    'frPriv' => 'Kín',
+    'frIn' => 'Đã vào rồi!',
+    'frChat' => 'Mở khung chat',
+    'frRel' => 'Tải lại',
+    'frMsgTo' => 'Nhắn tin cho {name}',
+    'frInv' => 'Gửi lời mời vào phòng',
+    'frInvTo' => 'Mời vào {room}',
+    'frInvIn' => 'Bạn đã vào rồi!',
+    'frInvBy' => 'bởi {user}',
+    'frOn' => 'TRỰC TUYẾN',
+    'frOff' => 'NGOẠI TUYẾN',
+    'frNewChatH' => 'Đây là phần bắt đầu lịch sử chat với {name}.',
+    'frWelc' => 'Chào mừng đến với thanh Bạn bè',
+    'frIntro' => 'Ở khu vực này, bạn có thể truy cập danh sách những người bạn đang trực tuyến, nhắn tin riêng tư, và lời mời vào phòng',
+    'frIntro2' => 'Để gửi lời mời kết bạn, hãy truy cập vào hồ sơ của người dùng',
+    'frIntro3' => 'Để quản lý bạn bè, hãy truy cập {frPage}',
+    'frPage' => 'Trang Bạn bè',
+    'frIntroCl' => 'Đóng phần giới thiệu',
 ];
