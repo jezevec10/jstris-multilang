@@ -91,7 +91,7 @@ return [
     'clear' => 'Đã lấp',
     'mode' => 'Chế độ',
     'garbage' => 'Rác',
-    'garbageDelay' => 'Thời gian kéo dài hàng rác',
+    'garbageDelay' => 'Thời gian chờ nhận rác',
     'messiness' => 'Độ rải rác',
     'replay' => 'Replay',
     'rep' => 'Rep', //max 3, short for Replay
