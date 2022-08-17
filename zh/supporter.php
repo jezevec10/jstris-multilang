@@ -68,4 +68,5 @@ return [
     'roleAdded' => '已授予你的 Discord 账户 :name。',
     'addDiscord' => '要开启该功能，请在 <a href=":link">Jstris 账户设置</a>中添加你的 Discord 账户。',
     'apply' => '应用更改',
+    'supportUs' => '支持我们',
 ];
