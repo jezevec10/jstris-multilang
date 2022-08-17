@@ -200,4 +200,5 @@ return [
     'ruSure' => '确定吗?',
     'rmFriend' => '确定要将该用户移出好友列表?',
     'rmConfirm' => '是，移出',
+    'mostGames' => '最多玩的',
 ];
