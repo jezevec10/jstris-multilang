@@ -198,7 +198,7 @@ return [
     'skin2' => '方块皮肤',
     'guestRooms' => '游客房间',
     'bots' => '机器人',
-    'rulesets' => '环境',//五连块、大方块、三无
+    'rulesets' => '环境',//五连块、大方块、三无（MPH）
     'solidGarbageSpeed' => '实心行上涨速度', 
 
     'translationBy' => 'teatube, Allustrate',
