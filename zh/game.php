@@ -192,6 +192,16 @@ return [
     'downstack' => '垃圾行挖掘',
     'wasted' => '未使用 T 块',
     'expand' => '展开', //ttoltip for icon to expand chat
+    
+    'skin' => '皮肤',
+    'skin2' => '方块皮肤',
+    'guestRooms' => '客人房间',
+    'bots' => '机器人',
+    'rulesets' => '规矩',
+    'solidGarbageSpeed' => '实体垃圾速度',
+    
+    'supportUs' => '支持我们',
+    'mostGames' => '最多玩的',
 
-    'translationBy' => 'teatube, xb2002b',
+    'translationBy' => 'teatube, xb2002b, HellishBro',
 ];
