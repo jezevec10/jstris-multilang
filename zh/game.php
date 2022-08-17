@@ -199,9 +199,6 @@ return [
     'bots' => '机器人',
     'rulesets' => '规矩',
     'solidGarbageSpeed' => '实体垃圾速度',
-    
-    'supportUs' => '支持我们',
-    'mostGames' => '最多玩的',
 
     'translationBy' => 'teatube, xb2002b, HellishBro',
 ];
