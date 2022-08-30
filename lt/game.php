@@ -42,7 +42,7 @@ return [
     'enableVSE' => 'Komentavimas balsu',
     'startSE' => 'Leisti garso efektą, kai žaidimas prasideda',
     'rotateSE' => 'Leisti garso efektą, kai blokas yra pasukamas',
-    'faultSE'=> 'Leisti garso efektą, kai yra padaroma finesse klaida'
+    'faultSE'=> 'Leisti garso efektą, kai yra padaroma finesse klaida',
     'esound'=> 'Leisti garso efektą, kai prisijungia kitas žaidėjas',
     'DMsound'=> 'Leisti garso efektą, gavus privačią žinutę iš kito žaidėjo',
     'SEvol'=> 'Garsumas',
