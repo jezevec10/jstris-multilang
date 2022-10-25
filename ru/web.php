@@ -198,7 +198,7 @@ return [
 	'ruSure' => 'Вы уверены?',
 	'rmFriend' => 'Вы хотите убрать этого игрока из списка друзей?',
 	'rmConfirm' => 'Убрать', 
-	
+
 	//from October 25th, 2022. -mLurker
 	'mostGames' => 'Больше всего игр',
 ];

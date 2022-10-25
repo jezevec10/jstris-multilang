@@ -15,6 +15,7 @@ return [
     'myProfile' => 'Meu perfil',
     'myImprovement' => 'Meu progresso',
     'favReplays' => 'Replays favoritos',
+    'friends' => 'Amigos',
     'settings' => 'Configurações',
     'logout' => 'Sair',
     
@@ -85,6 +86,7 @@ return [
     'bestTimes' => 'Melhores tempos',
     'allTimes' => 'Ver todos os tempos de maratona',
     'userImpr' => 'Ver estatísticas de progresso',
+    'userRanking' => 'Estatísticas de ranking',
     'gameStats' => 'Estatísticas de jogo',
     'latestGames' => 'Jogos recentes',
     'noGames' => 'Este usuário não jogou nenhuma partida ainda.',
@@ -164,6 +166,7 @@ return [
     'invalidLink' => 'O link solicitado é inválido.',
     'brb' => 'Já voltamos.',
     'tryAgain' => 'O site está sendo atualizado, por favor tente novamente em alguns instantes.',
+    'wasteDesc' => 'Taxa de peças T não usadas em um T-Spin (para o total de peças T)',
 
     /* Settings - Other options */
     'setOther' => 'Outras opções',
@@ -171,4 +174,29 @@ return [
     'accVisibility' => 'Visibilidade',
     'hideAccInfo' => 'Ao habilitar, a conta será excluída das classificações públicas.',
 
+    /* Chat reports */
+    'reportU' => 'Denunciar usuário',
+    'reportDesc' => ' Aqui você pode fazer uma denúncia se acha que um usuário quebrou as regras no chat.',
+    'user' => 'Usuário',
+    'reason' => 'Motivo',
+    'rr0' => 'Spam ou divulgação inadequada',
+    'rr1' => 'Conteúdo sexualmente explícito',
+    'rr2' => 'Discurso de ódio',
+    'rr3' => 'Assédio ou bullying',
+    'rr4' => 'Outro (especifique)',
+    'sendReport' => 'Enviar denúncia',
+    
+    /* Friends */
+    'accept' => 'Aceitar',
+    'ignore' => 'Ignorar',
+    'pending' => 'Solicitações pendentes',
+    'frFilter' => 'Filtrar nomes',
+    'noPending' => 'No momento você não tem nenhuma solicitação de amizade.',
+    'onlineNow' => 'Online agora',
+    'recentlyAc' => 'Recentemente ativo',
+    'lastActive' => 'Ativo :when',
+    'noFriends' => 'No momento sua lista de amizade está vazia.',
+    'ruSure' => 'Você tem certeza?',
+    'rmFriend' => 'Você quer remover essa pessoa dos amigos?',
+    'rmConfirm' => 'Sim, remova',
 ];

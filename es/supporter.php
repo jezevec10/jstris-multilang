@@ -42,6 +42,7 @@ return [
     'dAmount' => 'Cantidad de la donación',
     'sDuration' => 'Duración',
     'learnMore' => 'Saber más', //show more information
+    'paymentsInfo' => 'Procesado a través de :service_name.&nbsp; Puede ser cancelado en cualquier momento en el panel de control de la cuenta.',
 
     'gift' => 'Regalar recompensas',
     'giftDesc' => 'Aquí puedes donar en el nombre de cualquier otra cuenta de Jstris. Escribe el nombre de usuario y da click en Ok. Después de eso, cualquier donación que envíes desde esta página será asignado a la cuenta elegida.',

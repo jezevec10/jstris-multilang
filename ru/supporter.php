@@ -69,7 +69,7 @@ return [
     'roleAdded' => 'Добавлена на Вашу учётную запись Discord :name.',
     'addDiscord' => 'Перед использованием, добавьте Вашу учётную запись Discord в <a href=":link">настройках учётной записи Jstris</a>.',
     'apply' => 'Применить',
-	
+
 	//from October 25th, 2022. -mLurker
 	'supportUs' => 'Поддержите нас',
 ];

@@ -38,10 +38,11 @@ return [
     'oneTime' => 'Única', //max. 8chars
     'monthly' => 'Mensal',  //max. 8chars
     'other' => 'Outra',  // meaning Other amount than suggested
-    'Estimate' => 'Mostrar estima',
+    'estimate' => 'Mostrar estima',
     'dAmount' => 'Tamanho da doação',
     'sDuration' => 'Duração de Apoiador',
     'learnMore' => 'Saiba mais', //show more information
+    'paymentsInfo' => 'Pagamento processado por :service_name.&nbsp; Pode ser cancelado a qualquer momento no painel de controle da conta.',
 
     'gift' => 'Recompensas de presente',
     'giftDesc' => 'Aqui você pode doar no nome de outra conta Jsitrs. Entre o nome da conta no campo de texto a direita e pressione Ok. Depois disso, qualquer doação você enviar desta página será atribuída para a conta escolhida.',

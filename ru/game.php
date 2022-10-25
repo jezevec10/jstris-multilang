@@ -203,7 +203,7 @@ return [
 	'downstack' => 'Очистка мусора',
 	'wasted' => 'Т Потрачено', //"T Wasted". -mLurker
 	'expand' => 'Раскрыть', //Not sure where this is used. -mLurker
-	
+
 	//from October 25th, 2022. -mLurker
 	'skin' => 'Фигуры', //"Blocks", may be changed if "blockskin" becomes more common. -mLurker
 	'skin2' => 'Вид фигур', //"Block appearance", see above. - mLurker

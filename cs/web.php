@@ -15,6 +15,7 @@ return [
     'myProfile' => 'Můj profil',
     'myImprovement' => 'Moje zlepšení',
     'favReplays' => 'Oblíbené nahrávky',
+    'friends' => 'Přátelé',    
     'settings' => 'Nastavení',
     'logout' => 'Odhlásit',
     
@@ -85,6 +86,7 @@ return [
     'bestTimes' => 'Nejlepší časy',
     'allTimes' => 'Zobrazit všechny časy sprintu',
     'userImpr' => 'Zobrazit statistiky zlepšení',
+    'userRanking' => 'Statistiky žebříčku',
     'gameStats' => 'Statistiky her',
     'latestGames' => 'Nedávné hry',
     'noGames' => 'Hráč ještě nikdy nehrál.',
@@ -158,14 +160,43 @@ return [
     'supporters' => 'Sponzoři projektu',
     'translators' => 'Překladatelé',
     'moderators' => 'Moderátoři',
-    'setOther' => 'Další možnosti',
-    'hideAcc' => 'Skrytý účet',
-    'accVisibility' => 'Viditelnost',
-    'hideAccInfo' => 'Po aktivaci nebude tento účet zobrazován ve veřejném žebříčku.',
 
     /* Other */
     'notFound' => 'Nenalezeno.',
     'invalidLink' => 'Odkaz je neplatný.',
     'brb' => 'Vydržte chvilku.',
     'tryAgain' => 'Aktualizujeme stránku, zkuste to za chvíli znovu.',
+    'wasteDesc' => 'Podíl T bloků nevyužitých pro T-Spin (k celkovému počtu T bloků)',
+
+    /* Settings - Other options */
+    'setOther' => 'Další možnosti',
+    'hideAcc' => 'Skrytý účet',
+    'accVisibility' => 'Viditelnost',
+    'hideAccInfo' => 'Po aktivaci nebude tento účet zobrazován ve veřejném žebříčku.',
+
+    /* Chat reports */
+    'reportU' => 'Nahlásit uživatele',
+    'reportDesc' => 'Pokud si myslíte, že došlo ke zneužití chatu, můžete uživatele nahlásit.',
+    'user' => 'Uživatel',
+    'reason' => 'Důvod',
+    'rr0' => 'Spam nebo reklama',
+    'rr1' => 'Sexuální obsah',
+    'rr2' => 'Nenávist',
+    'rr3' => 'Obtěžování nebo šikana',
+    'rr4' => 'Jiné (uveďte)',
+    'sendReport' => 'Odeslat',
+
+    /* Friends */
+    'accept' => 'Přijmout',
+    'ignore' => 'Ignorovat',
+    'pending' => 'Příchozí žádosti',
+    'frFilter' => 'Filtrovat jména',
+    'noPending' => 'V tuto chvíli nemáte žádné žádosti.',
+    'onlineNow' => 'Nyní online',
+    'recentlyAc' => 'Nedávno aktivní',
+    'lastActive' => 'Aktivní :when',
+    'noFriends' => 'Váš seznam přátel je v tuto chvíli prázdný.',
+    'ruSure' => 'Jste si jistí?',
+    'rmFriend' => 'Chcete tohoto uživatele odstranit ze seznamu přátel?',
+    'rmConfirm' => 'Ano, odstranit',
 ];

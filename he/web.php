@@ -12,10 +12,9 @@ return [
     'guide' => 'Guide',
     'login' => 'Login',
     'register' => 'Register',
-    'myProfile' => 'Profile',
+    'myProfile' => 'My profile',
     'myImprovement' => 'My improvement',
     'favReplays' => 'Favorite replays',
-    'friends' => 'Friends',
     'settings' => 'Settings',
     'logout' => 'Logout',
     
@@ -41,7 +40,6 @@ return [
     'leastBlocks' => 'The least blocks',
     'myTimes' => 'My times',
     'perfectFinesse' => '0 finesse',
-    'mostGames' => 'The most games',
     
     /* Replay */
     'load' => 'Load',
@@ -86,8 +84,7 @@ return [
     'ownProfile' => 'This is your public profile accessible at',
     'bestTimes' => 'Best times',
     'allTimes' => 'View all sprint times',
-    'userImpr' => 'Improvement stats',
-    'userRanking' => 'Ranking stats',
+    'userImpr' => 'View improvement stats',
     'gameStats' => 'Game stats',
     'latestGames' => 'Latest games',
     'noGames' => 'This user has not played any games yet.',
@@ -111,7 +108,7 @@ return [
     'playersCount' => 'Players',
     'gameResultPosition' => 'Position',
     'gameResultRoundTime' => 'Gametime',
-    'viewAllGamesOf' => 'All games of :mode',
+    'viewAllGamesOf' => 'View all games of :mode',
     'noGamesOf' => ':name hasn\'t played any games of :mode yet.',
     
     /* Maps */
@@ -167,7 +164,6 @@ return [
     'invalidLink' => 'Requested link is invalid.',
     'brb' => 'Be right back.',
     'tryAgain' => 'Site is being updated, please try again in a few moments.',
-    'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
 
     /* Settings - Other options */
     'setOther' => 'Other options',
@@ -177,7 +173,7 @@ return [
 
     /* Chat reports */
     'reportU' => 'Report user',
-    'reportDesc' => ' Here you can create a report if you think someone has abused the game chat.',
+    'reportDesc' => 'Here you can create a report if you think someone has abused the game chat.',
     'user' => 'User',
     'reason' => 'Reason',
     'rr0' => 'Spam or unwanted advertising',
@@ -187,17 +183,4 @@ return [
     'rr4' => 'Other (specify)',
     'sendReport' => 'Send report',
     
-    /* Friends */
-    'accept' => 'Accept',
-    'ignore' => 'Ignore',
-    'pending' => 'Pending Requests',
-    'frFilter' => 'Filter Names',
-    'noPending' => 'At the moment you have no pending friend requests.',
-    'onlineNow' => 'Online now',
-    'recentlyAc' => 'Recently active',
-    'lastActive' => 'Active :when',
-    'noFriends' => 'At the moment your friend list is empty.',
-    'ruSure' => 'Are you sure?',
-    'rmFriend' => 'Do you want to remove this person from your friend list?',
-    'rmConfirm' => 'Yes, remove',
 ];

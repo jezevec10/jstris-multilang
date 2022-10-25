@@ -45,6 +45,7 @@ return [
     'dAmount' => '贊助金額', // 'Donation amount',
     'sDuration' => '支持者回饋持續時間', // 'Supporter duration',
     'learnMore' => '更多資訊', // 'Learn more', //show more information
+    'paymentsInfo' => '支付透過 :service_name.&nbsp; 可隨時於帳號頁面取消.',
 
     'gift' => '贈予獎勵', // 'Gift rewards',
     'giftDesc' => '您可以在此處以其他 Jstris 帳號的身分贊助. 於右方的欄位輸入帳號名稱(username)並點選 Set 按鈕. 之後您於此頁面送出的任何贊助都會指定給這個帳號', 
