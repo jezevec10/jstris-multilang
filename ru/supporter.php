@@ -4,7 +4,7 @@
 
 return [
     'donate' => 'Донат', //menu item, short
-    'descr' => 'Поддержите Jstris: пожертвуйте and получите Supporter награды',
+    'descr' => 'Поддержите Jstris: пожертвуйте и получите Supporter награды',
     'supportJstris' => 'Поддержите Jstris',
     'supportDesc1' => 'Если Вы хотите поддержать эту игру, пожертвуйте и помогите покрыть стоимости серверов и разработки игры.', 
 	//"If you wish to support this game, donate and help cover the costs of servers and development." -mLurker
@@ -69,4 +69,7 @@ return [
     'roleAdded' => 'Добавлена на Вашу учётную запись Discord :name.',
     'addDiscord' => 'Перед использованием, добавьте Вашу учётную запись Discord в <a href=":link">настройках учётной записи Jstris</a>.',
     'apply' => 'Применить',
+	
+	//from October 25th, 2022. -mLurker
+	'supportUs' => 'Поддержите нас',
 ];
