@@ -115,7 +115,7 @@ return [
     'all' => 'Все',
     'preset' => 'Правила',
     'save' => 'Сохранить',
-    'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details in Discord - metallicLurker#9999
+    'translationBy' => 'metallicLurker, EDETNAOZERO', //Contact me on any uncertainties or details in Discord - metallicLurker
 	
 	//New strings:
 	//from July 29th, 2019. -mLurker
@@ -170,7 +170,7 @@ return [
 	'hostStart' => 'Старт от хоз.', //As in, "Start from host". -mLurker
 	
 	//from August 21st, 2019. -mLurker
-	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году',
+	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году.',
 	'tsdsCounter' => 'TSD выполнено', //See frontend.php for explanation. -mLurker
 	'20TSD' => '20TSD', //Unlocalised. -mLurker
 	
@@ -203,4 +203,12 @@ return [
 	'downstack' => 'Очистка мусора',
 	'wasted' => 'Т Потрачено', //"T Wasted". -mLurker
 	'expand' => 'Раскрыть', //Not sure where this is used. -mLurker
+
+	//from October 25th, 2022. -mLurker
+	'skin' => 'Фигуры', //"Blocks", may be changed if "blockskin" becomes more common. -mLurker
+	'skin2' => 'Вид фигур', //"Block appearance", see above. - mLurker
+	'guestRooms' => 'Гостевые комнаты',
+	'bots' => 'Боты',
+	'rulesets' => 'Наборы правил',
+	'solidGarbageSpeed' => 'Скорость заполнения',
 ];
