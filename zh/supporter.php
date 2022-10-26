@@ -4,7 +4,8 @@
 
 return [
     'donate' => '捐赠', //menu item, short
-    'descr' => '支持 Jstris ，捐赠并享受会员权利',
+    'supportUs' => '支持我们',    
+    'descr' => '支持 Jstris，捐赠并享受会员权利',
     'supportJstris' => '支持 Jstris',
     'supportDesc1' => '如果你喜欢这款游戏，你可以支持这款游戏，来补足我们的服务器开销，推进游戏的发展。',
     'warnDelay' => '可能花费最多 10 分钟来确认交易生效。之后，你就可以在这里确认你的 Jstris 会员的权利了。',
