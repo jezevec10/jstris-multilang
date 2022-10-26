@@ -97,9 +97,9 @@ Select a language to view more information on which translations are missing.
             <span class="pb-fill" style="width: 98.45%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="ru.html">ru</a></td><td>98.62%</td><td>
+    <tr><td><a href="ru.html">ru</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 98.62%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="sv.html">sv</a></td><td>80.66%</td><td>
@@ -136,4 +136,4 @@ Select a language to view more information on which translations are missing.
 
 -------------------
 
-*Auto-generated on **Fri, 10 Jun 2022 07:55:41 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
+*Auto-generated on **Wed, 26 Oct 2022 10:02:10 +0000**, with the last change in [jstris-multilang GitHub](https://github.com/jezevec10/jstris-multilang/).*
