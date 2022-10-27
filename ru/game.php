@@ -5,13 +5,13 @@ return [
     'live' => 'Против игроков', //"Versus players". -mLurker
     'controls' => 'Управление',
     'gameSettings' => 'Настройки игры',
-    'appearance' => 'Вид и Звук', //This string should be "Appearance and Sound" in English. -mLurker
+    'appearance' => 'Вид и Звук', //Obsolete?. -mLurker
     'more' => '+',
     'gameControls' => 'Управление игры',
     'gameControlsInfo' => 'Нажмите на текстовое окно и выберите желаемую клавишу.',
     'moveLeft' => 'Налево',
     'moveRight' => 'Направо',
-    'softDrop' => 'Медленное падение',
+    'softDrop' => 'Мягкое падение',
     'hardDrop' => 'Быстрое падение',
     'rotateLeft' => 'Поворот налево',
     'rotateRight' => 'Поворот направо',
@@ -155,7 +155,7 @@ return [
 	'comboTable' => 'Табл. комбо', //*
 	'gBlocking' => 'Блок. мусора', //*
 	'blocksType' => 'Тип фигур',
-	'randomizer' => 'ГСФ', //* "Генератор Случайных Фигур", as in "Random Piece Generator". No short Russian term for "Randomizer" found. -mLurker
+	'randomizer' => 'Рандом.', //* Unlocalised. -mLurker
 	'previews' => 'Дл. очереди', //* As in, "Next queue length". -mLurker
 	'solidGarbage' => 'Заполнять', //* As in, "Fill". -mLurker
 	'solidAfterSecs' => 'После',
@@ -164,7 +164,7 @@ return [
 	'speedLimit' => 'Лим. скорости', //*
 	'gravityLvl' => 'Гравитация',
 	'garbageDelay' => 'Задерж. мусора', //*
-	'garbageMess' => 'Замеш. мусора', //*
+	'garbageMess' => 'Разброс мусора', //*
 	'solidAtk' => 'Атака полн.', //* As in, "Attack with full". -mLurker
 	'noFW' => 'Бан на 4-wide', //* As in, "Ban 4-wide". -mLurker
 	'hostStart' => 'Старт от хоз.', //As in, "Start from host". -mLurker
@@ -179,10 +179,10 @@ return [
 	'touchBtnMove' => 'Разрешить передвижение экранных кнопок',
 	'mLay' => 'Использовать мобильную раскладку',
 	'mLayInfo' => 'Отключите эту настройку, чтобы не загружать мобильную раскладку. Потребуется обновление.',
-	'allSpin' => 'Все Повороты',
+	'allSpin' => 'All-Spins', //Unlocalised. -mLurker
 	'asImmobile' => 'По неподвиж.', //Shortened "By immobility". -mLurker
 	'as4Point' => 'По 4 точкам', //"By 4 points". -mLurker
-	'allSpinNA' => 'Исключить Повороты', //"Exclude Spins". -mLurker
+	'allSpinNA' => 'Исключить Spin(-ы)', //"Exclude Spins". -mLurker
 	
 	//from January 22nd, 2020. -mLurker
 	'pcCounter' => 'Perfect Clears', //Unlocalised. -mLurker

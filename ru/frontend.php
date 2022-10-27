@@ -83,12 +83,12 @@ return [
     'roomSettings' => 'Настройки комнаты:',
     'attack' => 'Атака',
     'combo' => 'Комбо',
-    'solid' => 'Полные линии', //Updated. -mLurker
-    'clear' => 'Очистка', //Taken from Tetris Ultimate, also unsure where this is used. -mLurker
+    'solid' => 'Заполнение', //Finally found the context for the following 6 strings, updated accordingly. -mLurker
+    'clear' => 'Очистка',
     'mode' => 'Режим',
-    'garbage' => 'Мусор',
+    'garbage' => 'Метод атаки',
     'garbageDelay' => 'Задержка мусора',
-    'messiness' => 'Расброс мусора',
+    'messiness' => 'Разброс мусора',
     'replay' => 'Повтор',
     'rep' => 'Пов', //max 3, short for Replay
     'rec' => 'Зап.', //max 4, short for Received

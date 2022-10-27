@@ -94,7 +94,7 @@ return [
     'maxAPM' => 'Наиб. Ат./мин',
     'maxREN' => 'Наиб. комбо',
     'longestGame' => 'Самая долгая игра',
-    'totalB2B' => 'Общее кол-во СкС', //"СкС" - rus. "Спина к спине", literally "Back-to-Back". -mLurker
+    'totalB2B' => 'Общее кол-во B2B', //Unlocalised. -mLurker
     'mostSent' => 'Наиб. кол-во отправл. рядов',
     'hours' => 'часов',
     'minutes' => 'минут',
@@ -185,7 +185,7 @@ return [
 	//from December 7th, 2020. -mLurker
 	'friends' => 'Друзья',
 	'userRanking' => 'Рейтинг рекордов', //"Ratings of records". -mLurker
-	'wasteDesc' => 'Соотношение кол-ва Т-Фигур, не использованных в Т-Поворотах, к общему кол-ву Т-Фигур',
+	'wasteDesc' => 'Соотношение кол-ва Т-Фигур, не использованных в T-Spin(-ах), к общему кол-ву Т-Фигур',
 	'accept' => 'Добавить',
 	'ignore' => 'Отказать', //"Decline", changed for brevity. -mLurker
 	'pending' => 'Запросы в друзья',
