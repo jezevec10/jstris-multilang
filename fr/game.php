@@ -5,6 +5,8 @@ return [
     'live' => 'Direct',
     'controls' => 'Contrôles',
     'gameSettings' => 'Options de jeu',
+    'skin' => 'Texture',
+    'skin2' => 'Texture de bloc',
     'appearance' => 'Apparence',
     'more' => '+',
     'gameControls' => 'Contrôles de jeu',
@@ -109,6 +111,7 @@ return [
     'savePreset' => 'Enregistrer les paramètres',
     'customRooms' => 'Salons personnalisés',
     'overflowRooms' => 'Salons complets',
+    'guestRooms' => 'Salons pour invités',
     'spectateRooms' => 'Salons pour spectateurs seulement',
     'gmode' => 'Mode',
     'gmodeStandard' => 'Standard',
@@ -131,6 +134,8 @@ return [
     'survival' => 'Survie',
     'ultra' => 'Ultra',
     'PCmode' => 'Mode PC',
+    'bots' => 'Bots',
+    'rulesets' => 'jeu de rêgles',
     'all' => 'Tous',
     'preset' => 'Paramètres',
     'save' => 'Enregistrer',
@@ -153,7 +158,7 @@ return [
     's' => 's',
     'hrs' => 'hrs',
     'sound' => 'Son',
-    'enableVSE' => 'Commentaires à la voix',
+    'enableVSE' => 'Commentaires vocaux',
     'rotateSE' => 'Son de rotation de bloc',
     'trem' => 'temps restant',
     'mapDownstack' => 'Map downstack',
@@ -170,6 +175,7 @@ return [
     'randomizer' => 'Générateur aléatoire',
     'previews' => 'Prochains blocs',
     'solidGarbage' => 'Handicap solide',
+    'solidGarpageSpeed' => 'vitesse du handicap solide',
     'solidAfterSecs' => 'Après',
     'lockDelay' => 'Temps de bloquage',
     'clearDelay' => 'Temps de supression',
@@ -192,5 +198,5 @@ return [
 
     'expand' => 'Etendre',  //tooltip for icon to expand chat
 
-    'translationBy' => 'Noël Nadal, Merevir go',
+    'translationBy' => 'Noël Nadal, Merevir go, Aphélie Moisson-Franckhauser',
 ];

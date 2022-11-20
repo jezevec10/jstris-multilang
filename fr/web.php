@@ -38,6 +38,7 @@ return [
     'leastBlocks' => 'Le moins de blocs',
     'myTimes' => 'Mes temps',
     'perfectFinesse' => '0 finesse',
+    'mostGames' => 'le plus de parties',
 
     /* Replay */
     'load' => 'Charger',

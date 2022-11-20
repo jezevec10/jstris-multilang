@@ -2,6 +2,7 @@
 
 return [
     'donate' => 'Faire un don',
+    'supportUs' => 'Soutenez nous',
     'descr' => 'Soutenez Jstris en faisant un don et gagnez des récompenses exclusives.',
     'supportJstris' => 'Soutenez Jstris',
     'supportDesc1' => 'Si vous appréciez ce jeu, pensez à faire un don pour soutenir ce projet. Vous aiderez ainsi à couvrir les dépenses liées aux serveurs et aux développements futurs.',
