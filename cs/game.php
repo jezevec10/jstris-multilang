@@ -116,7 +116,7 @@ return [
     'savePreset' => 'Uložit přednastavení',
     'customRooms'=> 'Vlastní místnosti',
     'overflowRooms'=> 'Přeplněné místnosti',
-    'guestRooms'=> 'Místnosti pro hosty',
+    'guestRooms'=> 'Místnosti pro nepřihlášené',
     'spectateRooms'=> 'Místnosti jen k dívání',
     'gmode'=> 'Režim',
     'gmodeStandard'=> 'Standardní',
