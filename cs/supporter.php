@@ -4,6 +4,7 @@
 
 return [
     'donate' => 'Přispět', //menu item, short
+    'supportUs' => 'Podpořte nás', //menu item, short
     'descr' => 'Podpořte Jstris svým příspěvkem a získejte odměny pro přispěvatele',
     'supportJstris' => 'Podpořte Jstris',
     'supportDesc1' => 'Pokud se vám hra líbí, zvažte prosím podporu tohoto projektu a pomozte pokrýt náklady na hosting a další vývoj.',
