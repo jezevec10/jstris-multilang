@@ -4,6 +4,7 @@
 
 return [
     'donate' => '寄付', //menu item, short
+    'supportUs' => '応援する', //menu item, short
     'descr' => 'Jstrisに寄付をする事でサポーター特典を有効化します',
     'supportJstris' => 'Jstrisを応援する',
     'supportDesc1' => 'もし，このゲームを応援してくれるなら，このプロジェクトへの寄付をして，サーバー費用とさらなる開発を応援してください.',

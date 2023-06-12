@@ -5,6 +5,8 @@ return [
     'live' => '対戦',
     'controls' => 'キー設定',
     'gameSettings' => 'ゲーム設定',
+    'skin' => 'スキン',           // (meaning block-skin texture), short version
+    'skin2' => 'ブロックスキン',    // can be same, or longer than the previous line
     'appearance' => '着せ替え設定',
     'more' => 'その他',
     'gameControls' => 'キーコンフィグ',
@@ -79,7 +81,6 @@ return [
     'sprint'=> 'スプリント',
     'cheese'=> 'チーズ', //チーズレースより、チーズのほうが馴染み深いため。
     'freePlay'=> 'フリープレイ',
-    'close'=> '閉じる',
     'showMoreDetails' => '詳細を表示',
     'showMore'=> 'さらに表示',
     'showLess'=> '隠す',
@@ -115,7 +116,8 @@ return [
     'savePreset' => 'プリセットを保存',
     'customRooms'=> 'カスタムルーム',
     'overflowRooms'=> 'オーバーフロールーム',
-    'spectateRooms'=> '観戦のみのルーム',
+    'spectateRooms'=> '観戦ルーム',
+    'guestRooms'=> 'ゲストルーム',
     'gmode'=> 'モード',
     'gmodeStandard'=> 'スタンダード',
     'gmodeCheese'=> 'チーズ',
@@ -139,6 +141,8 @@ return [
     'ultra' => 'ウルトラ',
     '20TSD' => '20TSD',
     'PCmode' => 'パーフェクトクリアモード',
+    'bots' => 'ボット',
+    'rulesets' => 'ルールセット',
     'all' => '上級',
     'preset' => 'プリセット',
     'save' => '保存',
@@ -170,6 +174,7 @@ return [
     'previews' => 'NEXT数',
     'solidGarbage' => 'せり上がり',
     'solidAfterSecs' => '後',
+    'solidGarbageSpeed' => 'せり上がり速度',
     'lockDelay' => '接着時間',
     'clearDelay' => '消去時間',
     'speedLimit' => '速度制限',
