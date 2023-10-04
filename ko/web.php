@@ -7,6 +7,7 @@ return [
     'mapsBrowse' => '둘러보기',
     'myMaps' => '내가 만든 맵',
     'mapsDesigner' => '맵 디자이너',
+    'randomMap' => '무작위 맵',
     'mapsLatestGames' => '최근 기록',
     'guide' => '가이드',
     'login' => '로그인',
@@ -14,6 +15,7 @@ return [
     'myProfile' => '내 프로필',
     'myImprovement' => '향상 통계',
     'favReplays' => '저장한 다시보기',
+    'friends' => '친구 목록',
     'settings' => '설정',
     'logout' => '로그아웃',
     
@@ -39,6 +41,7 @@ return [
     'leastBlocks' => '최소 블록',
     'myTimes' => '내 기록',
     'perfectFinesse' => '0 피네스',
+    'mostGames' => '최다 게임',
     
     /* Replay */
     'load' => '로드', // 2글자를 초과하면 버튼이 길어져 아래로 내려갑니다.
@@ -60,6 +63,7 @@ return [
     'lAVG' => '구간 평균',
     'gAVG' => '전체 평균',
     'repHelp' => '도움말', //link that shows information how to use the tool
+    'repExport' => 'GIF 또는 영상',
     
     /* PW change */
     'pwChange' => '비밀번호 변경',
@@ -75,6 +79,7 @@ return [
     'timezone' => '시간대',
     'timezoneDesc' => '설정한 시간대에 맞춰 시간을 표시합니다.',
     'country' => '국가',
+    'continent' => '대륙',
     'countryDesc' => '국가별 리더보드를 표시할 때 사용합니다.',
     
     /* Profile */
@@ -82,6 +87,7 @@ return [
     'bestTimes' => '최고 기록',
     'allTimes' => '스프린트 기록 모두 보기',
     'userImpr' => '향상 통계 보기',
+    'userRanking' => '순위 통계',
     'gameStats' => '게임 통계',
     'latestGames' => '최근 게임',
     'noGames' => '아직 플레이한 게임이 없습니다.',
@@ -90,6 +96,9 @@ return [
     'linesSent' => '보낸 줄',
     'linesRec' => '받은 줄',
     'placedBlocks' => '놓은 블록',
+    'blockCnt' => ':cnt 조각',
+    'APM10Games' => '최근 10게임 APM',
+    'PPS10Games' => '최근 10게임 PPS',
     'maxAPM' => '최고 APM',
     'maxREN' => '최대 콤보',
     'longestGame' => '최장 게임',
@@ -97,6 +106,39 @@ return [
     'mostSent' => '최다 공격',
     'hours' => '시간',
     'minutes' => '분',
+    'createdMaps' => 'Created maps',
+    'viewMapsBy' => '생성한 모든 맵 보기',
+    'playersCount' => '플레이어 수',
+    'gameResultPosition' => '순위',
+    'gameResultRoundTime' => '게임 시간',
+    'viewAllGamesOf' => ':mode 의 모든 게임 보기',
+    'noGamesOf' => ':name님은 아직 :mode를 플레이하지 않았습니다.',
+
+    /* Maps */
+    'map' => '맵',
+    'mapCreate' => '맵 만들기',
+    'mapName' => '이름',
+    'mapNameLong' => '맵 이름',
+    'mapDesc' => '설명',
+    'mapRules' => '규칙',
+    'mapOptions' => '옵션',
+    'mapPlay' => '플레이',
+    'mapPlayLink' => '맵 플레이',
+    'mapAuthor' => '작성자',
+    'mapCreatedBy' => '작성자',
+    'backToMaps' => '목록으로 돌아가기',
+    'playThisMap' => '현재 맵 플레이하기',
+    'search' => '검색',
+    'myMaps' => '내가 만든 맵',
+    'mapsByUser' => ':name님의 맵',
+    'displayUnpublished' => ':cnt개의 비공개맵 표시',
+    'displayPublished' => ':cnt개의 공개맵 표시',
+    'usersMapMedals' => ':name님의 맵 메달',
+    'usersCompletedMaps' => ':name님이 완성한 맵',
+    'showRecords' => '기록 보기',
+    'details' => '상세정보',
+    'playedBy' => '플레이어',
+    'latestMapGames' => '최근 플레이된 맵 게임',
     
     /* Stats */
     'improvementStats' => '향상 통계',
@@ -117,10 +159,45 @@ return [
     'contact' => '연락처',
     'serverCoverage' => '서버 비용 확보 상황', // 320 폭의 모바일 화면에서 9자 미만이 적당합니다.
     'supporters' => '프로젝트 후원자',
+    'translators' => '번역가',
+    'moderators' => '관리자',
     
     /* Other */
     'notFound' => '찾을 수 없습니다.',
     'invalidLink' => '요청한 링크가 유효하지 않습니다.',
     'brb' => '잠시만 기다려주세요.',
     'tryAgain' => '현재 업데이트 중이니, 잠시 후 다시 시도해주세요.',
+    'wasteDesc' => 'T-Spin에 사용되지 않은 T 조각의 비율 (전체 T 조각 중)',
+
+    /* Settings - Other options */
+    'setOther' => '기타 옵션',
+    'hideAcc' => '계정 숨기기',
+    'accVisibility' => '가시성',
+    'hideAccInfo' => '선택하면, 계정이 공개 리더보드에서 제외됩니다.',
+
+    /* Chat reports */
+    'reportU' => '플레이어 신고하기',
+    'reportDesc' => '누군가 게임 채팅을 악용했다고 생각하면, 여기에서 신고할 수 있습니다.',
+    'user' => '플레이어 이름',
+    'reason' => '신고사유',
+    'rr0' => '스팸이나 원하지 않은 광고',
+    'rr1' => '노골적인 성적 콘텐츠',
+    'rr2' => '혐오 발언',
+    'rr3' => '괴롭힘',
+    'rr4' => '기타 (이유를 작성해 주세요)',
+    'sendReport' => '신고 접수하기',
+    
+    /* Friends */
+    'accept' => '승인',
+    'ignore' => '무시',
+    'pending' => '대기 중인 요청',
+    'frFilter' => '이름 검색',
+    'noPending' => '현재 대기 중인 친구 요청이 없습니다.',
+    'onlineNow' => '온라인',
+    'recentlyAc' => '최근 활동함',
+    'lastActive' => '마지막 접속 :when',
+    'noFriends' => '현재 친구 목록이 비어 있습니다.',
+    'ruSure' => '친구 삭제 확인',
+    'rmFriend' => '친구 목록에서 이 사용자를 정말 삭제할까요?',
+    'rmConfirm' => '네, 삭제할게요',
 ];
