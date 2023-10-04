@@ -46,7 +46,7 @@ return [
     'noSpectators' => 'Никто сейчас не наблюдает.',
     'replayAvailable' => 'Повтор сохранён в:',
     'oldVer' => 'У Вас устаревшая версия, нажмите CTRL+F5, чтобы загрузить новую версию!',
-    'privateRoom' => 'Это - Ваша приватная комната, никто тут Вам не помешает. Просмотрите Лобби для открытых комнат.',
+    'privateRoom' => 'Это - Ваша приватная комната, где никто Вам не помешает. Просмотрите Лобби для открытых комнат.',
     'restartInfo' =>  'Нажмите на F4 (или на выбранную Вами клавишу), чтобы перезапустить.',
     'joinLinkInfo' => 'Эта комната - приватная. В неё можно войти только через эту ссылку:',
 
@@ -83,12 +83,12 @@ return [
     'roomSettings' => 'Настройки комнаты:',
     'attack' => 'Атака',
     'combo' => 'Комбо',
-    'solid' => 'Полные линии', //Updated. -mLurker
-    'clear' => 'Очистка', //Taken from Tetris Ultimate, also unsure where this is used. -mLurker
+    'solid' => 'Заполнение', //Finally found the context for the following 6 strings, updated accordingly. -mLurker
+    'clear' => 'Очистка',
     'mode' => 'Режим',
-    'garbage' => 'Мусор',
+    'garbage' => 'Метод атаки',
     'garbageDelay' => 'Задержка мусора',
-    'messiness' => 'Расброс мусора',
+    'messiness' => 'Разброс мусора',
     'replay' => 'Повтор',
     'rep' => 'Пов', //max 3, short for Replay
     'rec' => 'Зап.', //max 4, short for Received

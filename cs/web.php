@@ -41,6 +41,7 @@ return [
     'leastBlocks' => 'Nejméně bloků',
     'myTimes' => 'Moje časy',
     'perfectFinesse' => 'Bezchybná finesse',
+    'mostGames' => 'Nejvíce her',
     
     /* Replay */
     'load' => 'Načíst',

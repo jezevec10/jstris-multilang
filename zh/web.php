@@ -41,6 +41,7 @@ return [
     'leastBlocks' => '最少方块数',
     'myTimes' => '我的时间',
     'perfectFinesse' => '无多余操作',
+    'mostGames' => '最多游戏次数',
     
     /* Replay */
     'load' => '读取',

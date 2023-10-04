@@ -48,7 +48,7 @@ return [
     'welcome' => 'Välkommen,', //in 'Welcome User1!'
     'welcomeIn' => 'Välkommen i', //in 'Welcome in RoomName.'
     'noSpectators' => 'Ingen tittar på just nu.',
-    'replayAvailable' => 'Replay available at',
+    'replayAvailable' => 'Återuppspelning tillgänglig på',
     'oldVer' => 'Du har en gammal version, använd CTRL+F5 för att ladda om till den nya versionen!',
     'oldVer2' => 'Du har fortfarande den gamla versionen! Använd {key} för att ladda om klienten',
     'privateRoom' => 'Det här är ditt privata rum där du inte kommer bli störd medan du spelar. Kolla lobbyn för att se officiella rum.',
@@ -57,7 +57,7 @@ return [
 
     //Dynamic elements
     'received' => 'Mottaget', //max 15
-    'finesse' => 'Finesse',   //max 15
+    'finesse' => 'Finess',   //max 15
 
     //List of rooms
     'roomName' => 'Rum Namn',
@@ -94,14 +94,14 @@ return [
     'garbage' => 'Skräp',
     'garbageDelay' => 'SkräpDröjning',
     'messiness' => 'Rörighet',
-    'replay' => 'Replay',
+    'replay' => 'Återuppspelning',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => 'Rec.', //max 4, short for Received
     'enterNullDAS' => 'Enter numeric NullpoMino DAS value:',
     'suggestedIs' => 'Suggested DAS is',
     'applyConfirm' => 'Tillämpa?',
     'invalidDAS' => 'DAS value is invalid, was not changed!',
-    'settingsChanged' => 'Inställningar har ändrats under detta spel. Replay ogiltighetsförklarad.',
+    'settingsChanged' => 'Inställningar har ändrats under detta spel. Återuppspelning ogiltighetsförklarad.',
     'segment' => 'Segment',
     'duration' => 'Varaktighet',
     'roomFull' => 'Rummet verkar vara fullt.',
@@ -112,9 +112,9 @@ return [
     'stngsCustom' => 'Egna inställningar',
     'aSpec' => 'Redan i åskådarläge!',
     'aPlay' => 'Spelar redan!',
-    'repFail' => 'Replay misslyckades att spara.',
-    'repInChat' => 'Replay filen dumpades i chatten. För att bevara den, kopiera texten i rutan och klistra in den i din favorit-textredigerare.',
-    'repTxtInfo' => 'Den kopierade replayfilen kan spelas upp i uppspelaren eller eventuellt skickas in igen till sidan.',
+    'repFail' => 'Återuppspelning misslyckades att spara.',
+    'repInChat' => 'Återuppspelning filen dumpades i chatten. För att bevara den, kopiera texten i rutan och klistra in den i din favorit-textredigerare.',
+    'repTxtInfo' => 'Den kopierade återuppspelningsfilen kan spelas upp i uppspelaren eller eventuellt skickas in igen till sidan.',
 
     'newPB' => 'DITT NYA REKORD',
     'firstPB' => 'Det här var ditt första spel. Få ett nytt rekord för att spåra dina förbättringar.',
@@ -124,39 +124,39 @@ return [
     'raceFin' => 'TÄVLNINGEN HAR AVSLUTATS',
     'raceFinInfo' => 'Du kan spela vidare, men nästa runda kan starta när som helst.',
 
-    'notTSD' => 'NOT TSD',
+    'notTSD' => 'INTE TSD',
     'notTSDInfo' => 'Bara T-Spin Dubbel är tillåtet',
 
-    'notPC' => 'NOT a PC',
-    'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
+    'notPC' => 'INTE en PC',
+    'notPCInfo' => 'Gör en perfekt rensning varje tionde block. Ditt bräde är ej rensningsbart.',
 
-    'fwDetect' => 'FOUR WIDE',
+    'fwDetect' => 'FYRA BRED',
     'fwDetectInfo' => 'Attackerar dig själv!',
 
-    'oops' => 'Oops!',
+    'oops' => 'Ånej!',
     'chatNA' => 'Allmän chattning är inte tillgängigt för gäster eller användare med mindre än {chReq} timmar av speltid.',
     'leMore' => 'Läs mer',
 
-    'connLimit' => 'The maximum amount of open connections for this IP is curently reached. If you need increased limits, contact us via Discord',
-    'idleDC' => 'Disconnected for inactivity! Spectator section was full.',
-    'RLreach' => 'Rate limit reached.',
-    'ban1' => 'Your access to the Live games has been permanently restricted. You can still play singleplayer modes.',
-    'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
-    'ncGS' => 'Not connected to the game server, try {refr}.',
-    'refr' => 'refreshing the page',
+    'connLimit' => 'Den maximala mängden öppna anslutningar för denna IP har nåtts för närvarande. Om du behöver ökade gränser, kontakta oss via Discord',
+    'idleDC' => 'Bortkopplad på grund av inaktivitet! Åskådarsektionen var fullt.',
+    'RLreach' => 'Hastighetsgräns nådd.',
+    'ban1' => 'Din tillgång till live-spelen har permanent begränsats. Du kan fortfarande spela enspelarlägen.',
+    'ban2' => 'Detta användarkonto är avstängt. Logga in igen till webbplatsen för mer information.',
+    'ncGS' => 'Inte ansluten till spelservern, försök {refr}.',
+    'refr' => 'laddar om sidan',
 
-    'nsUnpub' => 'Record not saved, the map is not published.',
-    'nsTspins' => 'Record not saved, not enough T-Spins.',
-    'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
+    'nsUnpub' => 'Rekord sparades inte, banan är inte publicerad.',
+    'nsTspins' => 'Rekord sparades inte, inte tillräckligt med T-Spins.',
+    'nsLowPC' => 'Rekord sparades inte, åtminstone 2 perfekta rensningar behövs.',
 
     //Room info detail
     'noPlayers' => 'Inga spelare',
     'cntMore' => '{cnt} mer',          //e.g. +10 more
     'cntGuests' => '{cnt} gäster',      //e.g. +10 guests
     'cntSpec' => '{cnt} åskådare',    //e.g. +10 spectating
-    'joinPossible' => 'Join possible',
-    'notEligible' => 'Not eligible',
-    'gTimeShort' => 'G.time',
+    'joinPossible' => 'Möjligt att gå med',
+    'notEligible' => 'Inte berättigad',
+    'gTimeShort' => 'G.tid',
     'on' => 'På',
     'off' => 'Av',
 ];

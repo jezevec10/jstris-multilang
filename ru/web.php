@@ -9,7 +9,7 @@ return [
     'mapsDesigner' => 'Дизайнер карт',
 	'randomMap' => 'Случайная карта',
     'mapsLatestGames' => 'Последние игры',
-    'guide' => 'Гид', //Guide translation coming soon. -mLurker
+    'guide' => 'Гид', //Guide translation provided by EDETNAOZERO. -mLurker
     'login' => 'Войти',
     'register' => 'Зарегистрироваться',
     'myProfile' => 'Мой профиль',
@@ -27,7 +27,7 @@ return [
     'date' => 'Дата',
     'replay' => 'Повтор',
     'place' => 'Место',
-    'nli' => 'Вы не вошли в свой аккаунт!',
+    'nli' => 'Вы не вошли в свою учётную запись!',
     'today' => 'Сегодня',
     'lastWeek' => 'За неделю',
     'lastMonth' => 'За месяц',
@@ -94,7 +94,7 @@ return [
     'maxAPM' => 'Наиб. Ат./мин',
     'maxREN' => 'Наиб. комбо',
     'longestGame' => 'Самая долгая игра',
-    'totalB2B' => 'Общее кол-во СкС', //"СкС" - rus. "Спина к спине", literally "Back-to-Back". -mLurker
+    'totalB2B' => 'Общее кол-во B2B', //Unlocalised. -mLurker
     'mostSent' => 'Наиб. кол-во отправл. рядов',
     'hours' => 'часов',
     'minutes' => 'минут',
@@ -166,9 +166,9 @@ return [
 	
 	//from January 4th, 2020. -mLurker
 	'setOther' => 'Другие настройки',
-	'hideAcc' => 'Спрятать аккаунт', //As in, "Hide the account". -mLurker
+	'hideAcc' => 'Спрятать учётную запись', //As in, "Hide the account". -mLurker
 	'accVisibility' => 'Видимость',
-	'hideAccInfo' => 'Этот аккаунт не появится в списке рекордов, если эта настройка включена.',
+	'hideAccInfo' => 'Эта учётная запись не появится в списке рекордов, если эта настройка включена.',
 
 	//from May 21st, 2020. -mLurker
 	'reportU' => 'Пожаловаться',
@@ -185,7 +185,7 @@ return [
 	//from December 7th, 2020. -mLurker
 	'friends' => 'Друзья',
 	'userRanking' => 'Рейтинг рекордов', //"Ratings of records". -mLurker
-	'wasteDesc' => 'Соотношение кол-ва Т-Фигур, не использованных в Т-Поворотах, к общему кол-ву Т-Фигур',
+	'wasteDesc' => 'Соотношение кол-ва Т-Фигур, не использованных в T-Spin(-ах), к общему кол-ву Т-Фигур',
 	'accept' => 'Добавить',
 	'ignore' => 'Отказать', //"Decline", changed for brevity. -mLurker
 	'pending' => 'Запросы в друзья',
@@ -198,4 +198,7 @@ return [
 	'ruSure' => 'Вы уверены?',
 	'rmFriend' => 'Вы хотите убрать этого игрока из списка друзей?',
 	'rmConfirm' => 'Убрать', 
+
+	//from October 25th, 2022. -mLurker
+	'mostGames' => 'Больше всего игр',
 ];

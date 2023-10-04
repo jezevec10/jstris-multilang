@@ -5,13 +5,13 @@ return [
     'live' => 'Против игроков', //"Versus players". -mLurker
     'controls' => 'Управление',
     'gameSettings' => 'Настройки игры',
-    'appearance' => 'Вид и Звук', //This string should be "Appearance and Sound" in English. -mLurker
+    'appearance' => 'Вид и Звук', //Obsolete?. -mLurker
     'more' => '+',
     'gameControls' => 'Управление игры',
     'gameControlsInfo' => 'Нажмите на текстовое окно и выберите желаемую клавишу.',
     'moveLeft' => 'Налево',
     'moveRight' => 'Направо',
-    'softDrop' => 'Медленное падение',
+    'softDrop' => 'Мягкое падение',
     'hardDrop' => 'Быстрое падение',
     'rotateLeft' => 'Поворот налево',
     'rotateRight' => 'Поворот направо',
@@ -115,7 +115,7 @@ return [
     'all' => 'Все',
     'preset' => 'Правила',
     'save' => 'Сохранить',
-    'translationBy' => 'metallicLurker', //Contact me on any uncertainties or details in Discord - metallicLurker#9999
+    'translationBy' => 'metallicLurker, EDETNAOZERO', //Contact me on any uncertainties or details in Discord - metallicLurker
 	
 	//New strings:
 	//from July 29th, 2019. -mLurker
@@ -155,7 +155,7 @@ return [
 	'comboTable' => 'Табл. комбо', //*
 	'gBlocking' => 'Блок. мусора', //*
 	'blocksType' => 'Тип фигур',
-	'randomizer' => 'ГСФ', //* "Генератор Случайных Фигур", as in "Random Piece Generator". No short Russian term for "Randomizer" found. -mLurker
+	'randomizer' => 'Рандом.', //* Unlocalised. -mLurker
 	'previews' => 'Дл. очереди', //* As in, "Next queue length". -mLurker
 	'solidGarbage' => 'Заполнять', //* As in, "Fill". -mLurker
 	'solidAfterSecs' => 'После',
@@ -164,13 +164,13 @@ return [
 	'speedLimit' => 'Лим. скорости', //*
 	'gravityLvl' => 'Гравитация',
 	'garbageDelay' => 'Задерж. мусора', //*
-	'garbageMess' => 'Замеш. мусора', //*
+	'garbageMess' => 'Разброс мусора', //*
 	'solidAtk' => 'Атака полн.', //* As in, "Attack with full". -mLurker
 	'noFW' => 'Бан на 4-wide', //* As in, "Ban 4-wide". -mLurker
 	'hostStart' => 'Старт от хоз.', //As in, "Start from host". -mLurker
 	
 	//from August 21st, 2019. -mLurker
-	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году',
+	'webGLInfo' => 'Отмените эту настройку если у вас не работает OpenGL рендеринг в :year году.',
 	'tsdsCounter' => 'TSD выполнено', //See frontend.php for explanation. -mLurker
 	'20TSD' => '20TSD', //Unlocalised. -mLurker
 	
@@ -179,10 +179,10 @@ return [
 	'touchBtnMove' => 'Разрешить передвижение экранных кнопок',
 	'mLay' => 'Использовать мобильную раскладку',
 	'mLayInfo' => 'Отключите эту настройку, чтобы не загружать мобильную раскладку. Потребуется обновление.',
-	'allSpin' => 'Все Повороты',
+	'allSpin' => 'All-Spins', //Unlocalised. -mLurker
 	'asImmobile' => 'По неподвиж.', //Shortened "By immobility". -mLurker
 	'as4Point' => 'По 4 точкам', //"By 4 points". -mLurker
-	'allSpinNA' => 'Исключить Повороты', //"Exclude Spins". -mLurker
+	'allSpinNA' => 'Исключить Spin(-ы)', //"Exclude Spins". -mLurker
 	
 	//from January 22nd, 2020. -mLurker
 	'pcCounter' => 'Perfect Clears', //Unlocalised. -mLurker
@@ -203,4 +203,12 @@ return [
 	'downstack' => 'Очистка мусора',
 	'wasted' => 'Т Потрачено', //"T Wasted". -mLurker
 	'expand' => 'Раскрыть', //Not sure where this is used. -mLurker
+
+	//from October 25th, 2022. -mLurker
+	'skin' => 'Фигуры', //"Blocks", may be changed if "blockskin" becomes more common. -mLurker
+	'skin2' => 'Вид фигур', //"Block appearance", see above. - mLurker
+	'guestRooms' => 'Гостевые комнаты',
+	'bots' => 'Боты',
+	'rulesets' => 'Наборы правил',
+	'solidGarbageSpeed' => 'Скорость заполнения',
 ];

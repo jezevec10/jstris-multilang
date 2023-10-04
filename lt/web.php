@@ -1,0 +1,150 @@
+<?php
+
+return [
+    'leaderboard' => 'lyderių lentelė',
+    'tournament' => 'Turnyras',
+    'mapsBrowse' => 'Naršyti',
+    'mapsLatestGames' => 'Paskutiniai žaidimai',
+    'guide' => 'Gidas',
+    'login' => 'Prisijungti',
+    'register' => 'Registruotis',
+    'myProfile' => 'Profilis',
+    'myImprovement' => 'Mano pažanga',
+    'friends' => 'Draugai',
+    'settings' => 'Nustatymai',
+    'logout' => 'Atsijungti',
+    
+    /* Leaderboard */
+    'name' => 'Vardas',
+    'time' => 'Laikas',
+    'blocks' => 'Blokai',
+    'date' => 'Data',
+    'place' => 'Vieta',
+    'nli' => 'Jūs esate neprisijungę!',
+    'today' => 'Šiandien',
+    'lastWeek' => 'Praeitą savaitę',
+    'lastMonth' => 'Prieš mėnesį',
+    'lastYear' => 'Prieš metus',
+    'allTime' => 'Visų laikų',
+    'bestPlayers' => 'Geriausi žaidėjai',
+    'bestGames' => 'Geriausi žaidimai',
+    'latestGames' => 'Paskutiniai žaidimai',
+    'leastBlocks' => 'Mažiausiai blokų',
+    'myTimes' => 'Mano laikai',
+    'mostGames' => 'Daugiausiai žaidimų',
+    
+    /* Replay */
+    'load' => 'Krauti',
+    'play' => 'Rodyti',
+    'pause' => 'Pauzė',
+    'showSeg' => 'Rodyti segmentus',
+    'fastestSeg' => 'Greičiausi segmentai',
+    'slowestSeg' => 'Lėčiausi segmentai',
+    'speedChart' => 'Greičio diagrama',
+    'moreStats' => 'Daugiau statistikos',
+    'lines' => 'Eilučių',
+    'applyFilter' => 'Išsaugoti filtrą',
+    'timestamp' => 'Laiko žyma',
+    'position' => 'Pozicija', //position in a replay
+    'repHelp' => 'Pagalba', //link that shows information how to use the tool
+    'repExport' => 'GIF arba video',
+    
+    /* PW change */
+    'pwChange' => 'Keisti slaptažodį',
+    'newPw' => 'Naujas slaptažodis',
+    'applyChange' => 'Išsaugoti pakeitimus',
+    
+    /* Localization settings */
+    'localSettings' => 'Lokalizacijos nustatymai',
+    'lang' => 'Kalba',
+    'langNone' => 'Jokie',
+    'langDesc' => 'Pasirinkite norima kalba.',
+    'timezone' => 'Laiko zona',
+    'timezoneDesc' => 'Naudojama konvertuoti laiką į jūsų lokalų laiką.',
+    'country' => 'Šalis',
+    'continent' => 'Kontinentas',
+    'countryDesc' => 'Naudojama atskirų šalių lyderių lentelėje.',
+    
+    /* Profile */
+    'ownProfile' => 'Jūsų viešas profilis prieinamas',
+    'bestTimes' => 'Geriausi laikai',
+    'allTimes' => 'Žiūrėti visus sprinto žaidimus',
+    'userImpr' => 'Tobulėjimo statistika',
+    'userRanking' => 'Rango statistika',
+    'gameStats' => 'Žaidimo statistika',
+    'latestGames' => 'Paskutiniai žaidimai',
+    'noGames' => 'Šis žaidėjas dar nežaidė jokių žaidimų.',
+    'gamesPlayed' => 'Žaidimai',
+    'totalTime' => 'Bendras laikas',
+    'placedBlocks' => 'Blokų padėta',
+    'blockCnt' => ':cnt blokai',
+    'maxAPM' => 'Max. APM',
+    'maxREN' => 'Max. Combo',
+    'longestGame' => 'Ilgiausias žaidimas',
+    'hours' => 'valandos',
+    'minutes' => 'minutės',
+    'playersCount' => 'Žaidėjai',
+    'gameResultPosition' => 'Pozicija',
+    'gameResultRoundTime' => 'Žaidimo laikas',
+    'viewAllGamesOf' => 'Visi :mode žaidimai',
+    'noGamesOf' => 'Žaidėjas :name nežaidė :mode žaidimų.',
+    
+    /* Maps */
+    'mapCreate' => 'Sukurti naują',
+    'mapName' => 'Pavadinimas',
+    'mapNameLong' => 'Map Pavadinimas',
+    'mapDesc' => 'Aprašymas',
+    'mapRules' => 'Taisyklės',
+    'mapOptions' => 'Nustatymai',
+    'mapPlay' => 'Žaisti',
+    'mapAuthor' => 'Autorius',
+    'mapCreatedBy' => 'Sukurta',
+    'search' => 'Ieškoti',
+    'showRecords' => 'Rodyti rekordus',
+    'details' => 'Detalės',
+    'playedBy' => 'Žaista',
+
+    /* Stats */
+    'improvementStats' => 'Tobulėjimo statistika',
+    //keep ':name'
+    'date' => 'Data',
+    'result' => 'Rezultatas',
+    'submit' => 'Pateikti',
+    'dispAll' => 'Rodyti visus žaidimus',
+    
+    /* About */
+    'aboutInfo' => 'Jstris yra paprastas online multiplayer blokų žaidimas padarytas su Javascript, HTML5 ir Python (server).',
+    'version' => 'Versija',
+    'changelog' => 'Pakeitimai',
+    'discussion' => 'Diskusija',
+    'learnMore' => 'Sužinoti daugiau',
+    'contact' => 'Kontaktai',
+    'supporters' => 'Projekto remėjai',
+    'translators' => 'Vertėjai',
+    'moderators' => 'Moderatoriai',
+    
+    /* Other */
+    'notFound' => 'Nerasta.',
+    'brb' => 'Tuoj grįšiu.',
+    'tryAgain' => 'Saitas yra atnaujinamas, bandykite vėliau.',
+
+    /* Settings - Other options */
+    'setOther' => 'Kiti nustatymai',
+    'hideAcc' => 'Paslėpta paskyra',
+    'accVisibility' => 'Matomumas',
+    'hideAccInfo' => 'Jei įgalintas, paskyra bus neįtraukta į viešas lyderiu lenteles.',
+    
+    /* Friends */
+    'accept' => 'Priimti',
+    'ignore' => 'Ignoruoti',
+    'pending' => 'Prašymas laukiamas peržiūros',
+    'frFilter' => 'Filtruoti vardus',
+    'noPending' => 'Šiuo metu jus neturite peržiūros laukiančiu užklausų.',
+    'onlineNow' => 'Prisijungęs',
+    'recentlyAc' => 'Neseniai prisijungęs',
+    'lastActive' => 'Aktyvus prieš :when',
+    'noFriends' => 'Šiuo metu jūsų draugų sąrašas yra tuščias.',
+    'ruSure' => 'A tu tuom tikras?',
+    'rmFriend' => 'A nuori išmest šį žmogą iš draugų?',
+    'rmConfirm' => 'Tėp, išmesk',
+];
