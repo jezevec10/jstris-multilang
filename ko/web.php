@@ -197,7 +197,7 @@ return [
     'recentlyAc' => '최근 활동함',
     'lastActive' => '마지막 접속 :when',
     'noFriends' => '현재 친구 목록이 비어 있습니다.',
-    'ruSure' => '친구 삭제 확인',
+    'ruSure' => '확인하세요!',
     'rmFriend' => '친구 목록에서 이 사용자를 정말 삭제할까요?',
     'rmConfirm' => '네, 삭제할게요',
 ];
