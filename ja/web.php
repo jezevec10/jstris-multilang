@@ -38,9 +38,10 @@ return [
     'bestGames' => 'プレイヤー重複あり',
     'bestSubs' => '?秒以下のみ',
     'latestGames' => '新着リプレイ',
-    'leastBlocks' => '設置ブロック数順',
+    'leastBlocks' => '設置ブロック数',
     'myTimes' => '自分の記録のみ',
     'perfectFinesse' => '最適化ミス0',
+    'mostGames' => 'プレイ回数',
     
     /* Replay */
     'load' => '読み込み',
