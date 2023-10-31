@@ -2,8 +2,9 @@
 
 return [
     'donate' => '후원하기', //menu item, short
+    'supportUs' => 'Jstris 후원하기', //menu item, short
     'descr' => 'Jstris를 후원하고 후원자 보상을 받을 수 있습니다.',
-    'supportJstris' => 'Jstris를 후원하기',
+    'supportJstris' => 'Jstris 응원하기',
     'supportDesc1' => '이 게임을 재미있게 즐기시고 있다면, 서버 확장 및 추가 개발을 위한 후원을 고려해 주시길 바랍니다 .',
     'warnDelay' => '후원이 Jstris 계정에 반영되기까지 10분 정도 걸릴 수 있습니다. 이후 이 페이지에서 후원자 보상을 꾸밀 수 있습니다.',
 
