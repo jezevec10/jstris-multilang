@@ -137,7 +137,7 @@ return [
     'chatSend' => 'Odeslat',
     'rememberName' => 'Zapamatovat přezdívku',
     'survival' => 'Přežití',
-    'mapDownstack' => 'Obrázky',
+    'mapDownstack' => 'Mapy',
     'ultra' => 'Ultra',
     '20TSD' => '20TSD',
     'PCmode' => 'Režim Perfect Clear',
