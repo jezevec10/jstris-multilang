@@ -2,6 +2,7 @@
 
 return [
     'donate' => 'Doar', //menu item, short
+    'supportUs' => 'Nos apoie', //menu item, short
     'descr' => 'Suporte o Jstris e habilite recompensas de Apoiador mandando uma doação.',
     'supportJstris' => 'Suporte Jstris',
     'supportDesc1' => 'Se você aprecia o jogo, por favor considere uma doação para ajudar a cobrir os gastos do servidor e o desenvolvimento que está a vir.',
