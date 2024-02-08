@@ -53,7 +53,7 @@ return [
     'rewardsAvailable' => 'Tukijan palkinnot saatavilla',
     'rewardsList' => 'Kiitos lahjoituksestasi Jstriskselle! Voit ottaa käyttöön seuraavat palkinnot.',
     'monthlyActive' => 'Sinulla on tällä hetkellä :type subscription active.',
-    'customActive' => 'Sinulla on :type rewards enabled for :days päivää lahjoituksen perusteella',
+    'customActive' => 'Sinulla on :type palkinnot käytössä :days päivää lahjoituksen perusteella',
 
     //configuration
     'gift' => 'Lahjapalkinnot',
