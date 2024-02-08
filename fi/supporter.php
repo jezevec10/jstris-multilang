@@ -64,7 +64,7 @@ return [
     'randIcon' => 'Valitse uusi kuvake satunnaisesti aina, kun peli ladataan',
     'chatColor' => 'Mukautettu pelin sisäisen nimen väri',
     'supporterList' => 'Käyttäjänimi mainittu kannattajaluettelossa',
-    'roleAdded' => 'Lisätty yhdistetylle Discord-tilillesi :name.',
-    'addDiscord' => 'Lisää Discord tilisi <a href=":link">Jstris-tilin asetuksiin</a> ennen käyttöönottoa.',
+    'roleAdded' => 'Lisätty yhdistetylle Discord -tilillesi :name.',
+    'addDiscord' => 'Lisää Discord tilisi <a href=":link">Jstris -tilin asetuksiin</a> ennen käyttöönottoa.',
     'apply' => 'Ota muutokset käyttöön',
 ];
