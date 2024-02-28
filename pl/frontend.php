@@ -4,7 +4,7 @@ return [
     //On screen captions
     'ready' => 'GOTÓW',
     'go' => 'START!',
-    'notFocused' => 'Nieaktywne', //max 13 characters ("Out of focus" has no analogy in polish, used "inactive" instead. -Adul)
+    'notFocused' => 'Nieaktywny', //max 13 characters ("Out of focus" has no analogy in polish, used "inactive" instead. -Adul)
     'clickToFocus' => 'Kliknij tu aby aktywować grę', //max 30 characters
     'specMode' => 'Tryb widza',
     'specModeInfo' => 'Jesteś teraz w trybie widza.',
@@ -33,10 +33,10 @@ return [
     'newsUser' => 'Wiadomości', //special username in chat
     'serverUser' => 'Serwer', //special username in chat
     'noNamed' => 'NoNamed', //user wihtout name (guest), max 7, can stay untranslated
-    'watching' => 'Ogląda', //in 'Watching: user1,user2..', altern.=Spectators
+    'watching' => 'Oglądają', //in 'Watching: user1,user2..', altern.=Spectators
     'userJoined'=>'dołączył do pokoju', //in 'User1 joined the room.'
     'joined' => 'dołączył', //in title: 'User1 joined!'
-    'userCame' => 'pezyszedł oglądać',  //in 'User1 came to watch.'
+    'userCame' => 'przyszedł oglądać',  //in 'User1 came to watch.'
     'isSpectating' => 'teraz ogląda', //in 'User1 is now spectating.'
     'spectator' => 'Widz',
     'hasLeft' => 'wyszedł', //in 'Spectator User1 has left.'
@@ -65,7 +65,7 @@ return [
     'time' => 'Czas', //as game duration
     'received' => 'Otrzymano',
     'sent' => 'Wysłano',
-    'blocks' => 'Bloków', //as number of blocks placed
+    'blocks' => 'Bloki', //as number of blocks placed
     'ren' => 'REN',
 
     //Practice mode result
@@ -74,7 +74,7 @@ return [
     'leaderboard' => 'ranking',
 
     //Less common strings, can stay untranslated
-    'warning2' => 'OSTRZERZENIE',
+    'warning2' => 'OSTRZEŻENIE',
     'connected' => 'Połączono',
     'client' => 'klient',
     'notConnected' => 'NIE POŁĄCZONO',
@@ -108,7 +108,7 @@ return [
     'roomFull' => 'Wygląda na to że pokój jest pełny.',
     'lobbyInfo' => 'Ten pokój jest współdzielony z {discord}.',
     'newHost' => 'Jesteś hostem tego pokoju.',
-    'badRoom' => 'Ten pokój nie istnieje, dołączanie do Domyślnego pokoju!',
+    'badRoom' => 'Ten pokój nie istnieje, dołączanie do domyślnego pokoju!',
     'stngsChanged' => 'Ustawienia zmienione przez hosta',
     'stngsCustom' => 'Niestandardowe ustawienia',
     'aSpec' => 'Już obserwujesz!',
@@ -117,7 +117,7 @@ return [
     'repInChat' => 'Plik powtórki został wysłany na czacie. Aby go zapisać, skopiuj tekst z okienka i wklej do swojego ulubionego edytora tekstu.',
     'repTxtInfo' => 'Skopiowany plik powtórki może zostać uruchomiony w odtwarzaczu powtórek, lub ponownie zakwalifikowany na stronie.',
     'newPB' => 'TWÓJ NOWY REKORD PERSONALNY',
-    'firstPB' => 'To była Twoja pierwsza gra. Zdobądź kolejny rekord aby śledzić swoje poprawy.',
+    'firstPB' => 'To była Twoja pierwsza gra. Zdobądź kolejny rekord aby śledzić swoje postępy.',
     'infoPB' => 'Twój były rekord to {prevPB} z {prevAgo}. Różnica to {PBdiff}.',
     'daysAgo' => 'dni temu',
     'raceFin' => 'WYŚCIG ZAKOŃCZONY',
@@ -125,16 +125,16 @@ return [
     'notTSD' => 'NIE TSD',
     'notTSDInfo' => 'Tylko podwójny T-Spin jest dozwolony',
     'notPC' => 'NIE PC',
-    'notPCInfo' => 'Wykonaj Perfekcyjne Oczyszczenie co 10 bloków. Twoja tablica nie jest oczyszczalna.',
+    'notPCInfo' => 'Wykonaj Perfekcyjne Wyczyszczenie co 10 bloków. Twoja tablica nie jest oczyszczalna.',
     'fwDetect' => 'SZEROKIE NA CZTERY',
-    'fwDetectInfo' => 'Atakujesz Siebie!',
+    'fwDetectInfo' => 'Atakujesz siebie!',
     'oops' => 'Ups!',
     'chatNA' => 'Publiczny czat nie jest dostępny dla gości, lub graczy z mniej niż {chReq} godzinami gry.',
     'leMore' => 'Zobacz więcej',
     'connLimit' => 'Maksymalna liczba otwartych połączeń dla tego adresu IP została wykorzystana. Jeśli potrzebujesz podnieść limit, skontaktuj się z nami na Discordzie',
     'idleDC' => 'Rozłączono przez brak aktywności! Liczba obserwujących była pełna.',
-    'RLreach' => 'Limit oceny wypełniony.',
-    'ban1' => 'Twój dostęp do gier Live został permanentnie zablokowany. Nadal możesz grać w tryby jednego gracza.',
+    'RLreach' => 'Limit oceny wypełniony.', // This might refer to the packet rate, so this translation might be wrong.
+    'ban1' => 'Twój dostęp do gier Live został permanentnie zablokowany. Nadal możesz grać w tryby dla jednego gracza.',
     'ban2' => 'To konto użytkownika jest ZBANOWANE. Przeloguj się do strony po więcej informacji.',
     'ncGS' => 'Not connected to the game server, try {refr}.',
     'ncGS' => 'Nie połączono do serwera gry, spróbuj {refr}.',
