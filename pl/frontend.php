@@ -25,7 +25,7 @@ return [
     //Chat
     'warning' => 'Ostrzeżenie',
     'inactive1' => 'Tryb widza zostanie aktywowany. Napisz w czacie by anulować.',
-    'inactive2' => 'Wykryto nieaktywność, Kolejna nieaktywna gra włączy tryb widza.',
+    'inactive2' => 'Wykryto nieaktywność. Kolejna nieaktywna gra włączy tryb widza.',
     'nickFill' => 'Wpisz nazwę użytkownika aby móc czatować!',
     'setButton' => 'Set', //max 4
     'sendButton' => 'Send', //max 4
@@ -88,7 +88,7 @@ return [
     'mode' => 'Tryb',
     'garbage' => 'Śmieci',
     'garbageDelay' => 'Opóźnienie śmieci',
-    'messiness' => 'Nieuporządkowanie',
+    'messiness' => 'Bałaganiarstwo',
     'replay' => 'Powtórka',
     'rep' => 'Pow', //max 3, short for Replay
     'rec' => 'Otr.', //max 4, short for Received
@@ -125,7 +125,7 @@ return [
     'notTSD' => 'NIE TSD',
     'notTSDInfo' => 'Tylko podwójny T-Spin jest dozwolony',
     'notPC' => 'NIE PC',
-    'notPCInfo' => 'Wykonaj Perfekcyjne Wyczyszczenie co 10 bloków. Twoja tablica nie jest oczyszczalna.',
+    'notPCInfo' => 'Wykonaj Perfekcyjne Wyczyszczenie co 10 bloków. Twoja plansza nie jest oczyszczalna.',
     'fwDetect' => 'SZEROKIE NA CZTERY',
     'fwDetectInfo' => 'Atakujesz siebie!',
     'oops' => 'Ups!',
