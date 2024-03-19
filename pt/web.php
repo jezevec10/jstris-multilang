@@ -41,6 +41,7 @@ return [
     'leastBlocks' => 'Menor quantia de blocos',
     'myTimes' => 'Meus tempos',
     'perfectFinesse' => 'Fineza 0',
+    'mostGames' => 'Mais jogos',
     
     /* Replay */
     'load' => 'Carregar',

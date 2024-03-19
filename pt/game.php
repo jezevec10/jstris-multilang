@@ -5,6 +5,8 @@ return [
     'live' => 'Online',
     'controls' => 'Controles',
     'gameSettings' => 'Configurações do jogo',
+    'skin' => 'Skin',           // (meaning block-skin texture), short version
+    'skin2' => 'Skin do bloco', // can be same, or longer than the previous line
     'appearance' => 'Aparência',
     'more' => '+',
     'gameControls' => 'Controles do jogo',
@@ -40,7 +42,7 @@ return [
     'appearSound' => 'Aparência & Som',
     'sound' => 'Som',
     'blockStyle' => 'Blocos',
-    'solidBlocks' => 'Cor sólida (sem pele)',
+    'solidBlocks' => 'Cor sólida (sem skin)',
     'invisibleBlocks' => 'Invisível',
     'monochrome' => 'Monocromático',
     'enableSE' => 'Habilitar efeitos sonoros',
@@ -115,6 +117,7 @@ return [
     'savePreset' => 'Salvar a predefinição',
     'customRooms'=> 'Salas personalizadas',
     'overflowRooms'=> 'Salas de overflow',
+    'guestRooms' => 'Salas de convidados',
     'spectateRooms'=> 'Salas de espectar',
     'gmode'=> 'Modo',
     'gmodeStandard'=> 'Padrão',
@@ -139,6 +142,8 @@ return [
     'ultra' => 'Ultra',
     '20TSD' => '20GTD',
     'PCmode' => 'Modo LT',
+    'bots' => 'Bots',
+    'rulesets' => 'Conjunto de regras',
     'all' => 'Tudo',
     'preset' => 'Predefinição',
     'save' => 'Salvar',
@@ -169,6 +174,7 @@ return [
     'randomizer' => 'Randomizador',
     'previews' => 'Previsões',
     'solidGarbage' => 'Lixo sólido',
+    'solidGarbageSpeed' => 'Velocidade lixo sólido',
     'solidAfterSecs' => 'Após',
     'lockDelay' => 'Atraso de travamento',
     'clearDelay' => 'Atraso de clareamento',
@@ -194,5 +200,5 @@ return [
 
     'expand' => 'Expandir',
 
-    'translationBy' => 'P1iko, Ovie, kaikecarlos',
+    'translationBy' => 'P1iko, Ovie, kaikecarlos, Flavin27',
 ];
