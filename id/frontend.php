@@ -153,7 +153,7 @@ return [
 'cntSpec' => '{cnt} menonton',
 'joinPossible' => 'Layak bergabung',
 'notEligible' => 'Tidak memenuhi syarat',
-'gTimeShort' => 'G.time',
+'gTimeShort' => 'Waktu G." // I have no idea what's G. Time is. 
 'on' => 'Hidup',
 'off' => 'Mati',
 'fr' => 'Teman',
