@@ -47,6 +47,9 @@ return [
     'newPw' => 'Nuova parola d\'ordine',
     'againPw' => 'Ripeti',
     'applyChange' => 'Salva',
+    'emailChange' => 'Cambia e-mail',
+    'currentEmail' => 'Attuale',
+    'newEmail' => 'Nuova e-mail',
     
     /* Profile */
     'ownProfile' => 'Questo è il tuo profilo pubblico, accessibile all\'indirizzo:',

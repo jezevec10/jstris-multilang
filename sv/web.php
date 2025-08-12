@@ -68,6 +68,9 @@ return [
     'newPw' => 'Nytt Lösenord',
     'againPw' => 'Igen',
     'applyChange' => 'Tillämpa ändring',
+    'emailChange' => 'Ändra e-post',
+    'currentEmail' => 'Nuvarande',
+    'newEmail' => 'Ny e-post',
     
     /* Localization settings */
     'localSettings' => 'Lokaliserings inställningar',

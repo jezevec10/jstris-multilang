@@ -68,6 +68,9 @@ return [
     'newPw' => 'Neues Passwort',
     'againPw' => 'Passwort wiederholen',
     'applyChange' => 'Anwenden',
+    'emailChange' => 'E-Mail ändern',
+    'currentEmail' => 'Aktuell',
+    'newEmail' => 'Neue E-Mail',
 
     /* Localization settings */
     'localSettings' => 'Standorteinstellungen',

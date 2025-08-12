@@ -70,6 +70,9 @@ return [
     'newPw' => '新しいパスワード',
     'againPw' => '確認のためもう一度入れてください',
     'applyChange' => '変更を適用',
+    'emailChange' => 'メールアドレスを変更',
+    'currentEmail' => '現在',
+    'newEmail' => '新しいメールアドレス',
 
     /* Localization settings */
     'localSettings' => '言語設定',

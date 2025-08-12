@@ -67,6 +67,9 @@ return [
     'newPw' => 'Nowe hasło',
     'againPw' => 'Powtórz',
     'applyChange' => 'Zastosuj zmiany',
+    'emailChange' => 'Zmień e-mail',
+    'currentEmail' => 'Aktualny',
+    'newEmail' => 'Nowy e-mail',
     
     /* Localization settings */
     'localSettings' => 'Ustawienia lokalizacji',

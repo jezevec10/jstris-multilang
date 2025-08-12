@@ -67,6 +67,9 @@ return [
     'newPw' => 'Mật khẩu mới',
     'againPw' => 'Nhập lại',
     'applyChange' => 'Áp dụng thay đổi',
+    'emailChange' => 'Đổi email',
+    'currentEmail' => 'Hiện tại',
+    'newEmail' => 'Email mới',
     
     /* Localization settings */
     'localSettings' => 'Cài đặt ngôn ngữ và quốc gia',

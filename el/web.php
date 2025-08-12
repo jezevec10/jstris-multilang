@@ -69,6 +69,9 @@ return [
     'newPw' => 'Νέος Κωδικός',
     'againPw' => 'Επανάληψη',
     'applyChange' => 'Εφαρμογή αλλαγής',
+    'emailChange' => 'Αλλαγή email',
+    'currentEmail' => 'Τρέχον',
+    'newEmail' => 'Νέο email',
     
     /* Localization settings */
     'localSettings' => 'Ρυθμίσεις τοπικής προσαρμογής',

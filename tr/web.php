@@ -68,6 +68,9 @@ return [
     'newPw' => 'Yeni şifre',
     'againPw' => 'Tekrardan',
     'applyChange' => 'Değişiklikleri uygula',
+    'emailChange' => 'E-postayı değiştir',
+    'currentEmail' => 'Geçerli',
+    'newEmail' => 'Yeni e-posta',
     
     /* Localization settings */
     'localSettings' => 'Yerelleştirme seçenekleri',

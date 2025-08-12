@@ -69,6 +69,9 @@ return [
     'newPw' => '新密碼',
     'againPw' => '再確認',
     'applyChange' => '套用變更',
+    'emailChange' => '變更電子郵件',
+    'currentEmail' => '目前',
+    'newEmail' => '新電子郵件',
     
     /* Localization settings */
     'localSettings' => '在地化設定',

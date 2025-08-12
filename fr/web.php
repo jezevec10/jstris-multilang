@@ -67,6 +67,9 @@ return [
     'newPw' => 'Nouveau mot de passe',
     'againPw' => 'Répéter le mot de passe',
     'applyChange' => 'Mettre à jour',
+    'emailChange' => 'Changer d\'e-mail',
+    'currentEmail' => 'Actuel',
+    'newEmail' => 'Nouvel e-mail',
 
     /* Localization settings */
     'localSettings' => 'Paramètres de localisation',

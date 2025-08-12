@@ -70,6 +70,9 @@ return [
     'newPw' => 'Nova senha',
     'againPw' => 'Novamente',
     'applyChange' => 'Aplicar alterações',
+    'emailChange' => 'Alterar e-mail',
+    'currentEmail' => 'Atual',
+    'newEmail' => 'Novo e-mail',
     
     /* Localization settings */
     'localSettings' => 'Configurações de localização',

@@ -70,6 +70,9 @@ return [
     'newPw' => 'Nové heslo',
     'againPw' => 'Znovu',
     'applyChange' => 'Použít změny',
+    'emailChange' => 'Změnit e-mail',
+    'currentEmail' => 'Aktuální',
+    'newEmail' => 'Nový e-mail',
     
     /* Localization settings */
     'localSettings' => 'Jazyk a region',

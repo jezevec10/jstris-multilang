@@ -68,6 +68,9 @@ return [
     'newPw' => 'New Password',
     'againPw' => 'Again',
     'applyChange' => 'Apply change',
+    'emailChange' => 'שינוי דוא"ל',
+    'currentEmail' => 'נוכחי',
+    'newEmail' => 'דוא"ל חדש',
     
     /* Localization settings */
     'localSettings' => 'Localization settings',

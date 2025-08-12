@@ -69,6 +69,9 @@ return [
     'newPw' => 'Nueva contraseña',
     'againPw' => 'Reingresar contraseña',
     'applyChange' => 'Aplicar cambios',
+    'emailChange' => 'Cambiar correo electrónico',
+    'currentEmail' => 'Actual',
+    'newEmail' => 'Nuevo correo electrónico',
 
     /* Localization settings */
     'localSettings' => 'Configuraciónes de localización',

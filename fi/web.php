@@ -68,6 +68,9 @@ return [
     'newPw' => 'Uusi salasana',
     'againPw' => 'Uudelleen',
     'applyChange' => 'Ota muutokset käyttöön',
+    'emailChange' => 'Vaihda sähköpostiosoite',
+    'currentEmail' => 'Nykyinen',
+    'newEmail' => 'Uusi sähköpostiosoite',
     
     /* Localization settings */
     'localSettings' => 'Lokalisaation asetukset',

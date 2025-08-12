@@ -69,6 +69,9 @@ return [
     'newPw' => 'Új jelszó',
     'againPw' => 'Új jelszó ismét',
     'applyChange' => 'Alkalmazás',
+    'emailChange' => 'E-mail cím módosítása',
+    'currentEmail' => 'Jelenlegi',
+    'newEmail' => 'Új e-mail cím',
 
     /* Localization settings */
     'localSettings' => 'Lokalizációs beállítások',

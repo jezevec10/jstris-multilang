@@ -53,6 +53,9 @@ return [
     'pwChange' => 'Keisti slaptažodį',
     'newPw' => 'Naujas slaptažodis',
     'applyChange' => 'Išsaugoti pakeitimus',
+    'emailChange' => 'Keisti el. paštą',
+    'currentEmail' => 'Dabartinis',
+    'newEmail' => 'Naujas el. paštas',
     
     /* Localization settings */
     'localSettings' => 'Lokalizacijos nustatymai',

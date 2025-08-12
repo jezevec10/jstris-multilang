@@ -70,6 +70,9 @@ return [
     'newPw' => '新密码',
     'againPw' => '重复',
     'applyChange' => '应用更改',
+    'emailChange' => '更改邮箱',
+    'currentEmail' => '当前',
+    'newEmail' => '新邮箱',
     
     /* Localization settings */
     'localSettings' => '本地化设定',

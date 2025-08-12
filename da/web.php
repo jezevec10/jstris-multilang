@@ -65,6 +65,9 @@ return [
     'newPw' => 'Ny adgangskode',
     'againPw' => 'Igen',
     'applyChange' => 'Anvend de skiftede indstillinger',
+    'emailChange' => 'Skift e-mail',
+    'currentEmail' => 'Nuværende',
+    'newEmail' => 'Ny e-mail',
     
     /* Localization settings */
     'localSettings' => 'Lokaliserings indstillinger',

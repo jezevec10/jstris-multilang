@@ -68,6 +68,9 @@ return [
     'newPw' => 'Nieuw wachtwoord',
     'againPw' => 'Opnieuw',
     'applyChange' => 'Verandering toepassen',
+    'emailChange' => 'E-mailadres wijzigen',
+    'currentEmail' => 'Huidig',
+    'newEmail' => 'Nieuw e-mailadres',
     
     /* Localization settings */
     'localSettings' => 'Lokalisatie-instellingen',

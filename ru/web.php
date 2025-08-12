@@ -67,6 +67,9 @@ return [
     'newPw' => 'Новый пароль',
     'againPw' => 'ещё раз',
     'applyChange' => 'Применить изменения',
+    'emailChange' => 'Сменить e-mail',
+    'currentEmail' => 'Текущий',
+    'newEmail' => 'Новый e-mail',
     
     /* Localization settings */
     'localSettings' => 'Настройки локализации',

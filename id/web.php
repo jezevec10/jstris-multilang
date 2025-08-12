@@ -67,6 +67,9 @@ return [
     'newPw' => 'Password baru',
     'againPw' => 'Sekali lagi',
     'applyChange' => 'Terapkan perubahan',
+    'emailChange' => 'Ganti email',
+    'currentEmail' => 'Saat ini',
+    'newEmail' => 'Email baru',
     
     /* Localization settings */
     'localSettings' => 'Pengaturan lokalisasi',

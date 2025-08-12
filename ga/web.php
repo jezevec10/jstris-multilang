@@ -46,6 +46,9 @@ return [
     'newPw' => 'Focal Faire Nua',
     'againPw' => 'Arís',
     'applyChange' => 'Cuir iarratas ar athrú',
+    'emailChange' => 'Athraigh ríomhphost',
+    'currentEmail' => 'Reatha',
+    'newEmail' => 'Ríomhphost nua',
     
     /* Profile */
     'ownProfile' => 'Seo do phróifíl phoiblí atá inrochtana ag',
