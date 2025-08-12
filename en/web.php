@@ -70,6 +70,9 @@ return [
     'newPw' => 'New Password',
     'againPw' => 'Again',
     'applyChange' => 'Apply change',
+    'emailChange' => 'Change email',
+    'currentEmail' => 'Current',
+    'newEmail' => 'New email',
     
     /* Localization settings */
     'localSettings' => 'Localization settings',

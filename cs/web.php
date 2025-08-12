@@ -134,7 +134,7 @@ return [
     'displayUnpublished' => 'Zobrazit :cnt nezveřejněných map',
     'displayPublished' => 'Zobrazit :cnt veřejných map',
     'usersMapMedals' => 'Medaile za mapy hráče :name',
-    'usersCompletedMaps' => ':Dokončené mapy hráče :name',
+    'usersCompletedMaps' => 'Dokončené mapy hráče :name',
     'showRecords' => 'Zobrazit rekordy',
     'details' => 'Podrobnosti',
     'playedBy' => 'Hráčů',
