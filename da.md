@@ -10,9 +10,9 @@
     </tr>
 </thead>
 <tbody>
-    <tr><td><a href="#">frontend</a></td><td>52.2%</td><td>
+    <tr><td><a href="#">frontend</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 52.2%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
     <tr><td><a href="#">game</a></td><td>57.51%</td><td>
@@ -20,102 +20,19 @@
             <span class="pb-fill" style="width: 57.51%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">supporter</a></td><td>98.21%</td><td>
+    <tr><td><a href="#">supporter</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 98.21%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>59.2%</td><td>
+    <tr><td><a href="#">web</a></td><td>71.43%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 59.2%;"></span>
+            <span class="pb-fill" style="width: 71.43%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -----------------------
-
-## Frontend
-
-**Missing in da/frontend.php:**
-
-```
-'connecting' => 'Connecting...',
-'signingIn' => 'Signing in',
-'loginFail' => 'Log in failed!',
-'loginFail2' => 'Not logged in! You\'re playing as a guest called {name}.',
-'mapLoading' => 'Map loading...',
-'oldVer2' => 'You still have the old version! Use {key} to reload your client',
-'roomFull' => 'It seems the room is full.',
-'lobbyInfo' => 'This chat is shared with {discord}.',
-'newHost' => 'You are now the host of this room.',
-'badRoom' => 'This room no longer exists, joining the Default room!',
-'stngsChanged' => 'Setting changed by the host',
-'stngsCustom' => 'Custom settings',
-'aSpec' => 'Already spectating!',
-'aPlay' => 'Already playing!',
-'repFail' => 'Replay failed to save.',
-'repInChat' => 'Replay file dumped into the chat. To preserve it, copy the text in the box and paste into your favourite text editor.',
-'repTxtInfo' => 'The copied replayfile can be then played in the replayer or possibly resubmitted to the site.',
-'newPB' => 'YOUR NEW PERSONAL BEST',
-'firstPB' => 'This was your first game. Get another PB to track the improvement.',
-'infoPB' => 'Your previous record was {prevPB} achieved {prevAgo}. The improvement is {PBdiff}.',
-'daysAgo' => 'days ago',
-'raceFin' => 'THE RACE HAS FINISHED',
-'raceFinInfo' => 'You can complete the run, but the next round can start at any time.',
-'notTSD' => 'NOT TSD',
-'notTSDInfo' => 'Only T-Spin Double is allowed',
-'notPC' => 'NOT a PC',
-'notPCInfo' => 'Do a Perfect Clear every 10 blocks. Your board is not clearable.',
-'fwDetect' => 'FOUR WIDE',
-'fwDetectInfo' => 'Attacking yourself!',
-'oops' => 'Oops!',
-'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
-'leMore' => 'Learn more',
-'connLimit' => 'The maximum amount of open connections for this IP is curently reached. If you need increased limits, contact us via Discord',
-'idleDC' => 'Disconnected for inactivity! Spectator section was full.',
-'RLreach' => 'Rate limit reached.',
-'ban1' => 'Your access to the Live games has been permanently restricted. You can still play singleplayer modes.',
-'ban2' => 'This user account is BANNED. Relogin to the website for more information.',
-'ncGS' => 'Not connected to the game server, try {refr}.',
-'refr' => 'refreshing the page',
-'nsUnpub' => 'Record not saved, the map is not published.',
-'nsTspins' => 'Record not saved, not enough T-Spins.',
-'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
-'noBlocks' => 'Out of blocks',
-'noBlocks2' => 'All blocks were used',
-'noPlayers' => 'No players',
-'cntMore' => '{cnt} more',
-'cntGuests' => '{cnt} guests',
-'cntSpec' => '{cnt} spectating',
-'joinPossible' => 'Join possible',
-'notEligible' => 'Not eligible',
-'gTimeShort' => 'G.time',
-'on' => 'On',
-'off' => 'Off',
-'fr' => 'Friends',
-'frLoad' => 'Loading friend list',
-'frLogin' => 'Log in first to use friend list',
-'frEmpty' => 'Friend list is empty',
-'frHowAdd' => 'Visit user\'s profile to send friend request.',
-'frPriv' => 'Private',
-'frIn' => 'Already in!',
-'frChat' => 'Open chat',
-'frRel' => 'Reload',
-'frMsgTo' => 'Message to {name}',
-'frInv' => 'Send room invite',
-'frInvTo' => 'Invite to join {room}',
-'frInvIn' => 'You are already in!',
-'frInvBy' => 'by {user}',
-'frOn' => 'ONLINE',
-'frOff' => 'OFFLINE',
-'frNewChatH' => 'This is the beginning of chat history with {name}.',
-'frWelc' => 'Welcome to the Friends tab',
-'frIntro' => 'In this area you can access a list of online friends, private chats, and room invites',
-'frIntro2' => 'To send a friend request, visit a user\'s profile',
-'frIntro3' => 'To manage friends, visit the {frPage}',
-'frPage' => 'Friends page',
-'frIntroCl' => 'Close intro',
-```
 
 ## Game
 
@@ -206,14 +123,6 @@
 'expand' => 'Expand',
 ```
 
-## Supporter
-
-**Missing in da/supporter.php:**
-
-```
-'supportUs' => 'Support Us',
-```
-
 ## Web
 
 **Missing in da/web.php:**
@@ -223,9 +132,6 @@
 'friends' => 'Friends',
 'mostGames' => 'The most games',
 'repExport' => 'GIF or video',
-'emailChange' => 'Change email',
-'currentEmail' => 'Current',
-'newEmail' => 'New email',
 'continent' => 'Continent',
 'userRanking' => 'Ranking stats',
 'blockCnt' => ':cnt blocks',

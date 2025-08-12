@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>98.28%</td><td>
+    <tr><td><a href="#">web</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 98.28%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -40,15 +40,5 @@
 
 ```
 'solidGarbageSpeed' => 'Solid g. speed',
-```
-
-## Web
-
-**Missing in fr/web.php:**
-
-```
-'emailChange' => 'Change email',
-'currentEmail' => 'Current',
-'newEmail' => 'New email',
 ```
 
