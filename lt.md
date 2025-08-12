@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 0%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>70.76%</td><td>
+    <tr><td><a href="#">web</a></td><td>69.54%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 70.76%;"></span>
+            <span class="pb-fill" style="width: 69.54%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -351,6 +351,9 @@
 'lAVG' => 'Local average',
 'gAVG' => 'Global average',
 'againPw' => 'Again',
+'emailChange' => 'Change email',
+'currentEmail' => 'Current',
+'newEmail' => 'New email',
 'linesSent' => 'Lines sent',
 'linesRec' => 'Lines received',
 'APM10Games' => '10-games APM',

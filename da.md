@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 98.21%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>60.23%</td><td>
+    <tr><td><a href="#">web</a></td><td>59.2%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 60.23%;"></span>
+            <span class="pb-fill" style="width: 59.2%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -223,6 +223,9 @@
 'friends' => 'Friends',
 'mostGames' => 'The most games',
 'repExport' => 'GIF or video',
+'emailChange' => 'Change email',
+'currentEmail' => 'Current',
+'newEmail' => 'New email',
 'continent' => 'Continent',
 'userRanking' => 'Ranking stats',
 'blockCnt' => ':cnt blocks',

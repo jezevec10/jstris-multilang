@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 98.21%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>99.42%</td><td>
+    <tr><td><a href="#">web</a></td><td>97.7%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 99.42%;"></span>
+            <span class="pb-fill" style="width: 97.7%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -61,5 +61,8 @@
 
 ```
 'mostGames' => 'The most games',
+'emailChange' => 'Change email',
+'currentEmail' => 'Current',
+'newEmail' => 'New email',
 ```
 

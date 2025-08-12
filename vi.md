@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 0%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>100%</td><td>
+    <tr><td><a href="#">web</a></td><td>98.28%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 100%;"></span>
+            <span class="pb-fill" style="width: 98.28%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -95,5 +95,15 @@
 'roleAdded' => 'Added to your connected Discord account :name.',
 'addDiscord' => 'Add your Discord account in the <a href=":link">Jstris account settings</a> before enabling.',
 'apply' => 'Apply changes',
+```
+
+## Web
+
+**Missing in vi/web.php:**
+
+```
+'emailChange' => 'Change email',
+'currentEmail' => 'Current',
+'newEmail' => 'New email',
 ```
 

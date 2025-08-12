@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 0%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>97.66%</td><td>
+    <tr><td><a href="#">web</a></td><td>95.98%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 97.66%;"></span>
+            <span class="pb-fill" style="width: 95.98%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -185,6 +185,9 @@
 ```
 'friends' => 'Friends',
 'mostGames' => 'The most games',
+'emailChange' => 'Change email',
+'currentEmail' => 'Current',
+'newEmail' => 'New email',
 'userRanking' => 'Ranking stats',
 'wasteDesc' => 'Ratio of T pieces not used in a T-Spin (to total T pieces)',
 ```

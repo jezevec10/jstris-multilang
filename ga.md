@@ -25,9 +25,9 @@
             <span class="pb-fill" style="width: 0%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>43.86%</td><td>
+    <tr><td><a href="#">web</a></td><td>43.1%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 43.86%;"></span>
+            <span class="pb-fill" style="width: 43.1%;"></span>
         </div>
     </td></tr>
 </tbody></table>
@@ -315,6 +315,9 @@
 'gAVG' => 'Global average',
 'repHelp' => 'Help',
 'repExport' => 'GIF or video',
+'emailChange' => 'Change email',
+'currentEmail' => 'Current',
+'newEmail' => 'New email',
 'localSettings' => 'Localization settings',
 'lang' => 'Language',
 'langNone' => 'None (selectable in the top menu)',
