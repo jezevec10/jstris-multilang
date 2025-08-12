@@ -15,8 +15,8 @@ return [
     'rd' => 'rd', //max 2, in 3rd, can stay untranslated
     'th' => 'th', //max 2, in 4th, can stay untranslated
     'notPlaying' => '자리 비움', //최대 6자, 부재중 상태가 감지되었거나 진행 중인 게임에 참여한 상대의 화면 위에 뜹니다.
-    'waitNext' => '라운드 종료까지 기다려주세요', // 표시 영역 너비를 감안해서 내용을 줄였습니다. '~하세요' 어투를 적용하려고 하는데 이 메세지는 졌을 때 나오는 거라서 '~해주세요' 어투를 썼습니다.
-    'waitNext2' => '다음 라운드까지 기다려주세요.', // 채팅에 나타나는 메세지
+    'waitNext' => '라운드 종료까지 기다려주세요', // 표시 영역 너비를 감안해서 내용을 줄였습니다. '~하세요' 어투를 적용하려고 하는데 이 메시지는 졌을 때 나오는 거라서 '~해주세요' 어투를 썼습니다.
+    'waitNext2' => '다음 라운드까지 기다려주세요.', // 채팅에 나타나는 메시지
     'pressStart' => '\'새 게임\'을 눌러 게임을 시작하세요', //'New game' should be same as in game.newGame
     'slowDown' => 'SLOW DOWN', //When a speed limit is exceeded
     'speedLimitIs' => '속도 제한:', //In a sentence: The speed limit is 2 PPS
@@ -28,7 +28,7 @@ return [
 
     //Chat
     'warning' => '경고',
-    'inactive1' => '관전 모드를 활성화하려고 합니다. 중단하려면 메세지를 쓰세요.',
+    'inactive1' => '관전 모드를 활성화하려고 합니다. 중단하려면 메시지를 쓰세요.',
     'inactive2' => '부재 상태를 감지했습니다. 다음 게임에서도 부재가 확인될 경우 관전 모드를 활성화합니다.',
     'nickFill' => '이름을 입력하고 채팅에 참여하세요!',
     'setButton' => '설정', // 최대 2자
@@ -45,13 +45,14 @@ return [
     'spectator' => '관전 중이던',
     'hasLeft' => '님이 나갔습니다', //in 'Spectator User1 has left.' 마침표 X
     // 다음 세 개의 토큰에 대해 Jez에게 `:name` 추가를 요청했습니다. 반영되면 내용을 바꿔야할 거예요.
-    'signedAs' => '다음의 계정으로 로그인 되었습니다:', //in 'You are signed in as User1.'
+    'signedAs' => '다음의 계정으로 로그인되었습니다:', //in 'You are signed in as User1.'
     'welcome' => '환영합니다,', //in 'Welcome User1!'
-    'welcomeIn' => '어서오세요. 현재 다음의 방에 들어오셨습니다:', //in 'Welcome in RoomName.'
+    'welcomeIn' => '어서 오세요. 현재 다음의 방에 들어오셨습니다:', //in 'Welcome in RoomName.'
     'noSpectators' => '관전 중인 사용자가 없습니다.',
-    'replayAvailable' => '다시보기를 보려면', // 비로그인 사용자일 경우의 리플레이 메세지
-    'oldVer' => '구 버전을 실행하고 있습니다. CTRL+F5로 새 버전을 받으세요!',
-    'privateRoom' => '방해받지 않고 즐길 수 있는 비공개 방입니다. 공개 방을 보려면 로비를 확인해보세요.',
+    'replayAvailable' => '다시보기를 보려면', // 비로그인 사용자일 경우의 리플레이 메시지
+    'oldVer' => '구버전을 실행하고 있습니다. CTRL+F5로 새 버전을 받으세요!',
+    'oldVer2' => '여전히 구버전을 실행하고 있습니다! {key}로 클라이언트를 새로고침하세요.',
+    'privateRoom' => '방해받지 않고 즐길 수 있는 비공개 방입니다. 공개 방을 보려면 로비를 확인해 보세요.',
     'restartInfo' => 'F4 혹은 직접 지정한 키를 눌러 재시작할 수 있습니다.',
     'joinLinkInfo' => '이 방은 비공개 방이며, 여기에 들어오려면 다음의 링크가 필요합니다:',
 
@@ -77,7 +78,7 @@ return [
     // 시간 표시 포맷: ': 50.000 s. ', ': 25:00.000 s. '
     'gameTime' => '시간', //in Sprint time: xx.xx
     'see' => '', //in 'See 40L leaderboard'
-    'leaderboard' => '리더보드를 확인해보세요',
+    'leaderboard' => '리더보드를 확인해 보세요',
 
     //Less common strings, can stay untranslated
     'warning2' => '경고',
@@ -95,7 +96,7 @@ return [
     'garbage' => '쓰레기 분배 방식',
     'garbageDelay' => '쓰레기 딜레이',
     'messiness' => '난잡도',
-    'replay' => '다시보기', // 로그인 사용자일 경우의 리플레이 메세지
+    'replay' => '다시보기', // 로그인 사용자일 경우의 리플레이 메시지
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => '받음', //max 4, short for Received
     'enterNullDAS' => 'NullpoMino에서 쓰는 DAS 값을 입력하세요:',
@@ -108,7 +109,7 @@ return [
     'roomFull' => '방 인원이 가득 찼습니다.',
     'lobbyInfo' => '현재 채팅이 {discord}에 공유되었습니다.',
     'newHost' => '방장이 되었습니다.',
-    'badRoom' => '방이 더이상 존재하지 않습니다, 대기실에 입장합니다!',
+    'badRoom' => '방이 더 이상 존재하지 않습니다, 대기실에 입장합니다!',
     'stngsChanged' => '방장에 의해 설정이 변경되었습니다.',
     'stngsCustom' => '사용자 설정',
     'aSpec' => '이미 관전 중입니다!',
@@ -129,7 +130,7 @@ return [
     'notTSDInfo' => 'T-Spin Double만으로 라인을 지우세요.',
 
     'notPC' => 'NOT a PC',
-    'notPCInfo' => '매 10블록마다 Perfect Clear를 해야 합니다. 현재 보드는 클리어 할 수 없습니다.',
+    'notPCInfo' => '매 10블록마다 Perfect Clear를 해야 합니다. 현재 보드는 클리어할 수 없습니다.',
 
     'fwDetect' => 'FOUR WIDE',
     'fwDetectInfo' => '내 필드에 라인이 전송됩니다!',
@@ -173,7 +174,7 @@ return [
     'frIn' => '이미 들어왔습니다!',
     'frChat' => '채팅 열기',
     'frRel' => '새로고침',
-    'frMsgTo' => '{name}에게 보내는 메세지',  //keep {name}
+    'frMsgTo' => '{name}에게 보내는 메시지',  //keep {name}
     'frInv' => '방으로 초대하기',
     'frInvTo' => '{room}으로 초대되었습니다.',
     'frInvIn' => '이미 방에 있습니다!',
@@ -182,9 +183,9 @@ return [
     'frOff' => '오프라인',
     'frNewChatH' => '{name}와의 채팅방이 시작되었습니다.',
     'frWelc' => '친구 탭에 오신 것을 환영합니다',
-    'frIntro' => '이 곳에서는 온라인 친구 목록, 개인 채팅, 방 초대 등에 접속할 수 있습니다',
+    'frIntro' => '이곳에서는 온라인 친구 목록, 개인 채팅, 방 초대 등에 접속할 수 있습니다',
     'frIntro2' => '친구 요청을 보내시려면 사용자의 프로필을 방문하세요',
     'frIntro3' => '친구를 관리하려면 {frPage}를 방문하세요',
     'frPage' => '친구 목록 페이지',
-    'frIntroCl' => '안내페이지 닫기',
+    'frIntroCl' => '안내 페이지 닫기',
 ];

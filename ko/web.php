@@ -166,7 +166,7 @@ return [
     'notFound' => '찾을 수 없습니다.',
     'invalidLink' => '요청한 링크가 유효하지 않습니다.',
     'brb' => '잠시만 기다려주세요.',
-    'tryAgain' => '현재 업데이트 중이니, 잠시 후 다시 시도해주세요.',
+    'tryAgain' => '현재 업데이트 중이니, 잠시 후 다시 시도해 주세요.',
     'wasteDesc' => 'T-Spin에 사용되지 않은 T 조각의 비율 (전체 T 조각 중)',
 
     /* Settings - Other options */
