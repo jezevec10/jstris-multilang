@@ -18,6 +18,13 @@ return [
     'waitNext' => 'Fan go dtí go dtiocfaidh deireadh leis an mbabhta',
     'waitNext2' => 'Fan le do thoil don chéad bhabhta eile',
     'pressStart' => 'Brúigh \'Cluiche nua\' chun tús a chur', //'New game' should be same as in game.newGame
+    'slowDown' => 'MALLAIGH', //When a speed limit is exceeded
+    'speedLimitIs' => 'Is é an teorainn luais', //In a sentence: The speed limit is 2 PPS
+    'connecting' => 'Ag nascadh...', //when connecting to the game server
+    'signingIn' => 'Ag síniú isteach',
+    'loginFail' => 'Theip ar logáil isteach!',
+    'loginFail2' => 'Gan síniú isteach! Tá tú ag imirt mar aoi darb ainm {name}.',
+    'mapLoading' => 'Mapa á luchtú...',
 
     //Chat
     'warning' => 'Rabhadh',
@@ -45,6 +52,7 @@ return [
     'oldVer' => 'Tá sean-leagan agat, use CTRL+F5 Athlódáil chuig an leagan nua!',
     'privateRoom' => 'Is é do sheomra príobháideach é nuair nach féidir leat dul isteach agus tú ag imirt. Seiceáil an Lobby chun seomraí poiblí a fheiceáil.',
     'restartInfo' =>  'Athshlánú le F4 nó eochair saincheaptha a leagan síos.',
+    'oldVer2' => 'Tá an seanleagan agat fós! Úsáid {key} chun an cliant a athluchtú',
     'joinLinkInfo' => 'Tá an seomra seo príobháideach. Is é an nasc seo a leanas ach an bealach is féidir le duine a bheith páirteach ann:',
 
     //Dynamic elements

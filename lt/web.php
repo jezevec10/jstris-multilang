@@ -150,4 +150,84 @@ return [
     'ruSure' => 'A tu tuom tikras?',
     'rmFriend' => 'A nuori išmest šį žmogą iš draugų?',
     'rmConfirm' => 'Tėp, išmesk',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profilis',
+    'setLocalizationNav' => 'Lokalizacija',
+    'setPasswordNav' => 'Slaptažodis',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Kita',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Prijungti Discord',
+    'disconnect' => 'Atjungti',
+    'connectDiscord' => 'Prijungti Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Eksperimentai',
+    'setExperimentsDesc' => 'Įjungti bandomąją prieigą prie eksperimentinių/nebaigtų funkcijų',
+    'setExperimentsNote' => 'Dalinkitės idėjomis apie testuotas funkcijas Jstris Discorde',
+    'deleteAccount' => 'Ištrinti paskyrą',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Grįžti',
+    'giftBalanceHistory' => 'Dovanų balanso istorija',
+    'message' => 'Žinutė',
+    'change' => 'Pakeitimas',
+    'before' => 'Prieš',
+    'after' => 'Po',
+    'relative' => 'Santykinis',
+    'none' => 'Nėra',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Prenumerata',
+    'active' => 'aktyvi',
+    'manage' => 'Tvarkyti',
+    'renewsOn' => 'Atnaujinama:',
+    'oneTime' => 'Vienkartinė',
+    'expires' => 'Baigiasi',
+    'extend' => 'Pratęsti',
+    'giftingBalance' => 'Dovanų balansas',
+    'days' => 'dienos',
+    'add' => 'Pridėti',
+    'useCode' => 'Naudoti kodą',
+    'balanceHistory' => 'Balanso istorija',
+    'noExpiration' => 'Be galiojimo',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Įkelti pasirinktinį paveikslėlį',
+    'uploadCustomImageDesc' => 'Pasirinkite paveikslėlį viešam profilio vaizdui Jstryje. Gali būti pašalintas, jei pranešta kaip netinkamas.',
+    'supporterOption' => 'Supporter parinktis',
+    'seeDetails' => 'Žiūrėti detales',
+    'uploadPreviewCrop' => 'Įkelti peržiūrai ir apkirpti',
+
+    /* Settings - Profile */
+    'remove' => 'Pašalinti',
+    'noImageSelected' => 'Dar nepasirinktas joks paveikslėlis',
+    'bioPlaceholder' => 'Įveskite žinutę, kuri bus rodoma jūsų profilyje',
+    'bioFormatInfo' => 'Nuorodas galima formatuoti taip: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter paskyros gali naudoti formatavimą, įterpti nuorodas ir emotikonus',
+    'selectProfileImage' => 'Pasirinkite profilio paveikslėlį',
+    'jstrisBlocks' => 'Jstris blokai',
+    'animalArt' => 'Gyvūnų menas',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris be reklamų ir nemokamas. Remdami galite atrakinti šiuos privalumus:',
+    'benefitProfileCustomizations' => 'Profilio pritaikymai',
+    'benefitProfileCustomizationsDesc' => 'Galite įkelti pasirinktinį profilio paveikslėlį ir naudoti išplėstinį formatavimą skiltyje „Apie“ (iki 2000 simbolių, nuorodos ir emotikonai).',
+    'benefitSaveMatchesBots' => 'Išsaugoti žaidimus prieš botus',
+    'benefitSaveMatchesBotsDesc' => 'Jūsų 1v1 prieš botus bus išsaugoti rezultatuose, įskaitant pakartojimus ir statistiką.',
+    'benefitUnlimitedReplays' => 'Neriboti pakartojimai',
+    'benefitUnlimitedReplaysDesc' => 'Kol Supporter aktyvus, vieno žaidėjo režimų pakartojimai nebus trinami.',
+    'getSupporterCta' => 'Gauti Jstris Supporter!',
+    'configureBenefits' => 'Konfigūruoti privalumus',
+    'nameChange' => 'Vardo keitimas',
+    'nameChangeInfo' => 'Kaip Supporter, kartą per mėnesį galite pakeisti vardą. Pakeiskite čia:',
+    'newNameLabel' => 'Naujas vardas',
+    'newNamePlaceholder' => 'Įveskite naują naudotojo vardą',
+    'manageSubscriptionTitle' => 'Tvarkyti Jstris prenumeratą',
+    'manageSubscriptionInfo1' => 'Norėdami sustabdyti ar atšaukti, prisijunkite prie PayPal ir pasirinkite parinktį prenumeratos skydelyje.',
+    'manageSubscriptionInfo2' => 'Iškilus problemoms, rašykite jstris@jezevec10.com.',
+    'close' => 'Uždaryti',
 ];

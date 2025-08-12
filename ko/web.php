@@ -203,4 +203,84 @@ return [
     'ruSure' => '확인하세요!',
     'rmFriend' => '친구 목록에서 이 사용자를 정말 삭제할까요?',
     'rmConfirm' => '네, 삭제할게요',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => '프로필',
+    'setLocalizationNav' => '로컬라이제이션',
+    'setPasswordNav' => '비밀번호',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => '기타',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Discord 연결',
+    'disconnect' => '연결 해제',
+    'connectDiscord' => 'Discord 연결',
+
+    /* Settings - Other */
+    'setExperiments' => '실험 기능',
+    'setExperimentsDesc' => '실험적/미완성 기능의 테스트 접근 허용',
+    'setExperimentsNote' => '테스트 기능에 대한 의견을 Jstris Discord에 공유하세요',
+    'deleteAccount' => '계정 삭제',
+
+    /* Settings - Supporter History */
+    'returnBack' => '뒤로',
+    'giftBalanceHistory' => '선물 잔액 내역',
+    'message' => '메시지',
+    'change' => '변경',
+    'before' => '이전',
+    'after' => '이후',
+    'relative' => '상대',
+    'none' => '없음',
+
+    /* Settings - Supporter Status */
+    'subscription' => '구독',
+    'active' => '활성',
+    'manage' => '관리',
+    'renewsOn' => '갱신일:',
+    'oneTime' => '일회성',
+    'expires' => '만료',
+    'extend' => '연장',
+    'giftingBalance' => '선물 잔액',
+    'days' => '일',
+    'add' => '추가',
+    'useCode' => '코드 사용',
+    'balanceHistory' => '잔액 내역',
+    'noExpiration' => '만료 없음',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => '사용자 지정 이미지 업로드',
+    'uploadCustomImageDesc' => 'Jstris 공개 프로필 사진으로 사용할 이미지를 선택하세요. 부적절 신고 시 제거될 수 있습니다.',
+    'supporterOption' => 'Supporter 옵션',
+    'seeDetails' => '자세히 보기',
+    'uploadPreviewCrop' => '업로드하여 미리보기 및 자르기',
+
+    /* Settings - Profile */
+    'remove' => '제거',
+    'noImageSelected' => '아직 이미지가 선택되지 않았습니다',
+    'bioPlaceholder' => '프로필에 표시될 메시지를 입력하세요',
+    'bioFormatInfo' => '하이퍼링크는 다음과 같이 포맷할 수 있습니다: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter 계정은 서식, 링크, 이모지 사용 가능',
+    'selectProfileImage' => '프로필 이미지 선택',
+    'jstrisBlocks' => 'Jstris 블록',
+    'animalArt' => '동물 아트',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris는 광고 없이 모두가 무료로 즐길 수 있습니다. 후원하면 다음 혜택이 제공됩니다:',
+    'benefitProfileCustomizations' => '프로필 커스터마이즈',
+    'benefitProfileCustomizationsDesc' => '사용자 지정 프로필 이미지를 업로드하고 프로필의 "소개"에 확장 서식을 사용할 수 있습니다 (최대 2000자, 하이퍼링크와 이모지).',
+    'benefitSaveMatchesBots' => '봇과의 경기 저장',
+    'benefitSaveMatchesBotsDesc' => '봇과의 1대1 경기가 리플레이와 고급 통계와 함께 결과에 저장됩니다.',
+    'benefitUnlimitedReplays' => '무제한 리플레이',
+    'benefitUnlimitedReplaysDesc' => 'Supporter가 활성화된 동안 싱글플레이 리플레이는 삭제되지 않습니다.',
+    'getSupporterCta' => 'Jstris Supporter 받기!',
+    'configureBenefits' => '혜택 설정',
+    'nameChange' => '이름 변경',
+    'nameChangeInfo' => 'Supporter는 한 달에 한 번 이름을 변경할 수 있습니다. 여기서 변경:',
+    'newNameLabel' => '새 이름',
+    'newNamePlaceholder' => '새 사용자 이름 입력',
+    'manageSubscriptionTitle' => 'Jstris 구독 관리',
+    'manageSubscriptionInfo1' => '일시중지/취소하려면 PayPal에 로그인하여 구독 대시보드에서 선택하세요.',
+    'manageSubscriptionInfo2' => '문제가 있으면 jstris@jezevec10.com 으로 연락하세요.',
+    'close' => '닫기',
 ];

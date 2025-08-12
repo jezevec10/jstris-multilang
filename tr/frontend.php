@@ -151,6 +151,8 @@ return [
     'nsUnpub' => 'Kayıt kaydedilmedi, harita yayınlanmadı.',
     'nsTspins' => 'Kayıt kaydedilmedi, yeterli T-çevirme yok.',
     'nsLowPC' => 'Record not saved, at least 2 Perfect Clears needed.',
+    'noBlocks' => 'Blok kalmadı',
+    'noBlocks2' => 'Tüm bloklar kullanıldı',
 
     //Room info detail
     'noPlayers' => 'Oyuncular yok',
@@ -162,4 +164,45 @@ return [
     'gTimeShort' => 'G.süresi',
     'on' => 'Açık',
     'off' => 'Kapalı',
+
+    // Additional keys from game settings
+    'DMsound'=> 'Özel mesaj bildirimi',
+    'solidGarbageSpeed' => 'Katı çöp hızı',
+    'gapWidth' => 'Boşluk genişliği',
+    'gInv' => 'Çöpü ters çevir',
+
+    // Stats shown under the field
+    'lines' => 'Satırlar',
+    'statistics' => 'İstatistikler', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'Çöp temizleme',
+    'wasted' => 'Ziyan',
+
+    // Chat UI
+    'expand' => 'Genişlet',  //tooltip for icon to expand chat
+
+    //friends
+    'fr' => 'Arkadaşlar',
+    'frLoad' => 'Arkadaş listesi yükleniyor',
+    'frLogin' => 'Arkadaş listesini kullanmak için önce giriş yapın',
+    'frEmpty' => 'Arkadaş listesi boş',
+    'frHowAdd' => 'Arkadaşlık isteği göndermek için kullanıcının profilini ziyaret edin.',
+    'frPriv' => 'Özel',
+    'frIn' => 'Zaten içeridesin!',
+    'frChat' => 'Sohbeti aç',
+    'frRel' => 'Yenile',
+    'frMsgTo' => '{name} için mesaj',  //keep {name}
+    'frInv' => 'Oda daveti gönder',
+    'frInvTo' => '{room} odasına davet et',
+    'frInvIn' => 'Zaten içindesin!',
+    'frInvBy' => '{user} tarafından',
+    'frOn' => 'ÇEVRİMİÇİ',
+    'frOff' => 'ÇEVRİMDIŞI',
+    'frNewChatH' => 'Bu, {name} ile sohbet geçmişinin başlangıcıdır.',
+    'frWelc' => 'Arkadaşlar sekmesine hoş geldin',
+    'frIntro' => 'Bu alanda çevrimiçi arkadaş listesine, özel sohbetlere ve oda davetlerine erişebilirsin',
+    'frIntro2' => 'Arkadaşlık isteği göndermek için bir kullanıcının profilini ziyaret et',
+    'frIntro3' => 'Arkadaşlarını yönetmek için {frPage} sayfasını ziyaret et',
+    'frPage' => 'Arkadaşlar sayfası',
+    'frIntroCl' => 'Girişi kapat',
 ];

@@ -202,4 +202,84 @@ return [
     'ruSure' => 'Biztos vagy benne?',
     'rmFriend' => 'Szeretnéd törölni ezt a személyt a barátlistádról?',
     'rmConfirm' => 'Igen, eltávolítom',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Lokalizáció',
+    'setPasswordNav' => 'Jelszó',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Egyéb',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Discord csatlakoztatása',
+    'disconnect' => 'Leválasztás',
+    'connectDiscord' => 'Discord csatlakoztatása',
+
+    /* Settings - Other */
+    'setExperiments' => 'Kísérletek',
+    'setExperimentsDesc' => 'Teszt-hozzáférés engedélyezése kísérleti/befejezetlen funkciókhoz',
+    'setExperimentsNote' => 'Oszd meg ötleteidet a tesztelt funkciókról a Jstris Discordon',
+    'deleteAccount' => 'Fiók törlése',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Vissza',
+    'giftBalanceHistory' => 'Ajándék egyenleg előzmények',
+    'message' => 'Üzenet',
+    'change' => 'Változás',
+    'before' => 'Előtte',
+    'after' => 'Utána',
+    'relative' => 'Relatív',
+    'none' => 'Nincs',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Előfizetés',
+    'active' => 'aktív',
+    'manage' => 'Kezelés',
+    'renewsOn' => 'Megújul:',
+    'oneTime' => 'Egyszeri',
+    'expires' => 'Lejár',
+    'extend' => 'Meghosszabbít',
+    'giftingBalance' => 'Ajándék egyenleg',
+    'days' => 'nap',
+    'add' => 'Hozzáad',
+    'useCode' => 'Kód használata',
+    'balanceHistory' => 'Egyenleg előzmények',
+    'noExpiration' => 'Nincs lejárat',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Egyedi kép feltöltése',
+    'uploadCustomImageDesc' => 'Válassz képet nyilvános profilképként a Jstrishez. Jelentés esetén eltávolítható.',
+    'supporterOption' => 'Supporter opció',
+    'seeDetails' => 'Részletek megtekintése',
+    'uploadPreviewCrop' => 'Feltöltés előnézethez és vágáshoz',
+
+    /* Settings - Profile */
+    'remove' => 'Eltávolítás',
+    'noImageSelected' => 'Még nincs kép kiválasztva',
+    'bioPlaceholder' => 'Adj meg üzenetet, ami megjelenik a profilodon',
+    'bioFormatInfo' => 'Hiperhivatkozás formázása így: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter fiókok formázhatnak, linkeket és emojikat használhatnak',
+    'selectProfileImage' => 'Profilkép kiválasztása',
+    'jstrisBlocks' => 'Jstris blokkok',
+    'animalArt' => 'Állatgrafika',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'A Jstris hirdetésmentes és ingyenes. Támogatásoddal a következő előnyöket kapod:',
+    'benefitProfileCustomizations' => 'Profil testreszabások',
+    'benefitProfileCustomizationsDesc' => 'Feltölthetsz egyedi profilképet és használhatsz bővített formázást az „Rólam” üzenetben (legfeljebb 2000 karakter, hivatkozások és emojik).',
+    'benefitSaveMatchesBots' => 'Botok elleni meccsek mentése',
+    'benefitSaveMatchesBotsDesc' => 'A botok elleni 1v1 meccseid elmentésre kerülnek az eredmények közé visszajátszásokkal és statisztikákkal.',
+    'benefitUnlimitedReplays' => 'Korlátlan visszajátszások',
+    'benefitUnlimitedReplaysDesc' => 'Amíg a Supporter aktív, egyjátékos módos visszajátszások nem törlődnek.',
+    'getSupporterCta' => 'Szerezz Jstris Supporter-t!',
+    'configureBenefits' => 'Előnyök beállítása',
+    'nameChange' => 'Névcsere',
+    'nameChangeInfo' => 'Supporterként havonta egyszer változtathatod meg a neved. Itt módosíthatod:',
+    'newNameLabel' => 'Új név',
+    'newNamePlaceholder' => 'Adj meg új felhasználónevet',
+    'manageSubscriptionTitle' => 'Jstris előfizetés kezelése',
+    'manageSubscriptionInfo1' => 'A szüneteltetéshez/lemondáshoz jelentkezz be PayPal fiókodba és válaszd ki az előfizetés kezelőben.',
+    'manageSubscriptionInfo2' => 'Probléma esetén: jstris@jezevec10.com.',
+    'close' => 'Bezárás',
 ];

@@ -204,4 +204,84 @@ return [
 
 	//from October 25th, 2022. -mLurker
 	'mostGames' => 'Больше всего игр',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Профиль',
+    'setLocalizationNav' => 'Локализация',
+    'setPasswordNav' => 'Пароль',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Другое',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Подключить Discord',
+    'disconnect' => 'Отключить',
+    'connectDiscord' => 'Подключить Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Эксперименты',
+    'setExperimentsDesc' => 'Включить тестовый доступ к экспериментальным/незавершенным функциям',
+    'setExperimentsNote' => 'Поделитесь идеями о тестируемых функциях в Discord Jstris',
+    'deleteAccount' => 'Удалить аккаунт',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Вернуться назад',
+    'giftBalanceHistory' => 'История подарочного баланса',
+    'message' => 'Сообщение',
+    'change' => 'Изменение',
+    'before' => 'До',
+    'after' => 'После',
+    'relative' => 'Относительное',
+    'none' => 'Нет',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Подписка',
+    'active' => 'активна',
+    'manage' => 'Управлять',
+    'renewsOn' => 'Продление:',
+    'oneTime' => 'Разовая',
+    'expires' => 'Истекает',
+    'extend' => 'Продлить',
+    'giftingBalance' => 'Подарочный баланс',
+    'days' => 'дней',
+    'add' => 'Добавить',
+    'useCode' => 'Использовать код',
+    'balanceHistory' => 'История баланса',
+    'noExpiration' => 'Без срока',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Загрузить пользовательское изображение',
+    'uploadCustomImageDesc' => 'Выберите изображение в качестве публичной аватарки на Jstris. Может быть удалено, если будет отмечено как неприемлемое.',
+    'supporterOption' => 'Опция Supporter',
+    'seeDetails' => 'Подробнее',
+    'uploadPreviewCrop' => 'Загрузить для предпросмотра и обрезки',
+
+    /* Settings - Profile */
+    'remove' => 'Удалить',
+    'noImageSelected' => 'Изображение ещё не выбрано',
+    'bioPlaceholder' => 'Введите сообщение, которое появится в вашем профиле',
+    'bioFormatInfo' => 'Формат гиперссылок: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Аккаунты Supporter могут использовать форматирование, ссылки и эмодзи',
+    'selectProfileImage' => 'Выбрать изображение профиля',
+    'jstrisBlocks' => 'Блоки Jstris',
+    'animalArt' => 'Животные',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris без рекламы и бесплатен для всех. Поддерживая проект, вы получаете такие преимущества:',
+    'benefitProfileCustomizations' => 'Настройка профиля',
+    'benefitProfileCustomizationsDesc' => 'Можно загрузить пользовательскую аватарку и использовать расширенное форматирование в разделе «О себе» (до 2000 символов, ссылки и эмодзи).',
+    'benefitSaveMatchesBots' => 'Сохранение матчей против ботов',
+    'benefitSaveMatchesBotsDesc' => 'Ваши 1v1 против ботов будут сохранены в результатах, включая повторы и расширенную статистику.',
+    'benefitUnlimitedReplays' => 'Неограниченные повторы',
+    'benefitUnlimitedReplaysDesc' => 'Ни один повтор из одиночных режимов не будет удалён, пока активен Supporter.',
+    'getSupporterCta' => 'Получить Jstris Supporter!',
+    'configureBenefits' => 'Настроить преимущества',
+    'nameChange' => 'Смена имени',
+    'nameChangeInfo' => 'Как Supporter, вы можете менять имя раз в месяц. Измените здесь:',
+    'newNameLabel' => 'Новое имя',
+    'newNamePlaceholder' => 'Введите новое имя пользователя',
+    'manageSubscriptionTitle' => 'Управление подпиской Jstris',
+    'manageSubscriptionInfo1' => 'Чтобы приостановить/отменить, войдите в PayPal и выберите опцию на панели управления подпиской.',
+    'manageSubscriptionInfo2' => 'При проблемах пишите на jstris@jezevec10.com.',
+    'close' => 'Закрыть',
 ];

@@ -204,4 +204,84 @@ return [
     'rmFriend' => 'フレンドリストから削除しますか?',
     'rmConfirm' => '削除する',
     
+    /* Settings - Navigation */
+    'setProfileNav' => 'プロフィール',
+    'setLocalizationNav' => 'ローカライズ',
+    'setPasswordNav' => 'パスワード',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'その他',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Discord を接続',
+    'disconnect' => '切断',
+    'connectDiscord' => 'Discord を接続',
+
+    /* Settings - Other */
+    'setExperiments' => '実験',
+    'setExperimentsDesc' => '実験的/未完成機能へのテストアクセスを有効にする',
+    'setExperimentsNote' => 'テスト機能のアイデアを Jstris Discord で共有してください',
+    'deleteAccount' => 'アカウント削除',
+
+    /* Settings - Supporter History */
+    'returnBack' => '戻る',
+    'giftBalanceHistory' => 'ギフト残高の履歴',
+    'message' => 'メッセージ',
+    'change' => '変更',
+    'before' => '変更前',
+    'after' => '変更後',
+    'relative' => '相対',
+    'none' => 'なし',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'サブスクリプション',
+    'active' => '有効',
+    'manage' => '管理',
+    'renewsOn' => '次回更新:',
+    'oneTime' => '一回',
+    'expires' => '期限',
+    'extend' => '延長',
+    'giftingBalance' => 'ギフト残高',
+    'days' => '日',
+    'add' => '追加',
+    'useCode' => 'コード使用',
+    'balanceHistory' => '残高履歴',
+    'noExpiration' => '無期限',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'カスタム画像をアップロード',
+    'uploadCustomImageDesc' => 'Jstris の公開プロフィール画像として使用する画像を選択してください。不適切と報告された場合は削除されることがあります。',
+    'supporterOption' => 'Supporter オプション',
+    'seeDetails' => '詳細を見る',
+    'uploadPreviewCrop' => 'アップロードしてプレビュー & トリミング',
+
+    /* Settings - Profile */
+    'remove' => '削除',
+    'noImageSelected' => 'まだ画像が選択されていません',
+    'bioPlaceholder' => 'プロフィールに表示するメッセージを入力',
+    'bioFormatInfo' => 'ハイパーリンクは次のように記述できます: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter アカウントは書式、リンク、絵文字が使用可能',
+    'selectProfileImage' => 'プロフィール画像を選択',
+    'jstrisBlocks' => 'Jstris ブロック',
+    'animalArt' => '動物アート',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris は広告なしで誰でも無料でプレイできます。サポートすると次の特典が開放されます:',
+    'benefitProfileCustomizations' => 'プロフィールのカスタマイズ',
+    'benefitProfileCustomizationsDesc' => 'カスタムプロフィール画像をアップロードし、プロフィールの「自己紹介」で拡張書式を使用できます（最大2000文字、リンクや絵文字が使用可）。',
+    'benefitSaveMatchesBots' => 'Bot 対戦を保存',
+    'benefitSaveMatchesBotsDesc' => 'Bot との 1v1 はリプレイや詳細統計とともに結果へ保存されます。',
+    'benefitUnlimitedReplays' => 'リプレイ無制限',
+    'benefitUnlimitedReplaysDesc' => 'Supporter が有効な間、シングルプレイのリプレイは削除されません。',
+    'getSupporterCta' => 'Jstris Supporter を入手！',
+    'configureBenefits' => '特典を設定',
+    'nameChange' => '名前変更',
+    'nameChangeInfo' => 'Supporter は月に一度名前変更が可能です。ここで変更:',
+    'newNameLabel' => '新しい名前',
+    'newNamePlaceholder' => '新しいユーザー名を入力',
+    'manageSubscriptionTitle' => 'Jstris サブスクリプションの管理',
+    'manageSubscriptionInfo1' => '一時停止・解約は PayPal にログインし、サブスクリプションのダッシュボードで操作してください。',
+    'manageSubscriptionInfo2' => '問題がある場合は jstris@jezevec10.com まで。',
+    'close' => '閉じる',
+    
 ];

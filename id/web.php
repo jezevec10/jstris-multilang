@@ -127,4 +127,84 @@ return [
     'invalidLink' => 'Link yang diminta salah.',
     'brb' => 'Akan kembali lagi.',
     'tryAgain' => 'Situs dalam update, tolong coba lagi beberapa waktu.',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Lokalisasi',
+    'setPasswordNav' => 'Kata sandi',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Lainnya',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Hubungkan Discord',
+    'disconnect' => 'Putuskan',
+    'connectDiscord' => 'Hubungkan Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Eksperimen',
+    'setExperimentsDesc' => 'Aktifkan akses uji ke fitur eksperimental/belum selesai',
+    'setExperimentsNote' => 'Bagikan ide Anda tentang fitur yang diuji di Discord Jstris',
+    'deleteAccount' => 'Hapus akun',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Kembali',
+    'giftBalanceHistory' => 'Riwayat saldo hadiah',
+    'message' => 'Pesan',
+    'change' => 'Perubahan',
+    'before' => 'Sebelum',
+    'after' => 'Sesudah',
+    'relative' => 'Relatif',
+    'none' => 'Tidak ada',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Langganan',
+    'active' => 'aktif',
+    'manage' => 'Kelola',
+    'renewsOn' => 'Diperpanjang pada:',
+    'oneTime' => 'Sekali',
+    'expires' => 'Kedaluwarsa',
+    'extend' => 'Perpanjang',
+    'giftingBalance' => 'Saldo hadiah',
+    'days' => 'hari',
+    'add' => 'Tambah',
+    'useCode' => 'Gunakan kode',
+    'balanceHistory' => 'Riwayat saldo',
+    'noExpiration' => 'Tanpa kedaluwarsa',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Unggah gambar kustom',
+    'uploadCustomImageDesc' => 'Pilih gambar untuk digunakan sebagai foto profil publik di Jstris. Dapat dihapus jika dilaporkan tidak pantas.',
+    'supporterOption' => 'Opsi Supporter',
+    'seeDetails' => 'Lihat detail',
+    'uploadPreviewCrop' => 'Unggah untuk pratinjau & pangkas',
+
+    /* Settings - Profile */
+    'remove' => 'Hapus',
+    'noImageSelected' => 'Belum ada gambar yang dipilih',
+    'bioPlaceholder' => 'Masukkan pesan yang akan muncul di profil Anda',
+    'bioFormatInfo' => 'Anda dapat memformat tautan seperti ini: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Akun Supporter dapat menggunakan pemformatan, menyisipkan tautan dan emoji',
+    'selectProfileImage' => 'Pilih gambar profil',
+    'jstrisBlocks' => 'Blok Jstris',
+    'animalArt' => 'Seni hewan',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris tanpa iklan dan gratis untuk semua orang. Dengan mendukung, Anda dapat membuka manfaat berikut:',
+    'benefitProfileCustomizations' => 'Kustomisasi profil',
+    'benefitProfileCustomizationsDesc' => 'Anda dapat mengunggah foto profil kustom dan menggunakan pemformatan lanjutan di pesan "Tentang" (hingga 2000 karakter, tautan dan emoji).',
+    'benefitSaveMatchesBots' => 'Simpan pertandingan melawan bot',
+    'benefitSaveMatchesBotsDesc' => 'Pertandingan 1v1 Anda melawan bot akan disimpan dalam hasil beserta replay dan statistik lanjut.',
+    'benefitUnlimitedReplays' => 'Replay tanpa batas',
+    'benefitUnlimitedReplaysDesc' => 'Replay mode pemain tunggal Anda tidak akan dihapus selama Supporter aktif.',
+    'getSupporterCta' => 'Dapatkan Jstris Supporter!',
+    'configureBenefits' => 'Konfigurasi manfaat',
+    'nameChange' => 'Ganti nama',
+    'nameChangeInfo' => 'Sebagai Supporter, perubahan nama tersedia sebulan sekali. Ubah di sini:',
+    'newNameLabel' => 'Nama baru',
+    'newNamePlaceholder' => 'Masukkan nama pengguna baru',
+    'manageSubscriptionTitle' => 'Kelola Langganan Jstris',
+    'manageSubscriptionInfo1' => 'Untuk menghentikan atau membatalkan langganan, masuk ke PayPal dan pilih opsi di dasbor Langganan.',
+    'manageSubscriptionInfo2' => 'Jika ada masalah, hubungi jstris@jezevec10.com.',
+    'close' => 'Tutup',
 ];

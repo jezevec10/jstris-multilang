@@ -200,4 +200,84 @@ return [
     'ruSure' => 'Êtes-vous sûr?',
     'rmFriend' => 'Êtes-vous sûr de vouloir retirer cette personne de votre liste d\'amis?',
     'rmConfirm' => 'Oui, retirer',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Localisation',
+    'setPasswordNav' => 'Mot de passe',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Autre',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Connecter Discord',
+    'disconnect' => 'Déconnecter',
+    'connectDiscord' => 'Connecter Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Expériences',
+    'setExperimentsDesc' => 'Activer l\'accès test aux fonctionnalités expérimentales/en cours',
+    'setExperimentsNote' => 'Partagez vos idées sur les fonctionnalités testées sur le Discord de Jstris',
+    'deleteAccount' => 'Supprimer le compte',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Retour',
+    'giftBalanceHistory' => 'Historique du solde cadeaux',
+    'message' => 'Message',
+    'change' => 'Changement',
+    'before' => 'Avant',
+    'after' => 'Après',
+    'relative' => 'Relatif',
+    'none' => 'Aucun',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Abonnement',
+    'active' => 'actif',
+    'manage' => 'Gérer',
+    'renewsOn' => 'Renouvelle le :',
+    'oneTime' => 'Unique',
+    'expires' => 'Expire',
+    'extend' => 'Prolonger',
+    'giftingBalance' => 'Solde cadeaux',
+    'days' => 'jours',
+    'add' => 'Ajouter',
+    'useCode' => 'Utiliser un code',
+    'balanceHistory' => 'Historique du solde',
+    'noExpiration' => 'Sans expiration',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Téléverser une image personnalisée',
+    'uploadCustomImageDesc' => 'Choisissez une image publique pour votre profil Jstris. Peut être retirée si elle est signalée comme inappropriée.',
+    'supporterOption' => 'Option Supporter',
+    'seeDetails' => 'Voir les détails',
+    'uploadPreviewCrop' => 'Téléverser pour prévisualiser et rogner',
+
+    /* Settings - Profile */
+    'remove' => 'Retirer',
+    'noImageSelected' => 'Aucune image sélectionnée',
+    'bioPlaceholder' => 'Entrez un message qui apparaîtra sur votre profil',
+    'bioFormatInfo' => 'Vous pouvez formater des liens ainsi : [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Les comptes Supporter peuvent utiliser la mise en forme, insérer des liens et des émoticônes',
+    'selectProfileImage' => 'Choisir une image de profil',
+    'jstrisBlocks' => 'Blocs Jstris',
+    'animalArt' => 'Art animalier',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris est sans pub et gratuit. En soutenant, vous débloquez les avantages suivants :',
+    'benefitProfileCustomizations' => 'Personnalisations du profil',
+    'benefitProfileCustomizationsDesc' => 'Téléverser une image de profil personnalisée et utiliser une mise en forme étendue dans « À propos » (jusqu\'à 2000 caractères, liens et émoticônes).',
+    'benefitSaveMatchesBots' => 'Sauvegarde des matchs contre des bots',
+    'benefitSaveMatchesBotsDesc' => 'Vos 1v1 contre des bots seront sauvegardés avec replays et stats avancées.',
+    'benefitUnlimitedReplays' => 'Replays illimités',
+    'benefitUnlimitedReplaysDesc' => 'Aucun replay solo ne sera supprimé tant que Supporter est actif.',
+    'getSupporterCta' => 'Obtenir Jstris Supporter !',
+    'configureBenefits' => 'Configurer les avantages',
+    'nameChange' => 'Changement de nom',
+    'nameChangeInfo' => 'En tant que Supporter, un changement de nom par mois est disponible. Modifiez-le ici :',
+    'newNameLabel' => 'Nouveau nom',
+    'newNamePlaceholder' => 'Entrer un nouveau nom d\'utilisateur',
+    'manageSubscriptionTitle' => 'Gérer l\'abonnement Jstris',
+    'manageSubscriptionInfo1' => 'Pour suspendre/annuler, connectez-vous à PayPal et choisissez l\'option sur le tableau de bord des abonnements.',
+    'manageSubscriptionInfo2' => 'En cas de problème, contactez jstris@jezevec10.com.',
+    'close' => 'Fermer',
 ];

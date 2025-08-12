@@ -4,6 +4,7 @@
 
 return [
     'donate' => 'Doner', //menu item, short
+    'supportUs' => 'Støt os', //menu item, short
     'descr' => 'Støt Jstris ved at sende en donation og aktiver Tilhænger fordele',
     'supportJstris' => 'Støt Jstris',
     'supportDesc1' => 'Hvis du sætter pris på dette spil, så overvej en donation til dette projekt og hjælp med at dække server omkostninger og videre udvikling.',

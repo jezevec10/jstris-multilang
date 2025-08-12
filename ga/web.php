@@ -95,4 +95,84 @@ return [
     'invalidLink' => 'Tá nasc iarrtha neamhbhailí.',
     'brb' => 'A bheith ceart ar ais',
     'tryAgain' => 'Tá an suíomh á nuashonrú, déan iarracht arís i gceann cúpla nóiméad.',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Próifíl',
+    'setLocalizationNav' => 'Logánú',
+    'setPasswordNav' => 'Focal Faire',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Eile',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Ceangail Discord',
+    'disconnect' => 'Dícheangail',
+    'connectDiscord' => 'Ceangail Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Turgnaimh',
+    'setExperimentsDesc' => 'Cumasaigh rochtain thástála ar ghnéithe turgnamhacha/neamhchríochnaithe',
+    'setExperimentsNote' => 'Roinn do smaointe ar ghnéithe tástáilte ar Jstris Discord',
+    'deleteAccount' => 'Scrios cuntas',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Fill ar ais',
+    'giftBalanceHistory' => 'Stair iarmhéid bronntanais',
+    'message' => 'Teachtaireacht',
+    'change' => 'Athrú',
+    'before' => 'Roimh',
+    'after' => 'Tar éis',
+    'relative' => 'Coibhneasta',
+    'none' => 'Neamhní',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'S síntiús',
+    'active' => 'gníomhach',
+    'manage' => 'Bainistigh',
+    'renewsOn' => 'Athnuaite ar:',
+    'oneTime' => 'Uair amháin',
+    'expires' => 'In éag',
+    'extend' => 'Fairsingigh',
+    'giftingBalance' => 'Iarmhéid bronntanais',
+    'days' => 'laethanta',
+    'add' => 'Cuir leis',
+    'useCode' => 'Úsáid cód',
+    'balanceHistory' => 'Stair iarmhéid',
+    'noExpiration' => 'Gan dul in éag',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Uasluchtaigh íomhá saincheaptha',
+    'uploadCustomImageDesc' => 'Roghnaigh íomhá mar phictiúr próifíle poiblí ar Jstris. D\'fhéadfaí í a bhaint má thuairiscítear í mar mhí-oiriúnach.',
+    'supporterOption' => 'Rogha Supporter',
+    'seeDetails' => 'Féach sonraí',
+    'uploadPreviewCrop' => 'Uasluchtaigh le réamhamharc agus barrfheannadh',
+
+    /* Settings - Profile */
+    'remove' => 'Bain',
+    'noImageSelected' => 'Níl íomhá roghnaithe fós',
+    'bioPlaceholder' => 'Iontráil teachtaireacht a thaispeánfar ar do phróifíl',
+    'bioFormatInfo' => 'Is féidir naisc a fhormáidiú mar seo: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Is féidir le cuntais Supporter formáidiú, naisc agus emojis a úsáid',
+    'selectProfileImage' => 'Roghnaigh íomhá próifíle',
+    'jstrisBlocks' => 'Blocanna Jstris',
+    'animalArt' => 'Ealaín ainmhithe',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Tá Jstris saor in aisce agus gan fógraí. Le tacaíocht, díghlasálann tú na sochair seo a leanas:',
+    'benefitProfileCustomizations' => 'Saincheaptha próifíle',
+    'benefitProfileCustomizationsDesc' => 'Is féidir leat pictiúr próifíle saincheaptha a uaslódáil agus formáidiú fairsing a úsáid sa teachtaireacht "Fúm" (suas le 2000 carachtar, hipearnaisc agus emojis).',
+    'benefitSaveMatchesBots' => 'Sábháil cluichí i gcoinne bots',
+    'benefitSaveMatchesBotsDesc' => 'Sábhálfar do chluichí 1v1 i gcoinne bots sna torthaí, lena n-áirítear athsheinm agus staitisticí.',
+    'benefitUnlimitedReplays' => 'Athsheinm gan teorainn',
+    'benefitUnlimitedReplaysDesc' => 'Ní scriosfar aon athsheinm ó mhóid aon-imreora fad is atá Supporter gníomhach.',
+    'getSupporterCta' => 'Faigh Jstris Supporter!',
+    'configureBenefits' => 'Cumraigh sochair',
+    'nameChange' => 'Athrú ainm',
+    'nameChangeInfo' => 'Mar Supporter, is féidir leat d\'ainm a athrú uair sa mhí. Athraigh anseo:',
+    'newNameLabel' => 'Ainm nua',
+    'newNamePlaceholder' => 'Iontráil ainm úsáideora nua',
+    'manageSubscriptionTitle' => 'Bainistigh síntiús Jstris',
+    'manageSubscriptionInfo1' => 'Chun moill nó cealú, logáil isteach i do chuntas PayPal agus roghnaigh ar an deais.',
+    'manageSubscriptionInfo2' => 'I gcás fadhbanna, téigh i dteagmháil: jstris@jezevec10.com.',
+    'close' => 'Dún',
 ];

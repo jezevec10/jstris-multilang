@@ -4,6 +4,7 @@
 
 return [
     'donate' => 'Adomány', //menu item, short
+    'supportUs' => 'Támogass minket', //menu item, short
     'descr' => 'Támogasd a Jstris-t adományozással, hogy elérhetővé tedd a támogatói jutalmakat.',
     'supportJstris' => 'Jstris támogatása',
     'supportDesc1' => 'Ha kedveled a játékot, kérlek támogasd munkánkat adományozással, fedezve a szerverkiadásainkat és a jövőbeni fejlesztéseinket.',

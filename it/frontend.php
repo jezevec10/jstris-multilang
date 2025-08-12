@@ -18,6 +18,13 @@ return [
     'waitNext' => 'Aspetta la fine del round',
     'waitNext2' => 'Aspetta l\'inizio del prossimo round',
     'pressStart' => 'Premi \'Nuova partita\' per iniziare', //'New game' should be same as in game.newGame
+    'slowDown' => 'RALLENTA', //When a speed limit is exceeded
+    'speedLimitIs' => 'Il limite di velocità è', //In a sentence: The speed limit is 2 PPS
+    'connecting' => 'Connessione in corso...', //when connecting to the game server
+    'signingIn' => 'Accesso in corso',
+    'loginFail' => 'Accesso non riuscito!',
+    'loginFail2' => 'Non hai effettuato l\'accesso! Stai giocando come ospite chiamato {name}.',
+    'mapLoading' => 'Caricamento mappa...',
 
     //Chat
     'warning' => 'Attenzione',
@@ -46,6 +53,7 @@ return [
     'privateRoom' => 'Questa è una stanza privata, non verrai disturbato mentre stai giocando. Vai nella Lobby per vedere le stanze pubbliche.',
     'restartInfo' =>  'Ricomincia premendo F4 o un tasto personalizzato.',
     'joinLinkInfo' => 'Questa stanza è privata. Può entrare solo chi ha questo link:',
+    'oldVer2' => 'Hai ancora la versione vecchia! Usa {key} per ricaricare il client',
 
     //Dynamic elements
     'received' => 'Ricevute', //max 15
@@ -96,4 +104,29 @@ return [
     'settingsChanged' => 'Le impostazioni sono state modificate durante il gioco. Il replay non è più valido.',
     'segment' => 'Segmento',
     'duration' => 'Durata',
+    
+    //friends
+    'fr' => 'Amici',
+    'frLoad' => 'Caricamento lista amici',
+    'frLogin' => 'Accedi per usare la lista amici',
+    'frEmpty' => 'La lista amici è vuota',
+    'frHowAdd' => 'Visita il profilo dell\'utente per inviare una richiesta di amicizia',
+    'frPriv' => 'Privato',
+    'frIn' => 'Sei già dentro!',
+    'frChat' => 'Apri chat',
+    'frRel' => 'Ricarica',
+    'frMsgTo' => 'Messaggio a {name}',
+    'frInv' => 'Invia invito stanza',
+    'frInvTo' => 'Invita a entrare in {room}',
+    'frInvIn' => 'Sei già dentro!',
+    'frInvBy' => 'da {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Questo è l\'inizio della cronologia chat con {name}.',
+    'frWelc' => 'Benvenuto nella scheda Amici',
+    'frIntro' => 'Qui puoi accedere alla lista amici online, chat private e inviti alle stanze',
+    'frIntro2' => 'Per inviare una richiesta di amicizia, visita il profilo di un utente',
+    'frIntro3' => 'Per gestire gli amici, visita la {frPage}',
+    'frPage' => 'Pagina Amici',
+    'frIntroCl' => 'Chiudi introduzione',
 ];

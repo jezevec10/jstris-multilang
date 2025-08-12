@@ -144,10 +144,18 @@ return [
     'ban2' => 'Detta användarkonto är avstängt. Logga in igen till webbplatsen för mer information.',
     'ncGS' => 'Inte ansluten till spelservern, försök {refr}.',
     'refr' => 'laddar om sidan',
+    'lines' => 'Rader',
+    'statistics' => 'Statistik', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'Skräp-downstack',
+    'wasted' => 'Spill',
+    'expand' => 'Expandera',  //tooltip for icon to expand chat
 
     'nsUnpub' => 'Rekord sparades inte, banan är inte publicerad.',
     'nsTspins' => 'Rekord sparades inte, inte tillräckligt med T-Spins.',
     'nsLowPC' => 'Rekord sparades inte, åtminstone 2 perfekta rensningar behövs.',
+    'noBlocks' => 'Inga block kvar',
+    'noBlocks2' => 'Alla block har använts',
 
     //Room info detail
     'noPlayers' => 'Inga spelare',
@@ -159,4 +167,29 @@ return [
     'gTimeShort' => 'G.tid',
     'on' => 'På',
     'off' => 'Av',
+
+    //friends
+    'fr' => 'Vänner',
+    'frLoad' => 'Laddar vänlista',
+    'frLogin' => 'Logga in först för att använda vänlistan',
+    'frEmpty' => 'Vänlistan är tom',
+    'frHowAdd' => 'Besök användarens profil för att skicka en vänförfrågan.',
+    'frPriv' => 'Privat',
+    'frIn' => 'Redan inne!',
+    'frChat' => 'Öppna chatt',
+    'frRel' => 'Ladda om',
+    'frMsgTo' => 'Meddelande till {name}',  //keep {name}
+    'frInv' => 'Skicka rumsinbjudan',
+    'frInvTo' => 'Bjud in att gå med i {room}',
+    'frInvIn' => 'Du är redan inne!',
+    'frInvBy' => 'av {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Detta är början på chatthistoriken med {name}.',
+    'frWelc' => 'Välkommen till Vänner-fliken',
+    'frIntro' => 'Här kan du komma åt listan över vänner online, privata chattar och rumsinbjudningar',
+    'frIntro2' => 'För att skicka en vänförfrågan, besök en användares profil',
+    'frIntro3' => 'Hantera vänner via {frPage}',
+    'frPage' => 'Vännersida',
+    'frIntroCl' => 'Stäng introduktionen',
 ];

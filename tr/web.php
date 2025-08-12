@@ -183,4 +183,85 @@ return [
     'rr3' => 'Taciz veya zorbalık',
     'rr4' => 'Diğer (belirtin)',
     'sendReport' => 'Rapor gönder',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Yerelleştirme',
+    'setPasswordNav' => 'Şifre',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Diğer',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Discord\'u bağla',
+    'disconnect' => 'Bağlantıyı kes',
+    'connectDiscord' => 'Discord\'u bağla',
+
+    /* Settings - Other */
+    'setExperiments' => 'Deneyler',
+    'setExperimentsDesc' => 'Deneysel/tamamlanmamış özelliklere test erişimini etkinleştir',
+    'setExperimentsNote' => 'Test edilen özelliklerle ilgili fikirlerini Jstris Discord\'unda paylaş',
+    'deleteAccount' => 'Hesabı sil',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Geri dön',
+    'giftBalanceHistory' => 'Hediye bakiyesi geçmişi',
+    'message' => 'Mesaj',
+    'change' => 'Değişim',
+    'before' => 'Önce',
+    'after' => 'Sonra',
+    'relative' => 'Bağıl',
+    'none' => 'Yok',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Abonelik',
+    'active' => 'aktif',
+    'manage' => 'Yönet',
+    'renewsOn' => 'Yenilenme tarihi:',
+    'oneTime' => 'Tek seferlik',
+    'expires' => 'Sona eriyor',
+    'extend' => 'Uzat',
+    'giftingBalance' => 'Hediye bakiyesi',
+    'days' => 'gün',
+    'add' => 'Ekle',
+    'useCode' => 'Kod kullan',
+    'balanceHistory' => 'Bakiye geçmişi',
+    'noExpiration' => 'Süresiz',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Özel görsel yükle',
+    'uploadCustomImageDesc' => 'Jstris\'te herkese açık profil resmi olarak kullanılacak görseli seç. Uygunsuz olarak bildirildiğinde kaldırılabilir.',
+    'supporterOption' => 'Supporter seçeneği',
+    'seeDetails' => 'Detayları gör',
+    'uploadPreviewCrop' => 'Önizleme ve kırpma için yükle',
+
+    /* Settings - Profile */
+    'remove' => 'Kaldır',
+    'noImageSelected' => 'Henüz görsel seçilmedi',
+    'bioPlaceholder' => 'Profilinde görünecek mesajı gir',
+    'bioFormatInfo' => 'Hiperlinkleri şu şekilde biçimlendirebilirsin: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter hesaplar biçimlendirme, bağlantı ve emoji kullanabilir',
+    'selectProfileImage' => 'Profil görseli seç',
+    'jstrisBlocks' => 'Jstris blokları',
+    'animalArt' => 'Hayvan sanatı',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris reklamsızdır ve herkes için ücretsizdir. Destekleyerek şu avantajları açabilirsin:',
+    'benefitProfileCustomizations' => 'Profil özelleştirmeleri',
+    'benefitProfileCustomizationsDesc' => 'Özel profil görseli yükleyebilir ve profildeki "Hakkında" mesajında gelişmiş biçimlendirme kullanabilirsin (2000 karaktere kadar, link ve emojiler).',
+    'benefitSaveMatchesBots' => 'Botlara karşı maçları kaydet',
+    'benefitSaveMatchesBotsDesc' => 'Botlara karşı 1v1 maçların tekrarlar ve gelişmiş istatistiklerle birlikte sonuçlara kaydedilir.',
+    'benefitUnlimitedReplays' => 'Sınırsız tekrar',
+    'benefitUnlimitedReplaysDesc' => 'Supporter aktifyken tek oyunculu mod tekrarların silinmez.',
+    'getSupporterCta' => 'Jstris Supporter edin!',
+    'configureBenefits' => 'Avantajları yapılandır',
+    'nameChange' => 'İsim değişikliği',
+    'nameChangeInfo' => 'Supporter olarak ayda bir isim değişikliği yapabilirsin. Buradan değiştir:',
+    'newNameLabel' => 'Yeni isim',
+    'newNamePlaceholder' => 'Yeni kullanıcı adı gir',
+    'manageSubscriptionTitle' => 'Jstris aboneliğini yönet',
+    'manageSubscriptionInfo1' => 'Durdurmak/iptal için PayPal\'a giriş yap ve Abonelik panelinde ilgili seçeneği seç.',
+    'manageSubscriptionInfo2' => 'Sorunlarda: jstris@jezevec10.com.',
+    'close' => 'Kapat',
+
     ];

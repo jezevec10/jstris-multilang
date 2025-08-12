@@ -202,4 +202,84 @@ return [
     'ruSure' => 'Ви впевнені?',
     'rmFriend' => 'Ви хочете видалити цього гравця зі списку друзів?',
     'rmConfirm' => 'Так, видалити',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Профіль',
+    'setLocalizationNav' => 'Локалізація',
+    'setPasswordNav' => 'Пароль',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Інше',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Підключити Discord',
+    'disconnect' => 'Від’єднати',
+    'connectDiscord' => 'Підключити Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Експерименти',
+    'setExperimentsDesc' => 'Увімкнути тестовий доступ до експериментальних/незавершених функцій',
+    'setExperimentsNote' => 'Діліться ідеями щодо протестованих функцій у Discord Jstris',
+    'deleteAccount' => 'Видалити акаунт',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Повернутися',
+    'giftBalanceHistory' => 'Історія подарункового балансу',
+    'message' => 'Повідомлення',
+    'change' => 'Зміна',
+    'before' => 'До',
+    'after' => 'Після',
+    'relative' => 'Відносно',
+    'none' => 'Немає',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Підписка',
+    'active' => 'активна',
+    'manage' => 'Керувати',
+    'renewsOn' => 'Поновлюється:',
+    'oneTime' => 'Одноразова',
+    'expires' => 'Завершується',
+    'extend' => 'Продовжити',
+    'giftingBalance' => 'Подарунковий баланс',
+    'days' => 'днів',
+    'add' => 'Додати',
+    'useCode' => 'Ввести код',
+    'balanceHistory' => 'Історія балансу',
+    'noExpiration' => 'Без строку дії',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Завантажити власне зображення',
+    'uploadCustomImageDesc' => 'Виберіть зображення для публічного аватара у Jstris. Може бути видалено, якщо буде поскаржено як неприпустиме.',
+    'supporterOption' => 'Опція Supporter',
+    'seeDetails' => 'Переглянути деталі',
+    'uploadPreviewCrop' => 'Завантажити для попереднього перегляду та обрізання',
+
+    /* Settings - Profile */
+    'remove' => 'Вилучити',
+    'noImageSelected' => 'Зображення ще не вибрано',
+    'bioPlaceholder' => 'Введіть повідомлення, що з’явиться у вашому профілі',
+    'bioFormatInfo' => 'Можна форматувати посилання так: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Акаунти Supporter можуть використовувати форматування, вставляти посилання та емодзі',
+    'selectProfileImage' => 'Виберіть зображення профілю',
+    'jstrisBlocks' => 'Блоки Jstris',
+    'animalArt' => 'Тваринний арт',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris без реклами та безкоштовний для всіх. Підтримуючи, ви відкриваєте такі переваги:',
+    'benefitProfileCustomizations' => 'Налаштування профілю',
+    'benefitProfileCustomizationsDesc' => 'Можна завантажити власне фото профілю та використовувати розширене форматування в «Про мене» (до 2000 символів, посилання та емодзі).',
+    'benefitSaveMatchesBots' => 'Збереження ігор проти ботів',
+    'benefitSaveMatchesBotsDesc' => 'Ваші 1v1 проти ботів зберігатимуться в результатах, включно з повторами та статистикою.',
+    'benefitUnlimitedReplays' => 'Необмежені реплеї',
+    'benefitUnlimitedReplaysDesc' => 'Жоден реплей з одиночних режимів не буде видалено, доки Supporter активний.',
+    'getSupporterCta' => 'Отримати Jstris Supporter!',
+    'configureBenefits' => 'Налаштувати переваги',
+    'nameChange' => 'Зміна імені',
+    'nameChangeInfo' => 'Як Supporter, ви можете змінювати ім’я раз на місяць. Змініть тут:',
+    'newNameLabel' => 'Нове ім’я',
+    'newNamePlaceholder' => 'Введіть нове ім’я користувача',
+    'manageSubscriptionTitle' => 'Керування підпискою Jstris',
+    'manageSubscriptionInfo1' => 'Щоб призупинити або скасувати, увійдіть у PayPal і виберіть потрібну опцію на панелі підписки.',
+    'manageSubscriptionInfo2' => 'У разі проблем: jstris@jezevec10.com.',
+    'close' => 'Закрити',
 ];

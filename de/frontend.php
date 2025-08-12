@@ -110,6 +110,8 @@ return [
     'badRoom' => 'Dieser Raum existiert nicht mehr. Trete dem Standard Raum bei!',
     'stngsChanged' => 'Einstellungen durch den Leiter geändert',
     'stngsCustom' => 'Benutzerdefinierte Einstellungen',
+    'bots' => 'Bots',
+    'rulesets' => 'Regelsätze',
     'aSpec' => 'Bereits am Zuschauen!',
     'aPlay' => 'Bereits am Spielen!',
     'repFail' => 'Speichern der Wiederholung fehlgeschlagen.',
@@ -131,9 +133,17 @@ return [
     'ban2' => 'Dieses Nutzerprofil wurde GEBANNT. Melden Sie sich neu auf der Seite an, um mehr zu erfahren.',
     'ncGS' => 'Keine Verbindung zum Spielserver, versuche {refr}.',
     'refr' => 'Neuladen der Seite',
+    'lines' => 'Reihen',
+    'statistics' => 'Statistiken', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'Müll-Abbau',
+    'wasted' => 'Verschwendet',
+    'expand' => 'Erweitern',  //tooltip for icon to expand chat
     'nsUnpub' => 'Datensatz nicht gespeichert. Weil die Karte nicht veröffentlicht wird.',
     'nsTspins' => 'Datensatz nicht gespeichert. Weil nicht genug T-Spins.',
     'nsLowPC' => 'Datensatz nicht gespeichert. Weil mindestens 2 perfekte Löschvorgänge erforderlich sind.',
+    'noBlocks' => 'Keine Blöcke mehr',
+    'noBlocks2' => 'Alle Blöcke wurden verwendet',
     //Room info detail
     'noPlayers' => 'Keine Spieler',
     'cntMore' => '{cnt} Weitere',          //e.g. +10 more
@@ -144,4 +154,29 @@ return [
     'gTimeShort' => 'S.zeit',
     'on' => 'An',
     'off' => 'Aus',
+
+    //friends
+    'fr' => 'Freunde',
+    'frLoad' => 'Freundesliste wird geladen',
+    'frLogin' => 'Melden Sie sich an, um die Freundesliste zu nutzen',
+    'frEmpty' => 'Freundesliste ist leer',
+    'frHowAdd' => 'Besuchen Sie das Profil eines Nutzers, um eine Freundschaftsanfrage zu senden.',
+    'frPriv' => 'Privat',
+    'frIn' => 'Schon drin!',
+    'frChat' => 'Chat öffnen',
+    'frRel' => 'Neu laden',
+    'frMsgTo' => 'Nachricht an {name}',  //keep {name}
+    'frInv' => 'Raumeinladung senden',
+    'frInvTo' => 'Zum Beitreten in {room} einladen',
+    'frInvIn' => 'Sie sind bereits drin!',
+    'frInvBy' => 'von {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Dies ist der Beginn des Chatverlaufs mit {name}.',
+    'frWelc' => 'Willkommen im Tab Freunde',
+    'frIntro' => 'Hier können Sie die Liste Ihrer Online-Freunde, private Chats und Raumeinladungen aufrufen',
+    'frIntro2' => 'Um eine Freundschaftsanfrage zu senden, besuchen Sie das Profil eines Nutzers',
+    'frIntro3' => 'Um Freunde zu verwalten, besuchen Sie die {frPage}',
+    'frPage' => 'Freundeseite',
+    'frIntroCl' => 'Intro schließen',
 ];

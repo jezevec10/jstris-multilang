@@ -195,4 +195,84 @@ return [
     'ruSure' => 'Jesteś pewny/a?',
     'rmFriend' => 'Chcesz usunąć tą osobę z listy znajomych?',
     'rmConfirm' => 'Tak, usuń',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Lokalizacja',
+    'setPasswordNav' => 'Hasło',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Inne',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Połącz Discord',
+    'disconnect' => 'Odłącz',
+    'connectDiscord' => 'Połącz Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Eksperymenty',
+    'setExperimentsDesc' => 'Włącz dostęp testowy do eksperymentalnych/niedokończonych funkcji',
+    'setExperimentsNote' => 'Podziel się pomysłami o testowanych funkcjach na Discordzie Jstris',
+    'deleteAccount' => 'Usuń konto',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Wróć',
+    'giftBalanceHistory' => 'Historia salda prezentowego',
+    'message' => 'Wiadomość',
+    'change' => 'Zmiana',
+    'before' => 'Przed',
+    'after' => 'Po',
+    'relative' => 'Względne',
+    'none' => 'Brak',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Subskrypcja',
+    'active' => 'aktywna',
+    'manage' => 'Zarządzaj',
+    'renewsOn' => 'Odnawia się:',
+    'oneTime' => 'Jednorazowa',
+    'expires' => 'Wygasa',
+    'extend' => 'Przedłuż',
+    'giftingBalance' => 'Saldo prezentowe',
+    'days' => 'dni',
+    'add' => 'Dodaj',
+    'useCode' => 'Użyj kodu',
+    'balanceHistory' => 'Historia salda',
+    'noExpiration' => 'Bez wygaśnięcia',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Prześlij własny obraz',
+    'uploadCustomImageDesc' => 'Wybierz obraz jako publiczne zdjęcie profilowe na Jstris. Może zostać usunięty, jeśli zostanie zgłoszony jako niestosowny.',
+    'supporterOption' => 'Opcja Supporter',
+    'seeDetails' => 'Zobacz szczegóły',
+    'uploadPreviewCrop' => 'Prześlij, aby podejrzeć i przyciąć',
+
+    /* Settings - Profile */
+    'remove' => 'Usuń',
+    'noImageSelected' => 'Nie wybrano jeszcze obrazu',
+    'bioPlaceholder' => 'Wpisz wiadomość, która pojawi się na Twoim profilu',
+    'bioFormatInfo' => 'Możesz formatować linki w ten sposób: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Konta Supporter mogą używać formatowania, wstawiać linki i emotki',
+    'selectProfileImage' => 'Wybierz obraz profilowy',
+    'jstrisBlocks' => 'Klocki Jstris',
+    'animalArt' => 'Sztuka zwierzęca',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris jest bez reklam i darmowy dla wszystkich. Wspierając odblokowujesz następujące korzyści:',
+    'benefitProfileCustomizations' => 'Personalizacja profilu',
+    'benefitProfileCustomizationsDesc' => 'Możesz przesłać własne zdjęcie profilowe i używać rozszerzonego formatowania w sekcji „O mnie” (do 2000 znaków, linki i emotki).',
+    'benefitSaveMatchesBots' => 'Zapisuj mecze z botami',
+    'benefitSaveMatchesBotsDesc' => 'Twoje 1v1 z botami zostaną zapisane w wynikach wraz z powtórkami i statystykami.',
+    'benefitUnlimitedReplays' => 'Nieograniczone powtórki',
+    'benefitUnlimitedReplaysDesc' => 'Żadne powtórki z trybów singleplayer nie będą usuwane, gdy Supporter jest aktywny.',
+    'getSupporterCta' => 'Zdobądź Jstris Supporter!',
+    'configureBenefits' => 'Skonfiguruj korzyści',
+    'nameChange' => 'Zmiana nazwy',
+    'nameChangeInfo' => 'Jako Supporter możesz zmienić nazwę raz w miesiącu. Zmień tutaj:',
+    'newNameLabel' => 'Nowa nazwa',
+    'newNamePlaceholder' => 'Podaj nową nazwę użytkownika',
+    'manageSubscriptionTitle' => 'Zarządzaj subskrypcją Jstris',
+    'manageSubscriptionInfo1' => 'Aby wstrzymać/anulować, zaloguj się do PayPal i wybierz odpowiednią opcję w panelu subskrypcji.',
+    'manageSubscriptionInfo2' => 'W razie problemów: jstris@jezevec10.com.',
+    'close' => 'Zamknij',
 ];

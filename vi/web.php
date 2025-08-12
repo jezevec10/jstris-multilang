@@ -195,4 +195,84 @@ return [
     'ruSure' => 'Bạn chắc chắn chứ?',
     'rmFriend' => 'Bạn có muốn bỏ người này khỏi danh sách bạn bè của bạn?',
     'rmConfirm' => 'Có, tôi muốn bỏ',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Hồ sơ',
+    'setLocalizationNav' => 'Bản địa hoá',
+    'setPasswordNav' => 'Mật khẩu',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Khác',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Kết nối Discord',
+    'disconnect' => 'Ngắt kết nối',
+    'connectDiscord' => 'Kết nối Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Thử nghiệm',
+    'setExperimentsDesc' => 'Bật quyền thử nghiệm các tính năng thử nghiệm/chưa hoàn thiện',
+    'setExperimentsNote' => 'Chia sẻ ý tưởng về các tính năng thử nghiệm trong Discord của Jstris',
+    'deleteAccount' => 'Xoá tài khoản',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Quay lại',
+    'giftBalanceHistory' => 'Lịch sử số dư tặng',
+    'message' => 'Tin nhắn',
+    'change' => 'Thay đổi',
+    'before' => 'Trước',
+    'after' => 'Sau',
+    'relative' => 'Tương đối',
+    'none' => 'Không',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Gói thuê bao',
+    'active' => 'đang hoạt động',
+    'manage' => 'Quản lý',
+    'renewsOn' => 'Gia hạn vào:',
+    'oneTime' => 'Một lần',
+    'expires' => 'Hết hạn',
+    'extend' => 'Gia hạn',
+    'giftingBalance' => 'Số dư tặng',
+    'days' => 'ngày',
+    'add' => 'Thêm',
+    'useCode' => 'Dùng mã',
+    'balanceHistory' => 'Lịch sử số dư',
+    'noExpiration' => 'Không hết hạn',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Tải ảnh tuỳ chỉnh',
+    'uploadCustomImageDesc' => 'Chọn ảnh để dùng làm ảnh đại diện công khai trên Jstris. Ảnh có thể bị xoá nếu bị báo cáo là không phù hợp.',
+    'supporterOption' => 'Tuỳ chọn Supporter',
+    'seeDetails' => 'Xem chi tiết',
+    'uploadPreviewCrop' => 'Tải lên để xem trước & cắt',
+
+    /* Settings - Profile */
+    'remove' => 'Gỡ bỏ',
+    'noImageSelected' => 'Chưa chọn ảnh',
+    'bioPlaceholder' => 'Nhập tin nhắn sẽ xuất hiện trên hồ sơ của bạn',
+    'bioFormatInfo' => 'Bạn có thể định dạng liên kết như sau: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Tài khoản Supporter có thể dùng định dạng, chèn liên kết và emoji',
+    'selectProfileImage' => 'Chọn ảnh hồ sơ',
+    'jstrisBlocks' => 'Gạch Jstris',
+    'animalArt' => 'Nghệ thuật động vật',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris không có quảng cáo và miễn phí cho tất cả mọi người. Bằng việc ủng hộ bạn sẽ mở khoá những lợi ích sau:',
+    'benefitProfileCustomizations' => 'Tuỳ biến hồ sơ',
+    'benefitProfileCustomizationsDesc' => 'Bạn có thể tải ảnh hồ sơ tuỳ chỉnh và dùng định dạng mở rộng trong phần "Giới thiệu" (tối đa 2000 ký tự, liên kết và emoji).',
+    'benefitSaveMatchesBots' => 'Lưu các trận đấu với bot',
+    'benefitSaveMatchesBotsDesc' => 'Các trận 1v1 với bot sẽ được lưu trong kết quả gồm cả replay và thống kê.',
+    'benefitUnlimitedReplays' => 'Replay không giới hạn',
+    'benefitUnlimitedReplaysDesc' => 'Replay ở các chế độ chơi đơn sẽ không bị xoá khi Supporter đang hoạt động.',
+    'getSupporterCta' => 'Sở hữu Jstris Supporter!',
+    'configureBenefits' => 'Cấu hình lợi ích',
+    'nameChange' => 'Đổi tên',
+    'nameChangeInfo' => 'Là Supporter, bạn có thể đổi tên mỗi tháng một lần. Đổi tại đây:',
+    'newNameLabel' => 'Tên mới',
+    'newNamePlaceholder' => 'Nhập tên người dùng mới',
+    'manageSubscriptionTitle' => 'Quản lý thuê bao Jstris',
+    'manageSubscriptionInfo1' => 'Để tạm dừng/hủy, đăng nhập PayPal và chọn tuỳ chọn trên bảng thuê bao.',
+    'manageSubscriptionInfo2' => 'Nếu gặp vấn đề, liên hệ jstris@jezevec10.com.',
+    'close' => 'Đóng',
 ];

@@ -68,6 +68,7 @@ return [
     'name' => 'Nom',
     'wins' => 'Victoires',
     'time' => 'Temps', //as game duration
+    'received' => 'Reçu',
     'sent' => 'Envoyé',
     'blocks' => 'Blocs', //as number of blocks placed
     'ren' => 'REN',

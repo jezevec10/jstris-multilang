@@ -2,6 +2,7 @@
 
 return [
     'donate' => '贊助', //menu item, short
+    'supportUs' => '支持我們', //menu item, short
     'descr' => '贊助以支持 Jstris 並啟用支持者回饋', // 'Support Jstris by sending a donation and enable Supporter rewards'
     'supportJstris' => '支持 Jstris', // 'Support Jstris'
     'supportDesc1' => '如果您欣賞這款遊戲, 請考慮贊助，以協助維持伺服器品質與未來進一步的發展', // 'If you appreciate this game, please consider a donation to this project and help cover server expenses and further development.',

@@ -203,4 +203,84 @@ return [
     'ruSure' => '¿Estás seguro?',
     'rmFriend' => '¿Quiéres eliminar a esta persona de tu lista de amigos?',
     'rmConfirm' => 'Si, eliminar',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Perfil',
+    'setLocalizationNav' => 'Localización',
+    'setPasswordNav' => 'Contraseña',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Otros',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Conectar Discord',
+    'disconnect' => 'Desconectar',
+    'connectDiscord' => 'Conectar Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Experimentos',
+    'setExperimentsDesc' => 'Habilita el acceso de prueba a funciones experimentales/en desarrollo',
+    'setExperimentsNote' => 'Comparte tus ideas sobre funciones de prueba en el Discord de Jstris',
+    'deleteAccount' => 'Eliminar cuenta',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Regresar',
+    'giftBalanceHistory' => 'Historial de saldo de regalos',
+    'message' => 'Mensaje',
+    'change' => 'Cambio',
+    'before' => 'Antes',
+    'after' => 'Después',
+    'relative' => 'Relativo',
+    'none' => 'Ninguno',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Suscripción',
+    'active' => 'activa',
+    'manage' => 'Administrar',
+    'renewsOn' => 'Renueva el:',
+    'oneTime' => 'Única vez',
+    'expires' => 'Expira',
+    'extend' => 'Extender',
+    'giftingBalance' => 'Saldo para regalar',
+    'days' => 'días',
+    'add' => 'Agregar',
+    'useCode' => 'Usar código',
+    'balanceHistory' => 'Historial de saldo',
+    'noExpiration' => 'Sin vencimiento',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Subir imagen personalizada',
+    'uploadCustomImageDesc' => 'Elige una imagen para usar como foto pública de perfil en Jstris. Puede ser removida si se reporta como inapropiada.',
+    'supporterOption' => 'Opción para Supporter',
+    'seeDetails' => 'Ver detalles',
+    'uploadPreviewCrop' => 'Subir para previsualizar y recortar',
+
+    /* Settings - Profile */
+    'remove' => 'Quitar',
+    'noImageSelected' => 'Aún no se seleccionó imagen',
+    'bioPlaceholder' => 'Ingresa un mensaje que aparecerá en tu perfil',
+    'bioFormatInfo' => 'Puedes formatear enlaces así: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Las cuentas Supporter pueden usar formato, insertar enlaces y emotes',
+    'selectProfileImage' => 'Seleccionar imagen de perfil',
+    'jstrisBlocks' => 'Bloques Jstris',
+    'animalArt' => 'Arte de animales',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris es sin anuncios y gratis para todos. Al apoyar desbloqueas estos beneficios:',
+    'benefitProfileCustomizations' => 'Personalizaciones de perfil',
+    'benefitProfileCustomizationsDesc' => 'Puedes subir una foto de perfil personalizada y usar formato extendido en el mensaje "Acerca de" (hasta 2000 caracteres, usar hipervínculos y emotes).',
+    'benefitSaveMatchesBots' => 'Guardar partidas contra bots',
+    'benefitSaveMatchesBotsDesc' => 'Tus 1v1 contra bots se guardarán en resultados incluyendo replays y estadísticas avanzadas.',
+    'benefitUnlimitedReplays' => 'Replays ilimitados',
+    'benefitUnlimitedReplaysDesc' => 'Ninguno de tus replays de modos de un jugador será eliminado mientras Supporter esté activo.',
+    'getSupporterCta' => '¡Consigue Jstris Supporter!',
+    'configureBenefits' => 'Configurar beneficios',
+    'nameChange' => 'Cambio de nombre',
+    'nameChangeInfo' => 'Como Supporter, puedes cambiar el nombre una vez al mes. Hazlo aquí:',
+    'newNameLabel' => 'Nuevo nombre',
+    'newNamePlaceholder' => 'Ingresa nuevo nombre de usuario',
+    'manageSubscriptionTitle' => 'Administrar suscripción Jstris',
+    'manageSubscriptionInfo1' => 'Para pausar o cancelar, inicia sesión en PayPal y elige la opción en el panel de Suscripción.',
+    'manageSubscriptionInfo2' => 'En caso de problemas, contacta jstris@jezevec10.com.',
+    'close' => 'Cerrar',
 ];

@@ -96,4 +96,84 @@ return [
     'invalidLink' => 'L\'indirizzo richiesto non è valido.',
     'brb' => 'Torno subito.',
     'tryAgain' => 'Il sito è in fase di aggiornamento. Riprova tra qualche istante.',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profilo',
+    'setLocalizationNav' => 'Localizzazione',
+    'setPasswordNav' => 'Password',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Altro',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Collega Discord',
+    'disconnect' => 'Disconnetti',
+    'connectDiscord' => 'Collega Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Sperimentazioni',
+    'setExperimentsDesc' => 'Abilita accesso di prova a funzionalità sperimentali/incomplete',
+    'setExperimentsNote' => 'Condividi le tue idee sulle funzioni testate nel Discord di Jstris',
+    'deleteAccount' => 'Elimina account',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Torna indietro',
+    'giftBalanceHistory' => 'Storico saldo regali',
+    'message' => 'Messaggio',
+    'change' => 'Cambio',
+    'before' => 'Prima',
+    'after' => 'Dopo',
+    'relative' => 'Relativo',
+    'none' => 'Nessuno',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Abbonamento',
+    'active' => 'attivo',
+    'manage' => 'Gestisci',
+    'renewsOn' => 'Si rinnova il:',
+    'oneTime' => 'Una volta',
+    'expires' => 'Scade',
+    'extend' => 'Estendi',
+    'giftingBalance' => 'Saldo regali',
+    'days' => 'giorni',
+    'add' => 'Aggiungi',
+    'useCode' => 'Usa codice',
+    'balanceHistory' => 'Storico saldo',
+    'noExpiration' => 'Senza scadenza',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Carica immagine personalizzata',
+    'uploadCustomImageDesc' => 'Scegli un\'immagine da usare come foto profilo pubblica su Jstris. L\'immagine può essere rimossa se segnalata come inappropriata.',
+    'supporterOption' => 'Opzione Supporter',
+    'seeDetails' => 'Vedi dettagli',
+    'uploadPreviewCrop' => 'Carica per anteprima e ritaglio',
+
+    /* Settings - Profile */
+    'remove' => 'Rimuovi',
+    'noImageSelected' => 'Nessuna immagine selezionata',
+    'bioPlaceholder' => 'Inserisci un messaggio che apparirà sul tuo profilo',
+    'bioFormatInfo' => 'Puoi formattare i link così: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Gli account Supporter possono usare formattazione, inserire link ed emoticon',
+    'selectProfileImage' => 'Seleziona immagine profilo',
+    'jstrisBlocks' => 'Blocchi Jstris',
+    'animalArt' => 'Arte degli animali',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris è senza pubblicità e gratuito per tutti. Sostenendoci sblocchi i seguenti vantaggi:',
+    'benefitProfileCustomizations' => 'Personalizzazioni profilo',
+    'benefitProfileCustomizationsDesc' => 'Puoi caricare una foto profilo personalizzata e usare formattazione estesa nel messaggio "Informazioni" (fino a 2000 caratteri, link ed emoji).',
+    'benefitSaveMatchesBots' => 'Salva partite contro i bot',
+    'benefitSaveMatchesBotsDesc' => 'I tuoi 1v1 contro i bot verranno salvati nei risultati con replay e statistiche avanzate.',
+    'benefitUnlimitedReplays' => 'Replay illimitati',
+    'benefitUnlimitedReplaysDesc' => 'Nessun replay delle modalità singleplayer verrà eliminato finché il Supporter è attivo.',
+    'getSupporterCta' => 'Ottieni Jstris Supporter!',
+    'configureBenefits' => 'Configura vantaggi',
+    'nameChange' => 'Cambio nome',
+    'nameChangeInfo' => 'Come Supporter, puoi cambiare nome una volta al mese. Puoi farlo qui:',
+    'newNameLabel' => 'Nuovo nome',
+    'newNamePlaceholder' => 'Inserisci nuovo nome utente',
+    'manageSubscriptionTitle' => 'Gestisci abbonamento Jstris',
+    'manageSubscriptionInfo1' => 'Per sospendere o annullare l\'abbonamento, accedi a PayPal e seleziona l\'opzione nel pannello Abbonamenti.',
+    'manageSubscriptionInfo2' => 'In caso di problemi, contatta jstris@jezevec10.com.',
+    'close' => 'Chiudi',
 ];

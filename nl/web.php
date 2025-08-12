@@ -187,4 +187,83 @@ return [
     'rr4' => 'Anders, namelijk:',
     'sendReport' => 'Melding versturen',
     
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profiel',
+    'setLocalizationNav' => 'Lokalisatie',
+    'setPasswordNav' => 'Wachtwoord',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Overig',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Discord koppelen',
+    'disconnect' => 'Verbreken',
+    'connectDiscord' => 'Discord koppelen',
+
+    /* Settings - Other */
+    'setExperiments' => 'Experimenten',
+    'setExperimentsDesc' => 'Schakel testtoegang in voor experimentele/onafgemaakte features',
+    'setExperimentsNote' => 'Deel je ideeën over geteste features op de Jstris Discord',
+    'deleteAccount' => 'Account verwijderen',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Ga terug',
+    'giftBalanceHistory' => 'Geschiedenis cadeausaldo',
+    'message' => 'Bericht',
+    'change' => 'Wijziging',
+    'before' => 'Voor',
+    'after' => 'Na',
+    'relative' => 'Relatief',
+    'none' => 'Geen',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Abonnement',
+    'active' => 'actief',
+    'manage' => 'Beheren',
+    'renewsOn' => 'Vernieuwt op:',
+    'oneTime' => 'Eenmalig',
+    'expires' => 'Verloopt',
+    'extend' => 'Verlengen',
+    'giftingBalance' => 'Cadeausaldo',
+    'days' => 'dagen',
+    'add' => 'Toevoegen',
+    'useCode' => 'Code gebruiken',
+    'balanceHistory' => 'Saldoverloop',
+    'noExpiration' => 'Geen verloop',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Aangepaste afbeelding uploaden',
+    'uploadCustomImageDesc' => 'Kies een afbeelding als openbare profielfoto op Jstris. Kan worden verwijderd als ongepast gemeld.',
+    'supporterOption' => 'Supporter-optie',
+    'seeDetails' => 'Bekijk details',
+    'uploadPreviewCrop' => 'Upload voor voorbeeld & bijsnijden',
+
+    /* Settings - Profile */
+    'remove' => 'Verwijderen',
+    'noImageSelected' => 'Nog geen afbeelding geselecteerd',
+    'bioPlaceholder' => 'Voer een bericht in dat op je profiel verschijnt',
+    'bioFormatInfo' => 'Hyperlinks kun je zo opmaken: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter-accounts kunnen opmaak gebruiken, links en emotes invoegen',
+    'selectProfileImage' => 'Kies profielfoto',
+    'jstrisBlocks' => 'Jstris-blokken',
+    'animalArt' => 'Dierenkunst',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris is vrij van advertenties en gratis voor iedereen. Door te steunen ontgrendel je de volgende voordelen:',
+    'benefitProfileCustomizations' => 'Profielaanpassingen',
+    'benefitProfileCustomizationsDesc' => 'Je kunt een aangepaste profielfoto uploaden en uitgebreide opmaak gebruiken in het "Over"-bericht (max. 2000 tekens, hyperlinks en emotes).',
+    'benefitSaveMatchesBots' => 'Partijen tegen bots opslaan',
+    'benefitSaveMatchesBotsDesc' => 'Je 1v1 tegen bots wordt opgeslagen in de resultaten inclusief replays en statistieken.',
+    'benefitUnlimitedReplays' => 'Onbeperkte replays',
+    'benefitUnlimitedReplaysDesc' => 'Geen van je singleplayer-replays wordt verwijderd zolang Supporter actief is.',
+    'getSupporterCta' => 'Neem Jstris Supporter!',
+    'configureBenefits' => 'Voordelen instellen',
+    'nameChange' => 'Naam wijzigen',
+    'nameChangeInfo' => 'Als Supporter kun je je naam eens per maand wijzigen. Doe dat hier:',
+    'newNameLabel' => 'Nieuwe naam',
+    'newNamePlaceholder' => 'Voer nieuwe gebruikersnaam in',
+    'manageSubscriptionTitle' => 'Jstris-abonnement beheren',
+    'manageSubscriptionInfo1' => 'Pauzeren of annuleren: log in bij PayPal en kies de optie op het abonnementsdashboard.',
+    'manageSubscriptionInfo2' => 'Bij problemen: jstris@jezevec10.com.',
+    'close' => 'Sluiten',
 ];

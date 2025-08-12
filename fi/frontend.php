@@ -94,6 +94,8 @@ return [
     'garbage' => 'Roska',
     'garbageDelay' => 'Roskaviive',
     'messiness' => 'Sotkuisuus',
+    'gapWidth' => 'Aukon leveys',
+    'gInv' => 'Invertoi roskat',
     'replay' => 'Toisto',
     'rep' => 'Rep', //max 3, short for Replay
     'rec' => 'Rec.', //max 4, short for Received
@@ -148,6 +150,8 @@ return [
     'nsUnpub' => 'Toistoa ei tallennettu, karttaa ei ole julkaistu.',
     'nsTspins' => 'Toistoa ei tallennettu, ei tarpeeksi T-Spinnejä.',
     'nsLowPC' => 'Toistoa ei tallennettu, ainakin 2 Perfect Clearia tarvitaan.',
+    'noBlocks' => 'Ei palikoita jäljellä',
+    'noBlocks2' => 'Kaikki palikat on käytetty',
 
     //Room info detail
     'noPlayers' => 'Ei pelaajia',
@@ -159,4 +163,29 @@ return [
     'gTimeShort' => 'P.aika',
     'on' => 'Päällä',
     'off' => 'Pois päältä',
+
+    //friends
+    'fr' => 'Ystävät',
+    'frLoad' => 'Ladataan ystävälistaa',
+    'frLogin' => 'Kirjaudu ensin käyttääksesi ystävälistaa',
+    'frEmpty' => 'Ystävälista on tyhjä',
+    'frHowAdd' => 'Lähetä kaveripyyntö vierailemalla käyttäjän profiilissa.',
+    'frPriv' => 'Yksityinen',
+    'frIn' => 'Jo sisällä!',
+    'frChat' => 'Avaa chat',
+    'frRel' => 'Lataa uudelleen',
+    'frMsgTo' => 'Viesti: {name}',  //keep {name}
+    'frInv' => 'Lähetä huonekutsu',
+    'frInvTo' => 'Kutsu liittymään: {room}',
+    'frInvIn' => 'Olet jo sisällä!',
+    'frInvBy' => 'lähettäjä {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Tämä on keskusteluhistorian alku käyttäjän {name} kanssa.',
+    'frWelc' => 'Tervetuloa Ystävät-välilehdelle',
+    'frIntro' => 'Täällä voit käyttää online-ystävälistaa, yksityiskeskusteluja ja huonekutsuja',
+    'frIntro2' => 'Lähettääksesi kaveripyynnön, käy käyttäjän profiilissa',
+    'frIntro3' => 'Hallinnoi ystäviäsi sivulla {frPage}',
+    'frPage' => 'Ystäväsivu',
+    'frIntroCl' => 'Sulje esittely',
 ];

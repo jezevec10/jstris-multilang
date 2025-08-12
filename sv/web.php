@@ -186,4 +186,83 @@ return [
     'rr4' => 'Annan (specifiera)',
     'sendReport' => 'Skicka Rapport',
     
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Lokalisering',
+    'setPasswordNav' => 'Lösenord',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Övrigt',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Anslut Discord',
+    'disconnect' => 'Koppla från',
+    'connectDiscord' => 'Anslut Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Experiment',
+    'setExperimentsDesc' => 'Aktivera teståtkomst till experimentella/ofärdiga funktioner',
+    'setExperimentsNote' => 'Dela idéer om testade funktioner i Jstris Discord',
+    'deleteAccount' => 'Ta bort konto',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Gå tillbaka',
+    'giftBalanceHistory' => 'Historik för gåvosaldo',
+    'message' => 'Meddelande',
+    'change' => 'Ändring',
+    'before' => 'Före',
+    'after' => 'Efter',
+    'relative' => 'Relativ',
+    'none' => 'Inget',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Prenumeration',
+    'active' => 'aktiv',
+    'manage' => 'Hantera',
+    'renewsOn' => 'Förnyas:',
+    'oneTime' => 'Engångs',
+    'expires' => 'Går ut',
+    'extend' => 'Förläng',
+    'giftingBalance' => 'Gåvosaldo',
+    'days' => 'dagar',
+    'add' => 'Lägg till',
+    'useCode' => 'Använd kod',
+    'balanceHistory' => 'Saldohistorik',
+    'noExpiration' => 'Ingen utgång',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Ladda upp anpassad bild',
+    'uploadCustomImageDesc' => 'Välj en bild som offentlig profilbild på Jstris. Bilden kan tas bort om den anmäls som olämplig.',
+    'supporterOption' => 'Supporter-alternativ',
+    'seeDetails' => 'Se detaljer',
+    'uploadPreviewCrop' => 'Ladda upp för förhandsvisning och beskärning',
+
+    /* Settings - Profile */
+    'remove' => 'Ta bort',
+    'noImageSelected' => 'Ingen bild vald ännu',
+    'bioPlaceholder' => 'Ange ett meddelande som visas på din profil',
+    'bioFormatInfo' => 'Du kan formatera länkar så här: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter-konton kan använda formatering, infoga länkar och emotes',
+    'selectProfileImage' => 'Välj profilbild',
+    'jstrisBlocks' => 'Jstris-block',
+    'animalArt' => 'Djurkonst',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris är utan annonser och gratis för alla. Genom att stödja låser du upp följande fördelar:',
+    'benefitProfileCustomizations' => 'Profilanpassningar',
+    'benefitProfileCustomizationsDesc' => 'Du kan ladda upp en anpassad profilbild och använda utökad formatering i "Om"-meddelandet (upp till 2000 tecken, länkar och emotes).',
+    'benefitSaveMatchesBots' => 'Spara matcher mot bottar',
+    'benefitSaveMatchesBotsDesc' => 'Dina 1v1 mot bottar sparas i resultaten inklusive replays och avancerad statistik.',
+    'benefitUnlimitedReplays' => 'Obegränsade replays',
+    'benefitUnlimitedReplaysDesc' => 'Inga replays från enspelarlägen tas bort medan Supporter är aktiv.',
+    'getSupporterCta' => 'Skaffa Jstris Supporter!',
+    'configureBenefits' => 'Konfigurera fördelar',
+    'nameChange' => 'Namnbyte',
+    'nameChangeInfo' => 'Som Supporter kan du byta namn en gång per månad. Byt här:',
+    'newNameLabel' => 'Nytt namn',
+    'newNamePlaceholder' => 'Ange nytt användarnamn',
+    'manageSubscriptionTitle' => 'Hantera Jstris-prenumeration',
+    'manageSubscriptionInfo1' => 'För att pausa/avsluta, logga in på PayPal och välj alternativet på Prenumerationspanelen.',
+    'manageSubscriptionInfo2' => 'Vid problem: jstris@jezevec10.com.',
+    'close' => 'Stäng',
 ];

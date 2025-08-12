@@ -185,5 +185,84 @@ return [
     'rr3' => 'Häirintä tai kiusaaminen',
     'rr4' => 'Muu (täsmennä)',
     'sendReport' => 'Lähetä ilmoitus',
-    
+
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profiili',
+    'setLocalizationNav' => 'Lokalisaatio',
+    'setPasswordNav' => 'Salasana',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Muut',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Yhdistä Discord',
+    'disconnect' => 'Katkaise',
+    'connectDiscord' => 'Yhdistä Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Kokeilut',
+    'setExperimentsDesc' => 'Ota käyttöön testipääsy kokeellisiin/keskeneräisiin ominaisuuksiin',
+    'setExperimentsNote' => 'Jaa ideasi testatuista ominaisuuksista Jstris Discordissa',
+    'deleteAccount' => 'Poista tili',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Palaa',
+    'giftBalanceHistory' => 'Lahjasaldon historia',
+    'message' => 'Viesti',
+    'change' => 'Muutos',
+    'before' => 'Ennen',
+    'after' => 'Jälkeen',
+    'relative' => 'Suhteellinen',
+    'none' => 'Ei mitään',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Tilaus',
+    'active' => 'aktiivinen',
+    'manage' => 'Hallinnoi',
+    'renewsOn' => 'Uusii:',
+    'oneTime' => 'Kertaluonteinen',
+    'expires' => 'Vanhenee',
+    'extend' => 'Pidennä',
+    'giftingBalance' => 'Lahjasaldo',
+    'days' => 'päivää',
+    'add' => 'Lisää',
+    'useCode' => 'Käytä koodia',
+    'balanceHistory' => 'Saldon historia',
+    'noExpiration' => 'Ei vanhene',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Lataa oma kuva',
+    'uploadCustomImageDesc' => 'Valitse kuva julkiseksi profiilikuvaksi Jstrisiin. Kuva voidaan poistaa, jos se ilmoitetaan asiattomaksi.',
+    'supporterOption' => 'Supporter-vaihtoehto',
+    'seeDetails' => 'Katso tiedot',
+    'uploadPreviewCrop' => 'Lataa esikatselua ja rajausta varten',
+
+    /* Settings - Profile */
+    'remove' => 'Poista',
+    'noImageSelected' => 'Kuvaa ei ole vielä valittu',
+    'bioPlaceholder' => 'Kirjoita viesti, joka näkyy profiilissasi',
+    'bioFormatInfo' => 'Voit muotoilla linkit näin: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter-tilit voivat käyttää muotoiluja, lisätä linkkejä ja emojeja',
+    'selectProfileImage' => 'Valitse profiilikuva',
+    'jstrisBlocks' => 'Jstris-palikat',
+    'animalArt' => 'Eläintaide',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris on ilmainen ja mainokseton. Tukemalla saat käyttöösi seuraavat edut:',
+    'benefitProfileCustomizations' => 'Profiilin muokkaukset',
+    'benefitProfileCustomizationsDesc' => 'Voit ladata oman profiilikuvan ja käyttää laajennettua muotoilua "Tietoja"-viestissä (jopa 2000 merkkiä, linkit ja emotet).',
+    'benefitSaveMatchesBots' => 'Tallenna pelit botteja vastaan',
+    'benefitSaveMatchesBotsDesc' => '1v1 botteja vastaan tallentuu tuloksiin, mukaan lukien uusinnat ja tilastot.',
+    'benefitUnlimitedReplays' => 'Rajattomat uusinnat',
+    'benefitUnlimitedReplaysDesc' => 'Yksinpelitilojen uusintoja ei poisteta Supporter-jäsenyyden aikana.',
+    'getSupporterCta' => 'Hanki Jstris Supporter!',
+    'configureBenefits' => 'Määritä edut',
+    'nameChange' => 'Nimen vaihto',
+    'nameChangeInfo' => 'Supporterina voit vaihtaa nimesi kerran kuukaudessa. Vaihda nimi täällä:',
+    'newNameLabel' => 'Uusi nimi',
+    'newNamePlaceholder' => 'Anna uusi käyttäjänimi',
+    'manageSubscriptionTitle' => 'Hallitse Jstris-tilausta',
+    'manageSubscriptionInfo1' => 'Keskeyttääksesi tai peruuttaaksesi tilauksen, kirjaudu PayPaliin ja valitse vaihtoehto tilaushallinnassa.',
+    'manageSubscriptionInfo2' => 'Ongelmatilanteissa: jstris@jezevec10.com.',
+    'close' => 'Sulje',
 ];

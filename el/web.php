@@ -202,4 +202,84 @@ return [
     'ruSure' => 'Είσαι σίγουρος;',
     'rmFriend' => 'Θέλετε να καταργήσετε αυτό το άτομο από τη λίστα φίλων σας;',
     'rmConfirm' => 'Ναι, κατάργηση',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Προφίλ',
+    'setLocalizationNav' => 'Τοπικοποίηση',
+    'setPasswordNav' => 'Κωδικός',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Άλλα',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Σύνδεση με Discord',
+    'disconnect' => 'Αποσύνδεση',
+    'connectDiscord' => 'Σύνδεση Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Πειράματα',
+    'setExperimentsDesc' => 'Ενεργοποίηση δοκιμαστικής πρόσβασης σε πειραματικές/ημιτελείς λειτουργίες',
+    'setExperimentsNote' => 'Μοιραστείτε ιδέες για τις δοκιμασμένες λειτουργίες στο Jstris Discord',
+    'deleteAccount' => 'Διαγραφή λογαριασμού',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Επιστροφή',
+    'giftBalanceHistory' => 'Ιστορικό υπολοίπου δώρων',
+    'message' => 'Μήνυμα',
+    'change' => 'Αλλαγή',
+    'before' => 'Πριν',
+    'after' => 'Μετά',
+    'relative' => 'Σχετικό',
+    'none' => 'Κανένα',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Συνδρομή',
+    'active' => 'ενεργό',
+    'manage' => 'Διαχείριση',
+    'renewsOn' => 'Ανανεώνεται στις:',
+    'oneTime' => 'Μία φορά',
+    'expires' => 'Λήγει',
+    'extend' => 'Παράταση',
+    'giftingBalance' => 'Υπόλοιπο δώρων',
+    'days' => 'ημέρες',
+    'add' => 'Προσθήκη',
+    'useCode' => 'Χρήση κωδικού',
+    'balanceHistory' => 'Ιστορικό υπολοίπου',
+    'noExpiration' => 'Χωρίς λήξη',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Μεταφόρτωση προσαρμοσμένης εικόνας',
+    'uploadCustomImageDesc' => 'Επιλέξτε εικόνα ως δημόσια εικόνα προφίλ στο Jstris. Μπορεί να αφαιρεθεί εάν αναφερθεί ως απρεπής.',
+    'supporterOption' => 'Επιλογή Supporter',
+    'seeDetails' => 'Δείτε λεπτομέρειες',
+    'uploadPreviewCrop' => 'Μεταφόρτωση για προεπισκόπηση & περικοπή',
+
+    /* Settings - Profile */
+    'remove' => 'Αφαίρεση',
+    'noImageSelected' => 'Δεν έχει επιλεγεί εικόνα ακόμα',
+    'bioPlaceholder' => 'Εισάγετε μήνυμα που θα εμφανίζεται στο προφίλ σας',
+    'bioFormatInfo' => 'Μπορείτε να μορφοποιήσετε συνδέσμους έτσι: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Οι Supporter λογαριασμοί μπορούν να χρησιμοποιούν μορφοποίηση, να εισάγουν συνδέσμους και emotes',
+    'selectProfileImage' => 'Επιλέξτε εικόνα προφίλ',
+    'jstrisBlocks' => 'Jstris μπλοκς',
+    'animalArt' => 'Καλλιτεχνία ζώων',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Το Jstris είναι χωρίς διαφημίσεις και δωρεάν. Με την υποστήριξή σας ξεκλειδώνετε τα ακόλουθα οφέλη:',
+    'benefitProfileCustomizations' => 'Προσαρμογές προφίλ',
+    'benefitProfileCustomizationsDesc' => 'Μπορείτε να ανεβάσετε προσαρμοσμένη εικόνα προφίλ και να χρησιμοποιήσετε εκτεταμένη μορφοποίηση στο "Σχετικά" (έως 2000 χαρακτήρες, σύνδεσμοι και emotes).',
+    'benefitSaveMatchesBots' => 'Αποθήκευση παιχνιδιών με bots',
+    'benefitSaveMatchesBotsDesc' => 'Τα 1v1 με bots αποθηκεύονται στα αποτελέσματα συμπεριλαμβανομένων replays και στατιστικών.',
+    'benefitUnlimitedReplays' => 'Απεριόριστα replays',
+    'benefitUnlimitedReplaysDesc' => 'Κανένα replay από singleplayer δεν διαγράφεται όσο είστε Supporter.',
+    'getSupporterCta' => 'Αποκτήστε Jstris Supporter!',
+    'configureBenefits' => 'Ρύθμιση οφελών',
+    'nameChange' => 'Αλλαγή ονόματος',
+    'nameChangeInfo' => 'Ως Supporter, μπορείτε να αλλάξετε όνομα μία φορά το μήνα. Αλλάξτε το εδώ:',
+    'newNameLabel' => 'Νέο όνομα',
+    'newNamePlaceholder' => 'Εισάγετε νέο όνομα χρήστη',
+    'manageSubscriptionTitle' => 'Διαχείριση συνδρομής Jstris',
+    'manageSubscriptionInfo1' => 'Για παύση ή ακύρωση, συνδεθείτε στο PayPal και επιλέξτε την επιλογή στο ταμπλό συνδρομής.',
+    'manageSubscriptionInfo2' => 'Για προβλήματα: jstris@jezevec10.com.',
+    'close' => 'Κλείσιμο',
 ];

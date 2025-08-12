@@ -204,4 +204,84 @@ return [
     'ruSure' => '确定吗?',
     'rmFriend' => '确定要将该用户移出好友列表?',
     'rmConfirm' => '是，移出',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => '个人资料',
+    'setLocalizationNav' => '本地化',
+    'setPasswordNav' => '密码',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => '其他',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => '连接 Discord',
+    'disconnect' => '断开连接',
+    'connectDiscord' => '连接 Discord',
+
+    /* Settings - Other */
+    'setExperiments' => '实验功能',
+    'setExperimentsDesc' => '启用对实验性/未完成功能的测试访问',
+    'setExperimentsNote' => '在 Jstris 的 Discord 频道分享你的想法',
+    'deleteAccount' => '删除账号',
+
+    /* Settings - Supporter History */
+    'returnBack' => '返回',
+    'giftBalanceHistory' => '赠送余额历史',
+    'message' => '消息',
+    'change' => '更改',
+    'before' => '之前',
+    'after' => '之后',
+    'relative' => '相对',
+    'none' => '无',
+
+    /* Settings - Supporter Status */
+    'subscription' => '订阅',
+    'active' => '有效',
+    'manage' => '管理',
+    'renewsOn' => '续订日期：',
+    'oneTime' => '一次性',
+    'expires' => '到期',
+    'extend' => '延长',
+    'giftingBalance' => '赠送余额',
+    'days' => '天',
+    'add' => '添加',
+    'useCode' => '使用代码',
+    'balanceHistory' => '余额历史',
+    'noExpiration' => '不过期',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => '上传自定义图片',
+    'uploadCustomImageDesc' => '选择一张图片作为 Jstris 的公共头像。如被举报不当可能会被移除。',
+    'supporterOption' => 'Supporter 选项',
+    'seeDetails' => '查看详情',
+    'uploadPreviewCrop' => '上传以预览和裁剪',
+
+    /* Settings - Profile */
+    'remove' => '移除',
+    'noImageSelected' => '尚未选择图片',
+    'bioPlaceholder' => '输入将在你的个人资料中显示的消息',
+    'bioFormatInfo' => '你可以这样格式化链接：[YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter 账户可使用格式化、插入链接和表情',
+    'selectProfileImage' => '选择头像图片',
+    'jstrisBlocks' => 'Jstris 方块',
+    'animalArt' => '动物艺术',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris 无广告且对所有人免费。支持我们可解锁以下福利：',
+    'benefitProfileCustomizations' => '资料自定义',
+    'benefitProfileCustomizationsDesc' => '可上传自定义头像，并在“关于”信息中使用扩展格式（最多2000字符，可用超链接与表情）。',
+    'benefitSaveMatchesBots' => '保存与机器人对局',
+    'benefitSaveMatchesBotsDesc' => '你与机器人的 1v1 对局会保存到结果中，包括回放和高级统计。',
+    'benefitUnlimitedReplays' => '回放无限保留',
+    'benefitUnlimitedReplaysDesc' => 'Supporter 有效期间，你的单人模式回放不会被删除。',
+    'getSupporterCta' => '获取 Jstris Supporter！',
+    'configureBenefits' => '配置福利',
+    'nameChange' => '修改名称',
+    'nameChangeInfo' => '作为 Supporter，你每月可修改一次名称。可在此修改：',
+    'newNameLabel' => '新名称',
+    'newNamePlaceholder' => '输入新的用户名',
+    'manageSubscriptionTitle' => '管理 Jstris 订阅',
+    'manageSubscriptionInfo1' => '暂停或取消订阅：登录 PayPal 并在订阅面板选择相应选项。',
+    'manageSubscriptionInfo2' => '遇到问题请联系 jstris@jezevec10.com。',
+    'close' => '关闭',
 ];

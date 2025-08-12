@@ -144,10 +144,18 @@ return [
     'ban2' => 'Dit account is VERBANNEN. Log opnieuw in voor meer informatie.',
     'ncGS' => 'Niet verbonden met de server, probeer {refr}.',
     'refr' => 'pagina opnieuw laden',
+    'lines' => 'Lijnen',
+    'statistics' => 'Statistieken', //stat lines showing under the field
+    'vs' => 'VS', //label for VS score stat
+    'downstack' => 'Garbage downstack',
+    'wasted' => 'Verspild',
+    'expand' => 'Uitklappen',  //tooltip for icon to expand chat
 
     'nsUnpub' => 'Record niet opgeslagen, dit bord is niet gepubliceerd.',
     'nsTspins' => 'Record niet opgeslagen, niet genoeg T-Spins.',
     'nsLowPC' => 'Record niet opgeslagen, ten minste 2 Perfect Clears vereist.',
+    'noBlocks' => 'Geen blokken meer',
+    'noBlocks2' => 'Alle blokken zijn gebruikt',
 
     //Room info detail
     'noPlayers' => 'Geen spelers',
@@ -159,4 +167,29 @@ return [
     'gTimeShort' => 'S.tijd',
     'on' => 'Aan',
     'off' => 'Uit',
+
+    //friends
+    'fr' => 'Vrienden',
+    'frLoad' => 'Vriendenlijst laden',
+    'frLogin' => 'Log eerst in om de vriendenlijst te gebruiken',
+    'frEmpty' => 'Vriendenlijst is leeg',
+    'frHowAdd' => 'Bezoek het profiel van een gebruiker om een vriendschapsverzoek te sturen.',
+    'frPriv' => 'Privé',
+    'frIn' => 'Al binnen!',
+    'frChat' => 'Chat openen',
+    'frRel' => 'Herladen',
+    'frMsgTo' => 'Bericht aan {name}',  //keep {name}
+    'frInv' => 'Kameruitnodiging sturen',
+    'frInvTo' => 'Uitnodigen om {room} te joinen',
+    'frInvIn' => 'Je bent al binnen!',
+    'frInvBy' => 'door {user}',
+    'frOn' => 'ONLINE',
+    'frOff' => 'OFFLINE',
+    'frNewChatH' => 'Dit is het begin van de chatgeschiedenis met {name}.',
+    'frWelc' => 'Welkom bij het tabblad Vrienden',
+    'frIntro' => 'Hier kun je de lijst met online vrienden, privéchats en kameruitnodigingen bekijken',
+    'frIntro2' => 'Bezoek het profiel van een gebruiker om een vriendschapsverzoek te sturen',
+    'frIntro3' => 'Beheer je vrienden via de {frPage}',
+    'frPage' => 'Vriendenpagina',
+    'frIntroCl' => 'Intro sluiten',
 ];

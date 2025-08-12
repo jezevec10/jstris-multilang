@@ -125,4 +125,84 @@ return [
     'invalidLink' => 'Det følgende link er invalid.',
     'brb' => 'Snarest tilbage.',
     'tryAgain' => 'Siden bliver opdateret, prøv igen om lidt tid.',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Lokalisering',
+    'setPasswordNav' => 'Adgangskode',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Andre',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Forbind Discord',
+    'disconnect' => 'Afbryd',
+    'connectDiscord' => 'Forbind Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Eksperimenter',
+    'setExperimentsDesc' => 'Aktiver testadgang til eksperimentelle/ufærdige funktioner',
+    'setExperimentsNote' => 'Del dine idéer om testede funktioner på Jstris Discord',
+    'deleteAccount' => 'Slet konto',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Tilbage',
+    'giftBalanceHistory' => 'Historik for gave-saldo',
+    'message' => 'Besked',
+    'change' => 'Ændring',
+    'before' => 'Før',
+    'after' => 'Efter',
+    'relative' => 'Relativ',
+    'none' => 'Ingen',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Abonnement',
+    'active' => 'aktiv',
+    'manage' => 'Administrer',
+    'renewsOn' => 'Fornyes:',
+    'oneTime' => 'Éngang',
+    'expires' => 'Udløber',
+    'extend' => 'Forlæng',
+    'giftingBalance' => 'Gave-saldo',
+    'days' => 'dage',
+    'add' => 'Tilføj',
+    'useCode' => 'Brug kode',
+    'balanceHistory' => 'Saldo-historik',
+    'noExpiration' => 'Ingen udløbsdato',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Upload brugerdefineret billede',
+    'uploadCustomImageDesc' => 'Vælg et billede som offentlig profilbillede på Jstris. Billedet kan fjernes, hvis det rapporteres som upassende.',
+    'supporterOption' => 'Supporter-valgmulighed',
+    'seeDetails' => 'Se detaljer',
+    'uploadPreviewCrop' => 'Upload for at forhåndsvise og beskære',
+
+    /* Settings - Profile */
+    'remove' => 'Fjern',
+    'noImageSelected' => 'Intet billede valgt endnu',
+    'bioPlaceholder' => 'Indtast tekst, der vises på din profil',
+    'bioFormatInfo' => 'Du kan formatere hyperlinks sådan her: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Supporter-konti kan bruge formatering, indsætte links og emotes',
+    'selectProfileImage' => 'Vælg profilbillede',
+    'jstrisBlocks' => 'Jstris blokke',
+    'animalArt' => 'Dyre-kunst',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris er uden reklamer og gratis for alle. Ved at støtte kan du låse op for følgende fordele:',
+    'benefitProfileCustomizations' => 'Profiltilpasninger',
+    'benefitProfileCustomizationsDesc' => 'Du kan uploade brugerdefineret profilbillede og bruge udvidet formatering i "Om"-beskeden (op til 2000 tegn, brug hyperlinks og emotes).',
+    'benefitSaveMatchesBots' => 'Gem kampe mod bots',
+    'benefitSaveMatchesBotsDesc' => 'Dine 1v1 mod bots gemmes i kampresultater inklusiv replays og avancerede statistikker.',
+    'benefitUnlimitedReplays' => 'Ubegrænsede replays',
+    'benefitUnlimitedReplaysDesc' => 'Ingen af dine replays fra singleplayer-tilstande slettes, mens Supporter er aktiv.',
+    'getSupporterCta' => 'Få Jstris Supporter!',
+    'configureBenefits' => 'Konfigurer fordele',
+    'nameChange' => 'Skift navn',
+    'nameChangeInfo' => 'Som Supporter kan du ændre navn én gang om måneden. Ændr dit navn her:',
+    'newNameLabel' => 'Nyt navn',
+    'newNamePlaceholder' => 'Indtast nyt brugernavn',
+    'manageSubscriptionTitle' => 'Administrer Jstris-abonnement',
+    'manageSubscriptionInfo1' => 'For at sætte på pause eller annullere, log ind på din PayPal-konto og vælg indstillingen på abonnementspanelet.',
+    'manageSubscriptionInfo2' => 'Hvis der opstår problemer, kontakt jstris@jezevec10.com.',
+    'close' => 'Luk',
 ];

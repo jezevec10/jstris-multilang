@@ -4,6 +4,7 @@
 
 return [
     'donate' => 'Donate', //menu item, short
+    'supportUs' => 'תמכו בנו', //menu item, short
     'descr' => 'Support Jstris by sending a donation and enable Supporter rewards',
     'supportJstris' => 'Support Jstris',
     'supportDesc1' => 'If you appreciate this game, please consider a donation to this project and help cover server expenses and further development.',

@@ -186,4 +186,83 @@ return [
     'rr4' => 'Other (specify)',
     'sendReport' => 'Send report',
     
+    /* Settings - Navigation */
+    'setProfileNav' => 'פרופיל',
+    'setLocalizationNav' => 'לוקליזציה',
+    'setPasswordNav' => 'סיסמה',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'אחר',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'חיבור ל-Discord',
+    'disconnect' => 'נתק',
+    'connectDiscord' => 'חבר Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'ניסויים',
+    'setExperimentsDesc' => 'אפשר גישת בדיקה לפיצ׳רים ניסיוניים/לא גמורים',
+    'setExperimentsNote' => 'שתף רעיונות על פיצ׳רים שנבדקו ב-Discord של Jstris',
+    'deleteAccount' => 'מחק חשבון',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'חזור',
+    'giftBalanceHistory' => 'היסטוריית יתרת מתנות',
+    'message' => 'הודעה',
+    'change' => 'שינוי',
+    'before' => 'לפני',
+    'after' => 'אחרי',
+    'relative' => 'יחסי',
+    'none' => 'ללא',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'מנוי',
+    'active' => 'פעיל',
+    'manage' => 'ניהול',
+    'renewsOn' => 'מתחדש ב:',
+    'oneTime' => 'חד-פעמי',
+    'expires' => 'פג תוקף',
+    'extend' => 'הרחב',
+    'giftingBalance' => 'יתרת מתנות',
+    'days' => 'ימים',
+    'add' => 'הוסף',
+    'useCode' => 'השתמש בקוד',
+    'balanceHistory' => 'היסטוריית יתרה',
+    'noExpiration' => 'ללא תוקף',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'העלה תמונה מותאמת',
+    'uploadCustomImageDesc' => 'בחר תמונה לשימוש כתמונת פרופיל ציבורית ב-Jstris. ניתן להסיר אם דווחה כפוגענית.',
+    'supporterOption' => 'אפשרות Supporter',
+    'seeDetails' => 'צפה בפרטים',
+    'uploadPreviewCrop' => 'העלה לתצוגה מקדימה וחיתוך',
+
+    /* Settings - Profile */
+    'remove' => 'הסר',
+    'noImageSelected' => 'לא נבחרה עדיין תמונה',
+    'bioPlaceholder' => 'הקלד הודעה שתופיע בפרופיל שלך',
+    'bioFormatInfo' => 'ניתן לעצב קישורים כך: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'חשבונות Supporter יכולים להשתמש בעיצוב, להוסיף קישורים ואמוג׳ים',
+    'selectProfileImage' => 'בחר תמונת פרופיל',
+    'jstrisBlocks' => 'בלוקים של Jstris',
+    'animalArt' => 'אמנות חיות',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris חינמי וללא פרסומות. בתמיכה תוכל לפתוח את היתרונות הבאים:',
+    'benefitProfileCustomizations' => 'התאמות פרופיל',
+    'benefitProfileCustomizationsDesc' => 'באפשרותך להעלות תמונת פרופיל מותאמת ולהשתמש בעיצוב מורחב בהודעת "עליי" (עד 2000 תווים, קישורים ואמוג׳ים).',
+    'benefitSaveMatchesBots' => 'שמירת משחקים מול בוטים',
+    'benefitSaveMatchesBotsDesc' => 'משחקי 1v1 מול בוטים יישמרו בתוצאות כולל ריפליים וסטטיסטיקות מתקדמות.',
+    'benefitUnlimitedReplays' => 'ריפליים ללא הגבלה',
+    'benefitUnlimitedReplaysDesc' => 'אף ריפליי ממצבי שחקן יחיד לא יימחק כל עוד ה-Supporter פעיל.',
+    'getSupporterCta' => 'קבל Jstris Supporter!',
+    'configureBenefits' => 'הגדר יתרונות',
+    'nameChange' => 'שינוי שם',
+    'nameChangeInfo' => 'כ-Supporter ניתן לשנות שם פעם בחודש. שנה כאן:',
+    'newNameLabel' => 'שם חדש',
+    'newNamePlaceholder' => 'הכנס שם משתמש חדש',
+    'manageSubscriptionTitle' => 'ניהול מנוי Jstris',
+    'manageSubscriptionInfo1' => 'להשהיה/ביטול, התחבר ל-PayPal ובחר בלוח הניהול.',
+    'manageSubscriptionInfo2' => 'בבעיות: jstris@jezevec10.com.',
+    'close' => 'סגור',
 ];
