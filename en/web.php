@@ -18,6 +18,11 @@ return [
     'friends' => 'Friends',
     'settings' => 'Settings',
     'logout' => 'Logout',
+    'stats' => 'Stats',
+    'rankingStats' => 'Ranking stats',
+    'botMatches' => 'Bot matches',
+    'activity' => 'Activity',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Name',

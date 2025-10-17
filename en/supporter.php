@@ -8,6 +8,11 @@ return [
     'supportDesc1' => 'If you appreciate this game, please consider becoming Supporter of this project and help cover server expenses and further development.',
     'warnDelay' => 'It may take up to 10 minutes until the transaction is credited to your Jstris account. Then you can configure your Supporter benefits here.',
 
+    'benefitsConfig' => 'Benefits can be configured in your account settings.',
+    'txProcessing' => 'The transaction is being processed. The Supporter configuration will be available shortly in your account',
+    'choosePayment' => 'Choose how to pay',
+    'morePaymentOptions' => 'More Payment Options',
+
     't1Full' => 'Tier 1 Supporter',
     't2Full' => 'Tier 2 Supporter',
     't1' => 'Tier 1',
@@ -31,6 +36,12 @@ return [
     'blockSkinsDesc' => '100+ More block skins will be available in the in-game Appearance settings. This skin selection will be visible to other players and in your replays.',
     'changeName' => 'Option to change username',
     'changeNameDesc' => 'Option to change user name once a month.',
+    'profileCustomizations' => 'Profile customizations',
+    'profileCustomizationsDesc' => 'You can upload custom profile picture and use extended formatting in "About" message on your profile (up to 2000 characters, use hyperlinks and emotes).',
+    'saveMatches' => 'Save matches against bots',
+    'saveMatchesDesc' => 'Your 1v1 against bots will be saved into match results including replays and advanced stats.',
+    'unlimitedReplays' => 'Unlimited replays',
+    'unlimitedReplaysDesc' => 'None of your replays from singleplayer modes will be deleted while your Supporter is active.',
     'allFromT1' => 'and everything from Tier 1',
 
     'perMonth' => ':cost per month', //":cost" is replaced with number
@@ -46,7 +57,9 @@ return [
     'paymentsInfo' => 'Processed via :service_name.&nbsp; Can be cancelled anytime on account dashboard.',
 
     'gift' => 'Gift rewards',
-    'giftDesc' => '', // Unused
+    'giftDesc' => 'You can top up your gifting balance by sending a single payment with amount of your choice. It will be converted to respective length of Jstris supporter in days, which you can gift to any player on Jstris.',
+    'addGiftingBalance' => 'Add to Gifting balance',
+    'giftingBalance' => 'Gifting balance',
     'giftTo' => 'Gift to account',
     'set' => 'Set', //confirm, ok, apply,...
 
