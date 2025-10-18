@@ -17,6 +17,12 @@ return [
     'favReplays' => 'Favorit inspelningar',
     'settings' => 'Inställningar',
     'logout' => 'Logga ut',
+    'friends' => 'Vänner',    
+    'stats' => 'Statistik',
+    'rankingStats' => 'Rankingstatistik',
+    'botMatches' => 'Botmatcher',
+    'activity' => 'Aktivitet',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Namn',

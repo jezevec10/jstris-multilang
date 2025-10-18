@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Má thaitníonn an cluiche seo leat, smaoinigh ar dheontas a dhéanamh chun cabhrú le costais fhreastalaí agus forbairt bhreise a chlúdach.',
     'warnDelay' => 'Féadfaidh sé suas le 10 nóiméad a thógáil sula gcreidtítear an idirbheart le do chuntas Jstris. Ansin is féidir leat do bhuntáistí Tacaíochta a chumrú anseo.',
 
+    'benefitsConfig' => 'Is féidir buntáistí a chumrú i socruithe do chuntas.',
+    'txProcessing' => 'Tá an idirbheart á phróiseáil. Beidh cumrú an Tacaíochta ar fáil go luath ar do chuntas',
+    'choosePayment' => 'Roghnaigh conas a íoc',
+    'morePaymentOptions' => 'Más Roghanna Íocaíochta',
+
     't1Full' => 'Tacaí Sraith 1',
     't2Full' => 'Tacaí Sraith 2',
     't1' => 'Sraith 1',
@@ -31,8 +36,14 @@ return [
     'moreIconsDesc' => 'Is féidir leat aon cheann de na 2000+ emoji ón Leabharlann Openmoji a úsáid mar dheilbhín roimh d’ainm sa chluiche agus ar an suíomh. Is féidir leat roghnú randamach a chumasú gach uair a lódáiltear an cluiche.',
     'blockSkins' => '100+ craicne bloic breise',
     'blockSkinsDesc' => 'Beidh 100+ craicne bloic breise ar fáil i socruithe Cuma an chluiche. Beidh an rogha seo infheicthe ag imreoirí eile agus i do athsheinnt.',
-    'changeName' => 'Rogha ainm úsáideora a athrú',
-    'changeNameDesc' => 'Rogha an t-ainm úsáideora a athrú uair sa mhí.',
+    'changeName' => 'Rogha a bhaint as ainm úsáideora a athrú',
+    'changeNameDesc' => 'Rogha a bhaint as ainm úsáideora a athrú uair amháin sa mhí.',
+    'profileCustomizations' => 'Saincheapachán próifíle',
+    'profileCustomizationsDesc' => 'Is féidir leat pictiúr próifíle saincheaptha a uachtar agus formáidiú leathaithe a úsáid sa teachtaireacht \"Faoi" ar do phróifíl (suas go 2000 carachtar, úsáid hipernasc agus emotes).',
+    'saveMatches' => 'Sábháil imirt in aghaidh bots',
+    'saveMatchesDesc' => 'Beidh do 1v1 i nAghaidh bots sábháilte i dtorthaí imirt lena n-áirítear atáirgthe agus staitisticí chun cinn.',
+    'unlimitedReplays' => 'Athimirt gan teorainn',
+    'unlimitedReplaysDesc' => 'Ní bheidh aon cheann de do athimirt ó mhódanna singil-imreora scriosta agus do Tacaí gníomhach.',
     'allFromT1' => 'agus gach rud ó Sraith 1',
 
     'perMonth' => ':cost sa mhí', //":cost" is replaced with number
@@ -47,9 +58,11 @@ return [
     'learnMore' => 'Tuilleadh eolais', //show more information
     'paymentsInfo' => 'Próiseáilte trí :service_name.&nbsp; Is féidir a chealú am ar bith i bpainéal do chuntais.',
 
-    'gift' => 'Bronntanais luach saothair',
-    'giftDesc' => 'Anseo is féidir leat deonach a dhéanamh ar son aon chuntas Jstris eile. Cuir ainm úsáideora an chuntais isteach sa réimse téacs ar dheis agus brúigh Socraigh. Ina dhiaidh sin, sannfar aon deonach a sheolfaidh tú ón leathanach seo don chuntas roghnaithe.',
-    'giftTo' => 'Bronnta ar chuntas',
+    'gift' => 'Bronnaigí gealltanais',
+    'giftDesc' => 'Is féidir leat do bhilleoir bronntanais a mhéadú trí íocaíocht amháin a sheoladh ar fhéad a rogha. Athshuimeoifear é a bheith ar an fhad nAirithe an Tacaíochta Jstris i laethanta, ar féidir leat a bhronnadh ar aon imreoir ar Jstris.',
+    'addGiftingBalance' => 'Cuir leis an tsúim bronntanais',
+    'giftingBalance' => 'Súim bronntanais',
+    'giftTo' => 'Brontanas a thabhairt ar chuntas',
     'set' => 'Socraigh', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Luaíochtaí deonaíochta ar fáil',

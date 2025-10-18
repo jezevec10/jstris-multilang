@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Hvis du sætter pris på dette spil, så overvej en donation til dette projekt og hjælp med at dække server omkostninger og videre udvikling.',
     'warnDelay' => 'Det kan tage op til 10 minutter inden transaktionen er krediteret til din Jstris konto. Så kan du konfigurere dine Tilhænger fordele her.',
 
+    'benefitsConfig' => 'Fordele kan konfigureres i dine kontoindstillinger.',
+    'txProcessing' => 'Transaktionen behandles. Tilhænger konfigurationen vil være tilgængelig snart på din konto',
+    'choosePayment' => 'Vælg hvordan du vil betale',
+    'morePaymentOptions' => 'Flere betalingsmuligheder',
+
     't1Full' => 'Niveau 1 Tilhænger',
     't2Full' => 'Niveau 2 Tilhænger',
     't1' => 'Niveau 1',
@@ -31,9 +36,15 @@ return [
     'moreIconsDesc' => 'You can set any of the 2000+ emoji icons from the Openmoji Library as the icon before your name in the game and on the website. You can also enable random icon selection each time you load the game.',
     'blockSkins' => '100+ flere blok skins',
     'blockSkinsDesc' => '100+ Flere blok skins vil være tilgængelige i Udseende instillingerne. Dette skin valg vil være synligt til andre spillere og i dine genafspllninger.',
-    'changeName' => 'Indstilling til at ændre brugernavn.',
-    'changeNameDesc' => 'Indstilling til at ændre brugernavn en gang om måneden.',
-    'allFromT1' => 'og alt fra Niveau 1',
+    'changeName' => 'Mulighed for at ændre brugernavn',
+    'changeNameDesc' => 'Mulighed for at ændre brugernavn en gang pr. måned.',
+    'profileCustomizations' => 'Profilindstillinger',
+    'profileCustomizationsDesc' => 'Du kan uploade et brugerdefineret profilbillede og bruge udvidet formatering i \"Om\" beskeden på din profil (op til 2000 tegn, brug hyperlinks og emojis).',
+    'saveMatches' => 'Gem kampe mod bots',
+    'saveMatchesDesc' => 'Dine 1v1 mod bots gemmes i matchresultater inklusivt gengivelser og avanceret statistik.',
+    'unlimitedReplays' => 'Ubegrænsede gengivelser',
+    'unlimitedReplaysDesc' => 'Ingen af dine gengivelser fra single-player tilstande slettes mens din Tilhænger er aktiv.',
+    'allFromT1' => 'og alt fra niveau 1.',
 
     'perMonth' => ':cost om måneden', //":cost" is replaced with number
     'customAmount' => 'Brugerdefineret mængde',
@@ -47,9 +58,11 @@ return [
     'learnMore' => 'Lær mere', //show more information
     'paymentsInfo' => 'Behandlet via :service_name.&nbsp; Kan blive annulleret når som helst på dit konto panel.',
 
-    'gift' => 'Giv belønninger',
-    'giftDesc' => 'Her kan du donere i navnet på enhver anden Jstris-konto. Indtast kontobrugernavnet i tekstfeltet til højre og tryk på Sæt. Derefter vil enhver donation, du sender fra denne side, blive tildelt den valgte konto.',
-    'giftTo' => 'Gave til konto',
+    'gift' => 'Giv belønninger som gaver',
+    'giftDesc' => 'Du kan øge din gavebalance ved at sende en enkelt betaling med et beløb efter eget valg. Det vil blive konverteret til respektiv længde af Jstris supporter i dage, som du kan give til enhver spiller på Jstris.',
+    'addGiftingBalance' => 'Tilføj til gavebalance',
+    'giftingBalance' => 'Gavebalance',
+    'giftTo' => 'Giv til konto',
     'set' => 'Sæt', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Donation belønninger tilgængelige',

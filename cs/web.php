@@ -18,6 +18,11 @@ return [
     'friends' => 'Přátelé',    
     'settings' => 'Nastavení',
     'logout' => 'Odhlásit',
+    'stats' => 'Statistiky',
+    'rankingStats' => 'Statistiky žebříčku',
+    'botMatches' => 'Zápasy s boty',
+    'activity' => 'Aktivita',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Jméno',

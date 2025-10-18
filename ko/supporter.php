@@ -8,6 +8,11 @@ return [
     'supportDesc1' => '이 게임을 재미있게 즐기시고 있다면, 서버 확장 및 추가 개발을 위한 후원을 고려해 주시길 바랍니다 .',
     'warnDelay' => '후원이 Jstris 계정에 반영되기까지 10분 정도 걸릴 수 있습니다. 이후 이 페이지에서 후원자 보상을 꾸밀 수 있습니다.',
 
+    'benefitsConfig' => '혜택은 계정 설정에서 구성할 수 있습니다.',
+    'txProcessing' => '트랜잭션이 처리 중입니다. 후원자 구성이 계정에서 곧 사용 가능할 것입니다',
+    'choosePayment' => '지불 방법 선택',
+    'morePaymentOptions' => '더 많은 지불 옵션',
+
     't1Full' => '1티어 후원자',
     't2Full' => '2티어 후원자',
     't1' => '1 티어',
@@ -29,9 +34,15 @@ return [
     'moreIconsDesc' => 'Openmoji에 있는 아이콘을 이름 앞에 붙일 수 있습니다. 또한, 게임을 할 때마다 무작위 아이콘을 착용할 수도 있습니다. ',
     'blockSkins' => '100개 이상의 추가 스킨',
     'blockSkinsDesc' => '100가지 이상의 추가 블록스킨을 적용할 수 있습니다. 선택한 스킨은 리플레이를 포함하여 다른 유저에게 표시됩니다. ',
-    'changeName' => '유저 이름 변경',
-    'changeNameDesc' => '한 달에 한 번 유저 이름을 변경할 수 있습니다.',
-    'allFromT1' => '1티어의 보상 또한 사용할 수 있습니다.',
+    'changeName' => '사용자 이름 변경 옵션',
+    'changeNameDesc' => '월에 한 번 사용자 이름을 변경할 수 있습니다.',
+    'profileCustomizations' => '프로필 사용자 정의',
+    'profileCustomizationsDesc' => '사용자 정의 프로필 사진을 업로드하고 프로필의 "정보" 메시지에서 확장 형식을 사용할 수 있습니다(최대 2000자, 하이퍼링크 및 이모트 사용).',
+    'saveMatches' => '봇 상대 경기 저장',
+    'saveMatchesDesc' => 'bot 상대 1v1 경기가 재생 및 고급 통계를 포함한 경기 결과에 저장됩니다.',
+    'unlimitedReplays' => '무제한 재생',
+    'unlimitedReplaysDesc' => '후원자가 활성화된 동안 싱글 플레이어 모드의 재생은 삭제되지 않습니다.',
+    'allFromT1' => 'Tier 1의 모든 것',
 
     'perMonth' => '월 :cost', //":cost" is replaced with number
     'customAmount' => '자유 금액 후원',
@@ -45,9 +56,11 @@ return [
     'learnMore' => '더 보기', //show more information
     'paymentsInfo' => '언제든지 :service_name.&nbsp;를 통해 계정 대시보드에서 취소할 수 있습니다.',
 
-    'gift' => '후원보상 선물하기',
-    'giftDesc' => '이 메뉴에서 다른 사람의 이름으로 후원할 수 있습니다. 사용자 이름을 입력한 후 이 창에서 후원을 하면 입력한 사람의 이름으로 후원이 적용됩니다. ',
-    'giftTo' => '선물하기',
+    'gift' => '보상 선물',
+    'giftDesc' => '선택한 금액의 단일 지불을 전송하여 선물 잔액을 늘릴 수 있습니다. 이는 Jstris 후원자의 해당 기간(일)으로 변환되며 Jstris의 모든 플레이어에게 선물할 수 있습니다.',
+    'addGiftingBalance' => '선물 잔액에 추가',
+    'giftingBalance' => '선물 잔액',
+    'giftTo' => '계정에 선물',
     'set' => '확인', //confirm, ok, apply,...
 
     'rewardsAvailable' => '후원 효과가 활성화되었습니다.',

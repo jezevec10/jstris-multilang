@@ -18,6 +18,11 @@ return [
     'friends' => 'Barátok',
     'settings' => 'Beállítások',
     'logout' => 'Kijelentkezés',
+    'stats' => 'Statisztikák',
+    'rankingStats' => 'Rangsor statisztikák',
+    'botMatches' => 'Bot meccsek',
+    'activity' => 'Tevékenység',
+    'supporter' => 'Támogató',
 
     /* Leaderboard */
     'name' => 'Név',

@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Nếu bạn yêu thích trò chơi này, hãy cân nhắc quyên góp để giúp trang trải chi phí máy chủ và phát triển tiếp theo.',
     'warnDelay' => 'Giao dịch có thể mất tới 10 phút để được ghi có vào tài khoản Jstris của bạn. Sau đó bạn có thể cấu hình quyền lợi Supporter tại đây.',
 
+    'benefitsConfig' => 'Các lợi ích có thể được định cấu hình trong cài đặt tài khoản của bạn.',
+    'txProcessing' => 'Giao dịch đang được xử lý. Cấu hình Supporter sẽ sớm khả dụng trên tài khoản của bạn',
+    'choosePayment' => 'Chọn cách trả tiền',
+    'morePaymentOptions' => 'Thêm Tùy chọn Thanh toán',
+
     't1Full' => 'Supporter cấp 1',
     't2Full' => 'Supporter cấp 2',
     't1' => 'Cấp 1',
@@ -31,9 +36,15 @@ return [
     'moreIconsDesc' => 'Bạn có thể đặt bất kỳ biểu tượng emoji nào trong hơn 2000 biểu tượng từ Openmoji làm biểu tượng trước tên trong game và trên website. Bạn cũng có thể bật chọn ngẫu nhiên mỗi khi tải game.',
     'blockSkins' => '100+ skin khối bổ sung',
     'blockSkinsDesc' => 'Hơn 100 skin khối sẽ có trong cài đặt Giao diện trong game. Lựa chọn này hiển thị với người chơi khác và trong các bản phát lại.',
-    'changeName' => 'Tùy chọn đổi tên người dùng',
-    'changeNameDesc' => 'Có thể đổi tên người dùng mỗi tháng một lần.',
-    'allFromT1' => 'và mọi thứ từ cấp 1',
+    'changeName' => 'Tùy chọn thay đổi tên người dùng',
+    'changeNameDesc' => 'Tùy chọn thay đổi tên người dùng một lần mỗi tháng.',
+    'profileCustomizations' => 'Tùy chỉnh hồ sơ',
+    'profileCustomizationsDesc' => 'Bạn có thể tải lên ảnh hồ sơ tùy chỉnh và sử dụng định dạng mở rộng trong tin nhắn \"Về\" trên hồ sơ của bạn (tối đa 2000 ký tự, sử dụng siêu liên kết và emotes).',
+    'saveMatches' => 'Lưu những trận đấu chống lại bot',
+    'saveMatchesDesc' => 'Những trận đấu 1v1 của bạn chống lại bot sẽ được lưu vào kết quả trận đấu bao gồm các bản phát lại và thống kê nâng cao.',
+    'unlimitedReplays' => 'Phát lại không giới hạn',
+    'unlimitedReplaysDesc' => 'Không có bản phát lại nào từ chế độ một người chơi của bạn sẽ bị xóa khi Supporter của bạn đang hoạt động.',
+    'allFromT1' => 'và mọi thứ từ Cấp 1',
 
     'perMonth' => ':cost mỗi tháng', //":cost" is replaced with number
     'customAmount' => 'Số tiền tùy chỉnh',
@@ -47,9 +58,11 @@ return [
     'learnMore' => 'Tìm hiểu thêm', //show more information
     'paymentsInfo' => 'Xử lý qua :service_name.&nbsp; Có thể hủy bất cứ lúc nào trong bảng điều khiển tài khoản.',
 
-    'gift' => 'Tặng phần thưởng',
-    'giftDesc' => 'Tại đây bạn có thể quyên góp dưới tên của bất kỳ tài khoản Jstris nào khác. Nhập tên người dùng vào ô bên phải và nhấn Đặt. Sau đó, mọi khoản quyên góp từ trang này sẽ được gán cho tài khoản đã chọn.',
-    'giftTo' => 'Tặng cho tài khoản',
+    'gift' => 'Phần thưởng quà tặng',
+    'giftDesc' => 'Bạn có thể tăng số dư quà tặng của mình bằng cách gửi một khoản thanh toán duy nhất với số tiền mà bạn chọn. Nó sẽ được chuyển đổi thành thời lượng tương ứng của Supporter Jstris tính bằng ngày, mà bạn có thể tặng cho bất kỳ người chơi nào trên Jstris.',
+    'addGiftingBalance' => 'Thêm vào số dư quà tặng',
+    'giftingBalance' => 'Số dư quà tặng',
+    'giftTo' => 'Quà tặng cho tài khoản',
     'set' => 'Đặt', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Phần thưởng quyên góp có sẵn',

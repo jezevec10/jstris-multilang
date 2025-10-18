@@ -13,6 +13,11 @@ return [
     'friends' => 'Draugai',
     'settings' => 'Nustatymai',
     'logout' => 'Atsijungti',
+    'stats' => 'Statistika',
+    'rankingStats' => 'Reitingo statistika',
+    'botMatches' => 'Botų rungtynės',
+    'activity' => 'Veikla',
+    'supporter' => 'Rėmėjas',
     
     /* Leaderboard */
     'name' => 'Vardas',

@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Pokud se vám hra líbí, zvažte prosím podporu tohoto projektu a pomozte pokrýt náklady na hosting a další vývoj.',
     'warnDelay' => 'Může trvat až 10 minut, než se platba propojí s vaším profilem Jstris. Poté si můžete přímo zde nastavit své přispěvatelské benefity.',
 
+    'benefitsConfig' => 'Výhody lze nakonfigurovat v nastavení vašeho účtu.',
+    'txProcessing' => 'Transakce je právě zpracovávána. Konfigurace Supporter bude k brzy k dispozici',
+    'choosePayment' => 'Zvolte způsob platby',
+    'morePaymentOptions' => 'Další možnosti platby',
+
     't1Full' => 'Přispěvatel 1. úrovně',
     't2Full' => 'Přispěvatel 2. úrovně',
     't1' => 'Úroveň 1',
@@ -33,6 +38,12 @@ return [
     'blockSkinsDesc' => 'V nabídce \„Vzhled\“ si můžete vybrat z více než 100 nových skinů pro vaše herní bloky. Zvolený skin bude viditelný pro ostatní hráče, i ve vašich nahrávkách.',
     'changeName' => 'Možnost změny uživatelského jména',
     'changeNameDesc' => 'Možnost změnit si jednou měsíčně uživatelské jméno.',
+    'profileCustomizations' => 'Úpravy profilu',
+    'profileCustomizationsDesc' => 'Můžete nahrát vlastní profilový obrázek a používat rozšířené formátování v zprávě „O mně" na vašem profilu (až 2000 znaků, hyperlinky a emotikony).',
+    'saveMatches' => 'Uložit zápasy proti botům',
+    'saveMatchesDesc' => 'Vaše 1v1 proti botům bude uloženo do výsledků zápasů včetně přehrávek a pokročilých statistik.',
+    'unlimitedReplays' => 'Neomezené záznamy',
+    'unlimitedReplaysDesc' => 'Žádné vaše záznamy z režimů pro jednoho hráče nebudou vymazány, dokud je Supporter aktivní.',
     'allFromT1' => 'plus všechno z úrovně 1.',
 
     'perMonth' => ':cost měsíčně', //":cost" is replaced with number
@@ -48,7 +59,9 @@ return [
     'paymentsInfo' => 'Zprostředkovává :service_name.&nbsp; Lze kdykoliv zrušit v nastavení účtu.',
 
     'gift' => 'Darujte odměny',
-    'giftDesc' => 'Můžete přispět jménem jiného hráče Jstris. Zadejte uživatelské jméno do textového pole vpravo a zmáčkněte \„Potvrdit\“. Jakýkoliv příspěvek, který zde následně provedete, se připíše na účet, který jste vyplnili.',
+    'giftDesc' => 'Můžete přispět jménem jiného hráče Jstris. Zadejte uživatelské jméno do textového pole vpravo a zmáčkněte \„Potvrdit\". Jakýkoliv příspěvek, který zde následně provedete, se připíše na účet, který jste vyplnili.',
+    'addGiftingBalance' => 'Přidat na Dárkový zůstatek',
+    'giftingBalance' => 'Dárkový zůstatek',
     'giftTo' => 'Darovat jinému hráči',
     'set' => 'Potvrdit', //confirm, ok, apply,...
 

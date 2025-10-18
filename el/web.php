@@ -18,6 +18,11 @@ return [
     'friends' => 'Φίλοι',
     'settings' => 'Ρυθμίσεις',
     'logout' => 'Αποσύνδεση',
+    'stats' => 'Στατιστικά',
+    'rankingStats' => 'Στατιστικά κατάταξης',
+    'botMatches' => 'Αγώνες Bot',
+    'activity' => 'Δραστηριότητα',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Όνομα',

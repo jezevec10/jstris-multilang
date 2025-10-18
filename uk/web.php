@@ -16,8 +16,13 @@ return [
     'myImprovement' => 'Мої покращення',
     'favReplays' => 'Улюблені повтори',
     'friends' => 'Друзі',
-    'settings' => 'Налаштування',
-    'logout' => 'Вийти',
+    'settings' => 'Параметри',
+    'logout' => 'Вихід',
+    'stats' => 'Статистика',
+    'rankingStats' => 'Статистика рейтингу',
+    'botMatches' => 'Матчі з ботами',
+    'activity' => 'Активність',
+    'supporter' => 'Підтримувач',
     
     /* Leaderboard */
     'name' => 'Ім’я',

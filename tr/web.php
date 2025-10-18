@@ -16,7 +16,13 @@ return [
     'myImprovement' => 'Gelişim',
     'favReplays' => 'Favori tekrarlar',
     'settings' => 'Ayarlar',
-    'logout' => 'Çıkış yap',
+    'logout' => 'Çıkış',
+    'friends' => 'Arkadaşlar',
+    'stats' => 'İstatistikler',
+    'rankingStats' => 'Sıralaması istatistikleri',
+    'botMatches' => 'Bot maçları',
+    'activity' => 'Aktivite',
+    'supporter' => 'Destekçi',
     
     /* Leaderboard */
     'name' => 'İsim',

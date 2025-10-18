@@ -15,9 +15,14 @@ return [
     'myProfile' => '個人檔案',
     'myImprovement' => '個人進步史',
     'favReplays' => '已收藏重播',
-    'friends' => '朋友',
-    'settings' => '設定',
+    'friends' => '好友',    
+    'settings' => '設置',
     'logout' => '登出',
+    'stats' => '統計',
+    'rankingStats' => '排名統計',
+    'botMatches' => '機器人比賽',
+    'activity' => '活動',
+    'supporter' => '支持者',
     
     /* Leaderboard */
     'name' => '名字',

@@ -17,6 +17,11 @@ return [
     'favReplays' => 'Любимые повторы',
     'settings' => 'Настройки',
     'logout' => 'Выйти',
+    'stats' => 'Статистика',
+    'rankingStats' => 'Рейтинговая статистика',
+    'botMatches' => 'Матчи с ботами',
+    'activity' => 'Активность',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Никнейм', //"Псевдоним" can be used, too. -mLurker

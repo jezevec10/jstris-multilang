@@ -15,9 +15,14 @@ return [
     'myProfile' => '내 프로필',
     'myImprovement' => '향상 통계',
     'favReplays' => '저장한 다시보기',
-    'friends' => '친구 목록',
+    'friends' => '친구',    
     'settings' => '설정',
     'logout' => '로그아웃',
+    'stats' => '통계',
+    'rankingStats' => '순위 통계',
+    'botMatches' => '봇 경기',
+    'activity' => '활동',
+    'supporter' => '후원자',
     
     /* Leaderboard */
     'name' => '이름',

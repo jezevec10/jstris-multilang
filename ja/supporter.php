@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'もし，このゲームを応援してくれるなら，このプロジェクトへの寄付をして，サーバー費用とさらなる開発を応援してください.',
     'warnDelay' => '入金が確認されるまで10分程度かかる場合があります．確認され次第，サポーター特典を使用することが出来ます．',
 
+    'benefitsConfig' => 'メリットはアカウント設定で構成できます.',
+    'txProcessing' => 'トランザクションが処理中です. サポーター設定はすぐにアカウントで利用可能になります',
+    'choosePayment' => '支払い方法を選択してください',
+    'morePaymentOptions' => 'その他の支払いオプション',
+
     't1Full' => '1段階目のサポータ',
     't2Full' => '2段階目のサポータ',
     't1' => '1段階目',
@@ -31,9 +36,15 @@ return [
     'moreIconsDesc' => 'Openmojiで利用可能な2000個以上の絵文字を名前の前に表示できます．読み込む度にランダムに表示することも出来ます．',
     'blockSkins' => '100個以上のスキン',
     'blockSkinsDesc' => 'ゲーム内の設定で100個以上のスキンが利用可能になります．またこれは他のプレイヤーのリプレイにも表示されます．',
-    'changeName' => 'ユーザー名の変更',
-    'changeNameDesc' => 'ユーザー名の変更は1ヶ月に1回のみ',
-    'allFromT1' => '1段階目の全て',
+    'changeName' => 'ユーザー名を変更するオプション',
+    'changeNameDesc' => '月に1回ユーザー名を変更するオプション.',
+    'profileCustomizations' => 'プロフィールのカスタマイズ',
+    'profileCustomizationsDesc' => 'カスタムプロフィール画像をアップロードでき、プロフィールの「について」メッセージで拡張形式を使用できます（最大2000文字、ハイパーリンクと絵文字を使用）.',
+    'saveMatches' => 'ボットとのマッチを保存',
+    'saveMatchesDesc' => 'ボットに対する1v1が、リプレイと高度な統計を含むマッチ結果に保存されます.',
+    'unlimitedReplays' => '無制限のリプレイ',
+    'unlimitedReplaysDesc' => 'サポーターがアクティブな間、シングルプレイヤーモードからのリプレイは削除されません.',
+    'allFromT1' => 'とTier 1からのすべて',
 
     'perMonth' => ':cost /月', //":cost" is replaced with number
     'customAmount' => '自由な金額の寄付',
@@ -47,9 +58,11 @@ return [
     'learnMore' => 'より詳しく', //show more information
     'paymentsInfo' => ':service_name.&nbsp; を経由して処理され，アカウントのダッシュボードからいつでもキャンセル出来ます．',
 
-    'gift' => 'ギフト特典',
-    'giftDesc' => '他のJstrisアカウントの名前で寄付することが出来ます．右側のテキストボックスにアカウント名を入力し，確定を押してください．その後，ここから送信されたギフトは送信先アカウントに適用されます．',
-    'giftTo' => 'ギフトを送信するアカウント',
+    'gift' => 'ギフト報酬',
+    'giftDesc' => '選択した金額の単一の支払いを送信してギフト残高を増やすことができます。これはJstrisサポーターの相応の長さの日に変換され、Jstris上の任意のプレイヤーに贈与できます.',
+    'addGiftingBalance' => 'ギフト残高に追加',
+    'giftingBalance' => 'ギフト残高',
+    'giftTo' => 'アカウントにギフト',
     'set' => '確定', //confirm, ok, apply,...
 
     'rewardsAvailable' => '寄付へお礼を利用できます．',

@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Jika Anda menyukai game ini, mohon pertimbangkan donasi untuk membantu biaya server dan pengembangan lebih lanjut.',
     'warnDelay' => 'Transaksi mungkin membutuhkan hingga 10 menit untuk dikreditkan ke akun Jstris Anda. Setelah itu Anda dapat mengonfigurasi manfaat Supporter di sini.',
 
+    'benefitsConfig' => 'Manfaat dapat dikonfigurasi di pengaturan akun Anda.',
+    'txProcessing' => 'Transaksi sedang diproses. Konfigurasi Supporter akan tersedia segera di akun Anda',
+    'choosePayment' => 'Pilih cara pembayaran',
+    'morePaymentOptions' => 'Lebih Banyak Opsi Pembayaran',
+
     't1Full' => 'Supporter Tingkat 1',
     't2Full' => 'Supporter Tingkat 2',
     't1' => 'Tingkat 1',
@@ -31,9 +36,15 @@ return [
     'moreIconsDesc' => 'Anda dapat mengatur salah satu dari 2000+ ikon emoji dari Openmoji sebagai ikon sebelum nama Anda di game dan situs. Anda juga dapat mengaktifkan pemilihan ikon acak setiap kali game dimuat.',
     'blockSkins' => '100+ skin blok tambahan',
     'blockSkinsDesc' => '100+ skin blok tambahan akan tersedia di pengaturan Tampilan. Pilihan skin ini terlihat oleh pemain lain dan di ulang main Anda.',
-    'changeName' => 'Opsi ganti nama pengguna',
-    'changeNameDesc' => 'Opsi ganti nama pengguna sekali sebulan.',
-    'allFromT1' => 'dan semuanya dari Tingkat 1',
+    'changeName' => 'Opsi untuk mengubah nama pengguna',
+    'changeNameDesc' => 'Opsi untuk mengubah nama pengguna sekali sebulan.',
+    'profileCustomizations' => 'Kustomisasi profil',
+    'profileCustomizationsDesc' => 'Anda dapat mengunggah gambar profil khusus dan menggunakan pemformatan yang diperluas dalam pesan "Tentang" di profil Anda (hingga 2000 karakter, gunakan hyperlink dan emote).',
+    'saveMatches' => 'Simpan pertandingan melawan bot',
+    'saveMatchesDesc' => 'Pertandingan 1v1 Anda melawan bot akan disimpan ke dalam hasil pertandingan termasuk replay dan statistik lanjutan.',
+    'unlimitedReplays' => 'Replay tanpa batas',
+    'unlimitedReplaysDesc' => 'Tidak ada replay Anda dari mode pemain tunggal yang akan dihapus saat Supporter Anda aktif.',
+    'allFromT1' => 'dan semua dari Tingkat 1',
 
     'perMonth' => ':cost per bulan', //":cost" is replaced with number
     'customAmount' => 'Jumlah kustom',
@@ -47,8 +58,10 @@ return [
     'learnMore' => 'Pelajari lebih lanjut', //show more information
     'paymentsInfo' => 'Diproses melalui :service_name.&nbsp; Dapat dibatalkan kapan saja di dasbor akun.',
 
-    'gift' => 'Hadiahkan hadiah',
-    'giftDesc' => 'Di sini Anda dapat berdonasi atas nama akun Jstris lain. Masukkan nama pengguna akun pada kolom teks di kanan lalu tekan Set. Setelah itu, donasi yang Anda kirim dari halaman ini akan ditujukan ke akun yang dipilih.',
+    'gift' => 'Hadiah imbalan',
+    'giftDesc' => 'Anda dapat meningkatkan saldo pemberian Anda dengan mengirimkan satu pembayaran dengan jumlah pilihan Anda. Ini akan dikonversi ke durasi masing-masing pendukung Jstris dalam hari, yang dapat Anda berikan kepada pemain Jstris apa pun.',
+    'addGiftingBalance' => 'Tambahkan ke saldo Gifting',
+    'giftingBalance' => 'Saldo Gifting',
     'giftTo' => 'Hadiah ke akun',
     'set' => 'Set', //confirm, ok, apply,...
 

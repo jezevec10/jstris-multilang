@@ -17,6 +17,12 @@ return [
     'favReplays' => 'Suosikkitoistot',
     'settings' => 'Asetukset',
     'logout' => 'Kirjaudu ulos',
+    'friends' => 'Ystävät',
+    'stats' => 'Tilastot',
+    'rankingStats' => 'Ranking-tilastot',
+    'botMatches' => 'Bot-ottelut',
+    'activity' => 'Aktiviteetti',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Nimi',

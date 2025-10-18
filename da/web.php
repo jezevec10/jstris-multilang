@@ -15,6 +15,12 @@ return [
     'favReplays' => 'Favorit genafspilninger',
     'settings' => 'Indstillinger',
     'logout' => 'Log ud',
+    'friends' => 'Venner',
+    'stats' => 'Statistik',
+    'rankingStats' => 'Rangerings statistik',
+    'botMatches' => 'Bot kampe',
+    'activity' => 'Aktivitet',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Navn',

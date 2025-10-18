@@ -15,9 +15,14 @@ return [
     'myProfile' => 'プロフィール',
     'myImprovement' => 'ステータスの推移',
     'favReplays' => 'お気に入りのリプレイ',
-    'friends' => 'フレンド',
-    'settings' => 'アカウント設定',
+    'friends' => '友達',    
+    'settings' => '設定',
     'logout' => 'ログアウト',
+    'stats' => '統計',
+    'rankingStats' => 'ランキング統計',
+    'botMatches' => 'ボットマッチ',
+    'activity' => 'アクティビティ',
+    'supporter' => 'サポーター',
     
     /* Leaderboard */
     'name' => '名前',

@@ -17,6 +17,11 @@ return [
     'favReplays' => 'Replay ưa thích',
     'settings' => 'Cài đặt',
     'logout' => 'Đăng xuất',
+    'stats' => 'Thống kê',
+    'rankingStats' => 'Thống kê xếp hạng',
+    'botMatches' => 'Trận đấu bot',
+    'activity' => 'Hoạt động',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Tên',

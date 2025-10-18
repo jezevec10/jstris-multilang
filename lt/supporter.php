@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Jei vertinate šį žaidimą, apsvarstykite galimybę paaukoti šiam projektui ir padėti padengti serverio išlaidas bei tolimesnę plėtrą.',
     'warnDelay' => 'Gali užtrukti iki 10 minučių, kol operacija bus priskirta jūsų Jstris paskyrai. Tuomet čia galėsite sukonfigūruoti rėmėjo privalumus.',
 
+    'benefitsConfig' => 'Privalumai gali būti sukonfigūruoti paskyros nustatymuose.',
+    'txProcessing' => 'Operacija yra tvarkoma. Rėmėjo konfigūracija bus greitai prieinama jūsų paskyroje',
+    'choosePayment' => 'Pasirinkite mokėjimo būdą',
+    'morePaymentOptions' => 'Daugiau mokėjimo parinkčių',
+
     't1Full' => '1 lygio rėmėjas',
     't2Full' => '2 lygio rėmėjas',
     't1' => '1 lygis',
@@ -31,8 +36,14 @@ return [
     'moreIconsDesc' => 'Galite nustatyti bet kurią iš 2000+ Openmoji emoji piktogramų kaip ikoną prieš jūsų vardą žaidime ir svetainėje. Taip pat galite įjungti atsitiktinę ikoną kiekvieno žaidimo įkėlimo metu.',
     'blockSkins' => '100+ papildomų blokų skinų',
     'blockSkinsDesc' => 'Daugiau nei 100 papildomų blokų skinų bus prieinami žaidimo Išvaizdos nustatymuose. Šis pasirinkimas bus matomas kitiems žaidėjams ir jūsų pakartojimuose.',
-    'changeName' => 'Vartotojo vardo keitimas',
-    'changeNameDesc' => 'Galimybė keisti vartotojo vardą kartą per mėnesį.',
+    'changeName' => 'Galimybė pakeisti naudotojo vardą',
+    'changeNameDesc' => 'Galimybė pakeisti naudotojo vardą kartą per mėnesį.',
+    'profileCustomizations' => 'Profilio tinkinimas',
+    'profileCustomizationsDesc' => 'Galite įkelti pasirinktinį profilio paveikslėlį ir naudoti išplėstinį formatavimą „Apie" žinutėje profiliuje (iki 2000 simbolių, naudokite hiperligaces ir emotes).',
+    'saveMatches' => 'Išsaugoti rungtynes prieš botus',
+    'saveMatchesDesc' => 'Jūsų 1v1 rungtynės su botais bus išsaugotos į rungtynių rezultatus, įskaitant atkūrimus ir išplėstines statistikas.',
+    'unlimitedReplays' => 'Neriboti atkūrimai',
+    'unlimitedReplaysDesc' => 'Nė vienas iš jūsų atkūrimų iš vieno žaidėjo režimų nebus panaikintas, kol jūsų Rėmėjas aktyvus.',
     'allFromT1' => 'ir viskas iš 1 lygio',
 
     'perMonth' => ':cost per mėnesį', //":cost" is replaced with number
@@ -47,9 +58,11 @@ return [
     'learnMore' => 'Sužinoti daugiau', //show more information
     'paymentsInfo' => 'Apdorojama per :service_name.&nbsp; Galima bet kada atšaukti paskyros skydelyje.',
 
-    'gift' => 'Dovanoti apdovanojimus',
-    'giftDesc' => 'Čia galite aukoti kito Jstris paskyros vardu. Įveskite paskyros naudotojo vardą į dešinėje esantį lauką ir paspauskite Nustatyti. Po to visos iš šio puslapio siunčiamos aukos bus priskirtos pasirinktai paskyrai.',
-    'giftTo' => 'Dovanoti paskyrai',
+    'gift' => 'Dovanoti atlygyti',
+    'giftDesc' => 'Galite padidinti savo dovanos likutį išsiųsdami vieną mokėjimą su pasirinktina suma. Jis bus konvertuojamas į atitinkamą Jstris rėmėjo trukmę dienomis, kurią galite paaukoti bet kuriam Jstris žaidėjui.',
+    'addGiftingBalance' => 'Pridėti prie dovanos likučio',
+    'giftingBalance' => 'Dovanos likutis',
+    'giftTo' => 'Dovana paskyroje',
     'set' => 'Nustatyti', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Aukų apdovanojimai prieinami',

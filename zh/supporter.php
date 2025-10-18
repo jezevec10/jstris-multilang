@@ -10,6 +10,11 @@ return [
     'supportDesc1' => '如果你喜欢这款游戏，你可以支持这款游戏，来补足我们的服务器开销，推进游戏的发展。',
     'warnDelay' => '可能花费最多 10 分钟来确认交易生效。之后，你就可以在这里确认你的 Jstris 会员的权利了。',
 
+    'benefitsConfig' => '可以在您的账户设置中配置权益。',
+    'txProcessing' => '交易正在处理中。Supporter配置将很快在您的帐户中可用',
+    'choosePayment' => '选择支付方式',
+    'morePaymentOptions' => '更多支付选项',
+
     't1Full' => '一级会员',
     't2Full' => '二级会员',
     't1' => '一级',
@@ -31,9 +36,15 @@ return [
     'moreIconsDesc' => '你可以从 Openmoji Library 中超过两千个的 emoji 表情中选择其一，在游戏中和网页上，它将显示在你名字的前面。你也可以选择在每次登录时使用随机的标签。',
     'blockSkins' => '超过 100 种方块皮肤',
     'blockSkinsDesc' => '游戏外观设置中，你可以选择超过 100 款方块皮肤。这些皮肤将在对战与回放时可见。',
-    'changeName' => '更改用户名',
-    'changeNameDesc' => '每月可更改一次用户名。',
-    'allFromT1' => '所有一级会员的权利',
+    'changeName' => '更改用户名的选项',
+    'changeNameDesc' => '每月更改一次用户名的选项。',
+    'profileCustomizations' => '个人资料自定义',
+    'profileCustomizationsDesc' => '您可以上传自定义个人资料图片，并在您的个人资料上的"关于"消息中使用扩展格式（最多2000个字符，使用超链接和表情符号）。',
+    'saveMatches' => '保存与机器人的比赛',
+    'saveMatchesDesc' => '您与机器人的1v1比赛将保存在比赛结果中，包括重播和高级统计信息。',
+    'unlimitedReplays' => '无限重播',
+    'unlimitedReplaysDesc' => '当您的Supporter处于活跃状态时，您的单人模式中的任何重播都不会被删除。',
+    'allFromT1' => '以及一级的一切',
 
     'perMonth' => ':cost 每月', //":cost" is replaced with number
     'customAmount' => '自定义金额',
@@ -47,9 +58,11 @@ return [
     'learnMore' => '了解更多', //show more information
     'paymentsInfo' => '通过 :service_name.&nbsp; 交易，可在用户主页随时取消。',
 
-    'gift' => '赠送会员',
-    'giftDesc' => '你可以在这里以其他用户的名义向 Jstris 捐赠。在右侧的文本框中输入对方的名字，并按下确认。此后，你从该页面进行的捐赠都会以该账户的名义进行。',
-    'giftTo' => '赠送会员给...',
+    'gift' => '赠送奖励',
+    'giftDesc' => '您可以通过发送一个您选择金额的单笔付款来增加您的礼物余额。它将转换为Jstris supporter相应长度的天数，您可以赠送给Jstris上的任何玩家。',
+    'addGiftingBalance' => '添加到礼物余额',
+    'giftingBalance' => '礼物余额',
+    'giftTo' => '赠送给账户',
     'set' => '确认', //confirm, ok, apply,...
 
     'rewardsAvailable' => '可用的会员权利',

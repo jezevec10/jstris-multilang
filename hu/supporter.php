@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Ha kedveled a játékot, kérlek támogasd munkánkat adományozással, fedezve a szerverkiadásainkat és a jövőbeni fejlesztéseinket.',
     'warnDelay' => 'Akár 10 percig is eltarthat, amíg a tranzakciót jóváírják a Jstris fiókodon. Ezután itt tudod beállítani a Támogatói juttatásokat.',
 
+    'benefitsConfig' => 'Az előnyök a fiók beállításaiban konfigurálhatók.',
+    'txProcessing' => 'A tranzakció feldolgozás alatt van. A Támogatói konfiguráció hamarosan elérhető lesz a fiókodon',
+    'choosePayment' => 'Válassz a fizetési mód között',
+    'morePaymentOptions' => 'További fizetési lehetőségek',
+
     't1Full' => '1-es szintű Támogató',
     't2Full' => '2-es szintű Támogató',
     't1' => '1-es szint',
@@ -31,26 +36,32 @@ return [
     'moreIconsDesc' => 'Az Openmoji könyvtárból származó több mint 2000 emoji ikon bármelyikét beállíthatod ikonként a neved előtt a játékban és a webhelyen. Engedélyezheted a játék betöltésekor az ikonok véletlenszerű kiválasztását is.',
     'blockSkins' => 'Több mint 100 elem kinézet',
     'blockSkinsDesc' => 'Több mint 100 elem kinézet elérhető a játékon belüli megjelenési beállításokban. A választott kinézet látható lesz a többi játékos számára és a visszajátszásokban.',
-    'changeName' => 'Felhasználónév váltás',
-    'changeNameDesc' => 'Lehetőség, hogy havonta egyszer megváltoztasd a felhasználónevedet.',
-    'allFromT1' => 'És minden az 1-es támgoatói szintről',
-
-    'perMonth' => ':cost havonta', //":cost" is replaced with number
+    'changeName' => 'Felhasználónév megváltoztatásának lehetősége',
+    'changeNameDesc' => 'Lehetőség a felhasználónév megváltoztatására havonta egyszer.',
+    'profileCustomizations' => 'Profil testreszabások',
+    'profileCustomizationsDesc' => 'Fel tudsz tölteni egy egyéni profilképet és használhatsz kiterjesztett formázást az "Róla" üzenetben a profilodon (legfeljebb 2000 karakter, használj hiperhivatkozásokat és emotekat).',
+    'saveMatches' => 'Botok elleni mérkőzések mentése',
+    'saveMatchesDesc' => 'A botok elleni 1v1 mérkőzéseid mentésre kerülnek a mérkőzések eredményei között, beleértve az újrajátszásokat és a fejlett statisztikákat.',
+    'unlimitedReplays' => 'Korlátlan újrajátszások',
+    'unlimitedReplaysDesc' => 'A szingleplayer módokból származó újrajátszások egyike sem törlődik, amíg a Támogatód aktív.',
+    'allFromT1' => 'és minden az 1-es szintről',
+    'perMonth' => ':cost havonta',
     'customAmount' => 'Egyéni összeg',
-    'customAmountDesc' => 'Ha inkább egy egyéni összeget szeretnél adományozni, itt tudod beállítani. Egyszeri adományozás esetén a támogatói előnyök az összeg alapján meghatározott időtartamra kerülnek hozzárendelésre a fiókodhoz.',
-    'oneTime' => 'Egyszeri', //max. 8chars
-    'monthly' => 'Havi',  //max. 8chars
-    'other' => 'Egyéni',  // meaning Other amount than suggested
+    'customAmountDesc' => 'Lehetőség egy egyéni összeggel támogatni. Egyszeri támogatás esetén a támogatott jogok az adott ideig aktívak lesznek.',
+    'oneTime' => 'Egyszer',
+    'monthly' => 'Havonta',
+    'other' => 'Egyéb',
     'estimate' => 'Becslés megjelenítése',
-    'dAmount' => 'Adomány összege',
+    'dAmount' => 'Támogatás összege',
     'sDuration' => 'Támogatás időtartama',
-    'learnMore' => 'További információ', //show more information
-    'paymentsInfo' => ':service_name -on keresztül történik.&nbsp; Bármikor lemondható a fiók beállításainál.',
-
-    'gift' => 'Jutalmak ajándékozása',
-    'giftDesc' => 'Itt bármely más Jstris-fiók nevében adományozhat. Írja be a fiók felhasználónevét a jobb oldali szövegmezőbe, majd nyomja meg a Beállítás gombot. Ezt követően az ezen az oldalon küldött adományok a kiválasztott fiókhoz kerülnek hozzárendelésre.',
-    'giftTo' => 'Megajándékozni kívánt felhasználó',
-    'set' => 'Beállítás', //confirm, ok, apply,...
+    'learnMore' => 'Tudj meg többet',
+    'paymentsInfo' => 'Feldolgozás: :service_name &nbsp; Bármikor lemondható a fiókellenőrzésből.',
+    'gift' => 'Ajándékozz jutalmat',
+    'giftDesc' => 'Emelheted az ajándékozási egyenleged egyetlen, választott összegű befizetéssel. Ez a Jstris támogatás napjaira lesz konvertálva, amelyeket bármely Jstris játékosnak adományozhatsz.',
+    'addGiftingBalance' => 'Hozzáadás az ajándékozási egyenleghez',
+    'giftingBalance' => 'Ajándékozási egyenlege',
+    'giftTo' => 'Ajándékozás fióknak',
+    'set' => 'Beállítás',
 
     'rewardsAvailable' => 'Adományozási jutalmak elérhetőek',
     'rewardsList' => 'Köszönjük a Jstrisnek tett adományát! A következő jutalmakat engedélyezheti.',

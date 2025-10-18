@@ -8,6 +8,12 @@ return [
     'myImprovement' => 'Mo fheabhsú',
     'settings' => 'Socruithe',
     'logout' => 'Logáil Amach',
+    'friends' => 'Cairde',    
+    'stats' => 'Staidéar',
+    'rankingStats' => 'Staidéar Rangaithe',
+    'botMatches' => 'Imirt Bot',
+    'activity' => 'Gníomhaíocht',
+    'supporter' => 'Tacaí',
     
     /* Leaderboard */
     'name' => 'Ainm',

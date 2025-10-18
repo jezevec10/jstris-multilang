@@ -16,8 +16,13 @@ return [
     'myImprovement' => 'Mi desarrollo',
     'favReplays' => 'Repeticiones favoritas',
     'friends' => 'Amigos',
-    'settings' => 'Configuraciones',
-    'logout' => 'Desconectarse',
+    'settings' => 'Ajustes',
+    'logout' => 'Logout',
+    'stats' => 'Estadísticas',
+    'rankingStats' => 'Estadísticas de ranking',
+    'botMatches' => 'Partidas con bots',
+    'activity' => 'Actividad',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Nombre',

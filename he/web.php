@@ -17,6 +17,12 @@ return [
     'favReplays' => 'Favorite replays',
     'settings' => 'Settings',
     'logout' => 'Logout',
+    'friends' => 'Friends',
+    'stats' => 'Stats',
+    'rankingStats' => 'Ranking stats',
+    'botMatches' => 'Bot matches',
+    'activity' => 'Activity',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Name',

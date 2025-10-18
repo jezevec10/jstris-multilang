@@ -16,7 +16,13 @@ return [
     'myImprovement' => 'Mijn verbetering',
     'favReplays' => 'Favoriete replays',
     'settings' => 'Instellingen',
-    'logout' => 'Uitloggen',
+    'logout' => 'Afmelden',
+    'friends' => 'Vrienden',    
+    'stats' => 'Statistieken',
+    'rankingStats' => 'Ranking-statistieken',
+    'botMatches' => 'Bot-wedstrijden',
+    'activity' => 'Activiteit',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Naam',

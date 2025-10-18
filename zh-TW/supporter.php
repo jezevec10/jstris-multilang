@@ -8,6 +8,11 @@ return [
     'supportDesc1' => '如果您欣賞這款遊戲, 請考慮贊助，以協助維持伺服器品質與未來進一步的發展', // 'If you appreciate this game, please consider a donation to this project and help cover server expenses and further development.',
     'warnDelay' => '交易紀錄進您的 Jstris 帳號將會花費約 10 分鐘的時間. 之後您可以在此處配置您的支持者福利', // 'It may take up to 10 minutes until the transaction is credited to your Jstris account. Then you can configure your Supporter benefits here.',
 
+    'benefitsConfig' => '利益可在您的帳戶設置中配置。',
+    'txProcessing' => '交易正在處理中。支持者配置將很快在您的帳戶上可用',
+    'choosePayment' => '選擇付款方式',
+    'morePaymentOptions' => '更多付款選項',
+
     't1Full' => '第一級支持者', // 'Tier 1 Supporter',
     't2Full' => '第二級支持者', // 'Tier 2 Supporter',
     't1' => '第一級', // 'Tier 1',
@@ -31,9 +36,15 @@ return [
     'blockSkins' => '超過 100 個方塊造型', // '100+ more block skins',
     'blockSkinsDesc' => '超過 100 個額外的方塊造型可以在遊戲外觀設置中選取使用. 這個造型其他玩家可以看到, 也會於您的重播紀錄中顯示', 
     // '100+ More block skins will be available in the in-game Appearance settings. This skin selection will be visible to other players and in your replays.',
-    'changeName' => '更改名稱', // 'Option to change username',
-    'changeNameDesc' => '每月可以更改一次名稱', // 'Option to change user name once a month.',
-    'allFromT1' => '以及第一級中所包含的所有內容', // 'and everything from Tier 1',
+    'changeName' => '更改用戶名的選項', // 'Option to change username',
+    'changeNameDesc' => '每月更改一次用戶名的選項。', // 'Option to change user name once a month.',
+    'profileCustomizations' => '個人資料自定義',
+    'profileCustomizationsDesc' => '您可以上傳自定義個人資料圖片，並在您的個人資料上的"關於"消息中使用擴展格式（最多2000個字符，使用超鏈接和表情符號）。',
+    'saveMatches' => '保存與機器人的比賽',
+    'saveMatchesDesc' => '您與機器人的1v1比賽將保存在比賽結果中，包括重播和高級統計信息。',
+    'unlimitedReplays' => '無限重播',
+    'unlimitedReplaysDesc' => '當您的支持者處於活躍狀態時，您的單人模式中的任何重播都不會被刪除。',
+    'allFromT1' => '以及第一級的一切', // 'and everything from Tier 1',
 
     'perMonth' => '每月 :cost', // ':cost per month', //":cost" is replaced with number
     'customAmount' => '自訂金額', // 'Custom amount',
@@ -48,10 +59,12 @@ return [
     'learnMore' => '更多資訊', // 'Learn more', //show more information
     'paymentsInfo' => '支付透過 :service_name.&nbsp; 可隨時於帳號頁面取消.',
 
-    'gift' => '贈予獎勵', // 'Gift rewards',
-    'giftDesc' => '您可以在此處以其他 Jstris 帳號的身分贊助. 於右方的欄位輸入帳號名稱(username)並點選 Set 按鈕. 之後您於此頁面送出的任何贊助都會指定給這個帳號', 
+    'gift' => '贈送獎勵', // 'Gift rewards',
+    'giftDesc' => '您可以通過發送一個您選擇金額的單筆付款來增加您的禮物餘額。它將轉換為Jstris支持者相應長度的天數，您可以贈送給Jstris上的任何玩家。', 
     // 'Here you can donate in the name of any other Jstris account. Enter the account username in the text field on the right and press Set. After that, any donation you will send from this page will be assigned to the chosen account.',
-    'giftTo' => '贈予帳號', // 'Gift to account',
+    'addGiftingBalance' => '添加到禮物餘額',
+    'giftingBalance' => '禮物餘額',
+    'giftTo' => '贈送給帳戶', // 'Gift to account',
     'set' => 'Set', // 'Set', //confirm, ok, apply,...
 
     'rewardsAvailable' => '可獲得贊助獎勵', // 'Donation rewards available',

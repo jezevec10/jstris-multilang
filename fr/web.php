@@ -15,8 +15,13 @@ return [
     'myImprovement' => 'Ma progression',
     'favReplays' => 'Replays favoris',
     'friends' => 'Amis',
-    'settings' => 'Options',
+    'settings' => 'Paramètres',
     'logout' => 'Déconnexion',
+    'stats' => 'Statistiques',
+    'rankingStats' => 'Statistiques de classement',
+    'botMatches' => 'Matchs contre bots',
+    'activity' => 'Activité',
+    'supporter' => 'Supporter',
 
     /* Leaderboard */
     'name' => 'Nom',

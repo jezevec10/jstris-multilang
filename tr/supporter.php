@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Bu oyunu beğeniyorsanız, sunucu masrafları ve gelecekteki geliştirmeleri karşılamak için lütfen bağış yapmayı düşünün.',
     'warnDelay' => 'İşlemin Jstris hesabınıza yansıması 10 dakikayı bulabilir. Ardından burada Destekçi avantajlarını yapılandırabilirsiniz.',
 
+    'benefitsConfig' => 'Avantajlar hesap ayarlarında yapılandırılabilir.',
+    'txProcessing' => 'İşlem işlenmekte. Destekçi yapılandırması yakında hesabınızda kullanılabilir olacak',
+    'choosePayment' => 'Ödeme yöntemini seçin',
+    'morePaymentOptions' => 'Daha Fazla Ödeme Seçeneği',
+
     't1Full' => 'Seviye 1 Destekçi',
     't2Full' => 'Seviye 2 Destekçi',
     't1' => 'Seviye 1',
@@ -32,8 +37,14 @@ return [
     'blockSkins' => '100+ ek blok kaplaması',
     'blockSkinsDesc' => '100’den fazla ek blok kaplaması, oyun içi Görünüm ayarlarında kullanılabilir olacak. Bu seçim diğer oyuncular ve tekrarlarınızda görünür.',
     'changeName' => 'Kullanıcı adını değiştirme seçeneği',
-    'changeNameDesc' => 'Ayda bir kez kullanıcı adını değiştirme seçeneği.',
-    'allFromT1' => 've Seviye 1’deki her şey',
+    'changeNameDesc' => 'Kullanıcı adını ayda bir kez değiştirme seçeneği.',
+    'profileCustomizations' => 'Profil özelleştirmeleri',
+    'profileCustomizationsDesc' => 'Özel bir profil resmi yükleyebilir ve profilinizde \"Hakkında\" mesajında genişletilmiş biçimlendirme kullanabilirsiniz (2000 karaktere kadar, köprü ve emote kullanın).',
+    'saveMatches' => 'Bot karşı maçları kaydet',
+    'saveMatchesDesc' => 'Bot karşı 1v1 maçlarınız, tekrarlar ve gelişmiş istatistikler dahil olmak üzere maç sonuçlarına kaydedilecek.',
+    'unlimitedReplays' => 'Sınırsız tekrarlar',
+    'unlimitedReplaysDesc' => 'Destekçiniz aktif olduğu sürece tek oyunculu modlarınızın tekrarlarından hiçbiri silinmez.',
+    'allFromT1' => 've Seviye 1\'den her şey',
 
     'perMonth' => 'Aylık :cost', //":cost" is replaced with number
     'customAmount' => 'Özel tutar',
@@ -47,8 +58,10 @@ return [
     'learnMore' => 'Daha fazla bilgi', //show more information
     'paymentsInfo' => ':service_name aracılığıyla işlenir.&nbsp; Hesap panosundan istediğiniz zaman iptal edilebilir.',
 
-    'gift' => 'Ödül hediye et',
-    'giftDesc' => 'Burada başka bir Jstris hesabı adına bağış yapabilirsiniz. Hesap kullanıcı adını sağdaki metin alanına girin ve Ayarla’yı tıklayın. Bundan sonra bu sayfadan göndereceğiniz bağışlar seçilen hesaba atanacaktır.',
+    'gift' => 'Ödül hediye',
+    'giftDesc' => 'Seçtiğiniz bir miktarla tek bir ödeme göndererek hediye bakiyenizi artırabilirsiniz. Jstris Supporter\'ın gün cinsinden karşılık gelen süresine dönüştürülecek ve Jstris\'teki herhangi bir oyuncuya hediye edebilirsiniz.',
+    'addGiftingBalance' => 'Hediye bakiyesine ekle',
+    'giftingBalance' => 'Hediye bakiyesi',
     'giftTo' => 'Hesaba hediye et',
     'set' => 'Ayarla', //confirm, ok, apply,...
 

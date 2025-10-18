@@ -8,6 +8,11 @@ return [
     'supportDesc1' => 'Si disfrutas de este juego, porfavor considera hacer una donación para ayudar a cubrir los gastos de servidores y futuro desarrollo de la página.',
     'warnDelay' => 'Puede tomar hasta 10 minutos para que tu transacción sea reflejada, después puedes configurar tus beneficios aquí.',
 
+    'benefitsConfig' => 'Los beneficios se pueden configurar en la configuración de tu cuenta.',
+    'txProcessing' => 'La transacción se está procesando. La configuración de Supporter estará disponible pronto en tu cuenta',
+    'choosePayment' => 'Elige cómo pagar',
+    'morePaymentOptions' => 'Más opciones de pago',
+
     't1Full' => 'Donación nivel 1',
     't2Full' => 'Donación nivel 2',
     't1' => 'Nivel 1',
@@ -31,6 +36,12 @@ return [
     'blockSkinsDesc' => '100+ block skins adicionales estarán disponibles en los ajustes de apariencia del juego. La skin será visible para otros jugadores y en tus repeticiones.',
     'changeName' => 'Opción para cambiar nombre de usuario',
     'changeNameDesc' => 'Opción para cambiar tu nombre de usuario una vez al mes',
+    'profileCustomizations' => 'Personalizaciones de perfil',
+    'profileCustomizationsDesc' => 'Puedes subir una imagen de perfil personalizada y usar formateo extendido en el mensaje \"Sobre mí\" de tu perfil (hasta 2000 caracteres, usa hipervínculos y emotes).',
+    'saveMatches' => 'Guardar partidas contra bots',
+    'saveMatchesDesc' => 'Tus partidas 1v1 contra bots se guardarán en resultados de partidas incluyendo repeticiones y estadísticas avanzadas.',
+    'unlimitedReplays' => 'Repeticiones ilimitadas',
+    'unlimitedReplaysDesc' => 'Ninguna de tus repeticiones de los modos de un jugador se eliminará mientras tu Supporter esté activo.',
     'allFromT1' => 'y todas las recompensas del nivel 1',
 
     'perMonth' => ':cost al mes', //":cost" is replaced with number
@@ -45,9 +56,11 @@ return [
     'learnMore' => 'Saber más', //show more information
     'paymentsInfo' => 'Procesado a través de :service_name.&nbsp; Puede ser cancelado en cualquier momento en el panel de control de la cuenta.',
 
-    'gift' => 'Regalar recompensas',
-    'giftDesc' => 'Aquí puedes donar en el nombre de cualquier otra cuenta de Jstris. Escribe el nombre de usuario y da click en Ok. Después de eso, cualquier donación que envíes desde esta página será asignado a la cuenta elegida.',
-    'giftTo' => 'Regalar a usuario',
+    'gift' => 'Regala recompensas',
+    'giftDesc' => 'Puedes aumentar tu saldo de regalo enviando un solo pago con una cantidad de tu elección. Se convertirá a la duración respectiva del Jstris supporter en días, que puedes regalar a cualquier jugador en Jstris.',
+    'addGiftingBalance' => 'Añadir al saldo de regalo',
+    'giftingBalance' => 'Saldo de regalo',
+    'giftTo' => 'Regalar a cuenta',
     'set' => 'Ok', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Recompensas de donador disponibles',

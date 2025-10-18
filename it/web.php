@@ -9,6 +9,12 @@ return [
     'myImprovement' => 'Progresso',
     'settings' => 'Impostazioni',
     'logout' => 'Esci',
+    'friends' => 'Amici',    
+    'stats' => 'Statistiche',
+    'rankingStats' => 'Statistiche di ranking',
+    'botMatches' => 'Partite con bot',
+    'activity' => 'Attività',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Nome',

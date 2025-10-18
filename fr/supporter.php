@@ -8,6 +8,11 @@ return [
     'supportDesc1' => 'Si vous appréciez ce jeu, pensez à faire un don pour soutenir ce projet. Vous aiderez ainsi à couvrir les dépenses liées aux serveurs et aux développements futurs.',
     'warnDelay' => 'Cela peut prendre jusqu\'à 10 minutes avant que la transaction ne soit validée. Vous pourrez ensuite accéder à vos récompenses ici.',
 
+    'benefitsConfig' => 'Les avantages peuvent être configurés dans les paramètres de votre compte.',
+    'txProcessing' => 'La transaction est en cours de traitement. La configuration du Supporter sera bientôt disponible sur votre compte',
+    'choosePayment' => 'Choisissez comment payer',
+    'morePaymentOptions' => 'Plus d\'options de paiement',
+
     't1Full' => 'Soutien Tier 1',
     't2Full' => 'Soutien Tier 2',
     't1' => 'Tier 1',
@@ -29,9 +34,15 @@ return [
     'moreIconsDesc' => 'Choisissez parmis plus de 2000 icônes emoji provenant de la librairie Openmoji comme icône devant votre pseudo dans le jeu et sur le site. Possibilité d\'avoir un icône aléatoire à chaque fois que vous lancez le jeu.',
     'blockSkins' => 'Plus de 100 skins supplémentaires de blocs',
     'blockSkinsDesc' => 'Plus de 100 skins supplémentaires pour vos blocs seront disponibles dans les options du jeu. Le skin choisi sera visible par les autres joueurs et dans vos replays.',
-    'changeName' => 'Changement de pseudo',
-    'changeNameDesc' => 'Possibilité de changer votre pseudo une fois par mois.',
-    'allFromT1' => 'et tous les avantages du Tier 1',
+    'changeName' => 'Possibilité de changer de pseudo',
+    'changeNameDesc' => 'Possibilité de changer de pseudo une fois par mois.',
+    'profileCustomizations' => 'Personnalisations de profil',
+    'profileCustomizationsDesc' => 'Vous pouvez télécharger une image de profil personnalisée et utiliser un formatage étendu dans le message \"À propos\" de votre profil (jusqu\'à 2000 caractères, utilisez des hyperliens et des emotes).',
+    'saveMatches' => 'Enregistrer les matchs contre les bots',
+    'saveMatchesDesc' => 'Vos matchs 1v1 contre les bots seront enregistrés dans les résultats de matchs incluant les rediffusions et les statistiques avancées.',
+    'unlimitedReplays' => 'Rediffusions illimitées',
+    'unlimitedReplaysDesc' => 'Aucune de vos rediffusions des modes solo ne sera supprimée tant que votre Supporter est actif.',
+    'allFromT1' => 'et tout de Tier 1',
 
     'perMonth' => ':cost par mois', //":cost" is replaced with number
     'customAmount' => 'Montant libre',
@@ -46,7 +57,9 @@ return [
     'paymentsInfo' => 'Paiement opéré par :service_name.&nbsp; Peut être annulé à tout moment dans le tableau de bord du compte.',
 
     'gift' => 'Offrir des récompenses',
-    'giftDesc' => 'Vous pouvez offrir les récompenses à autre compte Jstris en faisant un don en son nom. Entrez le pseudo du compte dans le champ de texte sur la droite et cliquez sur le bouton OK. Faites ensuite un don ci-dessus et les récompenses seront assignées au compte choisi.',
+    'giftDesc' => 'Vous pouvez augmenter votre solde de cadeaux en envoyant un seul paiement d\'un montant de votre choix. Il sera converti en la durée respective du Supporter Jstris en jours, que vous pourrez offrir à n\'importe quel joueur sur Jstris.',
+    'addGiftingBalance' => 'Ajouter au solde cadeau',
+    'giftingBalance' => 'Solde cadeau',
     'giftTo' => 'Offrir au compte',
     'set' => 'OK', //confirm, ok, apply,...
 

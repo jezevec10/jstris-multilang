@@ -8,6 +8,11 @@ return [
     'supportDesc1' => 'Jos arvostat tätä peliä, harkitse ryhtymistä tämän projektin tukijaksi ja auta kattamaan sekä palvelinkulut että jatkokehitys.',
     'warnDelay' => 'Voi kestää jopa 10 minuuttia, ennen kuin tapahtuma hyvitetään Jstris-tilillesi. Sitten voit määrittää tukijaetusi täällä.',
 
+    'benefitsConfig' => 'Edut voidaan määrittää tilin asetuksissa.',
+    'txProcessing' => 'Tapahtuma käsitellään. Tukijan konfiguraatio on saatavilla pian tilillä',
+    'choosePayment' => 'Valitse maksusuoritus',
+    'morePaymentOptions' => 'Lisää maksusuorituksia',
+
     't1Full' => 'Tason 1 Tukija',
     't2Full' => 'Tason 2 Tukija',
     't1' => 'Taso 1',
@@ -29,9 +34,15 @@ return [
     'moreIconsDesc' => 'Voit asettaa minkä tahansa Openmoji-kirjaston yli 2000:sta emoji-kuvakkeesta nimeäsi edeltäväksi kuvakkeeksi pelissä ja verkkosivustolla. Voit myös ottaa satunnaisen kuvakkeen valinnan käyttöön joka kerta, kun lataat pelin.',
     'blockSkins' => '100+ lisää palikkaskinejä',
     'blockSkinsDesc' => '100+ lisää palikkaskiniä ovat saatavilla pelin ulkoasuasetuksissa. Tämä skini -valinta näkyy muille pelaajille ja myös toistoissasi.',
-    'changeName' => 'Mahdollisuus vaihtaa käyttäjätunnusta.',
-    'changeNameDesc' => 'Mahdollisuus vaihtaa käyttäjätunnusta kerran kuukaudessa.',
-    'allFromT1' => 'ja kaikki tasosta 1',
+    'changeName' => 'Mahdollisuus muuttaa käyttäjänimeä',
+    'changeNameDesc' => 'Mahdollisuus muuttaa käyttäjänimeä kerran kuukaudessa.',
+    'profileCustomizations' => 'Profiilin mukautukset',
+    'profileCustomizationsDesc' => 'Voit ladata mukautetun profiilikuvan ja käyttää laajennettua muotoilua "Tietoja minusta" -viestissä profiilillasi (enintään 2000 merkkiä, käytä hyperlinkkejä ja emojeja).',
+    'saveMatches' => 'Tallenna ottelut tekoälyä vastaan',
+    'saveMatchesDesc' => 'Sinun 1v1 ottelut tekoälyä vastaan tallennetaan otteluihin, mukaan lukien toistot ja edistyneet tilastot.',
+    'unlimitedReplays' => 'Rajoittamattomat toistot',
+    'unlimitedReplaysDesc' => 'Mikään sinun toistoksistasi yhden pelaajan tilasta ei poisteta silloin kun Tukijasi on aktiivinen.',
+    'allFromT1' => 'ja kaikki taso 1:ltä',
 
     'perMonth' => ':cost kuukaudessa', //":cost" is replaced with number
     'customAmount' => 'Mukautettu määrä',
@@ -45,9 +56,11 @@ return [
     'learnMore' => 'Lue lisää', //show more information
     'paymentsInfo' => 'Käsitelty käsittelijän :service_name&nbsp; kautta. Voidaan peruuttaa milloin tahansa tilin kojelaudassa.',
 
-    'gift' => 'Lahjapalkinnot',
-    'giftDesc' => '', // Unused
-    'giftTo' => 'Lahja käyttäjälle',
+    'gift' => 'Lahjoita palkintoja',
+    'giftDesc' => 'Voit lisätä lahjasaldoasi lähettämällä yhden maksun valitsemastasi summasta. Se muutetaan vastaavaksi pituudeksi Jstris-tukijan päivissä, jonka voit lahjoittaa mille tahansa Jstris-pelaajalle.',
+    'addGiftingBalance' => 'Lisää lahja saldoon',
+    'giftingBalance' => 'Lahja saldo',
+    'giftTo' => 'Lahja tilille',
     'set' => 'Hyväksy', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Tukijan palkinnot saatavilla',

@@ -10,6 +10,11 @@ return [
     'supportDesc1' => 'Als je dit spel waardeert, overweeg dan een donatie om serverkosten en verdere ontwikkeling te ondersteunen.',
     'warnDelay' => 'Het kan tot 10 minuten duren voordat de transactie aan je Jstris-account wordt gekoppeld. Daarna kun je hier je Supporter-voordelen instellen.',
 
+    'benefitsConfig' => 'Voordelen kunnen in uw accountinstellingen worden ingesteld.',
+    'txProcessing' => 'De transactie wordt verwerkt. De Supporter-configuratie is binnenkort beschikbaar op uw account',
+    'choosePayment' => 'Kies hoe u wilt betalen',
+    'morePaymentOptions' => 'Meer betalingsopties',
+
     't1Full' => 'Supporter niveau 1',
     't2Full' => 'Supporter niveau 2',
     't1' => 'Niveau 1',
@@ -31,8 +36,14 @@ return [
     'moreIconsDesc' => 'Je kunt een van de 2000+ emoji-iconen uit de Openmoji-bibliotheek instellen als icoon vóór je naam in het spel en op de website. Je kunt ook willekeurige selectie inschakelen bij elke keer dat het spel wordt geladen.',
     'blockSkins' => '100+ extra blockskins',
     'blockSkinsDesc' => 'Meer dan 100 extra blockskins zijn beschikbaar in de weergave-instellingen. Deze keuze is zichtbaar voor andere spelers en in je herhalingen.',
-    'changeName' => 'Gebruikersnaam wijzigen',
-    'changeNameDesc' => 'Mogelijkheid om de gebruikersnaam eenmaal per maand te wijzigen.',
+    'changeName' => 'Mogelijkheid om gebruikersnaam te wijzigen',
+    'changeNameDesc' => 'Mogelijkheid om gebruikersnaam eenmaal per maand te wijzigen.',
+    'profileCustomizations' => 'Profielaanpassingen',
+    'profileCustomizationsDesc' => 'U kunt een aangepast profielafbeelding uploaden en uitgebreide opmaak gebruiken in het bericht "Over" op uw profiel (tot 2000 tekens, gebruik hyperlinks en emotes).',
+    'saveMatches' => 'Wedstrijden tegen bots opslaan',
+    'saveMatchesDesc' => 'Uw 1v1-wedstrijden tegen bots worden opgeslagen in wedstrijdresultaten, inclusief herhaling en geavanceerde statistieken.',
+    'unlimitedReplays' => 'Onbeperkte herhalingen',
+    'unlimitedReplaysDesc' => 'Geen van uw herhalingen uit single-playermodi worden verwijderd terwijl uw Supporter actief is.',
     'allFromT1' => 'en alles van niveau 1',
 
     'perMonth' => ':cost per maand', //":cost" is replaced with number
@@ -47,8 +58,10 @@ return [
     'learnMore' => 'Meer informatie', //show more information
     'paymentsInfo' => 'Verwerkt via :service_name.&nbsp; Kan op elk moment worden geannuleerd op het accountdashboard.',
 
-    'gift' => 'Beloningen cadeau doen',
-    'giftDesc' => 'Hier kun je doneren namens een ander Jstris-account. Voer de gebruikersnaam in het tekstveld rechts in en druk op Instellen. Daarna worden donaties vanaf deze pagina toegewezen aan het gekozen account.',
+    'gift' => 'Beloningen schenken',
+    'giftDesc' => 'U kunt uw geschenkensaldo verhogen door één betaling met een bedrag naar keuze te versturen. Deze wordt omgezet in de desbetreffende duur van Jstris-supporter in dagen, die u aan elke speler op Jstris kunt schenken.',
+    'addGiftingBalance' => 'Toevoegen aan geschenkensaldo',
+    'giftingBalance' => 'Geschenkensaldo',
     'giftTo' => 'Cadeau aan account',
     'set' => 'Instellen', //confirm, ok, apply,...
 

@@ -8,6 +8,11 @@ return [
     'supportDesc1' => 'Se você aprecia o jogo, por favor considere uma doação para ajudar a cobrir os gastos do servidor e o desenvolvimento que está a vir.',
     'warnDelay' => 'Pode demorar até 10 minutos antes que a transação seja creditada para sua conta no Jstris. Então você poderá configurar as suas recomensas de Apoiador aqui.',
 
+    'benefitsConfig' => 'Os benefícios podem ser configurados nas configurações da sua conta.',
+    'txProcessing' => 'A transação está sendo processada. A configuração de Apoiador estará disponível em breve em sua conta',
+    'choosePayment' => 'Escolha como pagar',
+    'morePaymentOptions' => 'Mais Opções de Pagamento',
+
     't1Full' => 'Apoiador nível 1',
     't2Full' => 'Apoiador nível 2',
     't1' => 'Nível 1',
@@ -29,9 +34,15 @@ return [
     'moreIconsDesc' => 'Você pode setar qualquer um dos mais de 2000 ícones de emoji da biblioteca Openmoji como um ícone antes de seu nome no jogo e no site. Você pode também habilitar um ícone aleatório para toda vez que você entrar no jogo.',
     'blockSkins' => 'Mais de 100 texturas diferentes de blocos',
     'blockSkinsDesc' => 'Mais de 100 texturas de blocos estarão disponíveis nas configurações de aparência. Essa seleção de texturas será visiveis para outros jogadores e em seus replays.',
-    'changeName' => 'Opção de mudar de nome',
-    'changeNameDesc' => 'Opção de mudar o nome do jogador uma vez por mês.',
-    'allFromT1' => 'E tudo do Nível 1',
+    'changeName' => 'Opção para alterar nome de usuário',
+    'changeNameDesc' => 'Opção para alterar nome de usuário uma vez por mês.',
+    'profileCustomizations' => 'Personalizações de perfil',
+    'profileCustomizationsDesc' => 'Você pode fazer upload de uma imagem de perfil personalizada e usar formatação estendida na mensagem "Sobre" do seu perfil (até 2000 caracteres, use hiperlinks e emotes).',
+    'saveMatches' => 'Salvar partidas contra bots',
+    'saveMatchesDesc' => 'Suas partidas 1v1 contra bots serão salvas nos resultados das partidas, incluindo replays e estatísticas avançadas.',
+    'unlimitedReplays' => 'Replays ilimitados',
+    'unlimitedReplaysDesc' => 'Nenhum do seu replay dos modos de um jogador será excluído enquanto seu Apoiador estiver ativo.',
+    'allFromT1' => 'e tudo do nível 1',
 
     'perMonth' => ':cost por mês', //":cost" is replaced with number
     'customAmount' => 'Quantidade customizada',
@@ -45,9 +56,11 @@ return [
     'learnMore' => 'Saiba mais', //show more information
     'paymentsInfo' => 'Pagamento processado por :service_name.&nbsp; Pode ser cancelado a qualquer momento no painel de controle da conta.',
 
-    'gift' => 'Recompensas de presente',
-    'giftDesc' => 'Aqui você pode doar no nome de outra conta Jsitrs. Entre o nome da conta no campo de texto a direita e pressione Ok. Depois disso, qualquer doação você enviar desta página será atribuída para a conta escolhida.',
-    'giftTo' => 'Presentear conta',
+    'gift' => 'Presentes de recompensa',
+    'giftDesc' => 'Você pode aumentar seu saldo de presentes enviando um único pagamento de um valor de sua escolha. Será convertido para a duração respectiva do apoiador Jstris em dias, que você pode dar a qualquer jogador no Jstris.',
+    'addGiftingBalance' => 'Adicionar ao saldo de presentes',
+    'giftingBalance' => 'Saldo de presentes',
+    'giftTo' => 'Presentear a conta',
     'set' => 'Ok', //confirm, ok, apply,...
 
     'rewardsAvailable' => 'Recompensas de Apoiador disponíveis',

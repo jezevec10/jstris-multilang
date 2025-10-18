@@ -17,7 +17,12 @@ return [
     'favReplays' => '已收藏录像',
     'friends' => '好友',
     'settings' => '设置',
-    'logout' => '退出登录',
+    'logout' => '登出',
+    'stats' => '统计',
+    'rankingStats' => '排名统计',
+    'botMatches' => '机器人比赛',
+    'activity' => '活动',
+    'supporter' => '支持者',
     
     /* Leaderboard */
     'name' => '玩家名',

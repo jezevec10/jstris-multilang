@@ -17,6 +17,12 @@ return [
     'favReplays' => 'Lieblingswiederholungen',
     'settings' => 'Einstellungen',
     'logout' => 'Ausloggen',
+    'friends' => 'Freunde',    
+    'stats' => 'Statistiken',
+    'rankingStats' => 'Ranking-Statistiken',
+    'botMatches' => 'Bot-Spiele',
+    'activity' => 'Aktivität',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Name',

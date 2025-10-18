@@ -17,6 +17,12 @@ return [
     'favReplays' => 'Tayangan ulang favorit',
     'settings' => 'Pengaturan',
     'logout' => 'Keluar',
+    'friends' => 'Teman',
+    'stats' => 'Statistik',
+    'rankingStats' => 'Statistik Peringkat',
+    'botMatches' => 'Pertandingan Bot',
+    'activity' => 'Aktivitas',
+    'supporter' => 'Pendukung',
     
     /* Leaderboard */
     'name' => 'Nama',
