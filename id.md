@@ -20,50 +20,25 @@
             <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">supporter</a></td><td>82.35%</td><td>
+    <tr><td><a href="#">supporter</a></td><td>100%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 82.35%;"></span>
+            <span class="pb-fill" style="width: 100%;"></span>
         </div>
     </td></tr>
-    <tr><td><a href="#">web</a></td><td>70.37%</td><td>
+    <tr><td><a href="#">web</a></td><td>72.84%</td><td>
         <div class="pb">
-            <span class="pb-fill" style="width: 70.37%;"></span>
+            <span class="pb-fill" style="width: 72.84%;"></span>
         </div>
     </td></tr>
 </tbody></table>
 
 -----------------------
 
-## Supporter
-
-**Missing in id/supporter.php:**
-
-```
-'benefitsConfig' => 'Benefits can be configured in your account settings.',
-'txProcessing' => 'The transaction is being processed. The Supporter configuration will be available shortly in your account',
-'choosePayment' => 'Choose how to pay',
-'morePaymentOptions' => 'More Payment Options',
-'profileCustomizations' => 'Profile customizations',
-'profileCustomizationsDesc' => 'You can upload custom profile picture and use extended formatting in "About" message on your profile (up to 2000 characters, use hyperlinks and emotes).',
-'saveMatches' => 'Save matches against bots',
-'saveMatchesDesc' => 'Your 1v1 against bots will be saved into match results including replays and advanced stats.',
-'unlimitedReplays' => 'Unlimited replays',
-'unlimitedReplaysDesc' => 'None of your replays from singleplayer modes will be deleted while your Supporter is active.',
-'addGiftingBalance' => 'Add to Gifting balance',
-'giftingBalance' => 'Gifting balance',
-```
-
 ## Web
 
 **Missing in id/web.php:**
 
 ```
-'friends' => 'Friends',
-'stats' => 'Stats',
-'rankingStats' => 'Ranking stats',
-'botMatches' => 'Bot matches',
-'activity' => 'Activity',
-'supporter' => 'Supporter',
 'mostGames' => 'The most games',
 'repExport' => 'GIF or video',
 'continent' => 'Continent',
