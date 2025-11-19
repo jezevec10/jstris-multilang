@@ -65,7 +65,7 @@ return [
     'addGiftingBalance' => '添加到禮物餘額',
     'giftingBalance' => '禮物餘額',
     'giftTo' => '贈送給帳戶', // 'Gift to account',
-    'set' => 'Set', // 'Set', //confirm, ok, apply,...
+    'set' => '確認', // 'Set', //confirm, ok, apply,...
 
     'rewardsAvailable' => '可獲得贊助獎勵', // 'Donation rewards available',
     'rewardsList' => '非常感謝您贊助 Jstris! 您可以啟用以下回饋', // 'Thanks for your donation to Jstris! You may enable the following rewards.',
