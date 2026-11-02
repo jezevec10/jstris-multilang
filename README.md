@@ -15,7 +15,7 @@ If you want to add your language to the game, clone this repository, copy the `e
 ## Translation files description
 `game.php` - every language must have this file, covers most of the game interface
 
-`frontend.php` - *(optional)* strings used only by the javascript game fronted
+`frontend.php` - *(optional)* strings used only by the javascript game frontend
 
 `web.php` - *(optional)* all other strings used on the website (user profiles, leaderboards, statistics, replays, etc.)
 
