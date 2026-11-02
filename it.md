@@ -65,7 +65,7 @@
 'oops' => 'Oops!',
 'chatNA' => 'Public chatting is not available for guests or users with less than {chReq} hours of gametime.',
 'leMore' => 'Learn more',
-'connLimit' => 'The maximum amount of open connections for this IP is curently reached. If you need increased limits, contact us via Discord',
+'connLimit' => 'The maximum amount of open connections for this IP is currently reached. If you need increased limits, contact us via Discord',
 'idleDC' => 'Disconnected for inactivity! Spectator section was full.',
 'RLreach' => 'Rate limit reached.',
 'ban1' => 'Your access to the Live games has been permanently restricted. You can still play singleplayer modes.',
