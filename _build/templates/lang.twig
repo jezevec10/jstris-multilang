@@ -10,7 +10,7 @@
     </tr>
 </thead>
 <tbody>
-{% for key,file in data if file.cov is defined %}
+{% for key,file in data|filter(file => file.cov is defined) %}
     <tr><td><a href="#">{{ key }}</a></td><td>{{ file.cov }}%</td><td>
         <div class="pb">
             <span class="pb-fill" style="width: {{ file.cov }}%;"></span>
@@ -21,7 +21,7 @@
 
 -----------------------
 
-{% for key,file in data if file.cov is defined and file.missing|length > 0 %}
+{% for key,file in data|filter(file => file.cov is defined and file.missing|length > 0) %}
 ## {{ key|capitalize }}
 
 **Missing in {{ langCode }}/{{ key }}.php:**
