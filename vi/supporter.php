@@ -39,7 +39,7 @@ return [
     'changeName' => 'Tùy chọn thay đổi tên người dùng',
     'changeNameDesc' => 'Tùy chọn thay đổi tên người dùng một lần mỗi tháng.',
     'profileCustomizations' => 'Tùy chỉnh hồ sơ',
-    'profileCustomizationsDesc' => 'Bạn có thể tải lên ảnh hồ sơ tùy chỉnh và sử dụng định dạng mở rộng trong tin nhắn \"Về\" trên hồ sơ của bạn (tối đa 2000 ký tự, sử dụng siêu liên kết và emotes).',
+    'profileCustomizationsDesc' => 'Bạn có thể tải lên ảnh hồ sơ tùy chỉnh và sử dụng định dạng mở rộng trong tin nhắn "Về" trên hồ sơ của bạn (tối đa 2000 ký tự, sử dụng siêu liên kết và emotes).',
     'saveMatches' => 'Lưu những trận đấu chống lại bot',
     'saveMatchesDesc' => 'Những trận đấu 1v1 của bạn chống lại bot sẽ được lưu vào kết quả trận đấu bao gồm các bản phát lại và thống kê nâng cao.',
     'unlimitedReplays' => 'Phát lại không giới hạn',

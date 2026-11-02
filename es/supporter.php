@@ -37,7 +37,7 @@ return [
     'changeName' => 'Opción para cambiar nombre de usuario',
     'changeNameDesc' => 'Opción para cambiar tu nombre de usuario una vez al mes',
     'profileCustomizations' => 'Personalizaciones de perfil',
-    'profileCustomizationsDesc' => 'Puedes subir una imagen de perfil personalizada y usar formateo extendido en el mensaje \"Sobre mí\" de tu perfil (hasta 2000 caracteres, usa hipervínculos y emotes).',
+    'profileCustomizationsDesc' => 'Puedes subir una imagen de perfil personalizada y usar formateo extendido en el mensaje "Sobre mí" de tu perfil (hasta 2000 caracteres, usa hipervínculos y emotes).',
     'saveMatches' => 'Guardar partidas contra bots',
     'saveMatchesDesc' => 'Tus partidas 1v1 contra bots se guardarán en resultados de partidas incluyendo repeticiones y estadísticas avanzadas.',
     'unlimitedReplays' => 'Repeticiones ilimitadas',

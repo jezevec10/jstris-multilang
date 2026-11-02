@@ -180,7 +180,7 @@ return [
     'frOn' => 'ONLINE',
     'frOff' => 'OFFLINE',
     'frNewChatH' => 'Tady začíná chat s {name}.',
-    'frWelc' => 'Vítejte v záložce \„Přátelé\“',
+    'frWelc' => 'Vítejte v záložce „Přátelé“',
     'frIntro' => 'Tady najdete seznam svých přátel, soukromé chaty a pozvánky do místností',
     'frIntro2' => 'Navštivte profil uživatele, chcete-li mu poslat žádost',
     'frIntro3' => 'Spravovat své přátele můžete na stránce {frPage}',

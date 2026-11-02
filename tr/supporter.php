@@ -39,7 +39,7 @@ return [
     'changeName' => 'Kullanıcı adını değiştirme seçeneği',
     'changeNameDesc' => 'Kullanıcı adını ayda bir kez değiştirme seçeneği.',
     'profileCustomizations' => 'Profil özelleştirmeleri',
-    'profileCustomizationsDesc' => 'Özel bir profil resmi yükleyebilir ve profilinizde \"Hakkında\" mesajında genişletilmiş biçimlendirme kullanabilirsiniz (2000 karaktere kadar, köprü ve emote kullanın).',
+    'profileCustomizationsDesc' => 'Özel bir profil resmi yükleyebilir ve profilinizde "Hakkında" mesajında genişletilmiş biçimlendirme kullanabilirsiniz (2000 karaktere kadar, köprü ve emote kullanın).',
     'saveMatches' => 'Bot karşı maçları kaydet',
     'saveMatchesDesc' => 'Bot karşı 1v1 maçlarınız, tekrarlar ve gelişmiş istatistikler dahil olmak üzere maç sonuçlarına kaydedilecek.',
     'unlimitedReplays' => 'Sınırsız tekrarlar',

@@ -35,7 +35,7 @@ return [
     'moreIcons' => 'Více než 2000 ikon u jména',
     'moreIconsDesc' => 'Můžete si vybrat kteroukoli z 2000+ emotikon z knihovny Openmoji jako ikonu před vaším jménem. Můžete si i nastavit to, že se vám vybere náhodná ikona při každém spuštění hry',
     'blockSkins' => 'Přes 100 nových skinů',
-    'blockSkinsDesc' => 'V nabídce \„Vzhled\“ si můžete vybrat z více než 100 nových skinů pro vaše herní bloky. Zvolený skin bude viditelný pro ostatní hráče, i ve vašich nahrávkách.',
+    'blockSkinsDesc' => 'V nabídce „Vzhled“ si můžete vybrat z více než 100 nových skinů pro vaše herní bloky. Zvolený skin bude viditelný pro ostatní hráče, i ve vašich nahrávkách.',
     'changeName' => 'Možnost změny uživatelského jména',
     'changeNameDesc' => 'Možnost změnit si jednou měsíčně uživatelské jméno.',
     'profileCustomizations' => 'Úpravy profilu',
@@ -59,7 +59,7 @@ return [
     'paymentsInfo' => 'Zprostředkovává :service_name.&nbsp; Lze kdykoliv zrušit v nastavení účtu.',
 
     'gift' => 'Darujte odměny',
-    'giftDesc' => 'Můžete přispět jménem jiného hráče Jstris. Zadejte uživatelské jméno do textového pole vpravo a zmáčkněte \„Potvrdit\". Jakýkoliv příspěvek, který zde následně provedete, se připíše na účet, který jste vyplnili.',
+    'giftDesc' => 'Můžete přispět jménem jiného hráče Jstris. Zadejte uživatelské jméno do textového pole vpravo a zmáčkněte „Potvrdit". Jakýkoliv příspěvek, který zde následně provedete, se připíše na účet, který jste vyplnili.',
     'addGiftingBalance' => 'Přidat na Dárkový zůstatek',
     'giftingBalance' => 'Dárkový zůstatek',
     'giftTo' => 'Darovat jinému hráči',

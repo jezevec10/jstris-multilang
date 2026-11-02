@@ -39,7 +39,7 @@ return [
     'changeName' => 'Rogha a bhaint as ainm úsáideora a athrú',
     'changeNameDesc' => 'Rogha a bhaint as ainm úsáideora a athrú uair amháin sa mhí.',
     'profileCustomizations' => 'Saincheapachán próifíle',
-    'profileCustomizationsDesc' => 'Is féidir leat pictiúr próifíle saincheaptha a uachtar agus formáidiú leathaithe a úsáid sa teachtaireacht \"Faoi" ar do phróifíl (suas go 2000 carachtar, úsáid hipernasc agus emotes).',
+    'profileCustomizationsDesc' => 'Is féidir leat pictiúr próifíle saincheaptha a uachtar agus formáidiú leathaithe a úsáid sa teachtaireacht "Faoi" ar do phróifíl (suas go 2000 carachtar, úsáid hipernasc agus emotes).',
     'saveMatches' => 'Sábháil imirt in aghaidh bots',
     'saveMatchesDesc' => 'Beidh do 1v1 i nAghaidh bots sábháilte i dtorthaí imirt lena n-áirítear atáirgthe agus staitisticí chun cinn.',
     'unlimitedReplays' => 'Athimirt gan teorainn',

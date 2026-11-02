@@ -37,7 +37,7 @@ return [
     'changeName' => 'Possibilité de changer de pseudo',
     'changeNameDesc' => 'Possibilité de changer de pseudo une fois par mois.',
     'profileCustomizations' => 'Personnalisations de profil',
-    'profileCustomizationsDesc' => 'Vous pouvez télécharger une image de profil personnalisée et utiliser un formatage étendu dans le message \"À propos\" de votre profil (jusqu\'à 2000 caractères, utilisez des hyperliens et des emotes).',
+    'profileCustomizationsDesc' => 'Vous pouvez télécharger une image de profil personnalisée et utiliser un formatage étendu dans le message "À propos" de votre profil (jusqu\'à 2000 caractères, utilisez des hyperliens et des emotes).',
     'saveMatches' => 'Enregistrer les matchs contre les bots',
     'saveMatchesDesc' => 'Vos matchs 1v1 contre les bots seront enregistrés dans les résultats de matchs incluant les rediffusions et les statistiques avancées.',
     'unlimitedReplays' => 'Rediffusions illimitées',

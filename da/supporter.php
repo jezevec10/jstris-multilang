@@ -39,7 +39,7 @@ return [
     'changeName' => 'Mulighed for at ændre brugernavn',
     'changeNameDesc' => 'Mulighed for at ændre brugernavn en gang pr. måned.',
     'profileCustomizations' => 'Profilindstillinger',
-    'profileCustomizationsDesc' => 'Du kan uploade et brugerdefineret profilbillede og bruge udvidet formatering i \"Om\" beskeden på din profil (op til 2000 tegn, brug hyperlinks og emojis).',
+    'profileCustomizationsDesc' => 'Du kan uploade et brugerdefineret profilbillede og bruge udvidet formatering i "Om" beskeden på din profil (op til 2000 tegn, brug hyperlinks og emojis).',
     'saveMatches' => 'Gem kampe mod bots',
     'saveMatchesDesc' => 'Dine 1v1 mod bots gemmes i matchresultater inklusivt gengivelser og avanceret statistik.',
     'unlimitedReplays' => 'Ubegrænsede gengivelser',

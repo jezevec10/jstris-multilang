@@ -72,7 +72,7 @@ return [
     'saveClose' => 'Enregistrer & Quitter',
     'resetAll' => 'Tout réinitialiser',
     'gameResults' => 'Résultats',
-    'practiceModes' => 'Modes d\entraînement',
+    'practiceModes' => 'Modes d\'entraînement',
     'practice' => 'Entraînement',
     'sprint' => 'Sprint',
     'cheese' => 'Sprint Fromage',
