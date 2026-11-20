@@ -195,5 +195,5 @@ return [
     'downstack' => 'Sampah downstack',
     'wasted' => 'Boros',
     'expand' => 'Perluas',
-    'translationBy' => 'ghalidouga & ArnldFnnc & DstWlf',
+    'translationBy' => 'ghalidouga & DstWlf',
 ];
